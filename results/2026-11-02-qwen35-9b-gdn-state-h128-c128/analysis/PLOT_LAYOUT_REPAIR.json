@@ -1,0 +1,7 @@
+{
+  "status": "PASS_IDENTICAL_PLOT_DATA",
+  "all48_peak_matrices_and_coordinates_byte_values_equal": true,
+  "changed": "axes layout, dedicated external colorbar, common histogram ylim after all conditions, readable symlog ticks",
+  "quantile_tables_and_raw_observations_changed": false,
+  "prior_figures_preserved": "/data/zypan/experiments/QWEN_GDN_STATE_OUTLIER_H128_C128_GPU4_20261102_V1/releases/ORACLE_FP32_V4/visual_qa_initial_layout/figures"
+}

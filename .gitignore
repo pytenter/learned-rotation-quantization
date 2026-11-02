@@ -1,0 +1,5 @@
+.downloads/
+__pycache__/
+*.part
+results/**/formal/A/groups/
+results/**/formal/B/groups/

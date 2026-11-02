@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "orthogonality_max_abs": 3.422854533141617e-08,
+  "roundtrip_relative_L2": 2.8850820510026846e-07,
+  "synthetic_explicit_layer_checks": [
+    {
+      "sample_id": "synthetic",
+      "token_idx": 0,
+      "model_layer_id": 0,
+      "condition": "Native",
+      "all_heads": 32,
+      "all_values": 128,
+      "all_metrics": 16,
+      "max_absolute_difference": 1.3642420526593924e-12,
+      "scale_oracle": "CPU direct divide",
+      "status": "PASS"
+    },
+    {
+      "sample_id": "synthetic",
+      "token_idx": 0,
+      "model_layer_id": 30,
+      "condition": "Native",
+      "all_heads": 32,
+      "all_values": 128,
+      "all_metrics": 16,
+      "max_absolute_difference": 5.820766091346741e-10,
+      "scale_oracle": "CPU direct divide",
+      "status": "PASS"
+    }
+  ],
+  "snapshot_mutation": "PASS",
+  "zero_groups": "zero codes, positive scale eps/127, undefined Pearson kurtosis",
+  "nonfinite": "NaN/+Inf/-Inf rejected before integer conversion",
+  "rounding": "torch.round ties-to-even; -127..127; boundary occupancy is not clipping",
+  "12step_physical_INT8_vs_dense_QDQ_reference": "PASS_BYTE_IDENTICAL",
+  "Qwen_module": "/data/zypan/analyses/qwen_gdn_group64_four_codec_aime26_seed1_v1/runtime/transformers-qwen35/src/transformers/models/qwen3_5/modeling_qwen3_5.py",
+  "cuda_initialized": false
+}

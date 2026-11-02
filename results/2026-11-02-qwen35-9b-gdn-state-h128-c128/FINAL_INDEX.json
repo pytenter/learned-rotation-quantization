@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "A": "PASS",
+  "B": "PASS",
+  "recommended_report": "REPORT_zh_FINAL.md",
+  "original_report": "REPORT_zh.md",
+  "data_and_figures_manifest": "MANIFEST.sha256",
+  "supplement_manifest": "DOCUMENTATION_MANIFEST.sha256",
+  "notes": "documentation-only companion; original seal unchanged"
+}

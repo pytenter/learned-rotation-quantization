@@ -1,0 +1,14 @@
+{
+  "status": "CPU_DOCUMENTATION_ONLY",
+  "original_report_preserved": "REPORT_zh.md",
+  "original_sha256": "9bf6f18f874d00b5992970d181a8986712a00781e9971863e6d2ec1c95202f31",
+  "recommended_report": "REPORT_zh_FINAL.md",
+  "final_sha256": "cb6e6f561ea2a7fa4ee3cd6e29d0fd27aa63f0da73340323eedeb51288dcec3d",
+  "changes": [
+    "remove blank lines between Markdown table rows",
+    "clarify8602 inputs and206448 writes are per configuration totals across4 samples",
+    "scope1ULP observation to measured diagnostic"
+  ],
+  "raw_data_or_statistics_changed": false,
+  "main_manifest_preserved": true
+}

@@ -1,0 +1,26 @@
+{
+  "worker": {
+    "pid": 2315900,
+    "ppid": 2315897,
+    "starttick": 202073211,
+    "argv": [
+      "/data/zypan/envs/qwen-gdn-group64-historical-port-v1/bin/python",
+      "-B",
+      "/data/zypan/experiments/QWEN_GDN_STATE_OUTLIER_H128_C128_GPU4_20261102_V1/run_experiment.py"
+    ]
+  },
+  "owning_parent": {
+    "pid": 2315897,
+    "ppid": 2256915,
+    "starttick": 202073195,
+    "argv": [
+      "python3",
+      "-B",
+      "/data/zypan/experiments/QWEN_GDN_STATE_OUTLIER_H128_C128_GPU4_20261102_V1/supervise.py"
+    ]
+  },
+  "worker_wait": 1,
+  "own_NVML_released": true,
+  "worker_proc_gone": true,
+  "gpu_processes_after": "2299189, GPU-624f86d9-284b-cb46-a671-51d77559dab6, /data/gyshen/anaconda3/envs/memoryos/bin/python, 414\n2299186, GPU-624f86d9-284b-cb46-a671-51d77559dab6, /data/gyshen/anaconda3/envs/memoryos/bin/python, 414\n2299190, GPU-624f86d9-284b-cb46-a671-51d77559dab6, /data/gyshen/anaconda3/envs/memoryos/bin/python, 414\n2184346, GPU-759526ed-efb2-e7f6-881c-ab098e0b05ae, /data/xwang/projects/ollama-insomnia-plan-v2/experiment/runtime/lib/ollama/llama-server, 10002\n2265677, GPU-07d9c381-888d-1111-a944-56abcc583573, /data/wklu/anaconda3/envs/Llama/bin/python, 21412\n2240335, GPU-de53f243-b271-521c-d875-d96611ed8574, /data/wklu/anaconda3/envs/Llama/bin/python, 10532\n"
+}

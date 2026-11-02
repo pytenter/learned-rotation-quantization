@@ -1,0 +1,42 @@
+{
+  "status": "PASS_BYTE_IDENTICAL_QUANTIZER_AND_METRIC_FUNCTIONS",
+  "releases": [
+    {
+      "root": "/data/zypan/experiments/QWEN_GDN_STATE_OUTLIER_H128_C128_GPU4_20261102_V1",
+      "math_functions": {
+        "encode": "709a9c831dfe8687e078f80dad651c78a595b07414ee5f0883ec917e31610c20",
+        "decode": "a48bc18801d9a8c83f47b6f641bbdcf94495bb7fefdc520d9bef96282f3307d7",
+        "rotate_state": "c8adc6c2b2c8bea67754721f66ef324daea6bffd29dbd5a152b2dccd148f007f",
+        "group_metrics": "b58e0bc8931b7b31a965fb810dfb33f488249580ea79b85bc199faf868d8a887"
+      }
+    },
+    {
+      "root": "/data/zypan/experiments/QWEN_GDN_STATE_OUTLIER_H128_C128_GPU4_20261102_V1/releases/METADATA_FIX_V2",
+      "math_functions": {
+        "encode": "709a9c831dfe8687e078f80dad651c78a595b07414ee5f0883ec917e31610c20",
+        "decode": "a48bc18801d9a8c83f47b6f641bbdcf94495bb7fefdc520d9bef96282f3307d7",
+        "rotate_state": "c8adc6c2b2c8bea67754721f66ef324daea6bffd29dbd5a152b2dccd148f007f",
+        "group_metrics": "b58e0bc8931b7b31a965fb810dfb33f488249580ea79b85bc199faf868d8a887"
+      }
+    },
+    {
+      "root": "/data/zypan/experiments/QWEN_GDN_STATE_OUTLIER_H128_C128_GPU4_20261102_V1/releases/CLEAN_STAGE_V3",
+      "math_functions": {
+        "encode": "709a9c831dfe8687e078f80dad651c78a595b07414ee5f0883ec917e31610c20",
+        "decode": "a48bc18801d9a8c83f47b6f641bbdcf94495bb7fefdc520d9bef96282f3307d7",
+        "rotate_state": "c8adc6c2b2c8bea67754721f66ef324daea6bffd29dbd5a152b2dccd148f007f",
+        "group_metrics": "b58e0bc8931b7b31a965fb810dfb33f488249580ea79b85bc199faf868d8a887"
+      }
+    },
+    {
+      "root": "/data/zypan/experiments/QWEN_GDN_STATE_OUTLIER_H128_C128_GPU4_20261102_V1/releases/ORACLE_FP32_V4",
+      "math_functions": {
+        "encode": "709a9c831dfe8687e078f80dad651c78a595b07414ee5f0883ec917e31610c20",
+        "decode": "a48bc18801d9a8c83f47b6f641bbdcf94495bb7fefdc520d9bef96282f3307d7",
+        "rotate_state": "c8adc6c2b2c8bea67754721f66ef324daea6bffd29dbd5a152b2dccd148f007f",
+        "group_metrics": "b58e0bc8931b7b31a965fb810dfb33f488249580ea79b85bc199faf868d8a887"
+      }
+    }
+  ],
+  "changed": "JSON metadata and independent CPU oracle only"
+}

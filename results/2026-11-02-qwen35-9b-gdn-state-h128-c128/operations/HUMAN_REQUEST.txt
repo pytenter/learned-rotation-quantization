@@ -1,0 +1,313 @@
+请直接在当前服务器上完成 Qwen3.5-9B 的 GDN State 异常值分布测试。先检查现有工程，再编写必要的采集与绘图代码并实际运行，最后给我真实数据、图片和中文分析报告。
+
+不要只给我实验方案或伪代码，也不要用历史 smoke 数据、模拟数据或预期结果冒充本次实测结果。
+
+==================================================
+一、我要回答的问题
+==================================================
+
+我想观察 Qwen3.5-9B 中，每一层 GDN recurrent State 的异常值分布，以及经过 Hadamard 旋转后分布如何变化。
+
+具体希望回答：
+
+1. 不同 GDN 层的 State 分布是否不同？浅层和深层的异常值大小、比例、位置是否有区别？
+2. 每一层经过 Hadamard 后，State 的尖峰是否变低、异常值是否更分散？
+3. Hadamard 对每层 group size 128 的 INT8 量化误差、scale 和异常值指标有什么影响？
+4. 能否画出类似 SpinQuant 论文图 2 那种有尖峰的三维图，让我直观看到每层旋转前后的 State？
+5. 哪些结论来自同一份 State 的配对比较，哪些来自真实 INT8 运行轨迹？
+
+请以实际数据回答，不要预设 Hadamard 一定有效，也不要预设浅层和深层一定存在某种规律。
+
+本次只测试 Qwen3.5-9B，不测试 Ling，不训练 Butterfly，不做 INT4，也不重新跑完整 AIME 正式评分。
+
+==================================================
+二、先确认模型、量化配置和服务器环境
+==================================================
+
+先只读检查当前服务器上的：
+
+- GPU 型号、空闲显存、正在运行的任务；
+- 可用磁盘空间；
+- Qwen3.5-9B 模型与 tokenizer；
+- 现有 GDN State 量化代码、Hadamard 实现、replay 代码和数据；
+- 当前 git 分支、commit 和工作区状态。
+
+不要杀进程、删除历史数据、覆盖现有结果或干扰正在运行的任务。请新建独立的实验输出目录。
+
+以下仅是历史路径线索，不保证当前仍然存在，必须自行确认：
+
+- 模型：
+  /data/zypan/modelscope_models/Qwen3.5-9B
+
+- 历史 replay：
+  /data/zypan/worktrees/hadamard-init-dense-oracle-v1-qwen/experiments/QWEN_TEACHER_FORCED_REPLAY_MECHANISM_CAPTURE_V1/
+
+- 历史正式代码：
+  experiments/qwen_gdn/aime26/81920/run_qwen_aime26_formal.py
+
+目标量化配置：
+
+- symmetric INT8；
+- group size 128；
+- 沿 State 的 Key 维度分组；
+- 使用 Qwen 工程中已有的归一化 Key-side Hadamard；
+- 不使用 Value-side Hadamard 代替；
+- 不改变用户原有的 8-bit State 目标。
+
+历史 State 张量语义为：
+
+  [batch, head, key, value]
+
+历史配置中 K=128、V=128、head 数为 32。因此，固定一个 batch、head、value 后，沿 Key 轴的 128 个元素组成一个量化组。
+
+但你必须通过当前代码和真实运行时的 shape、stride、索引语义验证以上信息，不能只看变量名推断。如果当前实现与历史口径不同，请记录差异，并停止将不匹配的配置称为本次目标配置。
+
+历史参考量化公式为：
+
+  scale = max(abs(group)).clamp_min(1e-12) / 127
+  code  = round(group / scale).clamp(-127, 127)
+  dequant = code * scale
+
+请核对实际代码中的 dtype、round 规则、零组处理和 scale 公式，并在报告中写出实际使用的实现。注意：动态 absmax 量化里，组最大值通常会映射到 ±127；|code| = 127 的数量不能直接叫作 clipping 数量。
+
+历史上有 24 个 GDN 层，其模型原始 layer ID 为：
+
+  0, 1, 2, 4, 5, 6, 8, 9, 10, 12, 13, 14,
+  16, 17, 18, 20, 21, 22, 24, 25, 26, 28, 29, 30
+
+请根据当前模型重新核实。报告使用模型原始 layer ID，不能把它们错误改写成连续的 Transformer 第 0–23 层。全注意力层如果没有同类 GDN State，要如实标明，不要虚构对应 State。
+
+==================================================
+三、必须区分两种实验
+==================================================
+
+实验 A：同一份 FP State 的配对旋转分析
+
+目的：隔离观察“同一份 State 经过 Hadamard 后，分布和局部 C128 量化误差如何变化”。
+
+做法：
+
+1. 使用真实模型和真实 token 轨迹，取得某个 token、某一层的原始 FP State 快照 S。
+2. 对同一份 S 构造：
+   - Native：S；
+   - Hadamard：将 S 按工程中实际使用的 Key-side H128 变换到对应基底。
+3. 分别对这两份 State 做同一口径的 group size 128 INT8 局部 QDQ 分析。
+4. 对比每个相同 sample、token、layer、head、value 组。
+
+这一部分允许存在 FP 参考 State，因为它的目的就是做配对分析；但它不是物理 INT8 State 推理。图表和报告必须写清楚“共同 FP State 配对分析”，不能称为真实 INT8 递推结果。
+
+请确认 Hadamard 的方向、归一化方式和矩阵顺序与实际 Qwen 实现一致。检查已有 patch 是否已对 State 或 q/k 做过旋转，避免重复旋转。对合成输入验证 H 的正交性和往返；再对真实模型做必要的算子/读出等价性检查。
+
+由于 H128 是沿整个 128 元素 Key 组的正交变换，同一配对组的 L2 范数和 RMS 在数值误差内应保持一致。请把这作为一个检查项；如果明显不一致，优先排查旋转轴、归一化、分组和 dtype。
+
+实验 B：真实 persistent INT8 State 轨迹
+
+目的：观察真实逐 token INT8 State 运行时，Native 和 Hadamard 两种方案各自的分布。
+
+要求：
+
+1. Native 和 Hadamard 分别运行，各自维护自己的 State 轨迹；
+2. 两者使用相同的 teacher-forced token 序列；
+3. GDN State 必须在每个 token 更新后真实量化并以 INT8 存储，下一 token 从 INT8 State 和 scale 恢复后继续计算；
+4. FP32/BF16 临时计算变量可以存在，但不能把 FP/BF16 持久 State buffer 上的 fake QDQ 宣称为真实 INT8 cache；
+5. 如果覆盖 prompt prefill，也必须检查 prefill 的 State 递推是否逐 token 满足上述口径；否则只能如实标注实际覆盖范围，不能声称全程满足；
+6. 统计可以每隔若干 token 采样，但真实 State 更新和量化必须每个 token 都执行。
+
+请记录和核验 State buffer 的实际 dtype、shape、字节数、scale dtype、写回与下一 token 读取的数据流，以及实际逐 token 量化调用次数。
+
+两条轨迹虽然使用相同 token，但其内部输入和 State 可能不同。因此，实验 B 的 Native/Hadamard 数据不能称为“同一份 State 旋转前后的严格配对”，也不能直接把所有差异归因于对同一张量做旋转。
+
+如果已有真实 INT8 runtime，请验证后复用。如果只有 fake QDQ，请在独立目录中尝试实现一个可核验的真实 INT8 State 参考路径并做小规模正确性检查。若受环境或工程条件阻碍，先完成实验 A，将 B 明确标为 BLOCKED，给出具体原因与证据，不要为了完成报告而伪造 B。
+
+==================================================
+四、先验证采集器，再采集正式数据
+==================================================
+
+历史工程 smoke 采集器存在值得警惕的风险：
+
+- 使用 sys.settrace 观察循环局部变量时，layer_idx 可能已经更新，但 source、scale、codes、dequant 仍是上一层留下的变量，从而发生逐层错标；
+- 如果 source 和原始 FP32 State 共享内存，后续原地写回可能改变被观察的数据，造成 QDQ 误差异常为零。
+
+这个风险目前只针对相关旧采集器及其派生数据，不要无证据推断历史 AIME 正式结果有同样问题。
+
+本次不要直接复用旧 smoke 的逐层结果。优先使用显式采集回调，确保在当前层的正确位置采集，并通过 detach().clone() 或等效方法取得不会被原地写回污染的快照。
+
+每条采集记录至少包含：
+
+  experiment、condition、basis、sample_id、token_idx、
+  model_layer_id、head_idx、value_idx、state_dtype
+
+正式采集前必须完成：
+
+1. 用两个数值明显不同的合成层测试 layer ID 与数据不会串层；
+2. 验证两个合成层的 absmax、scale 和非零 QDQ 误差与独立计算一致；
+3. 验证快照不会被后续原地写回修改；
+4. 测试全零组、非有限值处理，以及 H128 正交性和往返；
+5. 在真实模型中选至少两层，对同一采样事件做独立直接计算，与采集器结果核对；
+6. 验证每个目标采样 token 的每个 GDN 层恰好采集一次，不漏层、不重复、不把其他层数据错标。
+
+门禁不通过时，不要输出正式实验图。请保留错误信息并说明问题。
+
+==================================================
+五、真实数据与采样范围
+==================================================
+
+优先查找已有的 Canonical/AIME26 FP teacher-forced token 轨迹。确定性选择前 4 个可用的 seed-1 样本，不依据异常值大小或答题正确与否选样本。
+
+默认每题在已有前缀之后，最多分析 2048 个 continuation token：
+
+- 每 16 个 token 采集一次统计；
+- 同时保留首个和最后一个有效位置；
+- 不足 2048 时记录真实长度，不重复数据凑数；
+- 实际运行时仍然逐 token 更新 State；
+- 明确记录 prompt、prefill 和 continuation 的实际覆盖范围。
+
+如果可用样本少于 4 个，先对现有样本完成可运行部分，并标为 PARTIAL。记录每题 sample ID、token 数、采样 token 位置及实际覆盖层数。
+
+优先采用在线归约、分块保存和压缩格式，避免转储所有 token 的完整 State。运行前估计显存、磁盘和时间开销；资源不足时保留已完成的真实结果并说明实际覆盖范围，不得静默减少样本或改变采样密度。
+
+==================================================
+六、每层需要统计哪些数据
+==================================================
+
+主统计必须覆盖每个采样时刻的所有有效 head、所有 value，以及各组全部 128 个 Key 元素。不能只用 head 0 或某个 value 的切片代表整层。
+
+对每个 C128 组计算：
+
+1. 原始 State：
+   - min、max、absmax、RMS；
+   - absmax / (RMS + eps)；
+   - Pearson 峰度，即普通峰度，不是 excess kurtosis。
+
+2. INT8 局部量化：
+   - scale；
+   - 量化前后相对 L2 误差：
+     ||dequant - source||₂ / (||source||₂ + eps)；
+   - 必要时记录 code 的边界占用率，但不要把它误称为 clipping。
+
+3. 明确定义的异常值比例：
+   - |x| > 3 × group_RMS 的元素比例；
+   - |x| > 6 × group_RMS 的元素比例；
+   - 记录判断阈值、分母和有效元素数。
+
+全零组、零方差组以及 NaN/Inf 要单独计数。零方差组的峰度应标为未定义，不要填成 0 冒充有效结果。
+
+按层和 head 汇总：
+
+- group absmax、absmax/RMS、scale、峰度、QDQ 相对 L2 的 median、p95、p99；
+- 3×RMS 与 6×RMS 异常元素比例；
+- 总元素数、总组数、有效样本数及 token 数；
+- 可选整体 QDQ 相对 L2，并写明计算方法。
+
+分位数的观察单位要明确。例如，“所有已采样 group 的 p99”不能用“先算每个 token 的 p99，再对 token 取中位数”冒充。
+
+优先计算精确分位数。如果因资源使用近似算法，必须标明算法，并用真实子集验证误差。旧 streaming reducer 的直方图近似曾出现门禁失败，不要把未验证的桶估计写成 exact p99。
+
+请额外输出每层异常程度较高的组的信息，包括 sample、token、head、value 和指标。若做配对比较，应按 Native 侧预先定义的规则选组，再查看 Hadamard 侧相同的组，并标注这是数据驱动选择，不能把它当成随机代表样本。
+
+==================================================
+七、我需要的图片
+==================================================
+
+所有图都要标注：
+
+- Qwen3.5-9B、真实 model layer ID；
+- Native / Key-side Hadamard；
+- 实验 A 还是实验 B；
+- State、group size 128、INT8；
+- 样本和 token 范围；
+- 坐标轴含义、数值单位和统计口径。
+
+图中的结果必须来自本次真实测量。
+
+1. 每层 State 分布图
+
+每个 GDN 层输出一组 Native 与 Hadamard 对照图，至少包括：
+
+- 有符号 State 值分布；
+- State 绝对值分布，必要时使用对数坐标以观察尾部；
+- group absmax 或 absmax/RMS 的分布。
+
+同一层 Native/Hadamard 使用相同的 bin、横轴和纵轴范围，图例清楚标注。保存直方图的 bin 边界和计数；溢出、下溢、零值和非有限值不能被静默丢弃。
+
+这些分布要覆盖采样范围内所有有效 head 和 value，而不是只画一个切片。
+
+2. SpinQuant 图 2 风格的 State 峰值图
+
+我说的峰值图，是想看类似 SpinQuant 论文中“沿 token 和 channel 展开后，能直接看到尖峰”的三维图。
+
+请为每个 GDN 层绘制 Native 和 Hadamard 并排的三维 State 图，另存一份对应热力图，要求：
+
+- 固定同一个 sample、head 和 value；
+- 一个横轴为实际 token 位置；
+- 另一个横轴为 Key index；
+- 高度轴和颜色表示有符号 State 数值；
+- 两侧使用相同视角、高度范围和色标；
+- 默认先画第一个确定性选中的样本、head=0、value=0；
+- 保存真正用于作图的 token × key 数值矩阵和坐标，保证可重绘。
+
+如果该切片没有明显尖峰，也必须如实展示，不要人为制造尖峰。
+
+此外，可为每层增加一个高异常组的补充图：按 Native 侧事先写明的规则选择 head/value，然后用相同的 head/value 画 Native/Hadamard；明确标注“根据数据选择的高异常切片”。
+
+注意：
+
+- 这只是某个 head/value 的 State 切片，不能代表整层所有组；
+- Native 的 Key index 与 Hadamard 后的 Key index 属于不同坐标基底，同一个索引不应直接解释成同一个原始语义特征；
+- SpinQuant 原论文对应的是 activation 图；这里是借用其视觉形式画 recurrent State，标题和报告不能混淆。
+
+3. 跨层汇总图
+
+仿照 SpinQuant 的逐层统计图，分别画：
+
+- 每层 group 峰度；
+- 每层 group absmax/RMS；
+- 每层 INT8-C128 QDQ 相对 L2 误差；
+- 每层 group scale；
+- 每层 3×RMS、6×RMS 异常值比例。
+
+Native 和 Hadamard 并排或同图对比，并明确曲线使用的是 median、p95 还是其他聚合。横轴使用真实 model layer ID。
+
+如果绘制逐 Key index 的最大值曲线，请明确说明它跨哪些 head、value、token 取最大值，以及旋转前后索引基底不同。
+
+==================================================
+八、交付文件和报告
+==================================================
+
+请在独立实验目录中至少输出：
+
+- manifest.json：
+  模型和代码身份、git commit、量化与 Hadamard 配置、样本、token、层、head、dtype、设备、采样规则、运行状态和重要文件路径；
+
+- per_layer_summary.csv：
+  每层、每种条件的统计结果；
+
+- per_layer_head_summary.csv：
+  每层每个 head 的汇总；
+
+- per_token_layer_summary.csv：
+  每个采样 token、每层的汇总；
+
+- histogram_counts.csv 或等效结构化文件：
+  bin 边界、计数和有效数据量；
+
+- 可重绘峰值图的 token × key 原始矩阵；
+
+- 每层分布图、每层峰值图及跨层汇总图；
+  优先输出 PNG，并在适合时提供 PDF；
+
+- REPORT_zh.md：
+  用中文说明实验设置、逐层结果、浅层和深层的实际差异、Hadamard 改变了什么、哪些层有所改善或恶化，以及当前数据不能支持什么结论。
+
+请提供每个数据文件的列说明、统计单位和聚合方式。实验 A/B 的数据和图片必须分开标识，不能混写。
+
+最后向我汇报：
+
+1. 实验 A 和 B 分别是 PASS、PARTIAL 还是 BLOCKED；
+2. 实际使用了哪些样本、多少 token、哪些 GDN 层；
+3. 真实 State cache 和 scale 分别是什么 dtype；
+4. 每层图片、数据文件和中文报告的具体路径；
+5. 根据实测数据得到的主要发现；
+6. 是否发现采集器、旋转轴或物理 INT8 运行时问题。
+
+不要自动推送仓库或覆盖已有实验结果。

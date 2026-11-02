@@ -1,0 +1,2432 @@
+{
+  "status": "PASS",
+  "totals": {
+    "prompt": 410,
+    "continuation": 8192,
+    "input_steps": 8602,
+    "sampled_sample_token_events": 516,
+    "B_encoding_calls_batch2": 206448,
+    "B_layer_writes_per_trajectory": 206448,
+    "B_core_read_checks_batch2": 206352
+  },
+  "histogram_checks": [
+    {
+      "key": "A_Native__L00__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_Native__L00__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_Native__L00__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_Native__L01__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_Native__L01__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_Native__L01__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_Native__L02__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_Native__L02__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_Native__L02__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_Native__L04__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_Native__L04__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_Native__L04__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_Native__L05__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_Native__L05__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_Native__L05__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_Native__L06__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_Native__L06__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_Native__L06__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_Native__L08__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_Native__L08__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_Native__L08__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_Native__L09__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_Native__L09__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_Native__L09__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_Native__L10__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_Native__L10__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_Native__L10__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_Native__L12__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_Native__L12__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_Native__L12__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_Native__L13__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_Native__L13__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_Native__L13__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_Native__L14__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_Native__L14__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_Native__L14__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_Native__L16__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_Native__L16__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_Native__L16__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_Native__L17__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_Native__L17__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_Native__L17__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_Native__L18__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_Native__L18__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_Native__L18__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_Native__L20__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_Native__L20__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_Native__L20__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_Native__L21__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_Native__L21__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_Native__L21__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_Native__L22__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_Native__L22__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_Native__L22__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_Native__L24__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_Native__L24__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_Native__L24__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_Native__L25__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_Native__L25__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_Native__L25__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_Native__L26__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_Native__L26__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_Native__L26__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_Native__L28__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_Native__L28__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_Native__L28__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_Native__L29__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_Native__L29__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_Native__L29__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_Native__L30__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_Native__L30__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_Native__L30__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_KeyH128__L00__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_KeyH128__L00__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_KeyH128__L00__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_KeyH128__L01__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_KeyH128__L01__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_KeyH128__L01__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_KeyH128__L02__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_KeyH128__L02__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_KeyH128__L02__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_KeyH128__L04__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_KeyH128__L04__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_KeyH128__L04__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_KeyH128__L05__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_KeyH128__L05__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_KeyH128__L05__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_KeyH128__L06__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_KeyH128__L06__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_KeyH128__L06__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_KeyH128__L08__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_KeyH128__L08__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_KeyH128__L08__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_KeyH128__L09__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_KeyH128__L09__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_KeyH128__L09__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_KeyH128__L10__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_KeyH128__L10__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_KeyH128__L10__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_KeyH128__L12__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_KeyH128__L12__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_KeyH128__L12__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_KeyH128__L13__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_KeyH128__L13__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_KeyH128__L13__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_KeyH128__L14__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_KeyH128__L14__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_KeyH128__L14__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_KeyH128__L16__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_KeyH128__L16__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_KeyH128__L16__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_KeyH128__L17__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_KeyH128__L17__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_KeyH128__L17__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_KeyH128__L18__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_KeyH128__L18__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_KeyH128__L18__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_KeyH128__L20__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_KeyH128__L20__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_KeyH128__L20__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_KeyH128__L21__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_KeyH128__L21__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_KeyH128__L21__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_KeyH128__L22__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_KeyH128__L22__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_KeyH128__L22__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_KeyH128__L24__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_KeyH128__L24__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_KeyH128__L24__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_KeyH128__L25__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_KeyH128__L25__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_KeyH128__L25__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_KeyH128__L26__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_KeyH128__L26__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_KeyH128__L26__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_KeyH128__L28__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_KeyH128__L28__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_KeyH128__L28__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_KeyH128__L29__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_KeyH128__L29__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_KeyH128__L29__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_KeyH128__L30__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_KeyH128__L30__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "A_KeyH128__L30__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native__L00__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native__L00__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native__L00__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native_CACHE__L00__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native_CACHE__L00__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native__L01__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native__L01__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native__L01__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native_CACHE__L01__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native_CACHE__L01__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native__L02__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native__L02__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native__L02__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native_CACHE__L02__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native_CACHE__L02__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native__L04__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native__L04__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native__L04__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native_CACHE__L04__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native_CACHE__L04__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native__L05__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native__L05__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native__L05__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native_CACHE__L05__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native_CACHE__L05__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native__L06__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native__L06__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native__L06__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native_CACHE__L06__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native_CACHE__L06__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native__L08__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native__L08__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native__L08__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native_CACHE__L08__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native_CACHE__L08__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native__L09__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native__L09__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native__L09__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native_CACHE__L09__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native_CACHE__L09__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native__L10__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native__L10__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native__L10__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native_CACHE__L10__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native_CACHE__L10__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native__L12__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native__L12__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native__L12__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native_CACHE__L12__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native_CACHE__L12__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native__L13__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native__L13__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native__L13__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native_CACHE__L13__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native_CACHE__L13__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native__L14__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native__L14__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native__L14__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native_CACHE__L14__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native_CACHE__L14__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native__L16__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native__L16__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native__L16__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native_CACHE__L16__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native_CACHE__L16__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native__L17__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native__L17__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native__L17__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native_CACHE__L17__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native_CACHE__L17__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native__L18__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native__L18__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native__L18__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native_CACHE__L18__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native_CACHE__L18__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native__L20__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native__L20__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native__L20__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native_CACHE__L20__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native_CACHE__L20__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native__L21__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native__L21__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native__L21__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native_CACHE__L21__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native_CACHE__L21__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native__L22__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native__L22__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native__L22__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native_CACHE__L22__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native_CACHE__L22__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native__L24__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native__L24__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native__L24__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native_CACHE__L24__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native_CACHE__L24__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native__L25__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native__L25__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native__L25__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native_CACHE__L25__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native_CACHE__L25__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native__L26__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native__L26__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native__L26__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native_CACHE__L26__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native_CACHE__L26__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native__L28__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native__L28__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native__L28__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native_CACHE__L28__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native_CACHE__L28__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native__L29__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native__L29__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native__L29__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native_CACHE__L29__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native_CACHE__L29__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native__L30__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native__L30__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native__L30__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native_CACHE__L30__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_Native_CACHE__L30__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128__L00__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128__L00__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128__L00__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128_CACHE__L00__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128_CACHE__L00__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128__L01__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128__L01__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128__L01__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128_CACHE__L01__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128_CACHE__L01__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128__L02__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128__L02__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128__L02__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128_CACHE__L02__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128_CACHE__L02__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128__L04__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128__L04__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128__L04__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128_CACHE__L04__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128_CACHE__L04__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128__L05__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128__L05__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128__L05__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128_CACHE__L05__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128_CACHE__L05__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128__L06__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128__L06__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128__L06__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128_CACHE__L06__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128_CACHE__L06__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128__L08__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128__L08__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128__L08__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128_CACHE__L08__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128_CACHE__L08__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128__L09__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128__L09__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128__L09__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128_CACHE__L09__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128_CACHE__L09__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128__L10__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128__L10__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128__L10__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128_CACHE__L10__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128_CACHE__L10__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128__L12__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128__L12__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128__L12__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128_CACHE__L12__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128_CACHE__L12__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128__L13__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128__L13__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128__L13__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128_CACHE__L13__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128_CACHE__L13__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128__L14__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128__L14__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128__L14__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128_CACHE__L14__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128_CACHE__L14__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128__L16__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128__L16__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128__L16__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128_CACHE__L16__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128_CACHE__L16__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128__L17__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128__L17__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128__L17__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128_CACHE__L17__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128_CACHE__L17__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128__L18__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128__L18__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128__L18__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128_CACHE__L18__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128_CACHE__L18__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128__L20__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128__L20__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128__L20__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128_CACHE__L20__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128_CACHE__L20__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128__L21__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128__L21__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128__L21__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128_CACHE__L21__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128_CACHE__L21__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128__L22__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128__L22__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128__L22__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128_CACHE__L22__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128_CACHE__L22__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128__L24__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128__L24__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128__L24__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128_CACHE__L24__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128_CACHE__L24__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128__L25__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128__L25__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128__L25__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128_CACHE__L25__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128_CACHE__L25__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128__L26__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128__L26__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128__L26__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128_CACHE__L26__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128_CACHE__L26__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128__L28__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128__L28__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128__L28__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128_CACHE__L28__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128_CACHE__L28__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128__L29__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128__L29__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128__L29__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128_CACHE__L29__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128_CACHE__L29__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128__L30__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128__L30__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128__L30__peak_rms",
+      "sum": 2113536,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128_CACHE__L30__signed",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    },
+    {
+      "key": "B_KeyH128_CACHE__L30__absolute",
+      "sum": 270532608,
+      "underflow": 0,
+      "overflow": 0
+    }
+  ],
+  "git_unchanged": true,
+  "model_original_bytes_and_identity_unchanged": true,
+  "worker_actual_integer_wait": 0,
+  "own_NVML_released": true,
+  "GPU4_after": "index, name, uuid, driver_version, memory.used [MiB], memory.total [MiB], utilization.gpu [%]\n4, NVIDIA GeForce RTX 3090, GPU-de1f9152-32e5-a033-d2bf-ea7abecb606f, 580.178.04, 15 MiB, 24576 MiB, 0 %\n",
+  "analysis": {
+    "status": "PASS",
+    "layer_rows": 96,
+    "head_rows": 3072,
+    "token_layer_rows": 49536,
+    "high_outlier_rows": 240,
+    "quantiles": "EXACT NumPy linear over all sampled group observations",
+    "plots": 146,
+    "approximate_quantiles": false,
+    "all_saved_A_group_RMS_checks": [
+      {
+        "model_layer_id": 0,
+        "all_saved_group_max_relative_RMS_difference": 1.7781845548120553e-07
+      },
+      {
+        "model_layer_id": 1,
+        "all_saved_group_max_relative_RMS_difference": 1.6116645680801783e-07
+      },
+      {
+        "model_layer_id": 2,
+        "all_saved_group_max_relative_RMS_difference": 1.7837044794559294e-07
+      },
+      {
+        "model_layer_id": 4,
+        "all_saved_group_max_relative_RMS_difference": 1.7802864141709102e-07
+      },
+      {
+        "model_layer_id": 5,
+        "all_saved_group_max_relative_RMS_difference": 1.716615322298645e-07
+      },
+      {
+        "model_layer_id": 6,
+        "all_saved_group_max_relative_RMS_difference": 1.778253092674254e-07
+      },
+      {
+        "model_layer_id": 8,
+        "all_saved_group_max_relative_RMS_difference": 1.7657914800781646e-07
+      },
+      {
+        "model_layer_id": 9,
+        "all_saved_group_max_relative_RMS_difference": 1.535610447246242e-07
+      },
+      {
+        "model_layer_id": 10,
+        "all_saved_group_max_relative_RMS_difference": 1.7159110006034833e-07
+      },
+      {
+        "model_layer_id": 12,
+        "all_saved_group_max_relative_RMS_difference": 1.6100138581614154e-07
+      },
+      {
+        "model_layer_id": 13,
+        "all_saved_group_max_relative_RMS_difference": 2.240502755002195e-07
+      },
+      {
+        "model_layer_id": 14,
+        "all_saved_group_max_relative_RMS_difference": 2.0433402988773892e-07
+      },
+      {
+        "model_layer_id": 16,
+        "all_saved_group_max_relative_RMS_difference": 1.5565204779046426e-07
+      },
+      {
+        "model_layer_id": 17,
+        "all_saved_group_max_relative_RMS_difference": 2.518882480876952e-07
+      },
+      {
+        "model_layer_id": 18,
+        "all_saved_group_max_relative_RMS_difference": 1.8333415270549238e-07
+      },
+      {
+        "model_layer_id": 20,
+        "all_saved_group_max_relative_RMS_difference": 1.763319977887333e-07
+      },
+      {
+        "model_layer_id": 21,
+        "all_saved_group_max_relative_RMS_difference": 3.133013465581352e-07
+      },
+      {
+        "model_layer_id": 22,
+        "all_saved_group_max_relative_RMS_difference": 1.9337958853760905e-07
+      },
+      {
+        "model_layer_id": 24,
+        "all_saved_group_max_relative_RMS_difference": 3.0154118723654714e-07
+      },
+      {
+        "model_layer_id": 25,
+        "all_saved_group_max_relative_RMS_difference": 2.8342304011564466e-07
+      },
+      {
+        "model_layer_id": 26,
+        "all_saved_group_max_relative_RMS_difference": 3.0167439138004766e-07
+      },
+      {
+        "model_layer_id": 28,
+        "all_saved_group_max_relative_RMS_difference": 2.091552949997346e-07
+      },
+      {
+        "model_layer_id": 29,
+        "all_saved_group_max_relative_RMS_difference": 2.46195014969852e-07
+      },
+      {
+        "model_layer_id": 30,
+        "all_saved_group_max_relative_RMS_difference": 3.310767742175151e-07
+      }
+    ]
+  },
+  "source_unchanged": true
+}

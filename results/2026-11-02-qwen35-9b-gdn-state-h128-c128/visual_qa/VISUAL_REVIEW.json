@@ -1,0 +1,21 @@
+{
+  "status": "PASS_VISUAL_REVIEW",
+  "scope": "all146 final PNGs bitmap-verified and viewed in two contact sheets; representative final images viewed at full detail",
+  "representatives": [
+    "figures/A/L00_H0V0_peak3d.png",
+    "figures/A/L00_H0V0_heatmap.png",
+    "figures/A/L00_distribution.png",
+    "figures/A/cross_layer_summary.png",
+    "figures/B/L30_H0V0_peak3d.png"
+  ],
+  "checked": [
+    "common Native/H128 colorbar and Z limits",
+    "no colorbar overlapping plots",
+    "no clipped labels in reviewed layouts",
+    "common histogram limits cover both conditions and CACHE curves",
+    "real layer IDs and sample/token/head/value scope labels",
+    "no fabricated spikes; flat slices retained"
+  ],
+  "prior_layout_preserved": true,
+  "scientific_data_changed": false
+}

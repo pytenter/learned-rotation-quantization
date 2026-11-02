@@ -1,0 +1,24 @@
+{
+  "worker": {
+    "pid": 2315900,
+    "ppid": 2315897,
+    "starttick": 202073211,
+    "argv": [
+      "/data/zypan/envs/qwen-gdn-group64-historical-port-v1/bin/python",
+      "-B",
+      "/data/zypan/experiments/QWEN_GDN_STATE_OUTLIER_H128_C128_GPU4_20261102_V1/run_experiment.py"
+    ]
+  },
+  "owning_parent": {
+    "pid": 2315897,
+    "ppid": 2256915,
+    "starttick": 202073195,
+    "argv": [
+      "python3",
+      "-B",
+      "/data/zypan/experiments/QWEN_GDN_STATE_OUTLIER_H128_C128_GPU4_20261102_V1/supervise.py"
+    ]
+  },
+  "Popen_wait_integer": 1,
+  "monotonic": 2020750.408596165
+}

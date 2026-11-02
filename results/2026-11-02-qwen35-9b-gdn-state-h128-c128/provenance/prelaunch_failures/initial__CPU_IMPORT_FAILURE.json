@@ -1,0 +1,5 @@
+{
+  "status": "CPU_ENVIRONMENT_IMPORT_FAILED_NO_GPU",
+  "error": "ling-kda installed Qwen module requires transformers.initialization absent from its base4.57.6",
+  "resolution": "use existing complete pinned group64 framework plus its existing CPython3.10 dependency overlay; no environment modified"
+}

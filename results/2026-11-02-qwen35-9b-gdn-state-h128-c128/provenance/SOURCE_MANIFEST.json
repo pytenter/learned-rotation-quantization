@@ -1,0 +1,37 @@
+[
+  {
+    "path": "experiment_core.py",
+    "bytes": 16639,
+    "sha256": "1fe097062d80251725109fbe77b9cf9655d70e26e26488183448209ad2f47b62"
+  },
+  {
+    "path": "prepare_inputs_cpu.py",
+    "bytes": 4948,
+    "sha256": "7aea3121fa9a972446ceee391a1071cbfecf9be7b7377411cfa676936abe92b8"
+  },
+  {
+    "path": "qualification_cpu.py",
+    "bytes": 1940,
+    "sha256": "b64bada57e1d78d6e4de044021bb31dba523c99271f8f12dc1c485eb9074f717"
+  },
+  {
+    "path": "run_experiment.py",
+    "bytes": 15545,
+    "sha256": "b0eecaefcfe10a41c3376b989254f26880d9557815307e808ce446e791601d58"
+  },
+  {
+    "path": "supervise.py",
+    "bytes": 4182,
+    "sha256": "0e6a1e368278dcdc0e612f2286030cb41bac71658c4b28c465759eef8e3c0708"
+  },
+  {
+    "path": "vendor/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "vendor/canonical_h128.py",
+    "bytes": 5445,
+    "sha256": "8fe435b8f18a198e03a9feca70175bceb2517c47413f1f388492255a7a0fe694"
+  }
+]

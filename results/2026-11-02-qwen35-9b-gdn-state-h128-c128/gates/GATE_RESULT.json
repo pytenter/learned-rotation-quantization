@@ -1,0 +1,333 @@
+{
+  "status": "PASS",
+  "synthetic": {
+    "status": "PASS",
+    "orthogonality_max_abs": 3.422854533141617e-08,
+    "roundtrip_relative_L2": 2.8954143754324565e-07,
+    "synthetic_explicit_layer_checks": [
+      {
+        "sample_id": "synthetic",
+        "token_idx": 0,
+        "model_layer_id": 0,
+        "condition": "Native",
+        "all_heads": 32,
+        "all_values": 128,
+        "all_metrics": 16,
+        "max_absolute_difference": 9.094947017729282e-13,
+        "scale_oracle": "CPU emulation of CUDA constant reciprocal multiply",
+        "status": "PASS"
+      },
+      {
+        "sample_id": "synthetic",
+        "token_idx": 0,
+        "model_layer_id": 30,
+        "condition": "Native",
+        "all_heads": 32,
+        "all_values": 128,
+        "all_metrics": 16,
+        "max_absolute_difference": 5.820766091346741e-10,
+        "scale_oracle": "CPU emulation of CUDA constant reciprocal multiply",
+        "status": "PASS"
+      }
+    ],
+    "snapshot_mutation": "PASS",
+    "zero_groups": "zero codes, positive scale eps/127, undefined Pearson kurtosis",
+    "nonfinite": "NaN/+Inf/-Inf rejected before integer conversion",
+    "rounding": "torch.round ties-to-even; -127..127; boundary occupancy is not clipping"
+  },
+  "real_layer_operator_checks": [
+    {
+      "model_layer_id": 0,
+      "common_state_rotation_output_relative_L2": 9.698257152705058e-08,
+      "recovered_state_relative_L2": 2.4341103929273e-07,
+      "FP32_vs_independent_FP64_state_relative_L2": 4.914461306581256e-08,
+      "FP32_vs_independent_FP64_readout_relative_L2": 7.588363121286756e-08,
+      "native_state_shape": [
+        1,
+        32,
+        128,
+        128
+      ],
+      "state_stride": [
+        524288,
+        16384,
+        128,
+        1
+      ],
+      "key_contraction_axis": -2,
+      "qk_transform": "normalize BF16 then float32 @ normalized Sylvester H128",
+      "status": "PASS"
+    },
+    {
+      "model_layer_id": 30,
+      "common_state_rotation_output_relative_L2": 1.743574033956919e-07,
+      "recovered_state_relative_L2": 2.637175936809408e-07,
+      "FP32_vs_independent_FP64_state_relative_L2": 4.073714392932325e-08,
+      "FP32_vs_independent_FP64_readout_relative_L2": 6.876963195717728e-08,
+      "native_state_shape": [
+        1,
+        32,
+        128,
+        128
+      ],
+      "state_stride": [
+        524288,
+        16384,
+        128,
+        1
+      ],
+      "key_contraction_axis": -2,
+      "qk_transform": "normalize BF16 then float32 @ normalized Sylvester H128",
+      "status": "PASS"
+    }
+  ],
+  "one_token_chunk_vs_recurrent": {
+    "output_relative_L2": 0.0,
+    "state_relative_L2": 0.0
+  },
+  "collector_coverage": {
+    "sample_id": "real_gate",
+    "sampling_positions": [
+      0,
+      1
+    ],
+    "sampled_token_count": 2,
+    "layers": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      6,
+      8,
+      9,
+      10,
+      12,
+      13,
+      14,
+      16,
+      17,
+      18,
+      20,
+      21,
+      22,
+      24,
+      25,
+      26,
+      28,
+      29,
+      30
+    ],
+    "sampled_layer_events": 48,
+    "records_per_condition": 196608
+  },
+  "physical_cache": {
+    "FP_reference_row0_only": {
+      "dtype": "torch.float32",
+      "shape": [
+        1,
+        32,
+        128,
+        128
+      ],
+      "stride": [
+        524288,
+        16384,
+        128,
+        1
+      ],
+      "bytes": 2097152,
+      "storage_bytes": 2097152
+    },
+    "B_codes_rows1_2": {
+      "dtype": "torch.int8",
+      "shape": [
+        2,
+        32,
+        128,
+        128
+      ],
+      "stride": [
+        524288,
+        16384,
+        128,
+        1
+      ],
+      "bytes": 1048576,
+      "storage_bytes": 1048576
+    },
+    "B_scale_rows1_2": {
+      "dtype": "torch.float32",
+      "shape": [
+        2,
+        32,
+        1,
+        128
+      ],
+      "stride": [
+        4096,
+        128,
+        128,
+        1
+      ],
+      "bytes": 32768,
+      "storage_bytes": 32768
+    },
+    "persistent_B_dense_state": false,
+    "write_counts": {
+      "0": 2,
+      "1": 2,
+      "2": 2,
+      "4": 2,
+      "5": 2,
+      "6": 2,
+      "8": 2,
+      "9": 2,
+      "10": 2,
+      "12": 2,
+      "13": 2,
+      "14": 2,
+      "16": 2,
+      "17": 2,
+      "18": 2,
+      "20": 2,
+      "21": 2,
+      "22": 2,
+      "24": 2,
+      "25": 2,
+      "26": 2,
+      "28": 2,
+      "29": 2,
+      "30": 2
+    },
+    "read_counts": {
+      "0": 1,
+      "1": 1,
+      "2": 1,
+      "4": 1,
+      "5": 1,
+      "6": 1,
+      "8": 1,
+      "9": 1,
+      "10": 1,
+      "12": 1,
+      "13": 1,
+      "14": 1,
+      "16": 1,
+      "17": 1,
+      "18": 1,
+      "20": 1,
+      "21": 1,
+      "22": 1,
+      "24": 1,
+      "25": 1,
+      "26": 1,
+      "28": 1,
+      "29": 1,
+      "30": 1
+    },
+    "core_read_pointer_checks": 24,
+    "total_B_code_bytes": 25165824,
+    "total_B_scale_bytes": 786432,
+    "FP_reference_bytes": 50331648
+  },
+  "batch_row_semantics": "independent rows; row0 FP reference, row1 Native INT8, row2 KeyH128 INT8",
+  "real_group_direct_checks": [
+    {
+      "sample_id": "real_gate",
+      "token_idx": 0,
+      "model_layer_id": 0,
+      "condition": "A_Native",
+      "all_heads": 32,
+      "all_values": 128,
+      "all_metrics": 16,
+      "max_absolute_difference": 5.684341886080801e-13,
+      "scale_oracle": "CPU emulation of CUDA constant reciprocal multiply",
+      "status": "PASS"
+    },
+    {
+      "sample_id": "real_gate",
+      "token_idx": 0,
+      "model_layer_id": 0,
+      "condition": "A_KeyH128",
+      "all_heads": 32,
+      "all_values": 128,
+      "all_metrics": 16,
+      "max_absolute_difference": 2.842170943040401e-14,
+      "scale_oracle": "CPU emulation of CUDA constant reciprocal multiply",
+      "status": "PASS"
+    },
+    {
+      "sample_id": "real_gate",
+      "token_idx": 0,
+      "model_layer_id": 0,
+      "condition": "B_Native",
+      "all_heads": 32,
+      "all_values": 128,
+      "all_metrics": 16,
+      "max_absolute_difference": 5.684341886080801e-13,
+      "scale_oracle": "CPU emulation of CUDA constant reciprocal multiply",
+      "status": "PASS"
+    },
+    {
+      "sample_id": "real_gate",
+      "token_idx": 0,
+      "model_layer_id": 0,
+      "condition": "B_KeyH128",
+      "all_heads": 32,
+      "all_values": 128,
+      "all_metrics": 16,
+      "max_absolute_difference": 1.7763568394002505e-14,
+      "scale_oracle": "CPU emulation of CUDA constant reciprocal multiply",
+      "status": "PASS"
+    },
+    {
+      "sample_id": "real_gate",
+      "token_idx": 0,
+      "model_layer_id": 30,
+      "condition": "A_Native",
+      "all_heads": 32,
+      "all_values": 128,
+      "all_metrics": 16,
+      "max_absolute_difference": 1.4210854715202004e-13,
+      "scale_oracle": "CPU emulation of CUDA constant reciprocal multiply",
+      "status": "PASS"
+    },
+    {
+      "sample_id": "real_gate",
+      "token_idx": 0,
+      "model_layer_id": 30,
+      "condition": "A_KeyH128",
+      "all_heads": 32,
+      "all_values": 128,
+      "all_metrics": 16,
+      "max_absolute_difference": 1.7763568394002505e-14,
+      "scale_oracle": "CPU emulation of CUDA constant reciprocal multiply",
+      "status": "PASS"
+    },
+    {
+      "sample_id": "real_gate",
+      "token_idx": 0,
+      "model_layer_id": 30,
+      "condition": "B_Native",
+      "all_heads": 32,
+      "all_values": 128,
+      "all_metrics": 16,
+      "max_absolute_difference": 1.4210854715202004e-13,
+      "scale_oracle": "CPU emulation of CUDA constant reciprocal multiply",
+      "status": "PASS"
+    },
+    {
+      "sample_id": "real_gate",
+      "token_idx": 0,
+      "model_layer_id": 30,
+      "condition": "B_KeyH128",
+      "all_heads": 32,
+      "all_values": 128,
+      "all_metrics": 16,
+      "max_absolute_difference": 7.549516567451064e-15,
+      "scale_oracle": "CPU emulation of CUDA constant reciprocal multiply",
+      "status": "PASS"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "status": "PASS",
+  "layer_rows": 96,
+  "head_rows": 3072,
+  "token_layer_rows": 49536,
+  "high_outlier_rows": 240,
+  "quantiles": "EXACT NumPy linear over all sampled group observations",
+  "plots": 146,
+  "approximate_quantiles": false,
+  "all_saved_A_group_RMS_checks": [
+    {
+      "model_layer_id": 0,
+      "all_saved_group_max_relative_RMS_difference": 1.7781845548120553e-07
+    },
+    {
+      "model_layer_id": 1,
+      "all_saved_group_max_relative_RMS_difference": 1.6116645680801783e-07
+    },
+    {
+      "model_layer_id": 2,
+      "all_saved_group_max_relative_RMS_difference": 1.7837044794559294e-07
+    },
+    {
+      "model_layer_id": 4,
+      "all_saved_group_max_relative_RMS_difference": 1.7802864141709102e-07
+    },
+    {
+      "model_layer_id": 5,
+      "all_saved_group_max_relative_RMS_difference": 1.716615322298645e-07
+    },
+    {
+      "model_layer_id": 6,
+      "all_saved_group_max_relative_RMS_difference": 1.778253092674254e-07
+    },
+    {
+      "model_layer_id": 8,
+      "all_saved_group_max_relative_RMS_difference": 1.7657914800781646e-07
+    },
+    {
+      "model_layer_id": 9,
+      "all_saved_group_max_relative_RMS_difference": 1.535610447246242e-07
+    },
+    {
+      "model_layer_id": 10,
+      "all_saved_group_max_relative_RMS_difference": 1.7159110006034833e-07
+    },
+    {
+      "model_layer_id": 12,
+      "all_saved_group_max_relative_RMS_difference": 1.6100138581614154e-07
+    },
+    {
+      "model_layer_id": 13,
+      "all_saved_group_max_relative_RMS_difference": 2.240502755002195e-07
+    },
+    {
+      "model_layer_id": 14,
+      "all_saved_group_max_relative_RMS_difference": 2.0433402988773892e-07
+    },
+    {
+      "model_layer_id": 16,
+      "all_saved_group_max_relative_RMS_difference": 1.5565204779046426e-07
+    },
+    {
+      "model_layer_id": 17,
+      "all_saved_group_max_relative_RMS_difference": 2.518882480876952e-07
+    },
+    {
+      "model_layer_id": 18,
+      "all_saved_group_max_relative_RMS_difference": 1.8333415270549238e-07
+    },
+    {
+      "model_layer_id": 20,
+      "all_saved_group_max_relative_RMS_difference": 1.763319977887333e-07
+    },
+    {
+      "model_layer_id": 21,
+      "all_saved_group_max_relative_RMS_difference": 3.133013465581352e-07
+    },
+    {
+      "model_layer_id": 22,
+      "all_saved_group_max_relative_RMS_difference": 1.9337958853760905e-07
+    },
+    {
+      "model_layer_id": 24,
+      "all_saved_group_max_relative_RMS_difference": 3.0154118723654714e-07
+    },
+    {
+      "model_layer_id": 25,
+      "all_saved_group_max_relative_RMS_difference": 2.8342304011564466e-07
+    },
+    {
+      "model_layer_id": 26,
+      "all_saved_group_max_relative_RMS_difference": 3.0167439138004766e-07
+    },
+    {
+      "model_layer_id": 28,
+      "all_saved_group_max_relative_RMS_difference": 2.091552949997346e-07
+    },
+    {
+      "model_layer_id": 29,
+      "all_saved_group_max_relative_RMS_difference": 2.46195014969852e-07
+    },
+    {
+      "model_layer_id": 30,
+      "all_saved_group_max_relative_RMS_difference": 3.310767742175151e-07
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "status": "PASS",
+  "real_direct_checks": [
+    {
+      "sample_id": "aime26_01",
+      "token_idx": 0,
+      "model_layer_id": 0,
+      "condition": "A_Native",
+      "all_heads": 32,
+      "all_values": 128,
+      "all_metrics": 16,
+      "max_absolute_difference": 5.4569682106375694e-12,
+      "scale_oracle": "CPU emulation of CUDA constant reciprocal multiply",
+      "status": "PASS"
+    },
+    {
+      "sample_id": "aime26_01",
+      "token_idx": 0,
+      "model_layer_id": 0,
+      "condition": "A_KeyH128",
+      "all_heads": 32,
+      "all_values": 128,
+      "all_metrics": 16,
+      "max_absolute_difference": 1.3642420526593924e-12,
+      "scale_oracle": "CPU emulation of CUDA constant reciprocal multiply",
+      "status": "PASS"
+    },
+    {
+      "sample_id": "aime26_01",
+      "token_idx": 0,
+      "model_layer_id": 0,
+      "condition": "B_Native",
+      "all_heads": 32,
+      "all_values": 128,
+      "all_metrics": 16,
+      "max_absolute_difference": 9.094947017729282e-13,
+      "scale_oracle": "CPU emulation of CUDA constant reciprocal multiply",
+      "status": "PASS"
+    },
+    {
+      "sample_id": "aime26_01",
+      "token_idx": 0,
+      "model_layer_id": 0,
+      "condition": "B_KeyH128",
+      "all_heads": 32,
+      "all_values": 128,
+      "all_metrics": 16,
+      "max_absolute_difference": 3.637978807091713e-12,
+      "scale_oracle": "CPU emulation of CUDA constant reciprocal multiply",
+      "status": "PASS"
+    },
+    {
+      "sample_id": "aime26_01",
+      "token_idx": 0,
+      "model_layer_id": 30,
+      "condition": "A_Native",
+      "all_heads": 32,
+      "all_values": 128,
+      "all_metrics": 16,
+      "max_absolute_difference": 9.947598300641403e-14,
+      "scale_oracle": "CPU emulation of CUDA constant reciprocal multiply",
+      "status": "PASS"
+    },
+    {
+      "sample_id": "aime26_01",
+      "token_idx": 0,
+      "model_layer_id": 30,
+      "condition": "A_KeyH128",
+      "all_heads": 32,
+      "all_values": 128,
+      "all_metrics": 16,
+      "max_absolute_difference": 1.9539925233402755e-14,
+      "scale_oracle": "CPU emulation of CUDA constant reciprocal multiply",
+      "status": "PASS"
+    },
+    {
+      "sample_id": "aime26_01",
+      "token_idx": 0,
+      "model_layer_id": 30,
+      "condition": "B_Native",
+      "all_heads": 32,
+      "all_values": 128,
+      "all_metrics": 16,
+      "max_absolute_difference": 1.4921397450962104e-13,
+      "scale_oracle": "CPU emulation of CUDA constant reciprocal multiply",
+      "status": "PASS"
+    },
+    {
+      "sample_id": "aime26_01",
+      "token_idx": 0,
+      "model_layer_id": 30,
+      "condition": "B_KeyH128",
+      "all_heads": 32,
+      "all_values": 128,
+      "all_metrics": 16,
+      "max_absolute_difference": 2.6645352591003757e-14,
+      "scale_oracle": "CPU emulation of CUDA constant reciprocal multiply",
+      "status": "PASS"
+    }
+  ],
+  "max_paired_group_relative_squared_L2_error": 6.621536563540373e-07,
+  "explicit_layer_callbacks": true,
+  "independent_cloned_snapshots": true,
+  "quantiles": "not estimated here; exact numpy quantiles over saved FP64 group observations"
+}

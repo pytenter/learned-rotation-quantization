@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "worker": {
+    "pid": 2339390,
+    "ppid": 2339387,
+    "starttick": 202157820,
+    "argv": [
+      "/data/zypan/envs/qwen-gdn-group64-historical-port-v1/bin/python",
+      "-B",
+      "/data/zypan/experiments/QWEN_GDN_STATE_OUTLIER_H128_C128_GPU4_20261102_V1/releases/ORACLE_FP32_V4/run_experiment.py"
+    ]
+  },
+  "NVML": [
+    "2339390, GPU-de1f9152-32e5-a033-d2bf-ea7abecb606f, /data/zypan/envs/qwen-gdn-group64-historical-port-v1/bin/python, 18820"
+  ],
+  "current_progress": {
+    "phase": "FORMAL_TOKEN",
+    "monotonic": 2021745.091129686,
+    "sample_id": "aime26_01",
+    "input_tokens_committed": 2206,
+    "total": 2206,
+    "continuation_committed": 2048,
+    "sampled_events": 3096,
+    "elapsed_seconds": 144.03518088907003
+  },
+  "CUDA_VISIBLE_DEVICES": "GPU-de1f9152-32e5-a033-d2bf-ea7abecb606f"
+}

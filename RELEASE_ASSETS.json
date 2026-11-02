@@ -1,0 +1,2007 @@
+{
+  "schema": 1,
+  "repository": "pytenter/learned-rotation-quantization",
+  "release_tag": "qwen35-9b-gdn-state-h128-c128-20261102",
+  "results_directory": "results/2026-11-02-qwen35-9b-gdn-state-h128-c128",
+  "original_total_files": 1677,
+  "original_total_bytes": 13841587619,
+  "git_artifact_files": 1293,
+  "git_artifact_bytes": 228119128,
+  "release_raw_files": 384,
+  "assets": [
+    {
+      "name": "gdn-state-20261102-A-aime26_01-groups.tar",
+      "bytes": 1699082240,
+      "sha256": "79e8ec5fe70282b3479ef64b96f0680a7e52f46b95811d46f1f62ad14bd9134c",
+      "url": "https://github.com/pytenter/learned-rotation-quantization/releases/download/qwen35-9b-gdn-state-h128-c128-20261102/gdn-state-20261102-A-aime26_01-groups.tar",
+      "extract_into": "results/2026-11-02-qwen35-9b-gdn-state-h128-c128",
+      "files": [
+        {
+          "path": "formal/A/groups/aime26_01__A_KeyH128__L00.npz",
+          "bytes": 34997143,
+          "sha256": "5ba72d6f319c3bf3d3737a16676789dffea06c45632e646d7dc62b3dfd4cdbfd"
+        },
+        {
+          "path": "formal/A/groups/aime26_01__A_KeyH128__L01.npz",
+          "bytes": 35178496,
+          "sha256": "a4ed35920d3f341c65b39833ad41ae6636879e158a254ea6cd89ffd638452ac8"
+        },
+        {
+          "path": "formal/A/groups/aime26_01__A_KeyH128__L02.npz",
+          "bytes": 35170202,
+          "sha256": "69bd8a850a3bffa73fd9f1dc0693493a344704d2e0c3847ae531f1bc26334993"
+        },
+        {
+          "path": "formal/A/groups/aime26_01__A_KeyH128__L04.npz",
+          "bytes": 35141207,
+          "sha256": "bc653bd872dcd8a52c0600e009d672174a770246bd94ea76f5da55cc3fd64f27"
+        },
+        {
+          "path": "formal/A/groups/aime26_01__A_KeyH128__L05.npz",
+          "bytes": 35149035,
+          "sha256": "3c540e661e20a3e8180ab7e022d3fe4e397539ae8f0b367c9e138c0ecf3aabcd"
+        },
+        {
+          "path": "formal/A/groups/aime26_01__A_KeyH128__L06.npz",
+          "bytes": 35153782,
+          "sha256": "4fa74400b07831e80772b9645d5c2142fcca4a030e793661d2fbb0d62a75f3f8"
+        },
+        {
+          "path": "formal/A/groups/aime26_01__A_KeyH128__L08.npz",
+          "bytes": 35104660,
+          "sha256": "3a9ee25e83be2eaa1f1b78b00a383ea53eacdd839e0e4a8bd3a3c4b58f9c7a12"
+        },
+        {
+          "path": "formal/A/groups/aime26_01__A_KeyH128__L09.npz",
+          "bytes": 35122938,
+          "sha256": "d93598ea71c9c6403994e8590ee4bbb022f1fb8948ba18bf788c0deb0405d525"
+        },
+        {
+          "path": "formal/A/groups/aime26_01__A_KeyH128__L10.npz",
+          "bytes": 35132987,
+          "sha256": "385f3a752417c6aedd54765c4c39c113da263c44672117b1b5fbd8e8313a91bc"
+        },
+        {
+          "path": "formal/A/groups/aime26_01__A_KeyH128__L12.npz",
+          "bytes": 35152158,
+          "sha256": "75c6f51578d5179c67cce6a6f1cdf7a804f7d440087f51bcc634b259d44d40e0"
+        },
+        {
+          "path": "formal/A/groups/aime26_01__A_KeyH128__L13.npz",
+          "bytes": 35172988,
+          "sha256": "9f7b6269b457c91843306a9ae573d8d45f57a4fe1b25dae4ef65463401b05e58"
+        },
+        {
+          "path": "formal/A/groups/aime26_01__A_KeyH128__L14.npz",
+          "bytes": 35134068,
+          "sha256": "5ed39d07294f65b4316ee7bb8a9ba4a89cc792f1770964119332fab5bf265962"
+        },
+        {
+          "path": "formal/A/groups/aime26_01__A_KeyH128__L16.npz",
+          "bytes": 35130545,
+          "sha256": "b588bd4ec3350025f13c29723e2812b21c2352d2aa22b49210337dc127b1f309"
+        },
+        {
+          "path": "formal/A/groups/aime26_01__A_KeyH128__L17.npz",
+          "bytes": 35134588,
+          "sha256": "84e0be4ea8f7cd986e796888931bb441bd32811c749ba69c8ea699897cf0ebba"
+        },
+        {
+          "path": "formal/A/groups/aime26_01__A_KeyH128__L18.npz",
+          "bytes": 35140147,
+          "sha256": "a0ecf7b0dc4db5d7e5385e277e93f3ef87ff8aa6525f5bd239028e30ac36593c"
+        },
+        {
+          "path": "formal/A/groups/aime26_01__A_KeyH128__L20.npz",
+          "bytes": 35171021,
+          "sha256": "f5bec37d4231760db34853eeeff0ade77d3345538650d8ed4a1417624002b618"
+        },
+        {
+          "path": "formal/A/groups/aime26_01__A_KeyH128__L21.npz",
+          "bytes": 35148836,
+          "sha256": "f010f0aa533e8a05e6b2c749086f7180a94a9da181aaaa52441a8c881855503c"
+        },
+        {
+          "path": "formal/A/groups/aime26_01__A_KeyH128__L22.npz",
+          "bytes": 35147194,
+          "sha256": "b9b954456fdcfc07b4670010b7b564971c2fcee3137b781895bb38534f219a19"
+        },
+        {
+          "path": "formal/A/groups/aime26_01__A_KeyH128__L24.npz",
+          "bytes": 35139009,
+          "sha256": "3210061174475b17440cdcc506f64c08d24e0821ce7280b4fc5f3a6f286af32a"
+        },
+        {
+          "path": "formal/A/groups/aime26_01__A_KeyH128__L25.npz",
+          "bytes": 35152482,
+          "sha256": "df968a5e93839eb01eeac9c541655d2afed6fd1d565cb116d58ea993ee75381b"
+        },
+        {
+          "path": "formal/A/groups/aime26_01__A_KeyH128__L26.npz",
+          "bytes": 35096506,
+          "sha256": "418595aa042e7913cc7b31ea574b43d97f59126f8d772631982e356aba7cb947"
+        },
+        {
+          "path": "formal/A/groups/aime26_01__A_KeyH128__L28.npz",
+          "bytes": 35103805,
+          "sha256": "1feb06e232cf467746ba21015d6d403831fb7847dcc686d158f20e7aea770360"
+        },
+        {
+          "path": "formal/A/groups/aime26_01__A_KeyH128__L29.npz",
+          "bytes": 35180032,
+          "sha256": "0fda6e1871db161c2388393c8e27cc39f7e9be835d16a6cc758f0b15a69d27e7"
+        },
+        {
+          "path": "formal/A/groups/aime26_01__A_KeyH128__L30.npz",
+          "bytes": 35176929,
+          "sha256": "4625e0f34f4fea6c1b3d3c0cf6c14ff663f6903797376cd2d60f4d8c958f92ef"
+        },
+        {
+          "path": "formal/A/groups/aime26_01__A_Native__L00.npz",
+          "bytes": 35464328,
+          "sha256": "352b5760799887d4bc91a640f4b53985f71a229d16ac3ece386fd930e55ac24e"
+        },
+        {
+          "path": "formal/A/groups/aime26_01__A_Native__L01.npz",
+          "bytes": 35658762,
+          "sha256": "79df208ccd9106b5e1618190786306cb646a38968806b3f146738fd50e6e97ea"
+        },
+        {
+          "path": "formal/A/groups/aime26_01__A_Native__L02.npz",
+          "bytes": 35669575,
+          "sha256": "80719d1f62dae40cb10aa858f72843d41c9f6d40b0c081cfb56ff2bcc7f90098"
+        },
+        {
+          "path": "formal/A/groups/aime26_01__A_Native__L04.npz",
+          "bytes": 35703297,
+          "sha256": "5ee0d991c80cdef3a1a35f3dc012bef326c5758109a2a5be16a7e087edf0fb20"
+        },
+        {
+          "path": "formal/A/groups/aime26_01__A_Native__L05.npz",
+          "bytes": 35678437,
+          "sha256": "87ea338b75d4bbb5542f684330f56a410cd5fa9224e3018231a104a22f567404"
+        },
+        {
+          "path": "formal/A/groups/aime26_01__A_Native__L06.npz",
+          "bytes": 35661171,
+          "sha256": "7fb911f89ad7fe55a8f4ebd31c7c4e7b64458f1bdfb0c36e1689e8af651b5f4c"
+        },
+        {
+          "path": "formal/A/groups/aime26_01__A_Native__L08.npz",
+          "bytes": 35648671,
+          "sha256": "eacbd099a139a560b4c394684bca06018a0b3f064fdb4e2873fb6ffdb4ede07f"
+        },
+        {
+          "path": "formal/A/groups/aime26_01__A_Native__L09.npz",
+          "bytes": 35618676,
+          "sha256": "ce481e3676195a3c7b31d99727f7495a37697a4fe92af09e10102b328357167e"
+        },
+        {
+          "path": "formal/A/groups/aime26_01__A_Native__L10.npz",
+          "bytes": 35640258,
+          "sha256": "f945065ba90612e4de94af6e39e3c6c37581dbc7a6137a88ce5b5b196348df05"
+        },
+        {
+          "path": "formal/A/groups/aime26_01__A_Native__L12.npz",
+          "bytes": 35647558,
+          "sha256": "20dac7a37efc64464b0a14a8bf014d3951627f4f0cb76ceb94cec8b798c8f462"
+        },
+        {
+          "path": "formal/A/groups/aime26_01__A_Native__L13.npz",
+          "bytes": 35668284,
+          "sha256": "15559dc98d6287386a342885152933bab109004d2775c65914dbe74f84858aa4"
+        },
+        {
+          "path": "formal/A/groups/aime26_01__A_Native__L14.npz",
+          "bytes": 35625396,
+          "sha256": "700338a76b9ddfbcfa96e48380aaff9d4703231e9727782f9fda9951060d63af"
+        },
+        {
+          "path": "formal/A/groups/aime26_01__A_Native__L16.npz",
+          "bytes": 35587567,
+          "sha256": "9e91781e42b492c8342bac3b83ba42387c056bfdc4517c140512b6863585379f"
+        },
+        {
+          "path": "formal/A/groups/aime26_01__A_Native__L17.npz",
+          "bytes": 35600720,
+          "sha256": "5abb94b867a2834db032532b0595a4b6658eef3c841cdf3c978bafea37e9cc5c"
+        },
+        {
+          "path": "formal/A/groups/aime26_01__A_Native__L18.npz",
+          "bytes": 35591372,
+          "sha256": "a2c4729d83ffc6d3bdacc14552622b51039c0aaf2fe1515ca944cb9beb0c4324"
+        },
+        {
+          "path": "formal/A/groups/aime26_01__A_Native__L20.npz",
+          "bytes": 35635683,
+          "sha256": "89e514cae56b7aa422c3fdd18131105be4ddd9d6b36e20749778cb975503e661"
+        },
+        {
+          "path": "formal/A/groups/aime26_01__A_Native__L21.npz",
+          "bytes": 35668691,
+          "sha256": "0b9ab67e4edfa2f785703d791acf9b5f4fad678dbae834828b3678e7c269314b"
+        },
+        {
+          "path": "formal/A/groups/aime26_01__A_Native__L22.npz",
+          "bytes": 35683517,
+          "sha256": "c027b86c38221c5e23cad70b92a8699d8c31360e141d3acb97cbf6bb2735679f"
+        },
+        {
+          "path": "formal/A/groups/aime26_01__A_Native__L24.npz",
+          "bytes": 35714866,
+          "sha256": "38146cb9220ed5dec85b56dc07ae73cae6f9e501d5751aeecccccd022a6090cd"
+        },
+        {
+          "path": "formal/A/groups/aime26_01__A_Native__L25.npz",
+          "bytes": 35731299,
+          "sha256": "817d75912997f9c255bd550dd572316a848808bf244cc20434083e5bd7cc4fe3"
+        },
+        {
+          "path": "formal/A/groups/aime26_01__A_Native__L26.npz",
+          "bytes": 35729058,
+          "sha256": "bed49fdf863e6a5de217267df344c4ec8c6b7727b439880db7ac13ef3645d9b2"
+        },
+        {
+          "path": "formal/A/groups/aime26_01__A_Native__L28.npz",
+          "bytes": 35668650,
+          "sha256": "5c6f2fcb217ceb15e223bc2df177ea0653307a258feb3d5e614bceb34c39c598"
+        },
+        {
+          "path": "formal/A/groups/aime26_01__A_Native__L29.npz",
+          "bytes": 35710813,
+          "sha256": "27a951266ccfa5ce72d2277ac4da6b03e26d1c0bced47b7f7ee0cae81fee7c2d"
+        },
+        {
+          "path": "formal/A/groups/aime26_01__A_Native__L30.npz",
+          "bytes": 35698950,
+          "sha256": "cd19051ed8875da861bf261218792b122530af3a5bed7766e9fd59f2b546b27e"
+        }
+      ]
+    },
+    {
+      "name": "gdn-state-20261102-A-aime26_02-groups.tar",
+      "bytes": 1699225600,
+      "sha256": "1ab862c0d4c212d334ce954579fca8ce40e3ecf41af89952f16fa8d84f995e6d",
+      "url": "https://github.com/pytenter/learned-rotation-quantization/releases/download/qwen35-9b-gdn-state-h128-c128-20261102/gdn-state-20261102-A-aime26_02-groups.tar",
+      "extract_into": "results/2026-11-02-qwen35-9b-gdn-state-h128-c128",
+      "files": [
+        {
+          "path": "formal/A/groups/aime26_02__A_KeyH128__L00.npz",
+          "bytes": 35009226,
+          "sha256": "9974f1e99d8647c4bb28d83dada4dd20175aa309fdde7603c8ee8faf9943a554"
+        },
+        {
+          "path": "formal/A/groups/aime26_02__A_KeyH128__L01.npz",
+          "bytes": 35176485,
+          "sha256": "0db9d325c1b5bf48f0fa832f24c7ba0be5932564d0953e3a86e4a83f89ba9287"
+        },
+        {
+          "path": "formal/A/groups/aime26_02__A_KeyH128__L02.npz",
+          "bytes": 35176259,
+          "sha256": "83ff7f3df3c1ff2a273ef7c1888842ab45e172d01e70d0718fdcfbae08c619c8"
+        },
+        {
+          "path": "formal/A/groups/aime26_02__A_KeyH128__L04.npz",
+          "bytes": 35145644,
+          "sha256": "851259b99fd16f5e9d741a40bf348cfb39bf169f10349b1019f190e954db830c"
+        },
+        {
+          "path": "formal/A/groups/aime26_02__A_KeyH128__L05.npz",
+          "bytes": 35153862,
+          "sha256": "afc14e8ce7219f694077cbf65f492118914dc4637a5aa43f9173dd73d8716d13"
+        },
+        {
+          "path": "formal/A/groups/aime26_02__A_KeyH128__L06.npz",
+          "bytes": 35159737,
+          "sha256": "be1d1579e30f1424cfd290bc55d14a856fa403165e1a0c82300d47503f9c28aa"
+        },
+        {
+          "path": "formal/A/groups/aime26_02__A_KeyH128__L08.npz",
+          "bytes": 35112063,
+          "sha256": "a43231282a3397d36de953a16691e5a6ebb62ccf58aa4c207dce0a15f5fa674c"
+        },
+        {
+          "path": "formal/A/groups/aime26_02__A_KeyH128__L09.npz",
+          "bytes": 35120759,
+          "sha256": "7e3bb0e6eb643c6fe771f7cc8fc21553f542f7585dc537b2398a65c166691a01"
+        },
+        {
+          "path": "formal/A/groups/aime26_02__A_KeyH128__L10.npz",
+          "bytes": 35138889,
+          "sha256": "21a132be5274ce9b24295b033701f4ba9941118457f053406824369fe6128847"
+        },
+        {
+          "path": "formal/A/groups/aime26_02__A_KeyH128__L12.npz",
+          "bytes": 35161322,
+          "sha256": "18ac8c9e35e835387f5a4a58ad8b6461484457e08b4158de2d99c0dd52450e61"
+        },
+        {
+          "path": "formal/A/groups/aime26_02__A_KeyH128__L13.npz",
+          "bytes": 35173906,
+          "sha256": "efca02e864681d3582f3ddaed09d279b86f4c4bee03c01f3bba0de321df8cc46"
+        },
+        {
+          "path": "formal/A/groups/aime26_02__A_KeyH128__L14.npz",
+          "bytes": 35144405,
+          "sha256": "2d685dae0b9741b87c348e655d8fa9b58759f2234ce57978eae595ecd7dc1b1c"
+        },
+        {
+          "path": "formal/A/groups/aime26_02__A_KeyH128__L16.npz",
+          "bytes": 35129702,
+          "sha256": "2757385a95bf4888261d4b04b367690fd09828cf4d2531edffda7b23c54ae80b"
+        },
+        {
+          "path": "formal/A/groups/aime26_02__A_KeyH128__L17.npz",
+          "bytes": 35141718,
+          "sha256": "456b6e73d16a6cc7f3f8d88c988372581bce035b3bd55566900562876e4ee673"
+        },
+        {
+          "path": "formal/A/groups/aime26_02__A_KeyH128__L18.npz",
+          "bytes": 35139648,
+          "sha256": "525c07dfa76dbf54b1b5fa6b4fa5326bb25944a30c1853139777bf9cce08a3ee"
+        },
+        {
+          "path": "formal/A/groups/aime26_02__A_KeyH128__L20.npz",
+          "bytes": 35166196,
+          "sha256": "cda4fa4497792e92d4d4c16bb8e6dfc3d00f04ba980d6918be89dd7bc6890d00"
+        },
+        {
+          "path": "formal/A/groups/aime26_02__A_KeyH128__L21.npz",
+          "bytes": 35153997,
+          "sha256": "602f99f4443e92f2af1459be1f37693e2fc7255f4c7292de3084c243f9d4b80d"
+        },
+        {
+          "path": "formal/A/groups/aime26_02__A_KeyH128__L22.npz",
+          "bytes": 35158507,
+          "sha256": "c4ab392658ba2aa9fe0b2dadbb1857118449521acac0b29dcd91cc8e10ee39f8"
+        },
+        {
+          "path": "formal/A/groups/aime26_02__A_KeyH128__L24.npz",
+          "bytes": 35133316,
+          "sha256": "35141aa2474d8cf18c6a22f185faa50f84421960597881bdd0f7ae6c7bf89c5a"
+        },
+        {
+          "path": "formal/A/groups/aime26_02__A_KeyH128__L25.npz",
+          "bytes": 35153575,
+          "sha256": "53fecda1dd2fd9ae3aeabb90c85e34e28bf63b9832f93f1531bdbbced29bceb1"
+        },
+        {
+          "path": "formal/A/groups/aime26_02__A_KeyH128__L26.npz",
+          "bytes": 35095139,
+          "sha256": "d0e029d1a79d89af6ebf681ea756d4bd901d69753c80d9ba9918e8bba635fc09"
+        },
+        {
+          "path": "formal/A/groups/aime26_02__A_KeyH128__L28.npz",
+          "bytes": 35107159,
+          "sha256": "d06e77d19a579720a4bdebf9ae14351a16f7f3efa1b96fc6624e78ed5cb5f9f0"
+        },
+        {
+          "path": "formal/A/groups/aime26_02__A_KeyH128__L29.npz",
+          "bytes": 35186099,
+          "sha256": "2abaf13400a14086af890bf9a1dd1601ec1ef64a7478c400fc0e801aa2b38b9e"
+        },
+        {
+          "path": "formal/A/groups/aime26_02__A_KeyH128__L30.npz",
+          "bytes": 35182029,
+          "sha256": "23d628d0d0e9a19aacc57031b3ffed4653c705c682817d0532ce4019a9ab89f0"
+        },
+        {
+          "path": "formal/A/groups/aime26_02__A_Native__L00.npz",
+          "bytes": 35476899,
+          "sha256": "3b00965491bcba2e6c10270ab58c5ddebae3c876d3d8e4edc2e3d64a95631eab"
+        },
+        {
+          "path": "formal/A/groups/aime26_02__A_Native__L01.npz",
+          "bytes": 35665726,
+          "sha256": "3d75c02455e7c6c5cb0ecf90039e3b44bdcfbfd290b520bed85d29c0af0d0a5c"
+        },
+        {
+          "path": "formal/A/groups/aime26_02__A_Native__L02.npz",
+          "bytes": 35672258,
+          "sha256": "ccb97cc8ba7a3ba1494eaf78f6191bd81f9eb33dd6dc21c62bdf1b6cf7e67db2"
+        },
+        {
+          "path": "formal/A/groups/aime26_02__A_Native__L04.npz",
+          "bytes": 35704903,
+          "sha256": "3374be2bf1c8cf71723e75d4a4d2d1f53b00a9415155b5cbd1666611e86fe402"
+        },
+        {
+          "path": "formal/A/groups/aime26_02__A_Native__L05.npz",
+          "bytes": 35675037,
+          "sha256": "7e5c38f5434fe3e40e57d4a9681ca7818d957022419ba8c65bb91f74a761c82a"
+        },
+        {
+          "path": "formal/A/groups/aime26_02__A_Native__L06.npz",
+          "bytes": 35657780,
+          "sha256": "52c887d0567d3ca0daa952b50bd08a052d5f2b151a3a40f3c40eed8b5f0c3751"
+        },
+        {
+          "path": "formal/A/groups/aime26_02__A_Native__L08.npz",
+          "bytes": 35653563,
+          "sha256": "f4dc3d790a406ef306428a7c530a7c5e5d22668b68d17eba8db1061fbd4725a1"
+        },
+        {
+          "path": "formal/A/groups/aime26_02__A_Native__L09.npz",
+          "bytes": 35628067,
+          "sha256": "554f813a0b516ae77fb071c06b6bcae334d01519419ae43d8187204c5c27c498"
+        },
+        {
+          "path": "formal/A/groups/aime26_02__A_Native__L10.npz",
+          "bytes": 35641180,
+          "sha256": "5933bed80cefb1c64a236d17ce81c592e723caf0b75670c2dc46d1050e8f6ee6"
+        },
+        {
+          "path": "formal/A/groups/aime26_02__A_Native__L12.npz",
+          "bytes": 35652488,
+          "sha256": "b40e981c67fd84291548fb56d2119af293e01e33e2cd95b1b0ef37b9bd1451c4"
+        },
+        {
+          "path": "formal/A/groups/aime26_02__A_Native__L13.npz",
+          "bytes": 35673296,
+          "sha256": "55224ae8aeb9528f491f757bfd6d4e9ba6f825d5627b51fe7d54d4a87428cf49"
+        },
+        {
+          "path": "formal/A/groups/aime26_02__A_Native__L14.npz",
+          "bytes": 35633895,
+          "sha256": "eb65626d5bc67bf3a0e737a13fd310bf4841ae10b1bd1dc7a358b15d03515683"
+        },
+        {
+          "path": "formal/A/groups/aime26_02__A_Native__L16.npz",
+          "bytes": 35592995,
+          "sha256": "10e922cd2328bca78d87b0f3e6bce20b4dcc5155f1fdf33b07f3127dc180b7c3"
+        },
+        {
+          "path": "formal/A/groups/aime26_02__A_Native__L17.npz",
+          "bytes": 35603235,
+          "sha256": "b549ccf0d7350fba6b996bbf199765dae863344034b40263a4ab57d71aaa4495"
+        },
+        {
+          "path": "formal/A/groups/aime26_02__A_Native__L18.npz",
+          "bytes": 35591110,
+          "sha256": "7bd7fe1b7c889470934da603a3dbbb7055e0b7e373985251878e34e40fcc0875"
+        },
+        {
+          "path": "formal/A/groups/aime26_02__A_Native__L20.npz",
+          "bytes": 35633863,
+          "sha256": "e3b7903eb33bf4041bb16a25d7e1dce2893c0a0dab41f5f91d8e4ad9e17d5bf0"
+        },
+        {
+          "path": "formal/A/groups/aime26_02__A_Native__L21.npz",
+          "bytes": 35668527,
+          "sha256": "795fcb89b62933653c64bc3cd7e8d01810af8fb098f20a019a0aee0f226676fc"
+        },
+        {
+          "path": "formal/A/groups/aime26_02__A_Native__L22.npz",
+          "bytes": 35683336,
+          "sha256": "dd63ff82c0bde8701c216f049f1fac36b692153bf5a4a90eddcc99f8b65f6715"
+        },
+        {
+          "path": "formal/A/groups/aime26_02__A_Native__L24.npz",
+          "bytes": 35714896,
+          "sha256": "6ee6ab645d1ae0d5c5e7d2a42d50e552e6f99b6e3b47a1a59d96f1d641d9005e"
+        },
+        {
+          "path": "formal/A/groups/aime26_02__A_Native__L25.npz",
+          "bytes": 35737726,
+          "sha256": "8703e6acb1008901162f9bb532249b0dd8648f5fd7a1cfce4a45cc0407d68f81"
+        },
+        {
+          "path": "formal/A/groups/aime26_02__A_Native__L26.npz",
+          "bytes": 35726735,
+          "sha256": "7d1adf9c402eb81b18f42a7b90c5b427e9782f762fcf836c3a25b8a8bf7a2ee2"
+        },
+        {
+          "path": "formal/A/groups/aime26_02__A_Native__L28.npz",
+          "bytes": 35667543,
+          "sha256": "354a4ba439c5a0af2d1a62db460b5df59742209b1fb6c10e9775efcf0c38b5bd"
+        },
+        {
+          "path": "formal/A/groups/aime26_02__A_Native__L29.npz",
+          "bytes": 35706252,
+          "sha256": "51a14416cb5d15898e8656a4bb1f1555af09e04a6203b41964c51c677b741a24"
+        },
+        {
+          "path": "formal/A/groups/aime26_02__A_Native__L30.npz",
+          "bytes": 35697268,
+          "sha256": "97cbd2e8dad706b3a7e614d0713f5521d6a71fa1f5e2bf7635a3c4f64e85e3cd"
+        }
+      ]
+    },
+    {
+      "name": "gdn-state-20261102-A-aime26_03-groups.tar",
+      "bytes": 1699133440,
+      "sha256": "fa71dbdf84be1b98c6fd6cdb4adfa06b3336c2da07f89772735b67086df4e518",
+      "url": "https://github.com/pytenter/learned-rotation-quantization/releases/download/qwen35-9b-gdn-state-h128-c128-20261102/gdn-state-20261102-A-aime26_03-groups.tar",
+      "extract_into": "results/2026-11-02-qwen35-9b-gdn-state-h128-c128",
+      "files": [
+        {
+          "path": "formal/A/groups/aime26_03__A_KeyH128__L00.npz",
+          "bytes": 35003862,
+          "sha256": "f7a57bd99d73ace9d00b5815c56384cd4ee8d71a5b8c62074cbc0c14a4b8424f"
+        },
+        {
+          "path": "formal/A/groups/aime26_03__A_KeyH128__L01.npz",
+          "bytes": 35179465,
+          "sha256": "4b3a0a2168ebf8f0c444f0218a01fd7f83d78191f9a24db4b217468da4c3ddf1"
+        },
+        {
+          "path": "formal/A/groups/aime26_03__A_KeyH128__L02.npz",
+          "bytes": 35168644,
+          "sha256": "4cbb5e5edefae7616c370347e7e21c8c6d00343302ea187d6aca0a6c323c93fd"
+        },
+        {
+          "path": "formal/A/groups/aime26_03__A_KeyH128__L04.npz",
+          "bytes": 35152387,
+          "sha256": "eab2b8594bc36fa8e58d0d4ba48c255fc165bb5cfe20cd04c14d81e9764cce76"
+        },
+        {
+          "path": "formal/A/groups/aime26_03__A_KeyH128__L05.npz",
+          "bytes": 35155223,
+          "sha256": "d6bad8d3fb8d6bb63c67306b0735ceb3c4dc034e53ff3e5878ce23cf39e1c372"
+        },
+        {
+          "path": "formal/A/groups/aime26_03__A_KeyH128__L06.npz",
+          "bytes": 35159355,
+          "sha256": "f1826b3d3ccf7cd2479572c79dead94da0fcfa088e477ee1d74e2e929a63c2a5"
+        },
+        {
+          "path": "formal/A/groups/aime26_03__A_KeyH128__L08.npz",
+          "bytes": 35117339,
+          "sha256": "ac1334e8b2326ab7a607a1b509302e3eed4f451952c5a4b94ede4cae020a30ae"
+        },
+        {
+          "path": "formal/A/groups/aime26_03__A_KeyH128__L09.npz",
+          "bytes": 35127235,
+          "sha256": "3b67cfb9bd43129ac6aec685919864834cb3cc4573e4f86e6fdc9f3462357aba"
+        },
+        {
+          "path": "formal/A/groups/aime26_03__A_KeyH128__L10.npz",
+          "bytes": 35139769,
+          "sha256": "4ba366370ea8967dade48f5c277e142f9939390786f50aa9a0889a8948d23c6d"
+        },
+        {
+          "path": "formal/A/groups/aime26_03__A_KeyH128__L12.npz",
+          "bytes": 35160012,
+          "sha256": "ba4fd96d34f05c75d009c77bac97a79ce7729cb5f70007037e803541771df9bd"
+        },
+        {
+          "path": "formal/A/groups/aime26_03__A_KeyH128__L13.npz",
+          "bytes": 35180231,
+          "sha256": "3e6c9d9f507329fcbc44b7dd80ec2b12a5c0d24ddace8b95535bb5b102d7f10f"
+        },
+        {
+          "path": "formal/A/groups/aime26_03__A_KeyH128__L14.npz",
+          "bytes": 35140784,
+          "sha256": "b90f4c2ffd39648a55a65ea78edbaa9901527e0ab3681c12e0540e9800f11ccc"
+        },
+        {
+          "path": "formal/A/groups/aime26_03__A_KeyH128__L16.npz",
+          "bytes": 35132106,
+          "sha256": "e4f365525efed30ddcee0bca30cfa0ed3733286c244f5a4f730b7ff62531c924"
+        },
+        {
+          "path": "formal/A/groups/aime26_03__A_KeyH128__L17.npz",
+          "bytes": 35139679,
+          "sha256": "8eed64d9012b7ecd29f0b5e239e588cf473e6aa574d459d3e824c897a75cf88d"
+        },
+        {
+          "path": "formal/A/groups/aime26_03__A_KeyH128__L18.npz",
+          "bytes": 35143845,
+          "sha256": "575e4e13d14df0e6d850125ceb7bafc92c485a299baa71adae9011245322267f"
+        },
+        {
+          "path": "formal/A/groups/aime26_03__A_KeyH128__L20.npz",
+          "bytes": 35171449,
+          "sha256": "4bf2dc2ed078ac89bad65abd0fb8618fb521db7e3d0499843325c4ff231a41d2"
+        },
+        {
+          "path": "formal/A/groups/aime26_03__A_KeyH128__L21.npz",
+          "bytes": 35138684,
+          "sha256": "474d082050086fedddf92014f06678eb5be8a8c1f37968ccfd127af3edff6f6f"
+        },
+        {
+          "path": "formal/A/groups/aime26_03__A_KeyH128__L22.npz",
+          "bytes": 35157892,
+          "sha256": "97733b59d9117e30079ed7a70a03b8a92323cc54df7e24cd4975f017fd9b4aa4"
+        },
+        {
+          "path": "formal/A/groups/aime26_03__A_KeyH128__L24.npz",
+          "bytes": 35141722,
+          "sha256": "15cc02840f13cd20c1a247292e1950ffb611fefbf0edd283e2d00cbcca886807"
+        },
+        {
+          "path": "formal/A/groups/aime26_03__A_KeyH128__L25.npz",
+          "bytes": 35156237,
+          "sha256": "c1120f6e4933f4318f24174a2a4527d07a54ced829d282d648eb2fab97e507a1"
+        },
+        {
+          "path": "formal/A/groups/aime26_03__A_KeyH128__L26.npz",
+          "bytes": 35097513,
+          "sha256": "1525e3713b56ec11c68e60994794bf1b5eefa1a87b6532155b4d5db1356fdf2c"
+        },
+        {
+          "path": "formal/A/groups/aime26_03__A_KeyH128__L28.npz",
+          "bytes": 35099455,
+          "sha256": "3df297d5a5dcb6a0c8aed1d42b566b2aa48d4e9b467b47b7e817799384a12375"
+        },
+        {
+          "path": "formal/A/groups/aime26_03__A_KeyH128__L29.npz",
+          "bytes": 35179362,
+          "sha256": "d259cb82a95ccd83ddd5bc451bdcc6a2838131865b23967243f7aa6aa51c34fa"
+        },
+        {
+          "path": "formal/A/groups/aime26_03__A_KeyH128__L30.npz",
+          "bytes": 35184233,
+          "sha256": "c786f320206bcb51a0e5c0926d5b7a38a2c98ec950c44dcdf210195dff0deea8"
+        },
+        {
+          "path": "formal/A/groups/aime26_03__A_Native__L00.npz",
+          "bytes": 35469815,
+          "sha256": "ae74e03f9e3eb07758db818047652f7c84d7398efceb40e7250629c55b4055c0"
+        },
+        {
+          "path": "formal/A/groups/aime26_03__A_Native__L01.npz",
+          "bytes": 35663259,
+          "sha256": "6a42eb7eed0afbe380675a243ad77ae5f18447e71f9a113730b86c6dd9bb36c3"
+        },
+        {
+          "path": "formal/A/groups/aime26_03__A_Native__L02.npz",
+          "bytes": 35663456,
+          "sha256": "c7721353ecfb35bbc212ccc0b6d9f8663e2f37a87aaee220f0614384246b7889"
+        },
+        {
+          "path": "formal/A/groups/aime26_03__A_Native__L04.npz",
+          "bytes": 35704244,
+          "sha256": "dc4434c84a12521a6c0ae98f8c67f2e0ca6954de8c12538e8d30b79ecdf6efbe"
+        },
+        {
+          "path": "formal/A/groups/aime26_03__A_Native__L05.npz",
+          "bytes": 35679757,
+          "sha256": "04fc503ed306b4ccb372bce87f03d1b0235599fb426d2ddce7c238abe69b02e4"
+        },
+        {
+          "path": "formal/A/groups/aime26_03__A_Native__L06.npz",
+          "bytes": 35654534,
+          "sha256": "00c21c78defe565d20de26251e78dd4d0646ebc8a428912beb7faedee5c126cc"
+        },
+        {
+          "path": "formal/A/groups/aime26_03__A_Native__L08.npz",
+          "bytes": 35657852,
+          "sha256": "e8c521ceb046548c5e09f2f4f120c208cbee1ba7a408e855181da5e5844fd608"
+        },
+        {
+          "path": "formal/A/groups/aime26_03__A_Native__L09.npz",
+          "bytes": 35621154,
+          "sha256": "f7aa5bc75f97f1fd978113b5b3db78806f3ac2f4c94a2b2b65466aeab62ae069"
+        },
+        {
+          "path": "formal/A/groups/aime26_03__A_Native__L10.npz",
+          "bytes": 35644071,
+          "sha256": "96f682ef64a78ce68c8a362f83ae5a15f5a1690f05c214d26b920c4e76e6e2fa"
+        },
+        {
+          "path": "formal/A/groups/aime26_03__A_Native__L12.npz",
+          "bytes": 35650226,
+          "sha256": "4bb9693b6d6fd09dc317d1097d451fd2e384358f88b53d5f41bdedaef139c8ca"
+        },
+        {
+          "path": "formal/A/groups/aime26_03__A_Native__L13.npz",
+          "bytes": 35669628,
+          "sha256": "8a862c394497279464db79cc4a8749de323979291417e49f52859c8cc0a4715f"
+        },
+        {
+          "path": "formal/A/groups/aime26_03__A_Native__L14.npz",
+          "bytes": 35642051,
+          "sha256": "3b8b0ac34eee7296f58188d63104863b00880bf634dda169669cdef6d53630c6"
+        },
+        {
+          "path": "formal/A/groups/aime26_03__A_Native__L16.npz",
+          "bytes": 35592580,
+          "sha256": "d82d8d62d011534070ed46a15347498f3a1414cf1d5a44b6b1e3af6b9013b2e2"
+        },
+        {
+          "path": "formal/A/groups/aime26_03__A_Native__L17.npz",
+          "bytes": 35596807,
+          "sha256": "38aae35b0437c32981eb89cde8afbff3b1aa6bccdd91908b8816bd33a7898747"
+        },
+        {
+          "path": "formal/A/groups/aime26_03__A_Native__L18.npz",
+          "bytes": 35592982,
+          "sha256": "d8856fad534c8d645a5eb7be794194f9ef9b8a58092cd8af6c3251bdcc3b4fc4"
+        },
+        {
+          "path": "formal/A/groups/aime26_03__A_Native__L20.npz",
+          "bytes": 35627035,
+          "sha256": "8fd8b40fdec20f95fb58e3149b0b5560e700a4f895508448a548f858b7dc11fd"
+        },
+        {
+          "path": "formal/A/groups/aime26_03__A_Native__L21.npz",
+          "bytes": 35661171,
+          "sha256": "917236eb4347672e04b30b1dee58cc22d710a4e284261967b1549c45c97f5b40"
+        },
+        {
+          "path": "formal/A/groups/aime26_03__A_Native__L22.npz",
+          "bytes": 35672806,
+          "sha256": "caee5e303ee0cfe08f3b57c65c04951845c963cd84debaeb94d8bee00f33179c"
+        },
+        {
+          "path": "formal/A/groups/aime26_03__A_Native__L24.npz",
+          "bytes": 35707303,
+          "sha256": "3abf624fa06675915595eb1025d8f54709debeaee0f6127b3980333def0f5015"
+        },
+        {
+          "path": "formal/A/groups/aime26_03__A_Native__L25.npz",
+          "bytes": 35732838,
+          "sha256": "8ec72342abb3b12cfc305b1348d33f855f5ae8e627ed6f207d14453216632808"
+        },
+        {
+          "path": "formal/A/groups/aime26_03__A_Native__L26.npz",
+          "bytes": 35710123,
+          "sha256": "13df67f9c7c6f0e4d73dfb040768a69580eeb046f494aeebac4a007484cacd8f"
+        },
+        {
+          "path": "formal/A/groups/aime26_03__A_Native__L28.npz",
+          "bytes": 35648061,
+          "sha256": "efbf940de91610dc233bc16c9bea920b1e40bb4fc30cd07c18d39e3563b25e78"
+        },
+        {
+          "path": "formal/A/groups/aime26_03__A_Native__L29.npz",
+          "bytes": 35701262,
+          "sha256": "dcd2d017b7c84609b4cffe2ccd8ac10b38ad8137cc237a838d745cf99767acbb"
+        },
+        {
+          "path": "formal/A/groups/aime26_03__A_Native__L30.npz",
+          "bytes": 35699940,
+          "sha256": "9601f45e5c27ebd949df2179e9fcd068e772f2911ee0455f77105b2782e2ce30"
+        }
+      ]
+    },
+    {
+      "name": "gdn-state-20261102-A-aime26_04-groups.tar",
+      "bytes": 1699153920,
+      "sha256": "c733429bc76a2066f9cc3c0e2f076943b339eeac479f45dd9174cf59164680d0",
+      "url": "https://github.com/pytenter/learned-rotation-quantization/releases/download/qwen35-9b-gdn-state-h128-c128-20261102/gdn-state-20261102-A-aime26_04-groups.tar",
+      "extract_into": "results/2026-11-02-qwen35-9b-gdn-state-h128-c128",
+      "files": [
+        {
+          "path": "formal/A/groups/aime26_04__A_KeyH128__L00.npz",
+          "bytes": 34994411,
+          "sha256": "f41fc4e76a8b0d1b1202c86ae140a21d0e7164e7586106b3238509a682c03fa6"
+        },
+        {
+          "path": "formal/A/groups/aime26_04__A_KeyH128__L01.npz",
+          "bytes": 35173166,
+          "sha256": "8475aff99b812be4a2e0a31c79309ab16b94820a7e7063f5f708015f5dab6a05"
+        },
+        {
+          "path": "formal/A/groups/aime26_04__A_KeyH128__L02.npz",
+          "bytes": 35177225,
+          "sha256": "068a7c10b1cbe5bc85e5d4a61499bd5ecd5a3a4c1d38a7d5bb4f2a59cc398c57"
+        },
+        {
+          "path": "formal/A/groups/aime26_04__A_KeyH128__L04.npz",
+          "bytes": 35152898,
+          "sha256": "e69a2431fd2db13cdbebafb51e309b484f1783287afd35f077f9c7f669e9ddee"
+        },
+        {
+          "path": "formal/A/groups/aime26_04__A_KeyH128__L05.npz",
+          "bytes": 35152978,
+          "sha256": "6048b517635bc1ec4821af1fd3c859a53556b84143eb33c31cd997c07c845d79"
+        },
+        {
+          "path": "formal/A/groups/aime26_04__A_KeyH128__L06.npz",
+          "bytes": 35162488,
+          "sha256": "977da77b542b26a223213efb11d9b6143902489192c300b61887030b7ee03d7e"
+        },
+        {
+          "path": "formal/A/groups/aime26_04__A_KeyH128__L08.npz",
+          "bytes": 35113413,
+          "sha256": "b1e56e4cb789d8fc299b59604003fea146a929b2e18049171550263a49a5380b"
+        },
+        {
+          "path": "formal/A/groups/aime26_04__A_KeyH128__L09.npz",
+          "bytes": 35123288,
+          "sha256": "f6c7f47ea1c7676100e6d399d088859c07a36fa2e763d180d9b091aa2eacee21"
+        },
+        {
+          "path": "formal/A/groups/aime26_04__A_KeyH128__L10.npz",
+          "bytes": 35141210,
+          "sha256": "34994ebc4b70b1d579be21218b144f5524bea102236774292ab50a6680c5cdb8"
+        },
+        {
+          "path": "formal/A/groups/aime26_04__A_KeyH128__L12.npz",
+          "bytes": 35157238,
+          "sha256": "37e67c2608972245954b4e8d72946729b7e0ecba86c50c277c4237062a772282"
+        },
+        {
+          "path": "formal/A/groups/aime26_04__A_KeyH128__L13.npz",
+          "bytes": 35177762,
+          "sha256": "8b558b362b60a54d791dbb80b1858fc1e11f038bd6944786c6e7cc72a7422ed5"
+        },
+        {
+          "path": "formal/A/groups/aime26_04__A_KeyH128__L14.npz",
+          "bytes": 35139840,
+          "sha256": "485faca544bdb48453ebedc67272c310d8371044d079bd9666e0606f5cb672bb"
+        },
+        {
+          "path": "formal/A/groups/aime26_04__A_KeyH128__L16.npz",
+          "bytes": 35128155,
+          "sha256": "165653f9910e8ab7ce8fba7c9f11e7e454372dfacd37cf6efdd5dfd8b04244f1"
+        },
+        {
+          "path": "formal/A/groups/aime26_04__A_KeyH128__L17.npz",
+          "bytes": 35141037,
+          "sha256": "6ad85779e1e3657f568ce8397994a6ce4c6706ba2e644b7b49e8aef6831f7a89"
+        },
+        {
+          "path": "formal/A/groups/aime26_04__A_KeyH128__L18.npz",
+          "bytes": 35146814,
+          "sha256": "03a66081985a89516ddb28a8421949919ac29a8d3affd77dad7f1c347118f72d"
+        },
+        {
+          "path": "formal/A/groups/aime26_04__A_KeyH128__L20.npz",
+          "bytes": 35165558,
+          "sha256": "59e2e148e31c8321dc82ae46de0661b7015d43a8fab755e5c2a0e50413cb6963"
+        },
+        {
+          "path": "formal/A/groups/aime26_04__A_KeyH128__L21.npz",
+          "bytes": 35149298,
+          "sha256": "6a8d5e304e5ef7f63ee373d2ebdf357356380b680b2a4026aaef808b5fe40e48"
+        },
+        {
+          "path": "formal/A/groups/aime26_04__A_KeyH128__L22.npz",
+          "bytes": 35161535,
+          "sha256": "3a38f99456818b8e883642dcf99fc201ec072c7c7619c7c14af236adb584373e"
+        },
+        {
+          "path": "formal/A/groups/aime26_04__A_KeyH128__L24.npz",
+          "bytes": 35131932,
+          "sha256": "4f7c96c362bbbd86fee99f2f8741982f50d81529962f926574e848928a8ca484"
+        },
+        {
+          "path": "formal/A/groups/aime26_04__A_KeyH128__L25.npz",
+          "bytes": 35157142,
+          "sha256": "87e8402a81c06a0ce8ab10c8a9d9fb443cba2c4c4afb28591746eb2273f2d385"
+        },
+        {
+          "path": "formal/A/groups/aime26_04__A_KeyH128__L26.npz",
+          "bytes": 35098610,
+          "sha256": "a1e6454ef162393283d7b72a9f0066f4a6924b5159a65c77a24d27597607e01e"
+        },
+        {
+          "path": "formal/A/groups/aime26_04__A_KeyH128__L28.npz",
+          "bytes": 35099015,
+          "sha256": "fa96949ccfdd8500375d9f9649f73e0e5702bb85517644773e431c4f3fa78e95"
+        },
+        {
+          "path": "formal/A/groups/aime26_04__A_KeyH128__L29.npz",
+          "bytes": 35180112,
+          "sha256": "e0b6f871af81a7db8c84986569f7a12ef0582e435694849978476cce12777125"
+        },
+        {
+          "path": "formal/A/groups/aime26_04__A_KeyH128__L30.npz",
+          "bytes": 35183032,
+          "sha256": "8712fb336e13e10dbff614b1ef3fdd5b43c0fb1e0ec61f302fa0a420f4116435"
+        },
+        {
+          "path": "formal/A/groups/aime26_04__A_Native__L00.npz",
+          "bytes": 35468605,
+          "sha256": "7ea1c29e432a3974efb2e3dcb1057df7a2cd760df0ce9928dc474046a004813c"
+        },
+        {
+          "path": "formal/A/groups/aime26_04__A_Native__L01.npz",
+          "bytes": 35655954,
+          "sha256": "3ef30c3875bfdf17dab13c2e45bc73b5b047bf497ec09ef9bcf92e29d836fb70"
+        },
+        {
+          "path": "formal/A/groups/aime26_04__A_Native__L02.npz",
+          "bytes": 35668990,
+          "sha256": "474e0e580cca3eff87819151c9df2223e2a8c7c34e6b9f8c04227d66252aaa23"
+        },
+        {
+          "path": "formal/A/groups/aime26_04__A_Native__L04.npz",
+          "bytes": 35701669,
+          "sha256": "9de06f580e80506870a402b4494f9fca9c0179012873d94350a2c53b629ff438"
+        },
+        {
+          "path": "formal/A/groups/aime26_04__A_Native__L05.npz",
+          "bytes": 35676118,
+          "sha256": "fb86f3f30170d855ef556bd335b96f4a2b89110cec2aefe4e79bce971de10991"
+        },
+        {
+          "path": "formal/A/groups/aime26_04__A_Native__L06.npz",
+          "bytes": 35658682,
+          "sha256": "e603acee12de0750a77f5747c5c41f0bc3889f1c6cf075265f76af6c2a112c9e"
+        },
+        {
+          "path": "formal/A/groups/aime26_04__A_Native__L08.npz",
+          "bytes": 35648730,
+          "sha256": "9018d98c073f146e570df487e9342b999923bd7b44108e85e12c82ab765ed11c"
+        },
+        {
+          "path": "formal/A/groups/aime26_04__A_Native__L09.npz",
+          "bytes": 35617820,
+          "sha256": "4a4db7c12a3abfed0de6cdae4a886e3c43948d55ba3b1ee25efd6f886b97b6c1"
+        },
+        {
+          "path": "formal/A/groups/aime26_04__A_Native__L10.npz",
+          "bytes": 35642818,
+          "sha256": "3b6bb745b80d7c9ff044be2b3f0c4e9139acdf12c7d157294c1a6464dcb8ebed"
+        },
+        {
+          "path": "formal/A/groups/aime26_04__A_Native__L12.npz",
+          "bytes": 35653377,
+          "sha256": "c839cd9cc1e475c9f59a62c0e826b1f29d2fa2d097e8e288ed884cb96a8a1dad"
+        },
+        {
+          "path": "formal/A/groups/aime26_04__A_Native__L13.npz",
+          "bytes": 35678736,
+          "sha256": "847ae4557d78377966d08e26f10b6c54787cd25d5b8dc6fba4104c9402706252"
+        },
+        {
+          "path": "formal/A/groups/aime26_04__A_Native__L14.npz",
+          "bytes": 35632541,
+          "sha256": "32fffa3df523d0e121d32100ca9db22bf61e57a76a1a198d83066d6442e01302"
+        },
+        {
+          "path": "formal/A/groups/aime26_04__A_Native__L16.npz",
+          "bytes": 35591291,
+          "sha256": "2a3695a9f046d29f09414fd209feb29576eddceb21fa4f9492cf29d5ea53241b"
+        },
+        {
+          "path": "formal/A/groups/aime26_04__A_Native__L17.npz",
+          "bytes": 35596641,
+          "sha256": "1ab314a7892660b78a6989207b702a7d45705f6bfc32dd12c57b012e3d01234a"
+        },
+        {
+          "path": "formal/A/groups/aime26_04__A_Native__L18.npz",
+          "bytes": 35584981,
+          "sha256": "cb0ae92f94e105c2cec51c522c864310e90060f16e3f1e252885f898977e10f2"
+        },
+        {
+          "path": "formal/A/groups/aime26_04__A_Native__L20.npz",
+          "bytes": 35631037,
+          "sha256": "60531726d89ecadb802bc8da18d291be00b10b6fa89ac0145742a353989b4a3d"
+        },
+        {
+          "path": "formal/A/groups/aime26_04__A_Native__L21.npz",
+          "bytes": 35668340,
+          "sha256": "9467df87f784cdb6f637bf121dc3fbb5411d43d3cabc41bf3203fba66a9df894"
+        },
+        {
+          "path": "formal/A/groups/aime26_04__A_Native__L22.npz",
+          "bytes": 35683587,
+          "sha256": "6166b24566b7e892c97724cebd5028baf220b650aba19cbbd15c9bb596776bfa"
+        },
+        {
+          "path": "formal/A/groups/aime26_04__A_Native__L24.npz",
+          "bytes": 35709593,
+          "sha256": "e0c72ed91ca47bf4bf127ed2be6b481cad606476151474cbbb33d116555eecc3"
+        },
+        {
+          "path": "formal/A/groups/aime26_04__A_Native__L25.npz",
+          "bytes": 35738775,
+          "sha256": "bb75f3dd2db9cec5d7e34979f4f0068cbce7d9630daeeb1c47dcd1fc02ca277b"
+        },
+        {
+          "path": "formal/A/groups/aime26_04__A_Native__L26.npz",
+          "bytes": 35723176,
+          "sha256": "59cee29206ddb94038d2b786f0c063720c950e5bf4e99ae059f8c96dacffa127"
+        },
+        {
+          "path": "formal/A/groups/aime26_04__A_Native__L28.npz",
+          "bytes": 35662946,
+          "sha256": "0dcffa32a7c35fc680bdc418c49aecb0e74d92661975b4e8b9b270bbab27c023"
+        },
+        {
+          "path": "formal/A/groups/aime26_04__A_Native__L29.npz",
+          "bytes": 35703591,
+          "sha256": "e92dd0f9de223598a4560fdfbae6b3283f7ed160ce234b1bf1eaa4404b7c6e82"
+        },
+        {
+          "path": "formal/A/groups/aime26_04__A_Native__L30.npz",
+          "bytes": 35701652,
+          "sha256": "c87e8f6adf6ba1f62759cfab23cd15d85de0fd6b5a12d8410fbd2f0e49e38898"
+        }
+      ]
+    },
+    {
+      "name": "gdn-state-20261102-B-aime26_01-groups.tar",
+      "bytes": 1704919040,
+      "sha256": "bef0e3bbc43dbdc0a479cb117cd2b6dfa35a8012c2cdec64b83657b0cfd5621e",
+      "url": "https://github.com/pytenter/learned-rotation-quantization/releases/download/qwen35-9b-gdn-state-h128-c128-20261102/gdn-state-20261102-B-aime26_01-groups.tar",
+      "extract_into": "results/2026-11-02-qwen35-9b-gdn-state-h128-c128",
+      "files": [
+        {
+          "path": "formal/B/groups/aime26_01__B_KeyH128__L00.npz",
+          "bytes": 35057770,
+          "sha256": "ab0d4527a81a8ca5a4ee95f05e5e75cdce2cf2a9cc2411674e505a409dc4a601"
+        },
+        {
+          "path": "formal/B/groups/aime26_01__B_KeyH128__L01.npz",
+          "bytes": 35222607,
+          "sha256": "3b135b5e068438fab34781821010d0fbb0e5b33fc971a8d037ec551261e3fe92"
+        },
+        {
+          "path": "formal/B/groups/aime26_01__B_KeyH128__L02.npz",
+          "bytes": 35177975,
+          "sha256": "e0f04798127fc258de52fcc1648b19f9035255efb93fa36fa5d6e539a681933e"
+        },
+        {
+          "path": "formal/B/groups/aime26_01__B_KeyH128__L04.npz",
+          "bytes": 35184903,
+          "sha256": "6605e46a357fb3f40f46d52aa8e05185b2b984250be169cb3767b67d738e1dff"
+        },
+        {
+          "path": "formal/B/groups/aime26_01__B_KeyH128__L05.npz",
+          "bytes": 35188701,
+          "sha256": "3ade6194900e260c31e3d4002da66db4c758758bc2f11638ee44a817650ffd6e"
+        },
+        {
+          "path": "formal/B/groups/aime26_01__B_KeyH128__L06.npz",
+          "bytes": 35207636,
+          "sha256": "3faeaea230a3f9d6567710053e96cf605549e6d4bdd3954b28ccc465396ce24d"
+        },
+        {
+          "path": "formal/B/groups/aime26_01__B_KeyH128__L08.npz",
+          "bytes": 35179378,
+          "sha256": "21cbf5c789ba75eba4c3a04e892be100bb62c7c3fa55e0682e148cc12dfe8d66"
+        },
+        {
+          "path": "formal/B/groups/aime26_01__B_KeyH128__L09.npz",
+          "bytes": 35211267,
+          "sha256": "866c2954444e86761beefac468dc35a1678315ff83f79bef9f2a7f6f7763b70d"
+        },
+        {
+          "path": "formal/B/groups/aime26_01__B_KeyH128__L10.npz",
+          "bytes": 35224184,
+          "sha256": "bec030dc1c5b4dc76724a2a5c3a0844f35d1d555b6b5d07e4c967942d9cbf5f3"
+        },
+        {
+          "path": "formal/B/groups/aime26_01__B_KeyH128__L12.npz",
+          "bytes": 35257687,
+          "sha256": "e3907e3228864dfcbc4baa9285533549b3601de85175e682fa7f06bb48ef8d1a"
+        },
+        {
+          "path": "formal/B/groups/aime26_01__B_KeyH128__L13.npz",
+          "bytes": 35237072,
+          "sha256": "3092d73720b876508235b8591a814af440c0733eb5f9fce47b395126382b656b"
+        },
+        {
+          "path": "formal/B/groups/aime26_01__B_KeyH128__L14.npz",
+          "bytes": 35181321,
+          "sha256": "d16f527b016e4f7fe39005cb2918b56323eeb238309e642c4e617917644c508c"
+        },
+        {
+          "path": "formal/B/groups/aime26_01__B_KeyH128__L16.npz",
+          "bytes": 35222334,
+          "sha256": "f8322da4eee4f84f65297b52beb5b2b9c298d8d9b9758e189a2ef91ab3525572"
+        },
+        {
+          "path": "formal/B/groups/aime26_01__B_KeyH128__L17.npz",
+          "bytes": 35170919,
+          "sha256": "a0e6e9f3af10f22540c55e4582d2fb289f8f367cfa9e43dfa0ecfa1326c8824d"
+        },
+        {
+          "path": "formal/B/groups/aime26_01__B_KeyH128__L18.npz",
+          "bytes": 35199669,
+          "sha256": "d6f220474511d71a84e864cc9f9a7b62a5e9b0b1acba19098764f307b8443127"
+        },
+        {
+          "path": "formal/B/groups/aime26_01__B_KeyH128__L20.npz",
+          "bytes": 35287002,
+          "sha256": "423054f6173a9d7faca54c5050f3f32ba1194807deca95217a3f6baf9a059d18"
+        },
+        {
+          "path": "formal/B/groups/aime26_01__B_KeyH128__L21.npz",
+          "bytes": 35240512,
+          "sha256": "8309b37c64399f8cd758b766750070f016c7cd6d25f56289cb8c3434c19acb2f"
+        },
+        {
+          "path": "formal/B/groups/aime26_01__B_KeyH128__L22.npz",
+          "bytes": 35176427,
+          "sha256": "dced26f480333afd2c40cb81d090c1aa8cc8115e61e278220acc09cda6212d3e"
+        },
+        {
+          "path": "formal/B/groups/aime26_01__B_KeyH128__L24.npz",
+          "bytes": 35269293,
+          "sha256": "a823ea872504744028a58bb4e972b6e2ff1a27129ef84756be1a6376c7599254"
+        },
+        {
+          "path": "formal/B/groups/aime26_01__B_KeyH128__L25.npz",
+          "bytes": 35188680,
+          "sha256": "56ec8fe6e9fd47443e08208b690da80d1a1a2c424d0a931f5789cda00eac998b"
+        },
+        {
+          "path": "formal/B/groups/aime26_01__B_KeyH128__L26.npz",
+          "bytes": 35135216,
+          "sha256": "c81f6967c75ff9476d96707af762e209e40642e100516a6c13de6d31da87ff75"
+        },
+        {
+          "path": "formal/B/groups/aime26_01__B_KeyH128__L28.npz",
+          "bytes": 35146566,
+          "sha256": "41f5db10e81c9ac372a518e5483b6cb2eff9cce237fbfaf0ce18376cfecb4543"
+        },
+        {
+          "path": "formal/B/groups/aime26_01__B_KeyH128__L29.npz",
+          "bytes": 35227912,
+          "sha256": "fec7bf37e7f8917a3f3871fd691d043d80c4548e6772cd13a5deae91f23069aa"
+        },
+        {
+          "path": "formal/B/groups/aime26_01__B_KeyH128__L30.npz",
+          "bytes": 35274136,
+          "sha256": "6e33357b8e318577789b395172235cfad919e6baaa78078951113c5d15b3589c"
+        },
+        {
+          "path": "formal/B/groups/aime26_01__B_Native__L00.npz",
+          "bytes": 35635759,
+          "sha256": "7db614a1be42852a76bfb9a41d9508112c103d4046ba633c3e33c699fd099d01"
+        },
+        {
+          "path": "formal/B/groups/aime26_01__B_Native__L01.npz",
+          "bytes": 35801915,
+          "sha256": "401427d30b4e6a07ca8d08b1ee2e095aeb2b78c895499fc7b84994038ba0bc02"
+        },
+        {
+          "path": "formal/B/groups/aime26_01__B_Native__L02.npz",
+          "bytes": 35780128,
+          "sha256": "8e24524e06499427a56bda3c1318726ddaef32ddcdd538a082887aa97296af06"
+        },
+        {
+          "path": "formal/B/groups/aime26_01__B_Native__L04.npz",
+          "bytes": 35873341,
+          "sha256": "94e4624d4c42d09a9cd6776a8830330862aca534093e4af67eb614475724ae6e"
+        },
+        {
+          "path": "formal/B/groups/aime26_01__B_Native__L05.npz",
+          "bytes": 35863179,
+          "sha256": "907160e4a524b9cb7c14ae52fc0e66f8b6b2bc2eaf6307f843f8a85ebfd08171"
+        },
+        {
+          "path": "formal/B/groups/aime26_01__B_Native__L06.npz",
+          "bytes": 35813973,
+          "sha256": "da4b9e73588f11a8587d6c5865ef312cac89cfe0e37587be8bb3f786df3e3302"
+        },
+        {
+          "path": "formal/B/groups/aime26_01__B_Native__L08.npz",
+          "bytes": 35825598,
+          "sha256": "b310e222f896f4908b26da3a45d718c5c12782a3b42e732cac20bb69413b9958"
+        },
+        {
+          "path": "formal/B/groups/aime26_01__B_Native__L09.npz",
+          "bytes": 35837597,
+          "sha256": "ef8ac45ddf7e213d3fd98e7255bd240f24d3b04b4b0c7d6e272a81eef0588b32"
+        },
+        {
+          "path": "formal/B/groups/aime26_01__B_Native__L10.npz",
+          "bytes": 35836889,
+          "sha256": "7afb99a4d1a2b4df2cb10873708f05199b07af34811bf23aa53141266ab9a953"
+        },
+        {
+          "path": "formal/B/groups/aime26_01__B_Native__L12.npz",
+          "bytes": 35858249,
+          "sha256": "e84f2b1a66bf5a6798175c9ed2706e9d5e6f497047951df5e1d509674892c99b"
+        },
+        {
+          "path": "formal/B/groups/aime26_01__B_Native__L13.npz",
+          "bytes": 35839727,
+          "sha256": "d1560d5dc4fa3c1410bb6ae8c19a621a21657952289adad83df8537e367fc992"
+        },
+        {
+          "path": "formal/B/groups/aime26_01__B_Native__L14.npz",
+          "bytes": 35771365,
+          "sha256": "71682284cdbb8f93d0fb8bb32845f60f21c291125a4c3ba5b83886e0e51e18e3"
+        },
+        {
+          "path": "formal/B/groups/aime26_01__B_Native__L16.npz",
+          "bytes": 35777530,
+          "sha256": "d3500d0c3dd064fb126eb5bc07d9a466563af3721e05039f29bd52642bb12c03"
+        },
+        {
+          "path": "formal/B/groups/aime26_01__B_Native__L17.npz",
+          "bytes": 35726598,
+          "sha256": "9d5c9db9fc21d2378a2742c5cc3161e15c27a90c78c02bff389625e44b8f4a69"
+        },
+        {
+          "path": "formal/B/groups/aime26_01__B_Native__L18.npz",
+          "bytes": 35740402,
+          "sha256": "7c187c87c70b796a1f1a423c52f45c36ff8011b97f751bf9a225c60dda4186ef"
+        },
+        {
+          "path": "formal/B/groups/aime26_01__B_Native__L20.npz",
+          "bytes": 35853446,
+          "sha256": "2e120e9a1ca8652fdc117a8bc7c444db3e380c4daecc692168c017a5c6e07a23"
+        },
+        {
+          "path": "formal/B/groups/aime26_01__B_Native__L21.npz",
+          "bytes": 35881669,
+          "sha256": "68e6d366f8ff787af0a7d8b6ade212cdce3460a8204604ec39e58ef72d2c02a7"
+        },
+        {
+          "path": "formal/B/groups/aime26_01__B_Native__L22.npz",
+          "bytes": 35822316,
+          "sha256": "fe93b2f193659b721902aef9891f8c28ed0729e2e0e2e313664b754d9a81a72c"
+        },
+        {
+          "path": "formal/B/groups/aime26_01__B_Native__L24.npz",
+          "bytes": 35971902,
+          "sha256": "48bea7c4886dc4c0775790aa5836f0b0d83ee3d64848b4a213be8696b4fb019d"
+        },
+        {
+          "path": "formal/B/groups/aime26_01__B_Native__L25.npz",
+          "bytes": 35941478,
+          "sha256": "61848c9fedf16a59b7c66754e75dde792bf0dd43e9c34d29d90edd854b99cabe"
+        },
+        {
+          "path": "formal/B/groups/aime26_01__B_Native__L26.npz",
+          "bytes": 35920998,
+          "sha256": "6d275bac434f7d67d5f4d2ef455cae2f3bdcfaa21e0340917cc17105af42130f"
+        },
+        {
+          "path": "formal/B/groups/aime26_01__B_Native__L28.npz",
+          "bytes": 35819664,
+          "sha256": "fff3a3938bf2c3abbfc35d3add2faaf742aaca0bd86840a5766e230fde7f6514"
+        },
+        {
+          "path": "formal/B/groups/aime26_01__B_Native__L29.npz",
+          "bytes": 35895914,
+          "sha256": "7052e2c7ec927ad035403733af6e72d39c533001193c11ab1ff671baaf099108"
+        },
+        {
+          "path": "formal/B/groups/aime26_01__B_Native__L30.npz",
+          "bytes": 35914620,
+          "sha256": "1477d4f1962f7072c039b9fe1cb7ec6bf853252221d1c9dd914b4a5ca0c7ac65"
+        }
+      ]
+    },
+    {
+      "name": "gdn-state-20261102-B-aime26_02-groups.tar",
+      "bytes": 1704437760,
+      "sha256": "adecd735e524513b9d0da75d788a90a50f91d88e2668dbe6abecad77ff7aca18",
+      "url": "https://github.com/pytenter/learned-rotation-quantization/releases/download/qwen35-9b-gdn-state-h128-c128-20261102/gdn-state-20261102-B-aime26_02-groups.tar",
+      "extract_into": "results/2026-11-02-qwen35-9b-gdn-state-h128-c128",
+      "files": [
+        {
+          "path": "formal/B/groups/aime26_02__B_KeyH128__L00.npz",
+          "bytes": 35068295,
+          "sha256": "25151dfacfe367b671408bed1f829368b9e9ea346a11ccde7aeb2325f994afdf"
+        },
+        {
+          "path": "formal/B/groups/aime26_02__B_KeyH128__L01.npz",
+          "bytes": 35217935,
+          "sha256": "ebc2fdfa762a572fd1c820b4dfe226e139fbb792f6239dca70feed0857ae89bb"
+        },
+        {
+          "path": "formal/B/groups/aime26_02__B_KeyH128__L02.npz",
+          "bytes": 35178060,
+          "sha256": "8d7606fc1769c117bdb56c0aa0e81043863b95e8e16956eb19c5f53b784b2da7"
+        },
+        {
+          "path": "formal/B/groups/aime26_02__B_KeyH128__L04.npz",
+          "bytes": 35183696,
+          "sha256": "a61f0f541ad1caf784af851319d03a075f3398065f5bc26959d43625fe9d3212"
+        },
+        {
+          "path": "formal/B/groups/aime26_02__B_KeyH128__L05.npz",
+          "bytes": 35190541,
+          "sha256": "a240ca52c41eba5674392494ba047eceeee305df4bb460bc3166bea65475547d"
+        },
+        {
+          "path": "formal/B/groups/aime26_02__B_KeyH128__L06.npz",
+          "bytes": 35202756,
+          "sha256": "206da04322045f778f64e9af208c90d6a90f4ce9b1a0c96824f6e4436bf689f1"
+        },
+        {
+          "path": "formal/B/groups/aime26_02__B_KeyH128__L08.npz",
+          "bytes": 35174726,
+          "sha256": "3098f01d7ffab0bc5f29ca2132e99497b47a347cea700656e299d82e974f6066"
+        },
+        {
+          "path": "formal/B/groups/aime26_02__B_KeyH128__L09.npz",
+          "bytes": 35202456,
+          "sha256": "e50bb136065b928e54fdf2256101b96ff9b856c75a1249ff372c7d14fcbd9cdd"
+        },
+        {
+          "path": "formal/B/groups/aime26_02__B_KeyH128__L10.npz",
+          "bytes": 35215079,
+          "sha256": "32452063aa01a7cae6e7b6402d87bb214ee35147fd62644f2ff4e977cbec7b30"
+        },
+        {
+          "path": "formal/B/groups/aime26_02__B_KeyH128__L12.npz",
+          "bytes": 35245753,
+          "sha256": "3e4c86566a8a6ada99c141a03c6aae553a84c795bc481f8842e8aa8a93a17db3"
+        },
+        {
+          "path": "formal/B/groups/aime26_02__B_KeyH128__L13.npz",
+          "bytes": 35217811,
+          "sha256": "b7422ba87c8833f34da33abfd4a7ace56fa165d34a009424717dec73a394ec8a"
+        },
+        {
+          "path": "formal/B/groups/aime26_02__B_KeyH128__L14.npz",
+          "bytes": 35182889,
+          "sha256": "a9e92e3ab3474be828e58bcac3753458e56336f441dd49942a1d4d223efa6ac2"
+        },
+        {
+          "path": "formal/B/groups/aime26_02__B_KeyH128__L16.npz",
+          "bytes": 35199011,
+          "sha256": "a6e085c337309b4a12a82882c3bb880c9a4defe3e9d49a01011458611e89894e"
+        },
+        {
+          "path": "formal/B/groups/aime26_02__B_KeyH128__L17.npz",
+          "bytes": 35161874,
+          "sha256": "816a5cc08ed19869712d1e7e56c794d0e1c187b4597b00023d54842de49a5cd9"
+        },
+        {
+          "path": "formal/B/groups/aime26_02__B_KeyH128__L18.npz",
+          "bytes": 35191229,
+          "sha256": "e851f68f4d7c461f6d0e732e2d38804a8282304cacab424c5a8b1a281615e033"
+        },
+        {
+          "path": "formal/B/groups/aime26_02__B_KeyH128__L20.npz",
+          "bytes": 35261937,
+          "sha256": "89c07306fe5a13de60290f14a59037473d02fa386ceec7c594e7bd02ab6b63dc"
+        },
+        {
+          "path": "formal/B/groups/aime26_02__B_KeyH128__L21.npz",
+          "bytes": 35227916,
+          "sha256": "1e6c61d1407c8dbfe8195fcd98bc8b228f8088a40383dbb157886ae5e5881fa4"
+        },
+        {
+          "path": "formal/B/groups/aime26_02__B_KeyH128__L22.npz",
+          "bytes": 35170593,
+          "sha256": "648f46aea499d72dca9a5c6aad1d9ef31733b47197364e1b58a05511b4641ddc"
+        },
+        {
+          "path": "formal/B/groups/aime26_02__B_KeyH128__L24.npz",
+          "bytes": 35244864,
+          "sha256": "ad0917bf9a1a44769686f4dedef36354cda4be7e62675d90a521088104700baa"
+        },
+        {
+          "path": "formal/B/groups/aime26_02__B_KeyH128__L25.npz",
+          "bytes": 35178031,
+          "sha256": "b492406d2196a0296fc57752c5336abf5d7ba0e1ecdee6ec73b58717d62aed84"
+        },
+        {
+          "path": "formal/B/groups/aime26_02__B_KeyH128__L26.npz",
+          "bytes": 35122413,
+          "sha256": "86425d92324e8a34309289e7371a29bdca68947197bc770e7fa60fd7576bd3aa"
+        },
+        {
+          "path": "formal/B/groups/aime26_02__B_KeyH128__L28.npz",
+          "bytes": 35136785,
+          "sha256": "13ef9c9f374636e016d9caae230d2526aa45bab5089b3cfb1dca37c8574d7698"
+        },
+        {
+          "path": "formal/B/groups/aime26_02__B_KeyH128__L29.npz",
+          "bytes": 35227262,
+          "sha256": "691d9fd80966051effdc834b2dac94e9a97508fd4b46b49a2bb94bb6a463be21"
+        },
+        {
+          "path": "formal/B/groups/aime26_02__B_KeyH128__L30.npz",
+          "bytes": 35265295,
+          "sha256": "6adf5b60e36ba72ba523603ebb77a3bb1fbc4d5ffb39fbcbb7ef0eaec8ab6c73"
+        },
+        {
+          "path": "formal/B/groups/aime26_02__B_Native__L00.npz",
+          "bytes": 35640353,
+          "sha256": "ed90482d678f9898ca727c86978d036eaca94645443b4ef43e206b64dd8a0ca9"
+        },
+        {
+          "path": "formal/B/groups/aime26_02__B_Native__L01.npz",
+          "bytes": 35804705,
+          "sha256": "b92eaee60354bd08db39976fa4008e5328f2b76ff01f098fb6c66825d491d5db"
+        },
+        {
+          "path": "formal/B/groups/aime26_02__B_Native__L02.npz",
+          "bytes": 35778036,
+          "sha256": "4ecfbe6533a2f22e8d9b01ce3a701fada03059c3632194031a3bff7190bba65d"
+        },
+        {
+          "path": "formal/B/groups/aime26_02__B_Native__L04.npz",
+          "bytes": 35867352,
+          "sha256": "7243d45da6d2aabdf0f277335de19c696395ae4fe98261adfb2f65c9ceea5253"
+        },
+        {
+          "path": "formal/B/groups/aime26_02__B_Native__L05.npz",
+          "bytes": 35854502,
+          "sha256": "2b1cca3971389dbfce4d37dc985b30d71bed026e7265df81d2a75d2cb4590692"
+        },
+        {
+          "path": "formal/B/groups/aime26_02__B_Native__L06.npz",
+          "bytes": 35801716,
+          "sha256": "1f3bafe0b6e56242156a3108579ffdfeba0d5ed28e7962ad6fd2fc8412a8c111"
+        },
+        {
+          "path": "formal/B/groups/aime26_02__B_Native__L08.npz",
+          "bytes": 35816005,
+          "sha256": "310434ed6f8e61fac1533c39a399778fbb5933dedd8a4394b7318542921f0e89"
+        },
+        {
+          "path": "formal/B/groups/aime26_02__B_Native__L09.npz",
+          "bytes": 35831726,
+          "sha256": "34aab9730bf0fca3dc56e78f5370d4143bca5e0c032bb02fb495037ce55f1a8a"
+        },
+        {
+          "path": "formal/B/groups/aime26_02__B_Native__L10.npz",
+          "bytes": 35824585,
+          "sha256": "eefbb781cc714aa541455289d100532db012c6299857dd1095c53b9785df6d30"
+        },
+        {
+          "path": "formal/B/groups/aime26_02__B_Native__L12.npz",
+          "bytes": 35842441,
+          "sha256": "50411f2148509b351b43ee4dfc6d3d602cdfa91874bef2f74c39e3ed56a42acf"
+        },
+        {
+          "path": "formal/B/groups/aime26_02__B_Native__L13.npz",
+          "bytes": 35829706,
+          "sha256": "3cbfd83bd89393872d9d5403bcc53432960533fd52bf8239a89866c6b4d2b33b"
+        },
+        {
+          "path": "formal/B/groups/aime26_02__B_Native__L14.npz",
+          "bytes": 35772089,
+          "sha256": "034cd77fadd4a826b9e138d692a99287e322375272f200b856258ed20767bc94"
+        },
+        {
+          "path": "formal/B/groups/aime26_02__B_Native__L16.npz",
+          "bytes": 35767287,
+          "sha256": "2873bbd2f7cb7c0a21c8041375069c79850d41dac04b4b2f06824ba802168e9c"
+        },
+        {
+          "path": "formal/B/groups/aime26_02__B_Native__L17.npz",
+          "bytes": 35713159,
+          "sha256": "916e9ea67d676a00cdeb602156be38fc7e8837963f0deeebb5f00874b2155083"
+        },
+        {
+          "path": "formal/B/groups/aime26_02__B_Native__L18.npz",
+          "bytes": 35727158,
+          "sha256": "3bda4f00f0b6fc1d1773b6320a37008a013fa1bd44908ad2b7bd8d131ebf5164"
+        },
+        {
+          "path": "formal/B/groups/aime26_02__B_Native__L20.npz",
+          "bytes": 35835838,
+          "sha256": "94df7307d9672f37664124a7850a68f0b3527bb148d44c9b067b5f71d9c50204"
+        },
+        {
+          "path": "formal/B/groups/aime26_02__B_Native__L21.npz",
+          "bytes": 35860027,
+          "sha256": "e81bd3f30b4fb28549c970918e819f526ebbf689a6fa771081e4b3bada9e75de"
+        },
+        {
+          "path": "formal/B/groups/aime26_02__B_Native__L22.npz",
+          "bytes": 35806256,
+          "sha256": "bfc48baf474ca0cda68fa510e1de161356cae5059cb09b80fe2643366d4590fb"
+        },
+        {
+          "path": "formal/B/groups/aime26_02__B_Native__L24.npz",
+          "bytes": 35950444,
+          "sha256": "082183969b24a04e51d75f52e08c9557d73ed658da7a054e934af9d2cf5b1cba"
+        },
+        {
+          "path": "formal/B/groups/aime26_02__B_Native__L25.npz",
+          "bytes": 35932382,
+          "sha256": "8942ae25735bc35cd6db9f3a360743f2a7c102d9aede76c2b0e5edf846f5074a"
+        },
+        {
+          "path": "formal/B/groups/aime26_02__B_Native__L26.npz",
+          "bytes": 35902786,
+          "sha256": "26ea025104c66caf0164701c39bef59aa153592cfff06f8681803be176652090"
+        },
+        {
+          "path": "formal/B/groups/aime26_02__B_Native__L28.npz",
+          "bytes": 35803203,
+          "sha256": "faad2594c8574e374961c5d3781e2badc872681b5adecb6554e348ab394a7020"
+        },
+        {
+          "path": "formal/B/groups/aime26_02__B_Native__L29.npz",
+          "bytes": 35878405,
+          "sha256": "55f39aef8480f102de45e04ec6073a14f6595f676cfc684991e913f674464a8c"
+        },
+        {
+          "path": "formal/B/groups/aime26_02__B_Native__L30.npz",
+          "bytes": 35888701,
+          "sha256": "eef24655a5d2db9ce1a29caea53ec6557aab6b244903891377e1047f8af86f94"
+        }
+      ]
+    },
+    {
+      "name": "gdn-state-20261102-B-aime26_03-groups.tar",
+      "bytes": 1703966720,
+      "sha256": "cdd9d1e42192f577f3629e00750b4627164f9c6a374d2b80fc1688ff9d99de91",
+      "url": "https://github.com/pytenter/learned-rotation-quantization/releases/download/qwen35-9b-gdn-state-h128-c128-20261102/gdn-state-20261102-B-aime26_03-groups.tar",
+      "extract_into": "results/2026-11-02-qwen35-9b-gdn-state-h128-c128",
+      "files": [
+        {
+          "path": "formal/B/groups/aime26_03__B_KeyH128__L00.npz",
+          "bytes": 35055975,
+          "sha256": "8e438aa59ba3ecbce24e673743c9db65ed34bd129e2ca754d3ed2859cbb251eb"
+        },
+        {
+          "path": "formal/B/groups/aime26_03__B_KeyH128__L01.npz",
+          "bytes": 35212158,
+          "sha256": "423d7e24436aa0c8903c3d9c5c2f992d4a2878b5da78c178d270f0f48e46276e"
+        },
+        {
+          "path": "formal/B/groups/aime26_03__B_KeyH128__L02.npz",
+          "bytes": 35163831,
+          "sha256": "bbd496c2911328fedc6ddaad2770abe498934c01d51e27b50b2d754a3f9e2c7a"
+        },
+        {
+          "path": "formal/B/groups/aime26_03__B_KeyH128__L04.npz",
+          "bytes": 35179918,
+          "sha256": "d0652143cdf369921a69265db755a40a258a62ce8e0ff37b5f9fc74f0b01c09c"
+        },
+        {
+          "path": "formal/B/groups/aime26_03__B_KeyH128__L05.npz",
+          "bytes": 35182380,
+          "sha256": "2d9a4beea7dd097daf65c3cef22459c5113b2c55f5c7caf1c7537bff0458e3b3"
+        },
+        {
+          "path": "formal/B/groups/aime26_03__B_KeyH128__L06.npz",
+          "bytes": 35203837,
+          "sha256": "8b9e069976eb979239d9f7ab5fb8a309da9a95059d110ce2c872bdec1c15feeb"
+        },
+        {
+          "path": "formal/B/groups/aime26_03__B_KeyH128__L08.npz",
+          "bytes": 35179080,
+          "sha256": "d10537a0d9ac18a219373933e45751cbc94b74a94f5e4e35250a6d4c849153d7"
+        },
+        {
+          "path": "formal/B/groups/aime26_03__B_KeyH128__L09.npz",
+          "bytes": 35197873,
+          "sha256": "ca792e3228486bc7372383f16108f08341895545f331616e5a3ee70a3131238e"
+        },
+        {
+          "path": "formal/B/groups/aime26_03__B_KeyH128__L10.npz",
+          "bytes": 35215660,
+          "sha256": "b293bf647ef4cb02cef34a22c870b94edb29dff87430e8eef3470dd5a72eb6e7"
+        },
+        {
+          "path": "formal/B/groups/aime26_03__B_KeyH128__L12.npz",
+          "bytes": 35250055,
+          "sha256": "8392f4450ad0074a98fa1953e9b1fb6175a7c5ef6fd66d604c927259679484a4"
+        },
+        {
+          "path": "formal/B/groups/aime26_03__B_KeyH128__L13.npz",
+          "bytes": 35225691,
+          "sha256": "6dfdec651bf4c701c0f5155f57a7f4b6bd57a6d483c3034ef6c4c805cf4c3b69"
+        },
+        {
+          "path": "formal/B/groups/aime26_03__B_KeyH128__L14.npz",
+          "bytes": 35180376,
+          "sha256": "67dafb415160fecf623c9615dde4f098712adb16db0695c64f75286262bcd3ae"
+        },
+        {
+          "path": "formal/B/groups/aime26_03__B_KeyH128__L16.npz",
+          "bytes": 35206624,
+          "sha256": "776362ad247915fe06079516f3c1e1ed0e63f4194b27d4a626894ae1571fcaa3"
+        },
+        {
+          "path": "formal/B/groups/aime26_03__B_KeyH128__L17.npz",
+          "bytes": 35156927,
+          "sha256": "5387e6d6c3bf21607c11ef9ddaacfb95b8703389051d9ec21da3e6d14a0dbbef"
+        },
+        {
+          "path": "formal/B/groups/aime26_03__B_KeyH128__L18.npz",
+          "bytes": 35183746,
+          "sha256": "85f2c881fcb7506cbf55b9fff14f99308b4c33ee8d2170fcef8ed1a608c2f5b4"
+        },
+        {
+          "path": "formal/B/groups/aime26_03__B_KeyH128__L20.npz",
+          "bytes": 35258030,
+          "sha256": "814a65aac1ae99ad35655690dd1d0518662171abe3631672d435c5cc2bb4296c"
+        },
+        {
+          "path": "formal/B/groups/aime26_03__B_KeyH128__L21.npz",
+          "bytes": 35211004,
+          "sha256": "5fedb666c7cf02a71009e75f658af7ae3dd452b24322dac6ae7dcec10380a161"
+        },
+        {
+          "path": "formal/B/groups/aime26_03__B_KeyH128__L22.npz",
+          "bytes": 35158369,
+          "sha256": "c00366cb2f54b1250041b37edcdd62f4b3c25b248123ea4003933fc9b6a5f120"
+        },
+        {
+          "path": "formal/B/groups/aime26_03__B_KeyH128__L24.npz",
+          "bytes": 35237184,
+          "sha256": "7335e3d671007a83877e87b45102d0441c5f7ccc00bc9384e0b748e14f8e1b60"
+        },
+        {
+          "path": "formal/B/groups/aime26_03__B_KeyH128__L25.npz",
+          "bytes": 35166783,
+          "sha256": "978f04b687f29b8d7e1fbb4d6b18101f6b9beb512f484a8a1eaf8ab203acf325"
+        },
+        {
+          "path": "formal/B/groups/aime26_03__B_KeyH128__L26.npz",
+          "bytes": 35107543,
+          "sha256": "7836580e3e5c7eefa5f966d3d63d6cc413e26cc16763eed7014e53c06e9e94ba"
+        },
+        {
+          "path": "formal/B/groups/aime26_03__B_KeyH128__L28.npz",
+          "bytes": 35117240,
+          "sha256": "38a7daf6b6649807e1f1941db11d578fa9412fa30e0b64d7089a505e07299c13"
+        },
+        {
+          "path": "formal/B/groups/aime26_03__B_KeyH128__L29.npz",
+          "bytes": 35212107,
+          "sha256": "61725edb44371f0d8e5fd9b4c7346c5efe04f49ed846d9e9c2e01ff998a2f475"
+        },
+        {
+          "path": "formal/B/groups/aime26_03__B_KeyH128__L30.npz",
+          "bytes": 35253214,
+          "sha256": "71ba822d26900a22692f78b9599c49bd122353738e92f1fca619b705f32e88fe"
+        },
+        {
+          "path": "formal/B/groups/aime26_03__B_Native__L00.npz",
+          "bytes": 35623598,
+          "sha256": "3f188a2d79bd1dbd72d705000bd58084f84239c89f1f71cdc10397f3aae92439"
+        },
+        {
+          "path": "formal/B/groups/aime26_03__B_Native__L01.npz",
+          "bytes": 35792772,
+          "sha256": "c89d6c500842781b8741876d20ada16c417ff6c4be7931ed10b2ba150d07a92e"
+        },
+        {
+          "path": "formal/B/groups/aime26_03__B_Native__L02.npz",
+          "bytes": 35755132,
+          "sha256": "f6ac05f450b7f93f9a09de7467c7f8907dc4e731cf94fa695e1f189b800bf103"
+        },
+        {
+          "path": "formal/B/groups/aime26_03__B_Native__L04.npz",
+          "bytes": 35854279,
+          "sha256": "b40161c7f072bcb9c79dfa07edf8011553e9909be0447b14899f9c6d0b741209"
+        },
+        {
+          "path": "formal/B/groups/aime26_03__B_Native__L05.npz",
+          "bytes": 35849865,
+          "sha256": "641089b8090e51502c3d71bb050786a7a923d22aa61f9cb05d5564fa9f128648"
+        },
+        {
+          "path": "formal/B/groups/aime26_03__B_Native__L06.npz",
+          "bytes": 35789158,
+          "sha256": "06982603d644b5842cc690e908d986a578e6ebdee901ab03962a2bd43e44aa82"
+        },
+        {
+          "path": "formal/B/groups/aime26_03__B_Native__L08.npz",
+          "bytes": 35814848,
+          "sha256": "7c4fce88afdf4dece3118fb53a5f8a19d476ac402b6cf7af8bebc0a122c21d09"
+        },
+        {
+          "path": "formal/B/groups/aime26_03__B_Native__L09.npz",
+          "bytes": 35822955,
+          "sha256": "be492d2253034095fffcbfeebbbf8d8059ee687487db445642ca52b057999351"
+        },
+        {
+          "path": "formal/B/groups/aime26_03__B_Native__L10.npz",
+          "bytes": 35825319,
+          "sha256": "7c5edc672b6fa9b59bf0b9eac36dae76b1895c33b0df06ad472fca14144ef55e"
+        },
+        {
+          "path": "formal/B/groups/aime26_03__B_Native__L12.npz",
+          "bytes": 35837605,
+          "sha256": "f78733cc9acd9c52cb53d724b32d140ab554025cbfe163fe2c868986f62b7f3f"
+        },
+        {
+          "path": "formal/B/groups/aime26_03__B_Native__L13.npz",
+          "bytes": 35823441,
+          "sha256": "41bd528a56030055b8d3b2569649bf0d7231503f2e727bd76c01d4b9304dfa0c"
+        },
+        {
+          "path": "formal/B/groups/aime26_03__B_Native__L14.npz",
+          "bytes": 35774897,
+          "sha256": "b2def487c2e967d52e53397b934cdf7da6da57f36ac838842cdfe57a2f6a7f8a"
+        },
+        {
+          "path": "formal/B/groups/aime26_03__B_Native__L16.npz",
+          "bytes": 35767721,
+          "sha256": "1f9b47383eb1aa171ce8ec6dda2356b4bd0a3ba33f5b3aea1c022a61f8579849"
+        },
+        {
+          "path": "formal/B/groups/aime26_03__B_Native__L17.npz",
+          "bytes": 35704565,
+          "sha256": "f08e394d30ed72bc4c6420406d2df05ccbe1b78351bb2a33c939e5351348fdcd"
+        },
+        {
+          "path": "formal/B/groups/aime26_03__B_Native__L18.npz",
+          "bytes": 35721070,
+          "sha256": "af384356bd0e6191536a07400a3fa6f7b2569451bbfe0a163fb738edf60dc196"
+        },
+        {
+          "path": "formal/B/groups/aime26_03__B_Native__L20.npz",
+          "bytes": 35810544,
+          "sha256": "eb9d5478ce4a96c3d21679b62d4979ea8951b35f54c500846c2d6dde3d56f753"
+        },
+        {
+          "path": "formal/B/groups/aime26_03__B_Native__L21.npz",
+          "bytes": 35844317,
+          "sha256": "9f4a702179c4cf80434a68d567b9d99a59af932b3bc378573e0541d8623dfc22"
+        },
+        {
+          "path": "formal/B/groups/aime26_03__B_Native__L22.npz",
+          "bytes": 35776560,
+          "sha256": "1112a895225fba66d9ca5aab2e017d7a4f967c982b0d5b4a7627eb392dcf9174"
+        },
+        {
+          "path": "formal/B/groups/aime26_03__B_Native__L24.npz",
+          "bytes": 35924342,
+          "sha256": "402eb48f6a855ce4ecf264b4321c69dab22a77b622865721c02aee59d6e70628"
+        },
+        {
+          "path": "formal/B/groups/aime26_03__B_Native__L25.npz",
+          "bytes": 35916464,
+          "sha256": "48ecdc5ebf07cbe6d7f692ccb56e85b39c8c39cea43c4cff326b249b390c43c4"
+        },
+        {
+          "path": "formal/B/groups/aime26_03__B_Native__L26.npz",
+          "bytes": 35868693,
+          "sha256": "beaa662cd0c8dd4f89077ba5a02583b5feab1592baeb7bfce5f1700ae414aee4"
+        },
+        {
+          "path": "formal/B/groups/aime26_03__B_Native__L28.npz",
+          "bytes": 35772022,
+          "sha256": "8bf070722d0f7e63d457b6291d1804bd38f91fb64b47aae356c7c59d95f15c82"
+        },
+        {
+          "path": "formal/B/groups/aime26_03__B_Native__L29.npz",
+          "bytes": 35856130,
+          "sha256": "77b12ebbc222686909bc9053887bcd38178d245c8616abf1f5edd5b6709ef91f"
+        },
+        {
+          "path": "formal/B/groups/aime26_03__B_Native__L30.npz",
+          "bytes": 35878286,
+          "sha256": "1d50931ce0fde88ba6615033dd9d8d0fd7317d95d609d05f4267085f4a25c21c"
+        }
+      ]
+    },
+    {
+      "name": "gdn-state-20261102-B-aime26_04-groups.tar",
+      "bytes": 1703905280,
+      "sha256": "740104c400e07b8ccd567557bf709c5bc0d10554f39d52fa6232e8f4716db699",
+      "url": "https://github.com/pytenter/learned-rotation-quantization/releases/download/qwen35-9b-gdn-state-h128-c128-20261102/gdn-state-20261102-B-aime26_04-groups.tar",
+      "extract_into": "results/2026-11-02-qwen35-9b-gdn-state-h128-c128",
+      "files": [
+        {
+          "path": "formal/B/groups/aime26_04__B_KeyH128__L00.npz",
+          "bytes": 35041270,
+          "sha256": "fb479ce1c7ba0f9382506d085845c5a16df528175c75afcbe617411e2982aa7c"
+        },
+        {
+          "path": "formal/B/groups/aime26_04__B_KeyH128__L01.npz",
+          "bytes": 35203668,
+          "sha256": "6d5322d323643fc511a8740eac6b216abc23ac9d296d2a830601a61c1af580e1"
+        },
+        {
+          "path": "formal/B/groups/aime26_04__B_KeyH128__L02.npz",
+          "bytes": 35169955,
+          "sha256": "8a87be0a0e9620210902176db43baa24fd25e146c21dfad12afc87f8f2eca9a7"
+        },
+        {
+          "path": "formal/B/groups/aime26_04__B_KeyH128__L04.npz",
+          "bytes": 35176852,
+          "sha256": "1e7046372d45886bf73ef0b28dd41fdd08c797568fc9a3ce467e16c0f417b087"
+        },
+        {
+          "path": "formal/B/groups/aime26_04__B_KeyH128__L05.npz",
+          "bytes": 35177900,
+          "sha256": "8fe8c0da233b3e335ae4aea59e830180ecd484b7af878090280648a81184b62a"
+        },
+        {
+          "path": "formal/B/groups/aime26_04__B_KeyH128__L06.npz",
+          "bytes": 35194832,
+          "sha256": "2a9c7db38bb5937b2f1c64166da6115f122476f507fa4fa87d341fe31541c1cc"
+        },
+        {
+          "path": "formal/B/groups/aime26_04__B_KeyH128__L08.npz",
+          "bytes": 35158777,
+          "sha256": "a7db917e10f734718f2e6005c830dc634d4f8278d6de4249af136d94c40e9b4d"
+        },
+        {
+          "path": "formal/B/groups/aime26_04__B_KeyH128__L09.npz",
+          "bytes": 35181752,
+          "sha256": "6387879c3cf1d28e1554a195b8c865d8ba9fe7fab8a88ded51c53ba6aaef369a"
+        },
+        {
+          "path": "formal/B/groups/aime26_04__B_KeyH128__L10.npz",
+          "bytes": 35199187,
+          "sha256": "c7984374fa2ffca2d22b05fb7223b1e2d309c4885cb8ed6dcf455b3a6926167c"
+        },
+        {
+          "path": "formal/B/groups/aime26_04__B_KeyH128__L12.npz",
+          "bytes": 35233404,
+          "sha256": "80dcbb23b2a11845644deebfdf6abe57f2f5689d51769684652932ff0fbd2941"
+        },
+        {
+          "path": "formal/B/groups/aime26_04__B_KeyH128__L13.npz",
+          "bytes": 35216214,
+          "sha256": "8a47102c1b6564d09539efab0c438a018503df33d3e29689ad27a145bbd50021"
+        },
+        {
+          "path": "formal/B/groups/aime26_04__B_KeyH128__L14.npz",
+          "bytes": 35174994,
+          "sha256": "d6385b902401ebb7f93df88678700530b5e50107b1dad6f430f887e766a094ea"
+        },
+        {
+          "path": "formal/B/groups/aime26_04__B_KeyH128__L16.npz",
+          "bytes": 35193638,
+          "sha256": "ee324509c398415842db2bd4e1017196ecde577f11cc3c5cc1f21c45ba98d760"
+        },
+        {
+          "path": "formal/B/groups/aime26_04__B_KeyH128__L17.npz",
+          "bytes": 35155837,
+          "sha256": "2293b8e1eb0bc8688a6a17e3845cfc021ab11a364f5c4ac6172f1d8b380c4a3a"
+        },
+        {
+          "path": "formal/B/groups/aime26_04__B_KeyH128__L18.npz",
+          "bytes": 35190734,
+          "sha256": "29995184cf5d821d5b0300ad8c86a775fd7ad0f08112cf9b920f215c99792ff4"
+        },
+        {
+          "path": "formal/B/groups/aime26_04__B_KeyH128__L20.npz",
+          "bytes": 35257116,
+          "sha256": "0a314d3b25cc3b634e77f0b75976d34b3bc80ed7b598eb2f4cbb80146ca82240"
+        },
+        {
+          "path": "formal/B/groups/aime26_04__B_KeyH128__L21.npz",
+          "bytes": 35218723,
+          "sha256": "99facfbe104fd5f6cb9dce6305ba0a623685625cdfa418e2d31f7d0c5038db5d"
+        },
+        {
+          "path": "formal/B/groups/aime26_04__B_KeyH128__L22.npz",
+          "bytes": 35169728,
+          "sha256": "e66320496cdcebb7c37b5844c4b463d766e6122e66b319cd7087cd32138a521d"
+        },
+        {
+          "path": "formal/B/groups/aime26_04__B_KeyH128__L24.npz",
+          "bytes": 35234810,
+          "sha256": "c5ce5881201a537d62b0101f6bf4fe93cbb12b27e5dfc4321df28a01f444e930"
+        },
+        {
+          "path": "formal/B/groups/aime26_04__B_KeyH128__L25.npz",
+          "bytes": 35172578,
+          "sha256": "0fc793ad822b1d721837401f3145431717f1a25fd606f13aa982bca175a50ff9"
+        },
+        {
+          "path": "formal/B/groups/aime26_04__B_KeyH128__L26.npz",
+          "bytes": 35116210,
+          "sha256": "225cb2e6481369f967cde6b6319d16a9d1cf842638e57039f06e042952c30647"
+        },
+        {
+          "path": "formal/B/groups/aime26_04__B_KeyH128__L28.npz",
+          "bytes": 35120926,
+          "sha256": "b2956293ba6baf66543cb37639a9cefc93fce5875ea99a123b8d12ac41e0a948"
+        },
+        {
+          "path": "formal/B/groups/aime26_04__B_KeyH128__L29.npz",
+          "bytes": 35213508,
+          "sha256": "86ca1e850517b2229f127eee2a0d75a305e2ed17aa15861f43e1235d53dbe496"
+        },
+        {
+          "path": "formal/B/groups/aime26_04__B_KeyH128__L30.npz",
+          "bytes": 35260680,
+          "sha256": "2cd987f7f3c5a38ea96e9a99e36d32462252d93c0024be717a2863d0d3342b6b"
+        },
+        {
+          "path": "formal/B/groups/aime26_04__B_Native__L00.npz",
+          "bytes": 35617268,
+          "sha256": "74a407d5ab6f3424528e2de0ae463eff1e9cc1440046d345ef4f81aab340878a"
+        },
+        {
+          "path": "formal/B/groups/aime26_04__B_Native__L01.npz",
+          "bytes": 35788630,
+          "sha256": "b0d696e410614b6054b9b6d2c174d19ed42b05a2146c74576fca9f96f3b6b0d8"
+        },
+        {
+          "path": "formal/B/groups/aime26_04__B_Native__L02.npz",
+          "bytes": 35766770,
+          "sha256": "3656f80ecb35db6b5843a2a7ae46e6d47f01a384ad7eaeffe72579f149247686"
+        },
+        {
+          "path": "formal/B/groups/aime26_04__B_Native__L04.npz",
+          "bytes": 35851074,
+          "sha256": "a59568ae3df26521f871b3501af2f4725157dc542286c9f0b6bcac32bc37521f"
+        },
+        {
+          "path": "formal/B/groups/aime26_04__B_Native__L05.npz",
+          "bytes": 35846654,
+          "sha256": "61c4eb68395df5724a190d20bf22eeee4d75fd0d8c3486cabb093ebb1c592c3b"
+        },
+        {
+          "path": "formal/B/groups/aime26_04__B_Native__L06.npz",
+          "bytes": 35785584,
+          "sha256": "678dd517a31f07315b969885894f8cd5a2c30c3a032f8dd67031d2e22d273a5b"
+        },
+        {
+          "path": "formal/B/groups/aime26_04__B_Native__L08.npz",
+          "bytes": 35795849,
+          "sha256": "3772e72d85c50b6e2e963853f5a0bb8504f432e88c4004b4765b91ca22649be3"
+        },
+        {
+          "path": "formal/B/groups/aime26_04__B_Native__L09.npz",
+          "bytes": 35804566,
+          "sha256": "897679d78d465626dd03d8f2c8433a7145490951fe403608bdeb27322c27fe9e"
+        },
+        {
+          "path": "formal/B/groups/aime26_04__B_Native__L10.npz",
+          "bytes": 35813839,
+          "sha256": "66f2a70c37337a529e13e8f65d0821683b33bc3fc3fda45e6881a958f7470951"
+        },
+        {
+          "path": "formal/B/groups/aime26_04__B_Native__L12.npz",
+          "bytes": 35838719,
+          "sha256": "39426766925a1191de0e7873127e567fbb3b6007df5533a32d6c7a39cd342228"
+        },
+        {
+          "path": "formal/B/groups/aime26_04__B_Native__L13.npz",
+          "bytes": 35828666,
+          "sha256": "11b247d99c74432c94fe08374e4f01b9027b91c638391d73c16a7f086a556c31"
+        },
+        {
+          "path": "formal/B/groups/aime26_04__B_Native__L14.npz",
+          "bytes": 35762824,
+          "sha256": "6890faffe5b3636c78a12dadace206c023221c9e175f86f68b350d9385e7b41a"
+        },
+        {
+          "path": "formal/B/groups/aime26_04__B_Native__L16.npz",
+          "bytes": 35755140,
+          "sha256": "b73486f47f02832da1a54364805200612929c5494df3586b4f2ecb2dc7f15b77"
+        },
+        {
+          "path": "formal/B/groups/aime26_04__B_Native__L17.npz",
+          "bytes": 35702287,
+          "sha256": "5c8a0e75170e6cb689c6d2f4b62522a230799357eeffbedb9c3d9909cfd62adb"
+        },
+        {
+          "path": "formal/B/groups/aime26_04__B_Native__L18.npz",
+          "bytes": 35711644,
+          "sha256": "50f8c9a5effb3aa3deff75e0e2120df649a0fd0e1fecfa701c74037eeb726b79"
+        },
+        {
+          "path": "formal/B/groups/aime26_04__B_Native__L20.npz",
+          "bytes": 35823437,
+          "sha256": "79c7523efc60d064ae90d18b584bccbbfc09e46d1d811e5481e30d5a8ffc5b4c"
+        },
+        {
+          "path": "formal/B/groups/aime26_04__B_Native__L21.npz",
+          "bytes": 35851050,
+          "sha256": "2d9a22beb039aa65ce85b451614d10877bbd62d534ce42e593ac07362fb38837"
+        },
+        {
+          "path": "formal/B/groups/aime26_04__B_Native__L22.npz",
+          "bytes": 35795226,
+          "sha256": "532ceec772ff9ac7f35ebe4a7d7ecdf99538581e0c2ca80561583718550d7622"
+        },
+        {
+          "path": "formal/B/groups/aime26_04__B_Native__L24.npz",
+          "bytes": 35940748,
+          "sha256": "ec4a7c9b9f342bd45acb9fb949d68a24223e45a0c0e4c781b8c455d3f0ce8852"
+        },
+        {
+          "path": "formal/B/groups/aime26_04__B_Native__L25.npz",
+          "bytes": 35925392,
+          "sha256": "390b1638561957ec97b0b08abb0147bf06cb4d22632085aaf24aef907c1cf266"
+        },
+        {
+          "path": "formal/B/groups/aime26_04__B_Native__L26.npz",
+          "bytes": 35891152,
+          "sha256": "dcdba204c883ea565a94d2489a5230253e5bdbcb0643974bc8bbaf0fe72db9e8"
+        },
+        {
+          "path": "formal/B/groups/aime26_04__B_Native__L28.npz",
+          "bytes": 35785313,
+          "sha256": "bfa594d478f374ea6083e41918f7b34e9b4a6fb1cab82cb5f3547d94305365ef"
+        },
+        {
+          "path": "formal/B/groups/aime26_04__B_Native__L29.npz",
+          "bytes": 35864798,
+          "sha256": "b4d16405d6ea43cdef96e61798fb6d5e6ef91c3ff652c3b9064cbaa8b02ba69d"
+        },
+        {
+          "path": "formal/B/groups/aime26_04__B_Native__L30.npz",
+          "bytes": 35887065,
+          "sha256": "207f45b54725127b0dd90667aebe6ae6087caee19afa703729ebeb98c3966ee3"
+        }
+      ]
+    }
+  ],
+  "original_main_manifest_sha256": "163bf4a00a400d19311d114f0c5751232198738d2ba7a4976621ff0c353f7a3b",
+  "original_documentation_manifest_sha256": "54b60fa43bd8ee56091f8086d4309eb2dad969abc114597967ff88df1c8f8923"
+}

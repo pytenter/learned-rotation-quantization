@@ -1,0 +1,12 @@
+{
+  "model_checkpoint_bytes": 19306216416,
+  "GDN_FP_reference_bytes": 50331648,
+  "GDN_B_codes_bytes_two_trajectories": 25165824,
+  "GDN_B_scales_bytes_two_trajectories": 786432,
+  "full_attention_KV_bytes_per_input_token_batch3": 98304,
+  "group_metric_uncompressed_estimate_bytes": 25971130368,
+  "free_disk_required_bytes": 68719476736,
+  "estimated_time": "not yet measured; runtime gate/pilot will provide observed token rate; no duration cap",
+  "new_data_only": true,
+  "GPU": "physical4 UUID GPU-de1f9152-32e5-a033-d2bf-ea7abecb606f"
+}

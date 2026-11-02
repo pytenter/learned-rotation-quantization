@@ -1,0 +1,26 @@
+{
+  "worker": {
+    "pid": 2339390,
+    "ppid": 2339387,
+    "starttick": 202157820,
+    "argv": [
+      "/data/zypan/envs/qwen-gdn-group64-historical-port-v1/bin/python",
+      "-B",
+      "/data/zypan/experiments/QWEN_GDN_STATE_OUTLIER_H128_C128_GPU4_20261102_V1/releases/ORACLE_FP32_V4/run_experiment.py"
+    ]
+  },
+  "owning_parent": {
+    "pid": 2339387,
+    "ppid": 2256915,
+    "starttick": 202157804,
+    "argv": [
+      "python3",
+      "-B",
+      "/data/zypan/experiments/QWEN_GDN_STATE_OUTLIER_H128_C128_GPU4_20261102_V1/releases/ORACLE_FP32_V4/supervise.py"
+    ]
+  },
+  "worker_wait": 0,
+  "own_NVML_released": true,
+  "worker_proc_gone": true,
+  "gpu_processes_after": "2379764, GPU-759526ed-efb2-e7f6-881c-ab098e0b05ae, /data/xwang/projects/ollama-insomnia-plan-v2/experiment/runtime/lib/ollama/llama-server, 9992\n2265677, GPU-07d9c381-888d-1111-a944-56abcc583573, /data/wklu/anaconda3/envs/Llama/bin/python, 21398\n2349010, GPU-de53f243-b271-521c-d875-d96611ed8574, /data/wklu/anaconda3/envs/Llama/bin/python, 21310\n"
+}

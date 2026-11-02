@@ -1,0 +1,7 @@
+{
+  "status": "CPU_DOCUMENTATION_ONLY",
+  "before_sha256": "63ecdc94e0693efad86a22c7c0a22f329d84a86e8090ed09d354ff5b9b084075",
+  "after_sha256": "b516d9fa4363daa204eaa04940677f8eef9dbadc692e27c5cf5a4e8887427e7c",
+  "raw_data_and_figures_changed": false,
+  "reason": "distinguish deterministic cache reconstruction from independent postwrite memory sampling; explain new paired group table"
+}

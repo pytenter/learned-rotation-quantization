@@ -1,0 +1,16 @@
+{
+  "parent": {
+    "pid": 2339387,
+    "ppid": 2256915,
+    "starttick": 202157804,
+    "argv": [
+      "python3",
+      "-B",
+      "/data/zypan/experiments/QWEN_GDN_STATE_OUTLIER_H128_C128_GPU4_20261102_V1/releases/ORACLE_FP32_V4/supervise.py"
+    ]
+  },
+  "gpu_uuid": "GPU-de1f9152-32e5-a033-d2bf-ea7abecb606f",
+  "physical_gpu_index": 4,
+  "source_manifest_sha256": "04eaee85fbf730d9a6d466d01744e9536044e598c16906d98b4f23bcb8b6eaf9",
+  "other_gpu_processes_before": "2265677, GPU-07d9c381-888d-1111-a944-56abcc583573, /data/wklu/anaconda3/envs/Llama/bin/python, 21478\n"
+}

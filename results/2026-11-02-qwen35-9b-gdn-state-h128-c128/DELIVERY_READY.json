@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "files": 1671,
+  "manifest_sha256": "163bf4a00a400d19311d114f0c5751232198738d2ba7a4976621ff0c353f7a3b",
+  "A": "PASS",
+  "B": "PASS",
+  "CPU_verification": "PASS",
+  "own_GPU_released": true
+}
