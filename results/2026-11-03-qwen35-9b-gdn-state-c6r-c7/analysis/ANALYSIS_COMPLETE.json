@@ -1,0 +1,63 @@
+{
+  "status": "PASS",
+  "rows": {
+    "per_layer_summary": 192,
+    "per_layer_head_summary": 6144,
+    "per_sample_layer_summary": 768,
+    "per_token_layer_summary": 99072,
+    "A_paired_group_effects": 720,
+    "high_outlier_groups": 1920,
+    "metric_order_comparison": 288,
+    "historical_native_hadamard_comparison": 1152
+  },
+  "PNG_count": 100,
+  "layer_count": 24,
+  "methods": [
+    "Native",
+    "Hadamard",
+    "C6R",
+    "C7"
+  ],
+  "legacy_exact_quantile_source_sha256": "fb19d08eb2772bc169d0166913163c959738e12ab51e3f232f845701bfe303df",
+  "analysis_sources": [
+    {
+      "path": "analysis_cpu/aggregate.py",
+      "sha256": "5b454d1c9929e15cb68c65c9c2f895bbf1c061f5e6e01442463b7de097f45926"
+    },
+    {
+      "path": "analysis_cpu/bitmap_qa.py",
+      "sha256": "c5ffa5693dcbc6b21eebffba45f6a117252e6de94a0c337ba74162455d579551"
+    },
+    {
+      "path": "analysis_cpu/common.py",
+      "sha256": "90eec580811a59707d1061f2ef9ee679609906e39c0375c51cb92ba9fa12c0f5"
+    },
+    {
+      "path": "analysis_cpu/independent_review.py",
+      "sha256": "0e6bfd4610ab8903302ae03268c11fa7760f6d4c405190a44a2a5280e42c8889"
+    },
+    {
+      "path": "analysis_cpu/owner.py",
+      "sha256": "380cb7efe8478f20dedd835f392bfa37f6d1a73f33932fea839f9a932ed57497"
+    },
+    {
+      "path": "analysis_cpu/plots.py",
+      "sha256": "c0212ebaa2f33f2c2fcec90bde079c4b59f881ad0ffb3f35bdc20a66ae5d040d"
+    },
+    {
+      "path": "analysis_cpu/prior_analysis_source.py",
+      "sha256": "fb19d08eb2772bc169d0166913163c959738e12ab51e3f232f845701bfe303df"
+    },
+    {
+      "path": "analysis_cpu/qualify.py",
+      "sha256": "21ebc707f53b671268fe17cfce38e4c8cac35244281ccc5c846aca86e34f1df9"
+    },
+    {
+      "path": "analysis_cpu/report.py",
+      "sha256": "583197cd2d7249e6ae465b12644135a1426706da88cdaf50ba4cd3299d5a8138"
+    }
+  ],
+  "elapsed_seconds": 1154.8312387671322,
+  "peak_host_RSS_bytes": 1783971840,
+  "statistical_scope": "4 samples only; group/token/head/value observations are dependent repeated measurements; no significance claim"
+}
