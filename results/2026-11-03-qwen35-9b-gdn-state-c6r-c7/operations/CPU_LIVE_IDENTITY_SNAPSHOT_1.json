@@ -1,0 +1,28 @@
+{
+  "status": "FRESH_OBSERVED",
+  "processes": [
+    {
+      "pid": 2855327,
+      "starttick": 207550953,
+      "PPID": 1,
+      "argv": [
+        "python3",
+        "-B",
+        "/data/zypan/experiments/QWEN_GDN_STATE_OUTLIER_FOUR_ROTATIONS_C6R_C7_20261103_V1/analysis_cpu/owner.py"
+      ],
+      "CVD": ""
+    },
+    {
+      "pid": 2855328,
+      "starttick": 207550957,
+      "PPID": 2855327,
+      "argv": [
+        "/data/zypan/envs/qwen-gdn-group64-historical-port-v1/bin/python",
+        "-B",
+        "/data/zypan/experiments/QWEN_GDN_STATE_OUTLIER_FOUR_ROTATIONS_C6R_C7_20261103_V1/analysis_cpu/aggregate.py"
+      ],
+      "CVD": ""
+    }
+  ],
+  "note": "Preserves initial owner receipts including any transient empty cmdline; this is an additional live snapshot."
+}

@@ -1,0 +1,17 @@
+{
+  "worker": {
+    "pid": 2819635,
+    "PPID": 2819632,
+    "starttick": 207190961,
+    "argv": [
+      "/data/zypan/envs/qwen-gdn-group64-historical-port-v1/bin/python",
+      "-B",
+      "/data/zypan/experiments/QWEN_GDN_STATE_OUTLIER_FOUR_ROTATIONS_C6R_C7_20261103_V1/run_gpu.py"
+    ]
+  },
+  "wait_integer": 0,
+  "worker_epoch_gone": true,
+  "own_NVML_released": true,
+  "foreign_processes_not_signalled": true,
+  "NVML_after": "2794717, GPU-0c785495-3462-4b7f-5ee1-0d3ab8fe53bc, VLLM::EngineCore, 20172\n2794707, GPU-759526ed-efb2-e7f6-881c-ab098e0b05ae, VLLM::EngineCore, 20474\n"
+}

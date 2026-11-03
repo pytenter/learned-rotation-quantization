@@ -1,0 +1,22 @@
+{
+  "script": "aggregate.py",
+  "child": {
+    "pid": 2855328,
+    "starttick": 207550957,
+    "PPID": 2855327,
+    "argv": [
+      ""
+    ]
+  },
+  "owner": {
+    "pid": 2855327,
+    "starttick": 207550953,
+    "PPID": 1,
+    "argv": [
+      "python3",
+      "-B",
+      "/data/zypan/experiments/QWEN_GDN_STATE_OUTLIER_FOUR_ROTATIONS_C6R_C7_20261103_V1/analysis_cpu/owner.py"
+    ]
+  },
+  "real_Popen_wait_integer": 0
+}

@@ -1,0 +1,7 @@
+{
+  "status": "PASS_GPU_CAPTURE_READY_FOR_CPU_ANALYSIS",
+  "worker_wait": 0,
+  "own_NVML_released": true,
+  "worker_epoch_gone": true,
+  "elapsed_seconds": 3539.2158401021734
+}

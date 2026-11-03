@@ -1,0 +1,7 @@
+{
+  "status": "CLAIMED_CPU_LAYOUT_ONLY",
+  "pid": 2870134,
+  "original_data_recomputed": false,
+  "new_GPU_work": false,
+  "reason": "Actual visual inspection found overlapping symlog tick labels and clustered learned-method layer annotations"
+}

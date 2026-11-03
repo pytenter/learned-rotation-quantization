@@ -1,0 +1,24 @@
+{
+  "script": "report.py",
+  "child": {
+    "pid": 2870038,
+    "starttick": 207703000,
+    "PPID": 2855327,
+    "argv": [
+      "/data/zypan/envs/qwen-gdn-group64-historical-port-v1/bin/python",
+      "-B",
+      "/data/zypan/experiments/QWEN_GDN_STATE_OUTLIER_FOUR_ROTATIONS_C6R_C7_20261103_V1/analysis_cpu/report.py"
+    ]
+  },
+  "owner": {
+    "pid": 2855327,
+    "starttick": 207550953,
+    "PPID": 1,
+    "argv": [
+      "python3",
+      "-B",
+      "/data/zypan/experiments/QWEN_GDN_STATE_OUTLIER_FOUR_ROTATIONS_C6R_C7_20261103_V1/analysis_cpu/owner.py"
+    ]
+  },
+  "real_Popen_wait_integer": 0
+}

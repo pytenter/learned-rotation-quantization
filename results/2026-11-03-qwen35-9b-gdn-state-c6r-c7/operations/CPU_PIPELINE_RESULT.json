@@ -1,0 +1,102 @@
+{
+  "status": "PASS_COMPLETE_CPU_ANALYSIS_REPORT_PIPELINE",
+  "steps": [
+    {
+      "script": "aggregate.py",
+      "child": {
+        "pid": 2855328,
+        "starttick": 207550957,
+        "PPID": 2855327,
+        "argv": [
+          ""
+        ]
+      },
+      "owner": {
+        "pid": 2855327,
+        "starttick": 207550953,
+        "PPID": 1,
+        "argv": [
+          "python3",
+          "-B",
+          "/data/zypan/experiments/QWEN_GDN_STATE_OUTLIER_FOUR_ROTATIONS_C6R_C7_20261103_V1/analysis_cpu/owner.py"
+        ]
+      },
+      "real_Popen_wait_integer": 0
+    },
+    {
+      "script": "independent_review.py",
+      "child": {
+        "pid": 2865721,
+        "starttick": 207666942,
+        "PPID": 2855327,
+        "argv": [
+          "/data/zypan/envs/qwen-gdn-group64-historical-port-v1/bin/python",
+          "-B",
+          "/data/zypan/experiments/QWEN_GDN_STATE_OUTLIER_FOUR_ROTATIONS_C6R_C7_20261103_V1/analysis_cpu/independent_review.py"
+        ]
+      },
+      "owner": {
+        "pid": 2855327,
+        "starttick": 207550953,
+        "PPID": 1,
+        "argv": [
+          "python3",
+          "-B",
+          "/data/zypan/experiments/QWEN_GDN_STATE_OUTLIER_FOUR_ROTATIONS_C6R_C7_20261103_V1/analysis_cpu/owner.py"
+        ]
+      },
+      "real_Popen_wait_integer": 0
+    },
+    {
+      "script": "bitmap_qa.py",
+      "child": {
+        "pid": 2869700,
+        "starttick": 207701266,
+        "PPID": 2855327,
+        "argv": [
+          "/data/zypan/envs/qwen-gdn-group64-historical-port-v1/bin/python",
+          "-B",
+          "/data/zypan/experiments/QWEN_GDN_STATE_OUTLIER_FOUR_ROTATIONS_C6R_C7_20261103_V1/analysis_cpu/bitmap_qa.py"
+        ]
+      },
+      "owner": {
+        "pid": 2855327,
+        "starttick": 207550953,
+        "PPID": 1,
+        "argv": [
+          "python3",
+          "-B",
+          "/data/zypan/experiments/QWEN_GDN_STATE_OUTLIER_FOUR_ROTATIONS_C6R_C7_20261103_V1/analysis_cpu/owner.py"
+        ]
+      },
+      "real_Popen_wait_integer": 0
+    },
+    {
+      "script": "report.py",
+      "child": {
+        "pid": 2870038,
+        "starttick": 207703000,
+        "PPID": 2855327,
+        "argv": [
+          "/data/zypan/envs/qwen-gdn-group64-historical-port-v1/bin/python",
+          "-B",
+          "/data/zypan/experiments/QWEN_GDN_STATE_OUTLIER_FOUR_ROTATIONS_C6R_C7_20261103_V1/analysis_cpu/report.py"
+        ]
+      },
+      "owner": {
+        "pid": 2855327,
+        "starttick": 207550953,
+        "PPID": 1,
+        "argv": [
+          "python3",
+          "-B",
+          "/data/zypan/experiments/QWEN_GDN_STATE_OUTLIER_FOUR_ROTATIONS_C6R_C7_20261103_V1/analysis_cpu/owner.py"
+        ]
+      },
+      "real_Popen_wait_integer": 0
+    }
+  ],
+  "elapsed_seconds": 1520.818594954908,
+  "GPU_restarted": false,
+  "manual_visual_review_and_delivery_seal_pending": true
+}
