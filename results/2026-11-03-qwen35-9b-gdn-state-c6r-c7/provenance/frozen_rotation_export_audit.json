@@ -1,0 +1,845 @@
+{
+  "backward_calls": 0,
+  "conditions": {
+    "C5R": {
+      "EXPORT_PARITY_GATE": "PASS",
+      "existing_export_rewritten": false,
+      "exposure": 904,
+      "layers": [
+        {
+          "checkpoint_loaded_vs_frozen_exact": true,
+          "dtype": "torch.float32",
+          "layer": 0,
+          "orthogonality_max_abs": 1.1920928955078125e-06,
+          "sha256": "100a5d13e28f555bc62961c49ce588a948347d8186f4c194083ab06a4ba210c3",
+          "shape": [
+            128,
+            128
+          ]
+        },
+        {
+          "checkpoint_loaded_vs_frozen_exact": true,
+          "dtype": "torch.float32",
+          "layer": 1,
+          "orthogonality_max_abs": 1.3113021850585938e-06,
+          "sha256": "b469e0ccfab0d727f49aed1ff930ebafe7855a1523d40681c637dcc0e72bc1f3",
+          "shape": [
+            128,
+            128
+          ]
+        },
+        {
+          "checkpoint_loaded_vs_frozen_exact": true,
+          "dtype": "torch.float32",
+          "layer": 2,
+          "orthogonality_max_abs": 1.5497207641601562e-06,
+          "sha256": "354dfc69fbbb06a971371e2ce0ef0fb9ef322c644e6cc714878fa53ce53dfa10",
+          "shape": [
+            128,
+            128
+          ]
+        },
+        {
+          "checkpoint_loaded_vs_frozen_exact": true,
+          "dtype": "torch.float32",
+          "layer": 4,
+          "orthogonality_max_abs": 1.7285346984863281e-06,
+          "sha256": "b505563e92f6321a70cf06b914ae217a445892775b1170454d345cd5916276f4",
+          "shape": [
+            128,
+            128
+          ]
+        },
+        {
+          "checkpoint_loaded_vs_frozen_exact": true,
+          "dtype": "torch.float32",
+          "layer": 5,
+          "orthogonality_max_abs": 1.4901161193847656e-06,
+          "sha256": "35fdfc9386db4d4dbddbaa873e2c50cb57d67679e67a272a2d3cb915ce604942",
+          "shape": [
+            128,
+            128
+          ]
+        },
+        {
+          "checkpoint_loaded_vs_frozen_exact": true,
+          "dtype": "torch.float32",
+          "layer": 6,
+          "orthogonality_max_abs": 1.8477439880371094e-06,
+          "sha256": "4d9fd4e670d220d258f46c324ee1a00f156cafce36bbf5b4953985f9df63a7b0",
+          "shape": [
+            128,
+            128
+          ]
+        },
+        {
+          "checkpoint_loaded_vs_frozen_exact": true,
+          "dtype": "torch.float32",
+          "layer": 8,
+          "orthogonality_max_abs": 1.430511474609375e-06,
+          "sha256": "e7d8a4523ab10ded7a3396705757a3288e52ee1f8db4545428567f512e2092f8",
+          "shape": [
+            128,
+            128
+          ]
+        },
+        {
+          "checkpoint_loaded_vs_frozen_exact": true,
+          "dtype": "torch.float32",
+          "layer": 9,
+          "orthogonality_max_abs": 1.5497207641601562e-06,
+          "sha256": "e1c7de079ea2318e193e8f157bfdbe4112a1aaad11704cf54e6fbc35a0676bd9",
+          "shape": [
+            128,
+            128
+          ]
+        },
+        {
+          "checkpoint_loaded_vs_frozen_exact": true,
+          "dtype": "torch.float32",
+          "layer": 10,
+          "orthogonality_max_abs": 1.7285346984863281e-06,
+          "sha256": "8a25d7f0bd7a609149aec78ae3e3138a1ee4acfb3fdc47f6aaf3fabf93cee218",
+          "shape": [
+            128,
+            128
+          ]
+        },
+        {
+          "checkpoint_loaded_vs_frozen_exact": true,
+          "dtype": "torch.float32",
+          "layer": 12,
+          "orthogonality_max_abs": 1.6093254089355469e-06,
+          "sha256": "57d7f4303a7e74e995785fad5363754bc957ca9f719a825560b0b900f411018f",
+          "shape": [
+            128,
+            128
+          ]
+        },
+        {
+          "checkpoint_loaded_vs_frozen_exact": true,
+          "dtype": "torch.float32",
+          "layer": 13,
+          "orthogonality_max_abs": 1.4901161193847656e-06,
+          "sha256": "b24a5e503464dde02e88f97282c33a4bb2e44cd3ce1c14568c6f59bebfbc3bf3",
+          "shape": [
+            128,
+            128
+          ]
+        },
+        {
+          "checkpoint_loaded_vs_frozen_exact": true,
+          "dtype": "torch.float32",
+          "layer": 14,
+          "orthogonality_max_abs": 1.430511474609375e-06,
+          "sha256": "258150890306f55f2d8fb91982ef481eabe221656862ba5a39a7cdfec7a29f9b",
+          "shape": [
+            128,
+            128
+          ]
+        },
+        {
+          "checkpoint_loaded_vs_frozen_exact": true,
+          "dtype": "torch.float32",
+          "layer": 16,
+          "orthogonality_max_abs": 1.6093254089355469e-06,
+          "sha256": "efac8d2c9ee0f63523c0e0dd5faf6e2dff2a04293a85ce0cd6f50f4d496f1d19",
+          "shape": [
+            128,
+            128
+          ]
+        },
+        {
+          "checkpoint_loaded_vs_frozen_exact": true,
+          "dtype": "torch.float32",
+          "layer": 17,
+          "orthogonality_max_abs": 1.430511474609375e-06,
+          "sha256": "d8acf40bb8c86d00ae0257145ef048fb6928a8a809a4347fe3d9bae64d3fb15e",
+          "shape": [
+            128,
+            128
+          ]
+        },
+        {
+          "checkpoint_loaded_vs_frozen_exact": true,
+          "dtype": "torch.float32",
+          "layer": 18,
+          "orthogonality_max_abs": 1.3113021850585938e-06,
+          "sha256": "ac399137fd8d867f6158b92c64de0f7ca222d84354ca82daf9b602ba83eb85fc",
+          "shape": [
+            128,
+            128
+          ]
+        },
+        {
+          "checkpoint_loaded_vs_frozen_exact": true,
+          "dtype": "torch.float32",
+          "layer": 20,
+          "orthogonality_max_abs": 1.3709068298339844e-06,
+          "sha256": "41a2d969ee58d730fb4063ef76133cc2cb715b987e69550d3b6d83f9a3e5b63e",
+          "shape": [
+            128,
+            128
+          ]
+        },
+        {
+          "checkpoint_loaded_vs_frozen_exact": true,
+          "dtype": "torch.float32",
+          "layer": 21,
+          "orthogonality_max_abs": 1.7881393432617188e-06,
+          "sha256": "b0dcc42dc20d80f0d99aec3ac620f460f259f9a0a17a30641d43f2290ee37c04",
+          "shape": [
+            128,
+            128
+          ]
+        },
+        {
+          "checkpoint_loaded_vs_frozen_exact": true,
+          "dtype": "torch.float32",
+          "layer": 22,
+          "orthogonality_max_abs": 1.2516975402832031e-06,
+          "sha256": "25605ee5616a59d3cf2909cdb825aa58d7eb5f36538903f744e667a23d2870e4",
+          "shape": [
+            128,
+            128
+          ]
+        },
+        {
+          "checkpoint_loaded_vs_frozen_exact": true,
+          "dtype": "torch.float32",
+          "layer": 24,
+          "orthogonality_max_abs": 1.3113021850585938e-06,
+          "sha256": "764da034657b2d41d62d409d84a3170d65205b69a4313f7a4781b40d85d3390e",
+          "shape": [
+            128,
+            128
+          ]
+        },
+        {
+          "checkpoint_loaded_vs_frozen_exact": true,
+          "dtype": "torch.float32",
+          "layer": 25,
+          "orthogonality_max_abs": 1.5497207641601562e-06,
+          "sha256": "e4cc1b4f7eb26e15d33bf9425335a94d47e5319bacbadec8adf7557825fcb59c",
+          "shape": [
+            128,
+            128
+          ]
+        },
+        {
+          "checkpoint_loaded_vs_frozen_exact": true,
+          "dtype": "torch.float32",
+          "layer": 26,
+          "orthogonality_max_abs": 1.6689300537109375e-06,
+          "sha256": "9841bf91c99048934d24c9d50814d15c1fe8009ef635906a0503ae2c03a0c083",
+          "shape": [
+            128,
+            128
+          ]
+        },
+        {
+          "checkpoint_loaded_vs_frozen_exact": true,
+          "dtype": "torch.float32",
+          "layer": 28,
+          "orthogonality_max_abs": 1.7881393432617188e-06,
+          "sha256": "1f7b441c4753baead07c4e894e2d0237102d5a275159a074d71e321b9b794243",
+          "shape": [
+            128,
+            128
+          ]
+        },
+        {
+          "checkpoint_loaded_vs_frozen_exact": true,
+          "dtype": "torch.float32",
+          "layer": 29,
+          "orthogonality_max_abs": 1.6689300537109375e-06,
+          "sha256": "b84a9672226dd3e15b7b2dd0785abfa6dd74e2c830efa66f228ea11acfdb8646",
+          "shape": [
+            128,
+            128
+          ]
+        },
+        {
+          "checkpoint_loaded_vs_frozen_exact": true,
+          "dtype": "torch.float32",
+          "layer": 30,
+          "orthogonality_max_abs": 1.0728836059570312e-06,
+          "sha256": "fcdce13fe0bc43b21b66899dadeaa9eab4329251893ce6df8b1dbf9b27d60b48",
+          "shape": [
+            128,
+            128
+          ]
+        }
+      ],
+      "orthogonality_threshold": 0.0001,
+      "path": "/root/autodl-tmp/GDN-A800-cleanroom/experiments/QWEN_GDN_A800_CLEANROOM_C5R_C6R_C7_MATCHED_V1/training/C5R/frozen_rotations/update_113_exposure_0904.pt",
+      "rule": "original training bank.load_state_dict + layer.matrix().detach().float().cpu().contiguous().clone(); comparison only, no file rematerialization",
+      "sha256": "2916169ea163de9c7f179d73936f38d6effd8c4407488298d5e29a3d8de01076",
+      "source_checkpoint_path": "/root/autodl-tmp/GDN-A800-cleanroom/experiments/QWEN_GDN_A800_CLEANROOM_C5R_C6R_C7_MATCHED_V1/training/C5R/checkpoints/update_113_exposure_0904.pt",
+      "source_checkpoint_sha256": "a11cf60f6ff11c2bb97f31b09129b8bfaadbf553f2005abc9276343ddca10fb5",
+      "status": "PASS",
+      "update": 113
+    },
+    "C6R": {
+      "EXPORT_PARITY_GATE": "PASS",
+      "existing_export_rewritten": false,
+      "exposure": 752,
+      "layers": [
+        {
+          "checkpoint_loaded_vs_frozen_exact": true,
+          "dtype": "torch.float32",
+          "layer": 0,
+          "orthogonality_max_abs": 1.6689300537109375e-06,
+          "sha256": "2c1bb2bd4e9f3ee4157ceea809f3178a6ebb1d5d423cbd5abaf23551e6d494f9",
+          "shape": [
+            128,
+            128
+          ]
+        },
+        {
+          "checkpoint_loaded_vs_frozen_exact": true,
+          "dtype": "torch.float32",
+          "layer": 1,
+          "orthogonality_max_abs": 2.1457672119140625e-06,
+          "sha256": "3d6e2448e14eb69ea0d5c44bb550bbe75b72da33655b334098ad03129af065d4",
+          "shape": [
+            128,
+            128
+          ]
+        },
+        {
+          "checkpoint_loaded_vs_frozen_exact": true,
+          "dtype": "torch.float32",
+          "layer": 2,
+          "orthogonality_max_abs": 1.7881393432617188e-06,
+          "sha256": "4e2e976149265cbe41cf664e381a96aef9775c5c05ec471c7e00cbeb6e10bc06",
+          "shape": [
+            128,
+            128
+          ]
+        },
+        {
+          "checkpoint_loaded_vs_frozen_exact": true,
+          "dtype": "torch.float32",
+          "layer": 4,
+          "orthogonality_max_abs": 1.3113021850585938e-06,
+          "sha256": "1d86b21a0a8a3a41ef9bc106a7a5330f6b776ef1721a44377ccbbecbeada1980",
+          "shape": [
+            128,
+            128
+          ]
+        },
+        {
+          "checkpoint_loaded_vs_frozen_exact": true,
+          "dtype": "torch.float32",
+          "layer": 5,
+          "orthogonality_max_abs": 2.1457672119140625e-06,
+          "sha256": "e376b6fc4b4f81b9a88c002ae8348a9aebb5720240bb007e6c4de80f68d6dc16",
+          "shape": [
+            128,
+            128
+          ]
+        },
+        {
+          "checkpoint_loaded_vs_frozen_exact": true,
+          "dtype": "torch.float32",
+          "layer": 6,
+          "orthogonality_max_abs": 2.384185791015625e-06,
+          "sha256": "a5643980eb8ed8ed37aed364f0b9bbda74614e25286a7bdc6007bdc1df042898",
+          "shape": [
+            128,
+            128
+          ]
+        },
+        {
+          "checkpoint_loaded_vs_frozen_exact": true,
+          "dtype": "torch.float32",
+          "layer": 8,
+          "orthogonality_max_abs": 1.5497207641601562e-06,
+          "sha256": "0e3121439ff233228e2f6c546721fc442e0987d99515681a56636237e6c63d2c",
+          "shape": [
+            128,
+            128
+          ]
+        },
+        {
+          "checkpoint_loaded_vs_frozen_exact": true,
+          "dtype": "torch.float32",
+          "layer": 9,
+          "orthogonality_max_abs": 1.3113021850585938e-06,
+          "sha256": "370c4d120d4305dacb0a2178d28ec45799be62d6d702919773fc94935d29b500",
+          "shape": [
+            128,
+            128
+          ]
+        },
+        {
+          "checkpoint_loaded_vs_frozen_exact": true,
+          "dtype": "torch.float32",
+          "layer": 10,
+          "orthogonality_max_abs": 1.4901161193847656e-06,
+          "sha256": "5b75a1e959e4c87bba918d7774481504556c813428b93b931e7d3a4152554c93",
+          "shape": [
+            128,
+            128
+          ]
+        },
+        {
+          "checkpoint_loaded_vs_frozen_exact": true,
+          "dtype": "torch.float32",
+          "layer": 12,
+          "orthogonality_max_abs": 1.430511474609375e-06,
+          "sha256": "9f8cf3fd0722c00b80adf6ff9f0501314b08a43cd9b73943ff7b361b34e74dd3",
+          "shape": [
+            128,
+            128
+          ]
+        },
+        {
+          "checkpoint_loaded_vs_frozen_exact": true,
+          "dtype": "torch.float32",
+          "layer": 13,
+          "orthogonality_max_abs": 1.7881393432617188e-06,
+          "sha256": "22418e9a9f517aa3ff44b6ecb8a36d4245338d7392e4ef8e5d11d74073a4f66f",
+          "shape": [
+            128,
+            128
+          ]
+        },
+        {
+          "checkpoint_loaded_vs_frozen_exact": true,
+          "dtype": "torch.float32",
+          "layer": 14,
+          "orthogonality_max_abs": 1.6689300537109375e-06,
+          "sha256": "1764fb8654b840415c01f1e78f45355b388062ce4dd6142ef825e34470b21742",
+          "shape": [
+            128,
+            128
+          ]
+        },
+        {
+          "checkpoint_loaded_vs_frozen_exact": true,
+          "dtype": "torch.float32",
+          "layer": 16,
+          "orthogonality_max_abs": 1.7285346984863281e-06,
+          "sha256": "ab86987027626fedb0b5b5dce89180b9eb29e683bca1450007e41be085d73457",
+          "shape": [
+            128,
+            128
+          ]
+        },
+        {
+          "checkpoint_loaded_vs_frozen_exact": true,
+          "dtype": "torch.float32",
+          "layer": 17,
+          "orthogonality_max_abs": 1.6689300537109375e-06,
+          "sha256": "6b5c14e9d4bc995780e2ee1ade9027172068f59e90111e66bbc0780528ce2135",
+          "shape": [
+            128,
+            128
+          ]
+        },
+        {
+          "checkpoint_loaded_vs_frozen_exact": true,
+          "dtype": "torch.float32",
+          "layer": 18,
+          "orthogonality_max_abs": 1.430511474609375e-06,
+          "sha256": "bae52d45da5f27ca49ba57d86584d08f48c7fc631a1a4c652d431bd6afa29fdc",
+          "shape": [
+            128,
+            128
+          ]
+        },
+        {
+          "checkpoint_loaded_vs_frozen_exact": true,
+          "dtype": "torch.float32",
+          "layer": 20,
+          "orthogonality_max_abs": 1.4901161193847656e-06,
+          "sha256": "a1e529c33281a79ad350f694e19c60adba51e6b34fdbc13ff08fd0af9e0d4bad",
+          "shape": [
+            128,
+            128
+          ]
+        },
+        {
+          "checkpoint_loaded_vs_frozen_exact": true,
+          "dtype": "torch.float32",
+          "layer": 21,
+          "orthogonality_max_abs": 1.5497207641601562e-06,
+          "sha256": "e1b5097abaac8fda398fdb122f845deefc2dc410f846663134e4e387f9850e71",
+          "shape": [
+            128,
+            128
+          ]
+        },
+        {
+          "checkpoint_loaded_vs_frozen_exact": true,
+          "dtype": "torch.float32",
+          "layer": 22,
+          "orthogonality_max_abs": 1.8477439880371094e-06,
+          "sha256": "d5a3311d94e9dacf7e12fc405e690044c78298b4409abab6bf32a4df42dea2e0",
+          "shape": [
+            128,
+            128
+          ]
+        },
+        {
+          "checkpoint_loaded_vs_frozen_exact": true,
+          "dtype": "torch.float32",
+          "layer": 24,
+          "orthogonality_max_abs": 1.3113021850585938e-06,
+          "sha256": "da2e2b8cedf0d48896f8771fea6137f55ad99251f54ac324c48a81423bb9b37b",
+          "shape": [
+            128,
+            128
+          ]
+        },
+        {
+          "checkpoint_loaded_vs_frozen_exact": true,
+          "dtype": "torch.float32",
+          "layer": 25,
+          "orthogonality_max_abs": 1.430511474609375e-06,
+          "sha256": "537e17c3f13ce0b61ada253a7b9dc53e169091cfebdf76bd5795f804ff8c1eec",
+          "shape": [
+            128,
+            128
+          ]
+        },
+        {
+          "checkpoint_loaded_vs_frozen_exact": true,
+          "dtype": "torch.float32",
+          "layer": 26,
+          "orthogonality_max_abs": 1.7285346984863281e-06,
+          "sha256": "5558ff52fea94d858141636db3103fc16c19440298a41e2ace3cf2fa00b21063",
+          "shape": [
+            128,
+            128
+          ]
+        },
+        {
+          "checkpoint_loaded_vs_frozen_exact": true,
+          "dtype": "torch.float32",
+          "layer": 28,
+          "orthogonality_max_abs": 1.1920928955078125e-06,
+          "sha256": "07923665ea0b349017cf2922dae9a098a650869f4c8ac609216170867e1fa179",
+          "shape": [
+            128,
+            128
+          ]
+        },
+        {
+          "checkpoint_loaded_vs_frozen_exact": true,
+          "dtype": "torch.float32",
+          "layer": 29,
+          "orthogonality_max_abs": 1.4901161193847656e-06,
+          "sha256": "f7bc8fa2cbedbf0b8f605ed60feeed2b4160b89963ba5e6421deae711a2ff305",
+          "shape": [
+            128,
+            128
+          ]
+        },
+        {
+          "checkpoint_loaded_vs_frozen_exact": true,
+          "dtype": "torch.float32",
+          "layer": 30,
+          "orthogonality_max_abs": 1.6689300537109375e-06,
+          "sha256": "50b455232f24a1b4c196672ed37aa3e2a680b99777b3b3955ea2de9b968db673",
+          "shape": [
+            128,
+            128
+          ]
+        }
+      ],
+      "orthogonality_threshold": 0.0001,
+      "path": "/root/autodl-tmp/GDN-A800-cleanroom/experiments/QWEN_GDN_A800_CLEANROOM_C5R_C6R_C7_MATCHED_V1/training/C6R/frozen_rotations/update_094_exposure_0752.pt",
+      "rule": "original training bank.load_state_dict + layer.matrix().detach().float().cpu().contiguous().clone(); comparison only, no file rematerialization",
+      "sha256": "a886588b3613f66e6635e5874dbfaeaee26b850e05b4a1524da0bef952d22da6",
+      "source_checkpoint_path": "/root/autodl-tmp/GDN-A800-cleanroom/experiments/QWEN_GDN_A800_CLEANROOM_C5R_C6R_C7_MATCHED_V1/training/C6R/checkpoints/update_094_exposure_0752.pt",
+      "source_checkpoint_sha256": "620a35101b95cadd16f50cd1b869aeef54da9db0b3c76076fe82a374a6ee17cf",
+      "status": "PASS",
+      "update": 94
+    },
+    "C7": {
+      "EXPORT_PARITY_GATE": "PASS",
+      "existing_export_rewritten": false,
+      "exposure": 152,
+      "layers": [
+        {
+          "checkpoint_loaded_vs_frozen_exact": true,
+          "dtype": "torch.float32",
+          "layer": 0,
+          "orthogonality_max_abs": 1.6689300537109375e-06,
+          "sha256": "05f5e29d8443530a00b31a92aa5f3779efd6e7e84184edb004e1d1e82e9aac56",
+          "shape": [
+            128,
+            128
+          ]
+        },
+        {
+          "checkpoint_loaded_vs_frozen_exact": true,
+          "dtype": "torch.float32",
+          "layer": 1,
+          "orthogonality_max_abs": 1.7881393432617188e-06,
+          "sha256": "4bf75ffb646ee56d02096b2bf53acc8012afb3604cc242929c1faef2c8338131",
+          "shape": [
+            128,
+            128
+          ]
+        },
+        {
+          "checkpoint_loaded_vs_frozen_exact": true,
+          "dtype": "torch.float32",
+          "layer": 2,
+          "orthogonality_max_abs": 2.384185791015625e-06,
+          "sha256": "e2c4c559abf4e62acafd53d6fe24d33e067bc89971db63c4d080ff39103426cc",
+          "shape": [
+            128,
+            128
+          ]
+        },
+        {
+          "checkpoint_loaded_vs_frozen_exact": true,
+          "dtype": "torch.float32",
+          "layer": 4,
+          "orthogonality_max_abs": 1.7285346984863281e-06,
+          "sha256": "19b0f896411281d4196e0519fcd0cfc3a125988e84d643928efda4d8d0bc084a",
+          "shape": [
+            128,
+            128
+          ]
+        },
+        {
+          "checkpoint_loaded_vs_frozen_exact": true,
+          "dtype": "torch.float32",
+          "layer": 5,
+          "orthogonality_max_abs": 2.0265579223632812e-06,
+          "sha256": "742517a8bcc4d0fd645d90f0b726f733bcfd9da5e4376fc917a7b4184f6d29b7",
+          "shape": [
+            128,
+            128
+          ]
+        },
+        {
+          "checkpoint_loaded_vs_frozen_exact": true,
+          "dtype": "torch.float32",
+          "layer": 6,
+          "orthogonality_max_abs": 1.9073486328125e-06,
+          "sha256": "84f1515206cc10a40c06e3f2ba63a0f7cb3ff0081742b73bebc18ff9ae03a385",
+          "shape": [
+            128,
+            128
+          ]
+        },
+        {
+          "checkpoint_loaded_vs_frozen_exact": true,
+          "dtype": "torch.float32",
+          "layer": 8,
+          "orthogonality_max_abs": 1.6689300537109375e-06,
+          "sha256": "4a8672d459732b8c1aca0dfca85857d8e5fb154988b80eedf006a540bc5aa345",
+          "shape": [
+            128,
+            128
+          ]
+        },
+        {
+          "checkpoint_loaded_vs_frozen_exact": true,
+          "dtype": "torch.float32",
+          "layer": 9,
+          "orthogonality_max_abs": 2.086162567138672e-06,
+          "sha256": "88221f6368c477f20e143c3b8f291ecb2ecdc1eb3f73b41accd75332de4a6b6c",
+          "shape": [
+            128,
+            128
+          ]
+        },
+        {
+          "checkpoint_loaded_vs_frozen_exact": true,
+          "dtype": "torch.float32",
+          "layer": 10,
+          "orthogonality_max_abs": 1.7285346984863281e-06,
+          "sha256": "f53a8819cf6e5b476379702ba7c08ed1e19b4cd0af85c7aa054f8801129d8f41",
+          "shape": [
+            128,
+            128
+          ]
+        },
+        {
+          "checkpoint_loaded_vs_frozen_exact": true,
+          "dtype": "torch.float32",
+          "layer": 12,
+          "orthogonality_max_abs": 1.9073486328125e-06,
+          "sha256": "bca349016557733f698f52addf94398ad0a72fb8c34d9b45fb3ef8f1aae926e9",
+          "shape": [
+            128,
+            128
+          ]
+        },
+        {
+          "checkpoint_loaded_vs_frozen_exact": true,
+          "dtype": "torch.float32",
+          "layer": 13,
+          "orthogonality_max_abs": 2.384185791015625e-06,
+          "sha256": "fade2d513f19131d792aada9a2be8d799f376ab6eafb37746ecac9bbf310e459",
+          "shape": [
+            128,
+            128
+          ]
+        },
+        {
+          "checkpoint_loaded_vs_frozen_exact": true,
+          "dtype": "torch.float32",
+          "layer": 14,
+          "orthogonality_max_abs": 1.6093254089355469e-06,
+          "sha256": "1cfbb89d4354e0408405ddb8c71525c3412164db0a340bc5259b172be8a4edca",
+          "shape": [
+            128,
+            128
+          ]
+        },
+        {
+          "checkpoint_loaded_vs_frozen_exact": true,
+          "dtype": "torch.float32",
+          "layer": 16,
+          "orthogonality_max_abs": 1.9669532775878906e-06,
+          "sha256": "6cfef09b59316bd684bd66848950644421d56990534260644460e09e210f8259",
+          "shape": [
+            128,
+            128
+          ]
+        },
+        {
+          "checkpoint_loaded_vs_frozen_exact": true,
+          "dtype": "torch.float32",
+          "layer": 17,
+          "orthogonality_max_abs": 1.6689300537109375e-06,
+          "sha256": "f5e5a9928a432424ef5d191bde7c41457fa8177cd9ca3b8baf8708bfd7c23c95",
+          "shape": [
+            128,
+            128
+          ]
+        },
+        {
+          "checkpoint_loaded_vs_frozen_exact": true,
+          "dtype": "torch.float32",
+          "layer": 18,
+          "orthogonality_max_abs": 1.7285346984863281e-06,
+          "sha256": "374acb177ef146b597cf159ac07764712938e7f27be39b46e75af57a959e419f",
+          "shape": [
+            128,
+            128
+          ]
+        },
+        {
+          "checkpoint_loaded_vs_frozen_exact": true,
+          "dtype": "torch.float32",
+          "layer": 20,
+          "orthogonality_max_abs": 1.9073486328125e-06,
+          "sha256": "c792b300cd6c705c2efaf7a0bc9bfa19d8f326e29d77b71a728f6b201500837f",
+          "shape": [
+            128,
+            128
+          ]
+        },
+        {
+          "checkpoint_loaded_vs_frozen_exact": true,
+          "dtype": "torch.float32",
+          "layer": 21,
+          "orthogonality_max_abs": 2.0265579223632812e-06,
+          "sha256": "89c8c184f42a302e25af48b6d57800876eb3341c2b4a4d2a9e3e124384b9bd8c",
+          "shape": [
+            128,
+            128
+          ]
+        },
+        {
+          "checkpoint_loaded_vs_frozen_exact": true,
+          "dtype": "torch.float32",
+          "layer": 22,
+          "orthogonality_max_abs": 1.7285346984863281e-06,
+          "sha256": "ff3a346aec504fe0c8727db6484ac4d46cc7493ee5d333a726a2d3e038825bd3",
+          "shape": [
+            128,
+            128
+          ]
+        },
+        {
+          "checkpoint_loaded_vs_frozen_exact": true,
+          "dtype": "torch.float32",
+          "layer": 24,
+          "orthogonality_max_abs": 1.9073486328125e-06,
+          "sha256": "264566252bda1f277fc1860be943f16875f2c56a648b60a2884327e260775ea0",
+          "shape": [
+            128,
+            128
+          ]
+        },
+        {
+          "checkpoint_loaded_vs_frozen_exact": true,
+          "dtype": "torch.float32",
+          "layer": 25,
+          "orthogonality_max_abs": 1.6689300537109375e-06,
+          "sha256": "6b2427172ea3aa6aa639ada23f1b17fd6ae29c3f9156c19096d580624a52bfeb",
+          "shape": [
+            128,
+            128
+          ]
+        },
+        {
+          "checkpoint_loaded_vs_frozen_exact": true,
+          "dtype": "torch.float32",
+          "layer": 26,
+          "orthogonality_max_abs": 1.6689300537109375e-06,
+          "sha256": "0a1a2fc4bbedf60af01230cf493d5a469fad84c114e5374761627619059b9c13",
+          "shape": [
+            128,
+            128
+          ]
+        },
+        {
+          "checkpoint_loaded_vs_frozen_exact": true,
+          "dtype": "torch.float32",
+          "layer": 28,
+          "orthogonality_max_abs": 2.0265579223632812e-06,
+          "sha256": "797774cfecbc0358d051b39875e2011f772df9cb21ed81a5007ac15767920eaa",
+          "shape": [
+            128,
+            128
+          ]
+        },
+        {
+          "checkpoint_loaded_vs_frozen_exact": true,
+          "dtype": "torch.float32",
+          "layer": 29,
+          "orthogonality_max_abs": 1.430511474609375e-06,
+          "sha256": "d446bc8da7ccc466479ecb2ec84412785fa46fcc830803c7d4346c7fd32a3cff",
+          "shape": [
+            128,
+            128
+          ]
+        },
+        {
+          "checkpoint_loaded_vs_frozen_exact": true,
+          "dtype": "torch.float32",
+          "layer": 30,
+          "orthogonality_max_abs": 1.5497207641601562e-06,
+          "sha256": "8f8985b9326b95f9dc680562089e2e101a989dcdaf9ed18cb3063dfb76fa13ce",
+          "shape": [
+            128,
+            128
+          ]
+        }
+      ],
+      "orthogonality_threshold": 0.0001,
+      "path": "/root/autodl-tmp/GDN-A800-cleanroom/experiments/QWEN_GDN_A800_CLEANROOM_C5R_C6R_C7_MATCHED_V1/training/C7/frozen_rotations/update_019_exposure_0152.pt",
+      "rule": "original training bank.load_state_dict + layer.matrix().detach().float().cpu().contiguous().clone(); comparison only, no file rematerialization",
+      "sha256": "57e7a11714405806385064f07438e5e2ac6b5952dd421606332b894cef3ee6e8",
+      "source_checkpoint_path": "/root/autodl-tmp/GDN-A800-cleanroom/experiments/QWEN_GDN_A800_CLEANROOM_C5R_C6R_C7_MATCHED_V1/training/C7/checkpoints/update_019_exposure_0152.pt",
+      "source_checkpoint_sha256": "b08f66fa64f3453821a4d9dd9586c5263a747c461202c1dbc31b33193bde4958",
+      "status": "PASS",
+      "update": 19
+    }
+  },
+  "new_export_files": 0,
+  "optimizer_step_calls": 0,
+  "status": "PASS"
+}

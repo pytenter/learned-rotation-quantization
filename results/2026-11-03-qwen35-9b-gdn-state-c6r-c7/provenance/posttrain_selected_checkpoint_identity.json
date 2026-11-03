@@ -1,0 +1,2697 @@
+{
+  "conditions": {
+    "C5R": {
+      "arm": "C5R",
+      "exposure": 904,
+      "frozen_delta_path": "/root/autodl-tmp/GDN-A800-cleanroom/experiments/QWEN_GDN_A800_CLEANROOM_C5R_C6R_C7_MATCHED_V1/training/C5R/frozen_rotations/update_113_exposure_0904.pt",
+      "frozen_delta_sha256": "2916169ea163de9c7f179d73936f38d6effd8c4407488298d5e29a3d8de01076",
+      "orthogonality": 1.8477439880371094e-06,
+      "per_layer_sha256": {
+        "0": "100a5d13e28f555bc62961c49ce588a948347d8186f4c194083ab06a4ba210c3",
+        "1": "b469e0ccfab0d727f49aed1ff930ebafe7855a1523d40681c637dcc0e72bc1f3",
+        "10": "8a25d7f0bd7a609149aec78ae3e3138a1ee4acfb3fdc47f6aaf3fabf93cee218",
+        "12": "57d7f4303a7e74e995785fad5363754bc957ca9f719a825560b0b900f411018f",
+        "13": "b24a5e503464dde02e88f97282c33a4bb2e44cd3ce1c14568c6f59bebfbc3bf3",
+        "14": "258150890306f55f2d8fb91982ef481eabe221656862ba5a39a7cdfec7a29f9b",
+        "16": "efac8d2c9ee0f63523c0e0dd5faf6e2dff2a04293a85ce0cd6f50f4d496f1d19",
+        "17": "d8acf40bb8c86d00ae0257145ef048fb6928a8a809a4347fe3d9bae64d3fb15e",
+        "18": "ac399137fd8d867f6158b92c64de0f7ca222d84354ca82daf9b602ba83eb85fc",
+        "2": "354dfc69fbbb06a971371e2ce0ef0fb9ef322c644e6cc714878fa53ce53dfa10",
+        "20": "41a2d969ee58d730fb4063ef76133cc2cb715b987e69550d3b6d83f9a3e5b63e",
+        "21": "b0dcc42dc20d80f0d99aec3ac620f460f259f9a0a17a30641d43f2290ee37c04",
+        "22": "25605ee5616a59d3cf2909cdb825aa58d7eb5f36538903f744e667a23d2870e4",
+        "24": "764da034657b2d41d62d409d84a3170d65205b69a4313f7a4781b40d85d3390e",
+        "25": "e4cc1b4f7eb26e15d33bf9425335a94d47e5319bacbadec8adf7557825fcb59c",
+        "26": "9841bf91c99048934d24c9d50814d15c1fe8009ef635906a0503ae2c03a0c083",
+        "28": "1f7b441c4753baead07c4e894e2d0237102d5a275159a074d71e321b9b794243",
+        "29": "b84a9672226dd3e15b7b2dd0785abfa6dd74e2c830efa66f228ea11acfdb8646",
+        "30": "fcdce13fe0bc43b21b66899dadeaa9eab4329251893ce6df8b1dbf9b27d60b48",
+        "4": "b505563e92f6321a70cf06b914ae217a445892775b1170454d345cd5916276f4",
+        "5": "35fdfc9386db4d4dbddbaa873e2c50cb57d67679e67a272a2d3cb915ce604942",
+        "6": "4d9fd4e670d220d258f46c324ee1a00f156cafce36bbf5b4953985f9df63a7b0",
+        "8": "e7d8a4523ab10ded7a3396705757a3288e52ee1f8db4545428567f512e2092f8",
+        "9": "e1c7de079ea2318e193e8f157bfdbe4112a1aaad11704cf54e6fbc35a0676bd9"
+      },
+      "primary_selection_metric": "state",
+      "primary_value": 0.007835974323825212,
+      "reselection": false,
+      "selection_rule": "same historical 20 scheduled candidates, update0 reference only, minimum selected metric, exact ties earlier",
+      "theta_path": "/root/autodl-tmp/GDN-A800-cleanroom/experiments/QWEN_GDN_A800_CLEANROOM_C5R_C6R_C7_MATCHED_V1/training/C5R/checkpoints/update_113_exposure_0904.pt",
+      "theta_sha256": "a11cf60f6ff11c2bb97f31b09129b8bfaadbf553f2005abc9276343ddca10fb5",
+      "update": 113,
+      "validation": {
+        "captures": 128,
+        "documents": 16,
+        "final_hidden": 0.01887121336585551,
+        "functional": 0.04875773693129304,
+        "per_document": [
+          {
+            "captures": [
+              {
+                "final_hidden": 0.001781999133527279,
+                "functional": 0.0048656160943210125,
+                "position": 133,
+                "state": 0.0024012355133891106
+              },
+              {
+                "final_hidden": 0.008337135426700115,
+                "functional": 0.03089500032365322,
+                "position": 395,
+                "state": 0.0057158926501870155
+              },
+              {
+                "final_hidden": 0.011325600557029247,
+                "functional": 0.0435442179441452,
+                "position": 621,
+                "state": 0.010752763599157333
+              },
+              {
+                "final_hidden": 0.020516062155365944,
+                "functional": 0.04786291718482971,
+                "position": 641,
+                "state": 0.00973844900727272
+              },
+              {
+                "final_hidden": 0.010351547971367836,
+                "functional": 0.028669608756899834,
+                "position": 693,
+                "state": 0.010173898190259933
+              },
+              {
+                "final_hidden": 0.013395195826888084,
+                "functional": 0.03608943521976471,
+                "position": 702,
+                "state": 0.010008107870817184
+              },
+              {
+                "final_hidden": 0.006343532353639603,
+                "functional": 0.05297861620783806,
+                "position": 791,
+                "state": 0.012735964730381966
+              },
+              {
+                "final_hidden": 0.02443736232817173,
+                "functional": 0.057362571358680725,
+                "position": 841,
+                "state": 0.011371339671313763
+              }
+            ],
+            "document_id": "wikitext2raw-validation-000"
+          },
+          {
+            "captures": [
+              {
+                "final_hidden": 0.001623414340429008,
+                "functional": 0.006538485176861286,
+                "position": 167,
+                "state": 0.0023456974886357784
+              },
+              {
+                "final_hidden": 0.0028127674013376236,
+                "functional": 0.007937898859381676,
+                "position": 209,
+                "state": 0.002931943628937006
+              },
+              {
+                "final_hidden": 0.008669286035001278,
+                "functional": 0.03270036727190018,
+                "position": 454,
+                "state": 0.006635712459683418
+              },
+              {
+                "final_hidden": 0.019507024437189102,
+                "functional": 0.035827863961458206,
+                "position": 732,
+                "state": 0.00718711270019412
+              },
+              {
+                "final_hidden": 0.010267936624586582,
+                "functional": 0.027468344196677208,
+                "position": 813,
+                "state": 0.007990173995494843
+              },
+              {
+                "final_hidden": 0.019011884927749634,
+                "functional": 0.05436893552541733,
+                "position": 870,
+                "state": 0.00955895148217678
+              },
+              {
+                "final_hidden": 0.03819059953093529,
+                "functional": 0.11738547682762146,
+                "position": 957,
+                "state": 0.012038084678351879
+              },
+              {
+                "final_hidden": 0.004899475257843733,
+                "functional": 0.02621348947286606,
+                "position": 986,
+                "state": 0.009420417249202728
+              }
+            ],
+            "document_id": "wikitext2raw-validation-001"
+          },
+          {
+            "captures": [
+              {
+                "final_hidden": 0.019139809533953667,
+                "functional": 0.04983234405517578,
+                "position": 272,
+                "state": 0.004303464666008949
+              },
+              {
+                "final_hidden": 0.014128799550235271,
+                "functional": 0.04378613084554672,
+                "position": 420,
+                "state": 0.006866830866783857
+              },
+              {
+                "final_hidden": 0.013258625753223896,
+                "functional": 0.0639980286359787,
+                "position": 465,
+                "state": 0.009492931887507439
+              },
+              {
+                "final_hidden": 0.015812495723366737,
+                "functional": 0.043191321194171906,
+                "position": 494,
+                "state": 0.0077687716111540794
+              },
+              {
+                "final_hidden": 0.018222536891698837,
+                "functional": 0.05041250213980675,
+                "position": 783,
+                "state": 0.008123097941279411
+              },
+              {
+                "final_hidden": 0.019143717363476753,
+                "functional": 0.03745175525546074,
+                "position": 833,
+                "state": 0.009048099629580975
+              },
+              {
+                "final_hidden": 0.052569832652807236,
+                "functional": 0.11796202510595322,
+                "position": 871,
+                "state": 0.01089754980057478
+              },
+              {
+                "final_hidden": 0.024461036548018456,
+                "functional": 0.08416521549224854,
+                "position": 895,
+                "state": 0.009173003025352955
+              }
+            ],
+            "document_id": "wikitext2raw-validation-002"
+          },
+          {
+            "captures": [
+              {
+                "final_hidden": 0.008504089899361134,
+                "functional": 0.01968858763575554,
+                "position": 237,
+                "state": 0.004107561893761158
+              },
+              {
+                "final_hidden": 0.009839489124715328,
+                "functional": 0.023532867431640625,
+                "position": 361,
+                "state": 0.005594267509877682
+              },
+              {
+                "final_hidden": 0.006774509325623512,
+                "functional": 0.027345623821020126,
+                "position": 391,
+                "state": 0.006794532760977745
+              },
+              {
+                "final_hidden": 0.010418711230158806,
+                "functional": 0.03208412602543831,
+                "position": 634,
+                "state": 0.007324072998017073
+              },
+              {
+                "final_hidden": 0.009355523623526096,
+                "functional": 0.03769068792462349,
+                "position": 695,
+                "state": 0.00837378017604351
+              },
+              {
+                "final_hidden": 0.003521896665915847,
+                "functional": 0.005675610154867172,
+                "position": 774,
+                "state": 0.005100621376186609
+              },
+              {
+                "final_hidden": 0.003826721804216504,
+                "functional": 0.014056378975510597,
+                "position": 788,
+                "state": 0.00550653925165534
+              },
+              {
+                "final_hidden": 0.004887166898697615,
+                "functional": 0.017063315957784653,
+                "position": 870,
+                "state": 0.006256584078073502
+              }
+            ],
+            "document_id": "wikitext2raw-validation-003"
+          },
+          {
+            "captures": [
+              {
+                "final_hidden": 0.015680857002735138,
+                "functional": 0.04273837432265282,
+                "position": 207,
+                "state": 0.003082039300352335
+              },
+              {
+                "final_hidden": 0.014359323307871819,
+                "functional": 0.043346431106328964,
+                "position": 224,
+                "state": 0.004178925417363644
+              },
+              {
+                "final_hidden": 0.004171829670667648,
+                "functional": 0.01399922650307417,
+                "position": 316,
+                "state": 0.006298800930380821
+              },
+              {
+                "final_hidden": 0.015964273363351822,
+                "functional": 0.06269783526659012,
+                "position": 319,
+                "state": 0.004993761889636517
+              },
+              {
+                "final_hidden": 0.02063892036676407,
+                "functional": 0.05551920458674431,
+                "position": 428,
+                "state": 0.005979250185191631
+              },
+              {
+                "final_hidden": 0.03921045735478401,
+                "functional": 0.10316263139247894,
+                "position": 642,
+                "state": 0.008571663871407509
+              },
+              {
+                "final_hidden": 0.016222290694713593,
+                "functional": 0.04123397544026375,
+                "position": 877,
+                "state": 0.010399244725704193
+              },
+              {
+                "final_hidden": 0.026316214352846146,
+                "functional": 0.0732930600643158,
+                "position": 966,
+                "state": 0.011462477967143059
+              }
+            ],
+            "document_id": "wikitext2raw-validation-004"
+          },
+          {
+            "captures": [
+              {
+                "final_hidden": 0.008459457196295261,
+                "functional": 0.02467462047934532,
+                "position": 192,
+                "state": 0.003768425900489092
+              },
+              {
+                "final_hidden": 0.016744153574109077,
+                "functional": 0.046162527054548264,
+                "position": 260,
+                "state": 0.005113864783197641
+              },
+              {
+                "final_hidden": 0.014258787035942078,
+                "functional": 0.04019615054130554,
+                "position": 285,
+                "state": 0.005053136497735977
+              },
+              {
+                "final_hidden": 0.024082690477371216,
+                "functional": 0.06281526386737823,
+                "position": 424,
+                "state": 0.0073927054181694984
+              },
+              {
+                "final_hidden": 0.022885045036673546,
+                "functional": 0.1147732064127922,
+                "position": 538,
+                "state": 0.009423072449862957
+              },
+              {
+                "final_hidden": 0.02778398059308529,
+                "functional": 0.08737926930189133,
+                "position": 827,
+                "state": 0.011126352474093437
+              },
+              {
+                "final_hidden": 0.031173434108495712,
+                "functional": 0.10020913928747177,
+                "position": 982,
+                "state": 0.014443505555391312
+              },
+              {
+                "final_hidden": 0.03691287711262703,
+                "functional": 0.11730039119720459,
+                "position": 1021,
+                "state": 0.014561629854142666
+              }
+            ],
+            "document_id": "wikitext2raw-validation-005"
+          },
+          {
+            "captures": [
+              {
+                "final_hidden": 0.003948946017771959,
+                "functional": 0.005805741995573044,
+                "position": 184,
+                "state": 0.0027027472387999296
+              },
+              {
+                "final_hidden": 0.001896702335216105,
+                "functional": 0.005331443622708321,
+                "position": 195,
+                "state": 0.0028224315028637648
+              },
+              {
+                "final_hidden": 0.0027994161937385798,
+                "functional": 0.008455288596451283,
+                "position": 205,
+                "state": 0.0028327396139502525
+              },
+              {
+                "final_hidden": 0.009944108314812183,
+                "functional": 0.020130259916186333,
+                "position": 385,
+                "state": 0.003923761658370495
+              },
+              {
+                "final_hidden": 0.006119580939412117,
+                "functional": 0.012332620099186897,
+                "position": 417,
+                "state": 0.0040679993107914925
+              },
+              {
+                "final_hidden": 0.013966916128993034,
+                "functional": 0.03517208248376846,
+                "position": 439,
+                "state": 0.005506888963282108
+              },
+              {
+                "final_hidden": 0.009028189815580845,
+                "functional": 0.03294963389635086,
+                "position": 498,
+                "state": 0.005384262651205063
+              },
+              {
+                "final_hidden": 0.01845770888030529,
+                "functional": 0.045165397226810455,
+                "position": 767,
+                "state": 0.008491788059473038
+              }
+            ],
+            "document_id": "wikitext2raw-validation-006"
+          },
+          {
+            "captures": [
+              {
+                "final_hidden": 0.005625677295029163,
+                "functional": 0.01106469240039587,
+                "position": 134,
+                "state": 0.002553009195253253
+              },
+              {
+                "final_hidden": 0.004850636702030897,
+                "functional": 0.016124052926898003,
+                "position": 265,
+                "state": 0.0040758708491921425
+              },
+              {
+                "final_hidden": 0.008226950652897358,
+                "functional": 0.016968008130788803,
+                "position": 300,
+                "state": 0.004854140803217888
+              },
+              {
+                "final_hidden": 0.012806534767150879,
+                "functional": 0.05326313525438309,
+                "position": 727,
+                "state": 0.013744207099080086
+              },
+              {
+                "final_hidden": 0.03288755193352699,
+                "functional": 0.0834670215845108,
+                "position": 728,
+                "state": 0.012810744345188141
+              },
+              {
+                "final_hidden": 0.012827926315367222,
+                "functional": 0.0565706267952919,
+                "position": 737,
+                "state": 0.012859414331614971
+              },
+              {
+                "final_hidden": 0.049416374415159225,
+                "functional": 0.13763490319252014,
+                "position": 753,
+                "state": 0.018110724166035652
+              },
+              {
+                "final_hidden": 0.01570625975728035,
+                "functional": 0.06682278215885162,
+                "position": 933,
+                "state": 0.01442398875951767
+              }
+            ],
+            "document_id": "wikitext2raw-validation-007"
+          },
+          {
+            "captures": [
+              {
+                "final_hidden": 0.005000956356525421,
+                "functional": 0.02477169595658779,
+                "position": 254,
+                "state": 0.004232993349432945
+              },
+              {
+                "final_hidden": 0.013784786686301231,
+                "functional": 0.023506704717874527,
+                "position": 273,
+                "state": 0.004977807402610779
+              },
+              {
+                "final_hidden": 0.012034881860017776,
+                "functional": 0.050792060792446136,
+                "position": 472,
+                "state": 0.008002319373190403
+              },
+              {
+                "final_hidden": 0.020880430936813354,
+                "functional": 0.0775064155459404,
+                "position": 538,
+                "state": 0.007352814078330994
+              },
+              {
+                "final_hidden": 0.021441200748085976,
+                "functional": 0.062111660838127136,
+                "position": 574,
+                "state": 0.008405575528740883
+              },
+              {
+                "final_hidden": 0.016338393092155457,
+                "functional": 0.021191585808992386,
+                "position": 673,
+                "state": 0.00794785376638174
+              },
+              {
+                "final_hidden": 0.011724915355443954,
+                "functional": 0.026220981031656265,
+                "position": 674,
+                "state": 0.007890133187174797
+              },
+              {
+                "final_hidden": 0.020211894065141678,
+                "functional": 0.05167795345187187,
+                "position": 863,
+                "state": 0.01014215312898159
+              }
+            ],
+            "document_id": "wikitext2raw-validation-008"
+          },
+          {
+            "captures": [
+              {
+                "final_hidden": 0.004097118508070707,
+                "functional": 0.02015320211648941,
+                "position": 161,
+                "state": 0.005494858603924513
+              },
+              {
+                "final_hidden": 0.003954595420509577,
+                "functional": 0.014609581790864468,
+                "position": 189,
+                "state": 0.0044343965128064156
+              },
+              {
+                "final_hidden": 0.007712131831794977,
+                "functional": 0.018838603049516678,
+                "position": 231,
+                "state": 0.0035831648856401443
+              },
+              {
+                "final_hidden": 0.003942714538425207,
+                "functional": 0.00945332646369934,
+                "position": 269,
+                "state": 0.005041890777647495
+              },
+              {
+                "final_hidden": 0.027025319635868073,
+                "functional": 0.06564998626708984,
+                "position": 605,
+                "state": 0.010859357193112373
+              },
+              {
+                "final_hidden": 0.010605257004499435,
+                "functional": 0.040795207023620605,
+                "position": 718,
+                "state": 0.011002520099282265
+              },
+              {
+                "final_hidden": 0.03136102482676506,
+                "functional": 0.07308423519134521,
+                "position": 729,
+                "state": 0.014054584316909313
+              },
+              {
+                "final_hidden": 0.07276636362075806,
+                "functional": 0.17265233397483826,
+                "position": 1004,
+                "state": 0.012188888154923916
+              }
+            ],
+            "document_id": "wikitext2raw-validation-009"
+          },
+          {
+            "captures": [
+              {
+                "final_hidden": 0.003178485669195652,
+                "functional": 0.008228749968111515,
+                "position": 140,
+                "state": 0.0024706434924155474
+              },
+              {
+                "final_hidden": 0.01213846541941166,
+                "functional": 0.02507849596440792,
+                "position": 257,
+                "state": 0.004935079719871283
+              },
+              {
+                "final_hidden": 0.055752065032720566,
+                "functional": 0.0501892976462841,
+                "position": 290,
+                "state": 0.006492353044450283
+              },
+              {
+                "final_hidden": 0.02131301537156105,
+                "functional": 0.05533241480588913,
+                "position": 707,
+                "state": 0.008617034181952477
+              },
+              {
+                "final_hidden": 0.029846061021089554,
+                "functional": 0.06437208503484726,
+                "position": 875,
+                "state": 0.010626680217683315
+              },
+              {
+                "final_hidden": 0.015557127073407173,
+                "functional": 0.04242026060819626,
+                "position": 879,
+                "state": 0.009941723197698593
+              },
+              {
+                "final_hidden": 0.018494024872779846,
+                "functional": 0.057220324873924255,
+                "position": 971,
+                "state": 0.01167360506951809
+              },
+              {
+                "final_hidden": 0.012413750402629375,
+                "functional": 0.041612498462200165,
+                "position": 999,
+                "state": 0.01243235170841217
+              }
+            ],
+            "document_id": "wikitext2raw-validation-010"
+          },
+          {
+            "captures": [
+              {
+                "final_hidden": 0.0049395933747291565,
+                "functional": 0.01887626014649868,
+                "position": 227,
+                "state": 0.00392363965511322
+              },
+              {
+                "final_hidden": 0.023034987971186638,
+                "functional": 0.0696043148636818,
+                "position": 418,
+                "state": 0.005578195210546255
+              },
+              {
+                "final_hidden": 0.015966076403856277,
+                "functional": 0.045646026730537415,
+                "position": 591,
+                "state": 0.00794717576354742
+              },
+              {
+                "final_hidden": 0.04508417844772339,
+                "functional": 0.14615175127983093,
+                "position": 649,
+                "state": 0.007988191209733486
+              },
+              {
+                "final_hidden": 0.008354573510587215,
+                "functional": 0.04756218194961548,
+                "position": 689,
+                "state": 0.008979720994830132
+              },
+              {
+                "final_hidden": 0.0167098231613636,
+                "functional": 0.06200232729315758,
+                "position": 881,
+                "state": 0.009460316970944405
+              },
+              {
+                "final_hidden": 0.02214200235903263,
+                "functional": 0.06622403115034103,
+                "position": 906,
+                "state": 0.009283426217734814
+              },
+              {
+                "final_hidden": 0.03723447769880295,
+                "functional": 0.09886118024587631,
+                "position": 931,
+                "state": 0.011322755366563797
+              }
+            ],
+            "document_id": "wikitext2raw-validation-011"
+          },
+          {
+            "captures": [
+              {
+                "final_hidden": 0.0035718553699553013,
+                "functional": 0.011854158714413643,
+                "position": 199,
+                "state": 0.004125411622226238
+              },
+              {
+                "final_hidden": 0.021427279338240623,
+                "functional": 0.059522323310375214,
+                "position": 319,
+                "state": 0.006584244780242443
+              },
+              {
+                "final_hidden": 0.003902687458321452,
+                "functional": 0.013394578360021114,
+                "position": 341,
+                "state": 0.005225237458944321
+              },
+              {
+                "final_hidden": 0.007810575887560844,
+                "functional": 0.037317514419555664,
+                "position": 463,
+                "state": 0.006429710891097784
+              },
+              {
+                "final_hidden": 0.007785579189658165,
+                "functional": 0.02307392656803131,
+                "position": 474,
+                "state": 0.007781242486089468
+              },
+              {
+                "final_hidden": 0.015286323614418507,
+                "functional": 0.04458680376410484,
+                "position": 650,
+                "state": 0.009029127657413483
+              },
+              {
+                "final_hidden": 0.023480581119656563,
+                "functional": 0.0558520071208477,
+                "position": 700,
+                "state": 0.010798735544085503
+              },
+              {
+                "final_hidden": 0.02832404524087906,
+                "functional": 0.08381164073944092,
+                "position": 875,
+                "state": 0.010318508371710777
+              }
+            ],
+            "document_id": "wikitext2raw-validation-012"
+          },
+          {
+            "captures": [
+              {
+                "final_hidden": 0.006338221486657858,
+                "functional": 0.021194368600845337,
+                "position": 288,
+                "state": 0.003977211657911539
+              },
+              {
+                "final_hidden": 0.0034399523865431547,
+                "functional": 0.008027905598282814,
+                "position": 294,
+                "state": 0.0038949069567024708
+              },
+              {
+                "final_hidden": 0.012109233997762203,
+                "functional": 0.027044085785746574,
+                "position": 348,
+                "state": 0.004992770031094551
+              },
+              {
+                "final_hidden": 0.03729310631752014,
+                "functional": 0.08520953357219696,
+                "position": 793,
+                "state": 0.010809224098920822
+              },
+              {
+                "final_hidden": 0.00863352045416832,
+                "functional": 0.033783286809921265,
+                "position": 830,
+                "state": 0.015542611479759216
+              },
+              {
+                "final_hidden": 0.3453390896320343,
+                "functional": 0.23126117885112762,
+                "position": 880,
+                "state": 0.010884040966629982
+              },
+              {
+                "final_hidden": 0.031035011634230614,
+                "functional": 0.10261131823062897,
+                "position": 917,
+                "state": 0.01568847894668579
+              },
+              {
+                "final_hidden": 0.022111542522907257,
+                "functional": 0.07449789345264435,
+                "position": 976,
+                "state": 0.013763567432761192
+              }
+            ],
+            "document_id": "wikitext2raw-validation-013"
+          },
+          {
+            "captures": [
+              {
+                "final_hidden": 0.006196802016347647,
+                "functional": 0.02705082669854164,
+                "position": 234,
+                "state": 0.0038239487912505865
+              },
+              {
+                "final_hidden": 0.0071093239821493626,
+                "functional": 0.02445904165506363,
+                "position": 251,
+                "state": 0.004826153628528118
+              },
+              {
+                "final_hidden": 0.012380414642393589,
+                "functional": 0.039596863090991974,
+                "position": 344,
+                "state": 0.004954100586473942
+              },
+              {
+                "final_hidden": 0.01515898946672678,
+                "functional": 0.05094456300139427,
+                "position": 359,
+                "state": 0.005630130879580975
+              },
+              {
+                "final_hidden": 0.02468229830265045,
+                "functional": 0.06134917587041855,
+                "position": 378,
+                "state": 0.006903510540723801
+              },
+              {
+                "final_hidden": 0.023574665188789368,
+                "functional": 0.0513053797185421,
+                "position": 440,
+                "state": 0.007800884544849396
+              },
+              {
+                "final_hidden": 0.03372591361403465,
+                "functional": 0.15086400508880615,
+                "position": 618,
+                "state": 0.009463516995310783
+              },
+              {
+                "final_hidden": 0.023860907182097435,
+                "functional": 0.060106437653303146,
+                "position": 912,
+                "state": 0.011400902643799782
+              }
+            ],
+            "document_id": "wikitext2raw-validation-014"
+          },
+          {
+            "captures": [
+              {
+                "final_hidden": 0.0022275191731750965,
+                "functional": 0.007853112183511257,
+                "position": 166,
+                "state": 0.0029285873752087355
+              },
+              {
+                "final_hidden": 0.01009414903819561,
+                "functional": 0.03851018846035004,
+                "position": 282,
+                "state": 0.0037264185957610607
+              },
+              {
+                "final_hidden": 0.009550001472234726,
+                "functional": 0.030259517952799797,
+                "position": 501,
+                "state": 0.00585588626563549
+              },
+              {
+                "final_hidden": 0.0059875124134123325,
+                "functional": 0.03033125028014183,
+                "position": 562,
+                "state": 0.007716634776443243
+              },
+              {
+                "final_hidden": 0.007258922327309847,
+                "functional": 0.028569497168064117,
+                "position": 631,
+                "state": 0.008243761956691742
+              },
+              {
+                "final_hidden": 0.008964057080447674,
+                "functional": 0.03206871822476387,
+                "position": 706,
+                "state": 0.009729094803333282
+              },
+              {
+                "final_hidden": 0.030786864459514618,
+                "functional": 0.09221496433019638,
+                "position": 837,
+                "state": 0.011671725660562515
+              },
+              {
+                "final_hidden": 0.01231781393289566,
+                "functional": 0.034662164747714996,
+                "position": 943,
+                "state": 0.010449192486703396
+              }
+            ],
+            "document_id": "wikitext2raw-validation-015"
+          }
+        ],
+        "state": 0.007835974323825212
+      }
+    },
+    "C6R": {
+      "arm": "C6R",
+      "exposure": 752,
+      "frozen_delta_path": "/root/autodl-tmp/GDN-A800-cleanroom/experiments/QWEN_GDN_A800_CLEANROOM_C5R_C6R_C7_MATCHED_V1/training/C6R/frozen_rotations/update_094_exposure_0752.pt",
+      "frozen_delta_sha256": "a886588b3613f66e6635e5874dbfaeaee26b850e05b4a1524da0bef952d22da6",
+      "orthogonality": 2.384185791015625e-06,
+      "per_layer_sha256": {
+        "0": "2c1bb2bd4e9f3ee4157ceea809f3178a6ebb1d5d423cbd5abaf23551e6d494f9",
+        "1": "3d6e2448e14eb69ea0d5c44bb550bbe75b72da33655b334098ad03129af065d4",
+        "10": "5b75a1e959e4c87bba918d7774481504556c813428b93b931e7d3a4152554c93",
+        "12": "9f8cf3fd0722c00b80adf6ff9f0501314b08a43cd9b73943ff7b361b34e74dd3",
+        "13": "22418e9a9f517aa3ff44b6ecb8a36d4245338d7392e4ef8e5d11d74073a4f66f",
+        "14": "1764fb8654b840415c01f1e78f45355b388062ce4dd6142ef825e34470b21742",
+        "16": "ab86987027626fedb0b5b5dce89180b9eb29e683bca1450007e41be085d73457",
+        "17": "6b5c14e9d4bc995780e2ee1ade9027172068f59e90111e66bbc0780528ce2135",
+        "18": "bae52d45da5f27ca49ba57d86584d08f48c7fc631a1a4c652d431bd6afa29fdc",
+        "2": "4e2e976149265cbe41cf664e381a96aef9775c5c05ec471c7e00cbeb6e10bc06",
+        "20": "a1e529c33281a79ad350f694e19c60adba51e6b34fdbc13ff08fd0af9e0d4bad",
+        "21": "e1b5097abaac8fda398fdb122f845deefc2dc410f846663134e4e387f9850e71",
+        "22": "d5a3311d94e9dacf7e12fc405e690044c78298b4409abab6bf32a4df42dea2e0",
+        "24": "da2e2b8cedf0d48896f8771fea6137f55ad99251f54ac324c48a81423bb9b37b",
+        "25": "537e17c3f13ce0b61ada253a7b9dc53e169091cfebdf76bd5795f804ff8c1eec",
+        "26": "5558ff52fea94d858141636db3103fc16c19440298a41e2ace3cf2fa00b21063",
+        "28": "07923665ea0b349017cf2922dae9a098a650869f4c8ac609216170867e1fa179",
+        "29": "f7bc8fa2cbedbf0b8f605ed60feeed2b4160b89963ba5e6421deae711a2ff305",
+        "30": "50b455232f24a1b4c196672ed37aa3e2a680b99777b3b3955ea2de9b968db673",
+        "4": "1d86b21a0a8a3a41ef9bc106a7a5330f6b776ef1721a44377ccbbecbeada1980",
+        "5": "e376b6fc4b4f81b9a88c002ae8348a9aebb5720240bb007e6c4de80f68d6dc16",
+        "6": "a5643980eb8ed8ed37aed364f0b9bbda74614e25286a7bdc6007bdc1df042898",
+        "8": "0e3121439ff233228e2f6c546721fc442e0987d99515681a56636237e6c63d2c",
+        "9": "370c4d120d4305dacb0a2178d28ec45799be62d6d702919773fc94935d29b500"
+      },
+      "primary_selection_metric": "functional",
+      "primary_value": 0.048934229369479,
+      "reselection": false,
+      "selection_rule": "same historical 20 scheduled candidates, update0 reference only, minimum selected metric, exact ties earlier",
+      "theta_path": "/root/autodl-tmp/GDN-A800-cleanroom/experiments/QWEN_GDN_A800_CLEANROOM_C5R_C6R_C7_MATCHED_V1/training/C6R/checkpoints/update_094_exposure_0752.pt",
+      "theta_sha256": "620a35101b95cadd16f50cd1b869aeef54da9db0b3c76076fe82a374a6ee17cf",
+      "update": 94,
+      "validation": {
+        "captures": 128,
+        "documents": 16,
+        "final_hidden": 0.017398480847077735,
+        "functional": 0.048934229369479,
+        "per_document": [
+          {
+            "captures": [
+              {
+                "final_hidden": 0.0018903225427493453,
+                "functional": 0.006092255935072899,
+                "position": 133,
+                "state": 0.0023036091588437557
+              },
+              {
+                "final_hidden": 0.009671947918832302,
+                "functional": 0.024426033720374107,
+                "position": 395,
+                "state": 0.005359310656785965
+              },
+              {
+                "final_hidden": 0.011559654027223587,
+                "functional": 0.04204120486974716,
+                "position": 621,
+                "state": 0.009348277002573013
+              },
+              {
+                "final_hidden": 0.018138207495212555,
+                "functional": 0.03644796088337898,
+                "position": 641,
+                "state": 0.00897975917905569
+              },
+              {
+                "final_hidden": 0.010140885598957539,
+                "functional": 0.025357430800795555,
+                "position": 693,
+                "state": 0.009672531858086586
+              },
+              {
+                "final_hidden": 0.018778689205646515,
+                "functional": 0.034727904945611954,
+                "position": 702,
+                "state": 0.009306650608778
+              },
+              {
+                "final_hidden": 0.0062700905837118626,
+                "functional": 0.05448215827345848,
+                "position": 791,
+                "state": 0.012908954173326492
+              },
+              {
+                "final_hidden": 0.020304756239056587,
+                "functional": 0.053626030683517456,
+                "position": 841,
+                "state": 0.010797041468322277
+              }
+            ],
+            "document_id": "wikitext2raw-validation-000"
+          },
+          {
+            "captures": [
+              {
+                "final_hidden": 0.001808247296139598,
+                "functional": 0.006221636198461056,
+                "position": 167,
+                "state": 0.0024247244000434875
+              },
+              {
+                "final_hidden": 0.0026079444214701653,
+                "functional": 0.006810124032199383,
+                "position": 209,
+                "state": 0.002847811905667186
+              },
+              {
+                "final_hidden": 0.009898409247398376,
+                "functional": 0.029452577233314514,
+                "position": 454,
+                "state": 0.006493398454040289
+              },
+              {
+                "final_hidden": 0.013728695921599865,
+                "functional": 0.033248160034418106,
+                "position": 732,
+                "state": 0.007360949646681547
+              },
+              {
+                "final_hidden": 0.00816409382969141,
+                "functional": 0.0254975613206625,
+                "position": 813,
+                "state": 0.008081761188805103
+              },
+              {
+                "final_hidden": 0.014219359494745731,
+                "functional": 0.050614818930625916,
+                "position": 870,
+                "state": 0.009352419525384903
+              },
+              {
+                "final_hidden": 0.02817710116505623,
+                "functional": 0.09697838872671127,
+                "position": 957,
+                "state": 0.011744135990738869
+              },
+              {
+                "final_hidden": 0.005171325523406267,
+                "functional": 0.02693204954266548,
+                "position": 986,
+                "state": 0.009400418028235435
+              }
+            ],
+            "document_id": "wikitext2raw-validation-001"
+          },
+          {
+            "captures": [
+              {
+                "final_hidden": 0.014450663700699806,
+                "functional": 0.05251739174127579,
+                "position": 272,
+                "state": 0.004793659783899784
+              },
+              {
+                "final_hidden": 0.009800918400287628,
+                "functional": 0.05374576151371002,
+                "position": 420,
+                "state": 0.007312617730349302
+              },
+              {
+                "final_hidden": 0.01189801748842001,
+                "functional": 0.06869292259216309,
+                "position": 465,
+                "state": 0.008512691594660282
+              },
+              {
+                "final_hidden": 0.010512705892324448,
+                "functional": 0.04009255766868591,
+                "position": 494,
+                "state": 0.007255045231431723
+              },
+              {
+                "final_hidden": 0.024176696315407753,
+                "functional": 0.07512664049863815,
+                "position": 783,
+                "state": 0.00891312025487423
+              },
+              {
+                "final_hidden": 0.024049770087003708,
+                "functional": 0.05079392343759537,
+                "position": 833,
+                "state": 0.010042780078947544
+              },
+              {
+                "final_hidden": 0.050719089806079865,
+                "functional": 0.13028696179389954,
+                "position": 871,
+                "state": 0.011165830306708813
+              },
+              {
+                "final_hidden": 0.025297772139310837,
+                "functional": 0.08872687816619873,
+                "position": 895,
+                "state": 0.009924509562551975
+              }
+            ],
+            "document_id": "wikitext2raw-validation-002"
+          },
+          {
+            "captures": [
+              {
+                "final_hidden": 0.012656317092478275,
+                "functional": 0.02816004678606987,
+                "position": 237,
+                "state": 0.0048139989376068115
+              },
+              {
+                "final_hidden": 0.008698806166648865,
+                "functional": 0.022981803864240646,
+                "position": 361,
+                "state": 0.0057848356664180756
+              },
+              {
+                "final_hidden": 0.00974012166261673,
+                "functional": 0.036396101117134094,
+                "position": 391,
+                "state": 0.008705122396349907
+              },
+              {
+                "final_hidden": 0.01125887781381607,
+                "functional": 0.03914982080459595,
+                "position": 634,
+                "state": 0.007669955026358366
+              },
+              {
+                "final_hidden": 0.012750883586704731,
+                "functional": 0.04723942279815674,
+                "position": 695,
+                "state": 0.010006092488765717
+              },
+              {
+                "final_hidden": 0.004581358749419451,
+                "functional": 0.0073196603916585445,
+                "position": 774,
+                "state": 0.005395597778260708
+              },
+              {
+                "final_hidden": 0.005325001198798418,
+                "functional": 0.017168806865811348,
+                "position": 788,
+                "state": 0.00617628451436758
+              },
+              {
+                "final_hidden": 0.003949297126382589,
+                "functional": 0.01510409452021122,
+                "position": 870,
+                "state": 0.006317326333373785
+              }
+            ],
+            "document_id": "wikitext2raw-validation-003"
+          },
+          {
+            "captures": [
+              {
+                "final_hidden": 0.01415223628282547,
+                "functional": 0.04675528034567833,
+                "position": 207,
+                "state": 0.003496166318655014
+              },
+              {
+                "final_hidden": 0.016408458352088928,
+                "functional": 0.04996435344219208,
+                "position": 224,
+                "state": 0.004664934240281582
+              },
+              {
+                "final_hidden": 0.004025303293019533,
+                "functional": 0.015217251144349575,
+                "position": 316,
+                "state": 0.0069467974826693535
+              },
+              {
+                "final_hidden": 0.01909225806593895,
+                "functional": 0.07150355726480484,
+                "position": 319,
+                "state": 0.006046677008271217
+              },
+              {
+                "final_hidden": 0.018468208611011505,
+                "functional": 0.05784101039171219,
+                "position": 428,
+                "state": 0.0068946462124586105
+              },
+              {
+                "final_hidden": 0.042262621223926544,
+                "functional": 0.09963127225637436,
+                "position": 642,
+                "state": 0.009778076782822609
+              },
+              {
+                "final_hidden": 0.017449775710701942,
+                "functional": 0.04206389933824539,
+                "position": 877,
+                "state": 0.012556670233607292
+              },
+              {
+                "final_hidden": 0.031936805695295334,
+                "functional": 0.07406899333000183,
+                "position": 966,
+                "state": 0.012827808037400246
+              }
+            ],
+            "document_id": "wikitext2raw-validation-004"
+          },
+          {
+            "captures": [
+              {
+                "final_hidden": 0.008444820530712605,
+                "functional": 0.029912879690527916,
+                "position": 192,
+                "state": 0.0040161143988370895
+              },
+              {
+                "final_hidden": 0.01725507155060768,
+                "functional": 0.05028238147497177,
+                "position": 260,
+                "state": 0.005577431991696358
+              },
+              {
+                "final_hidden": 0.012258333154022694,
+                "functional": 0.042243823409080505,
+                "position": 285,
+                "state": 0.005301607307046652
+              },
+              {
+                "final_hidden": 0.025659777224063873,
+                "functional": 0.07462909817695618,
+                "position": 424,
+                "state": 0.008964033797383308
+              },
+              {
+                "final_hidden": 0.021283654496073723,
+                "functional": 0.12213592231273651,
+                "position": 538,
+                "state": 0.009451033547520638
+              },
+              {
+                "final_hidden": 0.02923477813601494,
+                "functional": 0.07735069841146469,
+                "position": 827,
+                "state": 0.01110321469604969
+              },
+              {
+                "final_hidden": 0.02678610570728779,
+                "functional": 0.09698991477489471,
+                "position": 982,
+                "state": 0.013730451464653015
+              },
+              {
+                "final_hidden": 0.036247942596673965,
+                "functional": 0.12140350788831711,
+                "position": 1021,
+                "state": 0.013777842745184898
+              }
+            ],
+            "document_id": "wikitext2raw-validation-005"
+          },
+          {
+            "captures": [
+              {
+                "final_hidden": 0.003954547923058271,
+                "functional": 0.005671033635735512,
+                "position": 184,
+                "state": 0.003184680361300707
+              },
+              {
+                "final_hidden": 0.002749890089035034,
+                "functional": 0.006213540211319923,
+                "position": 195,
+                "state": 0.0037211133167147636
+              },
+              {
+                "final_hidden": 0.003727888222783804,
+                "functional": 0.009371873922646046,
+                "position": 205,
+                "state": 0.003372423117980361
+              },
+              {
+                "final_hidden": 0.010421126149594784,
+                "functional": 0.025304635986685753,
+                "position": 385,
+                "state": 0.0043204305693507195
+              },
+              {
+                "final_hidden": 0.005820621270686388,
+                "functional": 0.012385424226522446,
+                "position": 417,
+                "state": 0.004457190632820129
+              },
+              {
+                "final_hidden": 0.017799489200115204,
+                "functional": 0.047689005732536316,
+                "position": 439,
+                "state": 0.006136459764093161
+              },
+              {
+                "final_hidden": 0.010026047937572002,
+                "functional": 0.04239965230226517,
+                "position": 498,
+                "state": 0.005851314403116703
+              },
+              {
+                "final_hidden": 0.016084760427474976,
+                "functional": 0.04169292747974396,
+                "position": 767,
+                "state": 0.008604427799582481
+              }
+            ],
+            "document_id": "wikitext2raw-validation-006"
+          },
+          {
+            "captures": [
+              {
+                "final_hidden": 0.007104482036083937,
+                "functional": 0.00991194136440754,
+                "position": 134,
+                "state": 0.0026835452299565077
+              },
+              {
+                "final_hidden": 0.004284286871552467,
+                "functional": 0.014942610636353493,
+                "position": 265,
+                "state": 0.004575328901410103
+              },
+              {
+                "final_hidden": 0.007605313323438168,
+                "functional": 0.017215818166732788,
+                "position": 300,
+                "state": 0.005273362156003714
+              },
+              {
+                "final_hidden": 0.013815002515912056,
+                "functional": 0.05532068759202957,
+                "position": 727,
+                "state": 0.014631646685302258
+              },
+              {
+                "final_hidden": 0.033459801226854324,
+                "functional": 0.0970267578959465,
+                "position": 728,
+                "state": 0.013878710567951202
+              },
+              {
+                "final_hidden": 0.01307994406670332,
+                "functional": 0.06286274641752243,
+                "position": 737,
+                "state": 0.01313701830804348
+              },
+              {
+                "final_hidden": 0.0534738227725029,
+                "functional": 0.1365627646446228,
+                "position": 753,
+                "state": 0.020941471680998802
+              },
+              {
+                "final_hidden": 0.01649653911590576,
+                "functional": 0.07525374740362167,
+                "position": 933,
+                "state": 0.016426974907517433
+              }
+            ],
+            "document_id": "wikitext2raw-validation-007"
+          },
+          {
+            "captures": [
+              {
+                "final_hidden": 0.004069709684699774,
+                "functional": 0.01943991705775261,
+                "position": 254,
+                "state": 0.004068377427756786
+              },
+              {
+                "final_hidden": 0.011704239062964916,
+                "functional": 0.020442862063646317,
+                "position": 273,
+                "state": 0.0044401464983820915
+              },
+              {
+                "final_hidden": 0.016607215628027916,
+                "functional": 0.0564255528151989,
+                "position": 472,
+                "state": 0.00851992517709732
+              },
+              {
+                "final_hidden": 0.027824172750115395,
+                "functional": 0.09761057794094086,
+                "position": 538,
+                "state": 0.007658784743398428
+              },
+              {
+                "final_hidden": 0.028179869055747986,
+                "functional": 0.08647921681404114,
+                "position": 574,
+                "state": 0.008839990012347698
+              },
+              {
+                "final_hidden": 0.016442829743027687,
+                "functional": 0.02463807538151741,
+                "position": 673,
+                "state": 0.007885092869400978
+              },
+              {
+                "final_hidden": 0.012082025408744812,
+                "functional": 0.02810787968337536,
+                "position": 674,
+                "state": 0.007861834950745106
+              },
+              {
+                "final_hidden": 0.019440380856394768,
+                "functional": 0.05872553586959839,
+                "position": 863,
+                "state": 0.009688979014754295
+              }
+            ],
+            "document_id": "wikitext2raw-validation-008"
+          },
+          {
+            "captures": [
+              {
+                "final_hidden": 0.00396368745714426,
+                "functional": 0.01909709721803665,
+                "position": 161,
+                "state": 0.003589264117181301
+              },
+              {
+                "final_hidden": 0.0038489687722176313,
+                "functional": 0.016689777374267578,
+                "position": 189,
+                "state": 0.003738494124263525
+              },
+              {
+                "final_hidden": 0.009569463320076466,
+                "functional": 0.020768024027347565,
+                "position": 231,
+                "state": 0.003791994182392955
+              },
+              {
+                "final_hidden": 0.002937246346846223,
+                "functional": 0.008934480138123035,
+                "position": 269,
+                "state": 0.0038863983936607838
+              },
+              {
+                "final_hidden": 0.02737472392618656,
+                "functional": 0.07631371915340424,
+                "position": 605,
+                "state": 0.013655627146363258
+              },
+              {
+                "final_hidden": 0.013018555007874966,
+                "functional": 0.04761410504579544,
+                "position": 718,
+                "state": 0.013303881511092186
+              },
+              {
+                "final_hidden": 0.030618716031312943,
+                "functional": 0.08036288619041443,
+                "position": 729,
+                "state": 0.01404651626944542
+              },
+              {
+                "final_hidden": 0.08836254477500916,
+                "functional": 0.1773766130208969,
+                "position": 1004,
+                "state": 0.013272232376039028
+              }
+            ],
+            "document_id": "wikitext2raw-validation-009"
+          },
+          {
+            "captures": [
+              {
+                "final_hidden": 0.0029864187818020582,
+                "functional": 0.006977873854339123,
+                "position": 140,
+                "state": 0.002461798256263137
+              },
+              {
+                "final_hidden": 0.00941554643213749,
+                "functional": 0.02581411972641945,
+                "position": 257,
+                "state": 0.00506393751129508
+              },
+              {
+                "final_hidden": 0.015301408246159554,
+                "functional": 0.022896666079759598,
+                "position": 290,
+                "state": 0.006073059514164925
+              },
+              {
+                "final_hidden": 0.01593843847513199,
+                "functional": 0.0476924292743206,
+                "position": 707,
+                "state": 0.008196949027478695
+              },
+              {
+                "final_hidden": 0.02114701084792614,
+                "functional": 0.0618087463080883,
+                "position": 875,
+                "state": 0.010560393333435059
+              },
+              {
+                "final_hidden": 0.01626681163907051,
+                "functional": 0.04740939661860466,
+                "position": 879,
+                "state": 0.009741480462253094
+              },
+              {
+                "final_hidden": 0.014847926795482635,
+                "functional": 0.04999484866857529,
+                "position": 971,
+                "state": 0.011380317620933056
+              },
+              {
+                "final_hidden": 0.010926354676485062,
+                "functional": 0.03238694369792938,
+                "position": 999,
+                "state": 0.011822802945971489
+              }
+            ],
+            "document_id": "wikitext2raw-validation-010"
+          },
+          {
+            "captures": [
+              {
+                "final_hidden": 0.004938963335007429,
+                "functional": 0.01746278814971447,
+                "position": 227,
+                "state": 0.004131472669541836
+              },
+              {
+                "final_hidden": 0.015756510198116302,
+                "functional": 0.0470544807612896,
+                "position": 418,
+                "state": 0.005439423024654388
+              },
+              {
+                "final_hidden": 0.017872611060738564,
+                "functional": 0.04706142097711563,
+                "position": 591,
+                "state": 0.007101597264409065
+              },
+              {
+                "final_hidden": 0.027747105807065964,
+                "functional": 0.1399366557598114,
+                "position": 649,
+                "state": 0.007884051650762558
+              },
+              {
+                "final_hidden": 0.008441546931862831,
+                "functional": 0.043001141399145126,
+                "position": 689,
+                "state": 0.00871273409575224
+              },
+              {
+                "final_hidden": 0.018192745745182037,
+                "functional": 0.05977458506822586,
+                "position": 881,
+                "state": 0.009460248053073883
+              },
+              {
+                "final_hidden": 0.020702138543128967,
+                "functional": 0.05959392711520195,
+                "position": 906,
+                "state": 0.009021809324622154
+              },
+              {
+                "final_hidden": 0.0405547209084034,
+                "functional": 0.08977308124303818,
+                "position": 931,
+                "state": 0.010312657803297043
+              }
+            ],
+            "document_id": "wikitext2raw-validation-011"
+          },
+          {
+            "captures": [
+              {
+                "final_hidden": 0.0029702375177294016,
+                "functional": 0.010833478532731533,
+                "position": 199,
+                "state": 0.0039793807081878185
+              },
+              {
+                "final_hidden": 0.017248855903744698,
+                "functional": 0.055091701447963715,
+                "position": 319,
+                "state": 0.006528547964990139
+              },
+              {
+                "final_hidden": 0.002346449764445424,
+                "functional": 0.01001406367868185,
+                "position": 341,
+                "state": 0.005412472411990166
+              },
+              {
+                "final_hidden": 0.008543558418750763,
+                "functional": 0.03221318870782852,
+                "position": 463,
+                "state": 0.006252290215343237
+              },
+              {
+                "final_hidden": 0.007977796718478203,
+                "functional": 0.023145701736211777,
+                "position": 474,
+                "state": 0.007666365243494511
+              },
+              {
+                "final_hidden": 0.015585575252771378,
+                "functional": 0.04736630618572235,
+                "position": 650,
+                "state": 0.009278889745473862
+              },
+              {
+                "final_hidden": 0.027970559895038605,
+                "functional": 0.06285593658685684,
+                "position": 700,
+                "state": 0.011335792019963264
+              },
+              {
+                "final_hidden": 0.035137515515089035,
+                "functional": 0.11320087313652039,
+                "position": 875,
+                "state": 0.011659801006317139
+              }
+            ],
+            "document_id": "wikitext2raw-validation-012"
+          },
+          {
+            "captures": [
+              {
+                "final_hidden": 0.008348940871655941,
+                "functional": 0.025024889037013054,
+                "position": 288,
+                "state": 0.004175893031060696
+              },
+              {
+                "final_hidden": 0.0034176320768892765,
+                "functional": 0.008466271683573723,
+                "position": 294,
+                "state": 0.004153517074882984
+              },
+              {
+                "final_hidden": 0.010086774826049805,
+                "functional": 0.02556539699435234,
+                "position": 348,
+                "state": 0.005514666438102722
+              },
+              {
+                "final_hidden": 0.03070000745356083,
+                "functional": 0.08686670660972595,
+                "position": 793,
+                "state": 0.0126076964661479
+              },
+              {
+                "final_hidden": 0.01048311498016119,
+                "functional": 0.03747193515300751,
+                "position": 830,
+                "state": 0.015724195167422295
+              },
+              {
+                "final_hidden": 0.21339751780033112,
+                "functional": 0.12331549823284149,
+                "position": 880,
+                "state": 0.010996969416737556
+              },
+              {
+                "final_hidden": 0.024960419163107872,
+                "functional": 0.09182141721248627,
+                "position": 917,
+                "state": 0.012108604423701763
+              },
+              {
+                "final_hidden": 0.026551857590675354,
+                "functional": 0.07504243403673172,
+                "position": 976,
+                "state": 0.013037651777267456
+              }
+            ],
+            "document_id": "wikitext2raw-validation-013"
+          },
+          {
+            "captures": [
+              {
+                "final_hidden": 0.004778880625963211,
+                "functional": 0.01568598859012127,
+                "position": 234,
+                "state": 0.0036026439629495144
+              },
+              {
+                "final_hidden": 0.006764005403965712,
+                "functional": 0.019316159188747406,
+                "position": 251,
+                "state": 0.00398994330316782
+              },
+              {
+                "final_hidden": 0.009907702915370464,
+                "functional": 0.034879300743341446,
+                "position": 344,
+                "state": 0.00482902629300952
+              },
+              {
+                "final_hidden": 0.015558614395558834,
+                "functional": 0.04588892683386803,
+                "position": 359,
+                "state": 0.005360426381230354
+              },
+              {
+                "final_hidden": 0.01891978643834591,
+                "functional": 0.045049287378787994,
+                "position": 378,
+                "state": 0.006558174267411232
+              },
+              {
+                "final_hidden": 0.017266562208533287,
+                "functional": 0.04577675461769104,
+                "position": 440,
+                "state": 0.0076534743420779705
+              },
+              {
+                "final_hidden": 0.034996915608644485,
+                "functional": 0.1389234960079193,
+                "position": 618,
+                "state": 0.009537569247186184
+              },
+              {
+                "final_hidden": 0.0204988531768322,
+                "functional": 0.070707768201828,
+                "position": 912,
+                "state": 0.01211828924715519
+              }
+            ],
+            "document_id": "wikitext2raw-validation-014"
+          },
+          {
+            "captures": [
+              {
+                "final_hidden": 0.0021867419127374887,
+                "functional": 0.009361842647194862,
+                "position": 166,
+                "state": 0.0028703936841338873
+              },
+              {
+                "final_hidden": 0.011243956163525581,
+                "functional": 0.04028753563761711,
+                "position": 282,
+                "state": 0.003956269472837448
+              },
+              {
+                "final_hidden": 0.009937241673469543,
+                "functional": 0.034609902650117874,
+                "position": 501,
+                "state": 0.007056456990540028
+              },
+              {
+                "final_hidden": 0.007862097583711147,
+                "functional": 0.03595716878771782,
+                "position": 562,
+                "state": 0.00957327801734209
+              },
+              {
+                "final_hidden": 0.009320954792201519,
+                "functional": 0.03840981423854828,
+                "position": 631,
+                "state": 0.014156635850667953
+              },
+              {
+                "final_hidden": 0.009292337112128735,
+                "functional": 0.04086713120341301,
+                "position": 706,
+                "state": 0.013236669823527336
+              },
+              {
+                "final_hidden": 0.03450264781713486,
+                "functional": 0.0906313955783844,
+                "position": 837,
+                "state": 0.013477547094225883
+              },
+              {
+                "final_hidden": 0.009895089082419872,
+                "functional": 0.032989561557769775,
+                "position": 943,
+                "state": 0.012531383894383907
+              }
+            ],
+            "document_id": "wikitext2raw-validation-015"
+          }
+        ],
+        "state": 0.008141046968376031
+      }
+    },
+    "C7": {
+      "arm": "C7",
+      "exposure": 152,
+      "frozen_delta_path": "/root/autodl-tmp/GDN-A800-cleanroom/experiments/QWEN_GDN_A800_CLEANROOM_C5R_C6R_C7_MATCHED_V1/training/C7/frozen_rotations/update_019_exposure_0152.pt",
+      "frozen_delta_sha256": "57e7a11714405806385064f07438e5e2ac6b5952dd421606332b894cef3ee6e8",
+      "orthogonality": 2.384185791015625e-06,
+      "per_layer_sha256": {
+        "0": "05f5e29d8443530a00b31a92aa5f3779efd6e7e84184edb004e1d1e82e9aac56",
+        "1": "4bf75ffb646ee56d02096b2bf53acc8012afb3604cc242929c1faef2c8338131",
+        "10": "f53a8819cf6e5b476379702ba7c08ed1e19b4cd0af85c7aa054f8801129d8f41",
+        "12": "bca349016557733f698f52addf94398ad0a72fb8c34d9b45fb3ef8f1aae926e9",
+        "13": "fade2d513f19131d792aada9a2be8d799f376ab6eafb37746ecac9bbf310e459",
+        "14": "1cfbb89d4354e0408405ddb8c71525c3412164db0a340bc5259b172be8a4edca",
+        "16": "6cfef09b59316bd684bd66848950644421d56990534260644460e09e210f8259",
+        "17": "f5e5a9928a432424ef5d191bde7c41457fa8177cd9ca3b8baf8708bfd7c23c95",
+        "18": "374acb177ef146b597cf159ac07764712938e7f27be39b46e75af57a959e419f",
+        "2": "e2c4c559abf4e62acafd53d6fe24d33e067bc89971db63c4d080ff39103426cc",
+        "20": "c792b300cd6c705c2efaf7a0bc9bfa19d8f326e29d77b71a728f6b201500837f",
+        "21": "89c8c184f42a302e25af48b6d57800876eb3341c2b4a4d2a9e3e124384b9bd8c",
+        "22": "ff3a346aec504fe0c8727db6484ac4d46cc7493ee5d333a726a2d3e038825bd3",
+        "24": "264566252bda1f277fc1860be943f16875f2c56a648b60a2884327e260775ea0",
+        "25": "6b2427172ea3aa6aa639ada23f1b17fd6ae29c3f9156c19096d580624a52bfeb",
+        "26": "0a1a2fc4bbedf60af01230cf493d5a469fad84c114e5374761627619059b9c13",
+        "28": "797774cfecbc0358d051b39875e2011f772df9cb21ed81a5007ac15767920eaa",
+        "29": "d446bc8da7ccc466479ecb2ec84412785fa46fcc830803c7d4346c7fd32a3cff",
+        "30": "8f8985b9326b95f9dc680562089e2e101a989dcdaf9ed18cb3063dfb76fa13ce",
+        "4": "19b0f896411281d4196e0519fcd0cfc3a125988e84d643928efda4d8d0bc084a",
+        "5": "742517a8bcc4d0fd645d90f0b726f733bcfd9da5e4376fc917a7b4184f6d29b7",
+        "6": "84f1515206cc10a40c06e3f2ba63a0f7cb3ff0081742b73bebc18ff9ae03a385",
+        "8": "4a8672d459732b8c1aca0dfca85857d8e5fb154988b80eedf006a540bc5aa345",
+        "9": "88221f6368c477f20e143c3b8f291ecb2ecdc1eb3f73b41accd75332de4a6b6c"
+      },
+      "primary_selection_metric": "final_hidden",
+      "primary_value": 0.01678873843866313,
+      "reselection": false,
+      "selection_rule": "same historical 20 scheduled candidates, update0 reference only, minimum selected metric, exact ties earlier",
+      "theta_path": "/root/autodl-tmp/GDN-A800-cleanroom/experiments/QWEN_GDN_A800_CLEANROOM_C5R_C6R_C7_MATCHED_V1/training/C7/checkpoints/update_019_exposure_0152.pt",
+      "theta_sha256": "b08f66fa64f3453821a4d9dd9586c5263a747c461202c1dbc31b33193bde4958",
+      "update": 19,
+      "validation": {
+        "captures": 128,
+        "documents": 16,
+        "final_hidden": 0.01678873843866313,
+        "functional": 0.05080517245369265,
+        "per_document": [
+          {
+            "captures": [
+              {
+                "final_hidden": 0.0018155170837417245,
+                "functional": 0.005350766237825155,
+                "position": 133,
+                "state": 0.002548178192228079
+              },
+              {
+                "final_hidden": 0.008658700622618198,
+                "functional": 0.027921274304389954,
+                "position": 395,
+                "state": 0.006141255609691143
+              },
+              {
+                "final_hidden": 0.01141712162643671,
+                "functional": 0.04703867435455322,
+                "position": 621,
+                "state": 0.010507721453905106
+              },
+              {
+                "final_hidden": 0.020095493644475937,
+                "functional": 0.053180646151304245,
+                "position": 641,
+                "state": 0.011420710012316704
+              },
+              {
+                "final_hidden": 0.012601815164089203,
+                "functional": 0.03226025775074959,
+                "position": 693,
+                "state": 0.01161283254623413
+              },
+              {
+                "final_hidden": 0.01933741196990013,
+                "functional": 0.04793715476989746,
+                "position": 702,
+                "state": 0.011298004537820816
+              },
+              {
+                "final_hidden": 0.008885866031050682,
+                "functional": 0.06244618445634842,
+                "position": 791,
+                "state": 0.013807164505124092
+              },
+              {
+                "final_hidden": 0.026440149173140526,
+                "functional": 0.072707898914814,
+                "position": 841,
+                "state": 0.01216001808643341
+              }
+            ],
+            "document_id": "wikitext2raw-validation-000"
+          },
+          {
+            "captures": [
+              {
+                "final_hidden": 0.0022200308740139008,
+                "functional": 0.007666790392249823,
+                "position": 167,
+                "state": 0.0027533629909157753
+              },
+              {
+                "final_hidden": 0.0027730735018849373,
+                "functional": 0.006389620713889599,
+                "position": 209,
+                "state": 0.002829980570822954
+              },
+              {
+                "final_hidden": 0.008294324390590191,
+                "functional": 0.030582239851355553,
+                "position": 454,
+                "state": 0.0076909540221095085
+              },
+              {
+                "final_hidden": 0.012093670666217804,
+                "functional": 0.028210926800966263,
+                "position": 732,
+                "state": 0.007293477188795805
+              },
+              {
+                "final_hidden": 0.010306645184755325,
+                "functional": 0.027198776602745056,
+                "position": 813,
+                "state": 0.007845159620046616
+              },
+              {
+                "final_hidden": 0.01611749827861786,
+                "functional": 0.052543994039297104,
+                "position": 870,
+                "state": 0.00941586121916771
+              },
+              {
+                "final_hidden": 0.03139754757285118,
+                "functional": 0.12571808695793152,
+                "position": 957,
+                "state": 0.012274136766791344
+              },
+              {
+                "final_hidden": 0.005558910313993692,
+                "functional": 0.029235323891043663,
+                "position": 986,
+                "state": 0.010093741118907928
+              }
+            ],
+            "document_id": "wikitext2raw-validation-001"
+          },
+          {
+            "captures": [
+              {
+                "final_hidden": 0.02729143761098385,
+                "functional": 0.09387841075658798,
+                "position": 272,
+                "state": 0.005687790922820568
+              },
+              {
+                "final_hidden": 0.01320403441786766,
+                "functional": 0.06257928907871246,
+                "position": 420,
+                "state": 0.00848670955747366
+              },
+              {
+                "final_hidden": 0.01778961904346943,
+                "functional": 0.09281833469867706,
+                "position": 465,
+                "state": 0.008537942543625832
+              },
+              {
+                "final_hidden": 0.0147114098072052,
+                "functional": 0.050737109035253525,
+                "position": 494,
+                "state": 0.008361047133803368
+              },
+              {
+                "final_hidden": 0.023170042783021927,
+                "functional": 0.06953398883342743,
+                "position": 783,
+                "state": 0.009876688942313194
+              },
+              {
+                "final_hidden": 0.021482139825820923,
+                "functional": 0.04894791170954704,
+                "position": 833,
+                "state": 0.011169426143169403
+              },
+              {
+                "final_hidden": 0.06104545667767525,
+                "functional": 0.1496351808309555,
+                "position": 871,
+                "state": 0.01436800416558981
+              },
+              {
+                "final_hidden": 0.02929656021296978,
+                "functional": 0.11480474472045898,
+                "position": 895,
+                "state": 0.012171376496553421
+              }
+            ],
+            "document_id": "wikitext2raw-validation-002"
+          },
+          {
+            "captures": [
+              {
+                "final_hidden": 0.012857598252594471,
+                "functional": 0.02444770559668541,
+                "position": 237,
+                "state": 0.005120282992720604
+              },
+              {
+                "final_hidden": 0.005392150487750769,
+                "functional": 0.023579854518175125,
+                "position": 361,
+                "state": 0.006056873127818108
+              },
+              {
+                "final_hidden": 0.008518905378878117,
+                "functional": 0.036462388932704926,
+                "position": 391,
+                "state": 0.007722746580839157
+              },
+              {
+                "final_hidden": 0.010107249952852726,
+                "functional": 0.033952388912439346,
+                "position": 634,
+                "state": 0.00755684357136488
+              },
+              {
+                "final_hidden": 0.007934040389955044,
+                "functional": 0.03677918016910553,
+                "position": 695,
+                "state": 0.00864303670823574
+              },
+              {
+                "final_hidden": 0.005596311297267675,
+                "functional": 0.006276316940784454,
+                "position": 774,
+                "state": 0.0050516873598098755
+              },
+              {
+                "final_hidden": 0.0038013660814613104,
+                "functional": 0.014317705295979977,
+                "position": 788,
+                "state": 0.0055680060759186745
+              },
+              {
+                "final_hidden": 0.004542303271591663,
+                "functional": 0.016624877229332924,
+                "position": 870,
+                "state": 0.006964770145714283
+              }
+            ],
+            "document_id": "wikitext2raw-validation-003"
+          },
+          {
+            "captures": [
+              {
+                "final_hidden": 0.01372775249183178,
+                "functional": 0.05134043097496033,
+                "position": 207,
+                "state": 0.003641958348453045
+              },
+              {
+                "final_hidden": 0.021575186401605606,
+                "functional": 0.06411462277173996,
+                "position": 224,
+                "state": 0.005127575248479843
+              },
+              {
+                "final_hidden": 0.004293536301702261,
+                "functional": 0.014074837788939476,
+                "position": 316,
+                "state": 0.006779042072594166
+              },
+              {
+                "final_hidden": 0.019217131659388542,
+                "functional": 0.07224443554878235,
+                "position": 319,
+                "state": 0.005801307037472725
+              },
+              {
+                "final_hidden": 0.018397239968180656,
+                "functional": 0.05348697304725647,
+                "position": 428,
+                "state": 0.00638972781598568
+              },
+              {
+                "final_hidden": 0.04537861794233322,
+                "functional": 0.09328319132328033,
+                "position": 642,
+                "state": 0.00924703013151884
+              },
+              {
+                "final_hidden": 0.017257997766137123,
+                "functional": 0.04749506339430809,
+                "position": 877,
+                "state": 0.012513420544564724
+              },
+              {
+                "final_hidden": 0.02932269312441349,
+                "functional": 0.0881679356098175,
+                "position": 966,
+                "state": 0.012731793336570263
+              }
+            ],
+            "document_id": "wikitext2raw-validation-004"
+          },
+          {
+            "captures": [
+              {
+                "final_hidden": 0.011655746959149837,
+                "functional": 0.036382921040058136,
+                "position": 192,
+                "state": 0.004416942596435547
+              },
+              {
+                "final_hidden": 0.01954396814107895,
+                "functional": 0.054377615451812744,
+                "position": 260,
+                "state": 0.0065310331992805
+              },
+              {
+                "final_hidden": 0.016388552263379097,
+                "functional": 0.055586542934179306,
+                "position": 285,
+                "state": 0.006197578739374876
+              },
+              {
+                "final_hidden": 0.023809902369976044,
+                "functional": 0.06749072670936584,
+                "position": 424,
+                "state": 0.010112877003848553
+              },
+              {
+                "final_hidden": 0.017663052305579185,
+                "functional": 0.1014193519949913,
+                "position": 538,
+                "state": 0.010023562237620354
+              },
+              {
+                "final_hidden": 0.035545237362384796,
+                "functional": 0.10771489143371582,
+                "position": 827,
+                "state": 0.013043920509517193
+              },
+              {
+                "final_hidden": 0.033922240138053894,
+                "functional": 0.13386881351470947,
+                "position": 982,
+                "state": 0.018397316336631775
+              },
+              {
+                "final_hidden": 0.03835492208600044,
+                "functional": 0.15525317192077637,
+                "position": 1021,
+                "state": 0.017683640122413635
+              }
+            ],
+            "document_id": "wikitext2raw-validation-005"
+          },
+          {
+            "captures": [
+              {
+                "final_hidden": 0.003624648554250598,
+                "functional": 0.006124894134700298,
+                "position": 184,
+                "state": 0.0032478487119078636
+              },
+              {
+                "final_hidden": 0.00233493372797966,
+                "functional": 0.005215573590248823,
+                "position": 195,
+                "state": 0.003419453976675868
+              },
+              {
+                "final_hidden": 0.0023926475550979376,
+                "functional": 0.006692844908684492,
+                "position": 205,
+                "state": 0.003209912683814764
+              },
+              {
+                "final_hidden": 0.00966708641499281,
+                "functional": 0.02659832313656807,
+                "position": 385,
+                "state": 0.004529136698693037
+              },
+              {
+                "final_hidden": 0.0067281704396009445,
+                "functional": 0.013655534014105797,
+                "position": 417,
+                "state": 0.004731024615466595
+              },
+              {
+                "final_hidden": 0.017721040174365044,
+                "functional": 0.05417472869157791,
+                "position": 439,
+                "state": 0.006300067529082298
+              },
+              {
+                "final_hidden": 0.010558702982962132,
+                "functional": 0.04403345286846161,
+                "position": 498,
+                "state": 0.005883918609470129
+              },
+              {
+                "final_hidden": 0.016819776967167854,
+                "functional": 0.04311324283480644,
+                "position": 767,
+                "state": 0.00972212478518486
+              }
+            ],
+            "document_id": "wikitext2raw-validation-006"
+          },
+          {
+            "captures": [
+              {
+                "final_hidden": 0.005071129184216261,
+                "functional": 0.00918697938323021,
+                "position": 134,
+                "state": 0.003781743347644806
+              },
+              {
+                "final_hidden": 0.005231402348726988,
+                "functional": 0.016532940790057182,
+                "position": 265,
+                "state": 0.004378615878522396
+              },
+              {
+                "final_hidden": 0.00843251496553421,
+                "functional": 0.016985172405838966,
+                "position": 300,
+                "state": 0.005086166318506002
+              },
+              {
+                "final_hidden": 0.010637247934937477,
+                "functional": 0.04924435541033745,
+                "position": 727,
+                "state": 0.01246882788836956
+              },
+              {
+                "final_hidden": 0.02366560883820057,
+                "functional": 0.07840701937675476,
+                "position": 728,
+                "state": 0.01201166957616806
+              },
+              {
+                "final_hidden": 0.012616225518286228,
+                "functional": 0.05626708269119263,
+                "position": 737,
+                "state": 0.012645795941352844
+              },
+              {
+                "final_hidden": 0.04312276095151901,
+                "functional": 0.12603119015693665,
+                "position": 753,
+                "state": 0.020980894565582275
+              },
+              {
+                "final_hidden": 0.015425650402903557,
+                "functional": 0.06533535569906235,
+                "position": 933,
+                "state": 0.014734411612153053
+              }
+            ],
+            "document_id": "wikitext2raw-validation-007"
+          },
+          {
+            "captures": [
+              {
+                "final_hidden": 0.003801199607551098,
+                "functional": 0.020769836381077766,
+                "position": 254,
+                "state": 0.004273168742656708
+              },
+              {
+                "final_hidden": 0.00974745862185955,
+                "functional": 0.020748011767864227,
+                "position": 273,
+                "state": 0.004946880973875523
+              },
+              {
+                "final_hidden": 0.012831661850214005,
+                "functional": 0.04724734276533127,
+                "position": 472,
+                "state": 0.008220754563808441
+              },
+              {
+                "final_hidden": 0.03277537226676941,
+                "functional": 0.10160094499588013,
+                "position": 538,
+                "state": 0.008054356090724468
+              },
+              {
+                "final_hidden": 0.021794218569993973,
+                "functional": 0.06946079432964325,
+                "position": 574,
+                "state": 0.009199297055602074
+              },
+              {
+                "final_hidden": 0.014397804625332355,
+                "functional": 0.024627450853586197,
+                "position": 673,
+                "state": 0.008299916051328182
+              },
+              {
+                "final_hidden": 0.012087482027709484,
+                "functional": 0.038624510169029236,
+                "position": 674,
+                "state": 0.008339717984199524
+              },
+              {
+                "final_hidden": 0.019861936569213867,
+                "functional": 0.05334434658288956,
+                "position": 863,
+                "state": 0.010247024707496166
+              }
+            ],
+            "document_id": "wikitext2raw-validation-008"
+          },
+          {
+            "captures": [
+              {
+                "final_hidden": 0.003968253266066313,
+                "functional": 0.02052108198404312,
+                "position": 161,
+                "state": 0.006737768650054932
+              },
+              {
+                "final_hidden": 0.0034527413081377745,
+                "functional": 0.014010993763804436,
+                "position": 189,
+                "state": 0.005517281126230955
+              },
+              {
+                "final_hidden": 0.007265488617122173,
+                "functional": 0.019333068281412125,
+                "position": 231,
+                "state": 0.004674926400184631
+              },
+              {
+                "final_hidden": 0.0030568966176360846,
+                "functional": 0.008723328821361065,
+                "position": 269,
+                "state": 0.004498062655329704
+              },
+              {
+                "final_hidden": 0.037829045206308365,
+                "functional": 0.08523201197385788,
+                "position": 605,
+                "state": 0.014633207581937313
+              },
+              {
+                "final_hidden": 0.01108782272785902,
+                "functional": 0.042185451835393906,
+                "position": 718,
+                "state": 0.012575245462357998
+              },
+              {
+                "final_hidden": 0.031752217561006546,
+                "functional": 0.08714908361434937,
+                "position": 729,
+                "state": 0.014879969879984856
+              },
+              {
+                "final_hidden": 0.08120989054441452,
+                "functional": 0.2153073251247406,
+                "position": 1004,
+                "state": 0.0139102628454566
+              }
+            ],
+            "document_id": "wikitext2raw-validation-009"
+          },
+          {
+            "captures": [
+              {
+                "final_hidden": 0.004258192144334316,
+                "functional": 0.009177696891129017,
+                "position": 140,
+                "state": 0.002757964190095663
+              },
+              {
+                "final_hidden": 0.010151141323149204,
+                "functional": 0.023009102791547775,
+                "position": 257,
+                "state": 0.004647888243198395
+              },
+              {
+                "final_hidden": 0.012842456810176373,
+                "functional": 0.024491911754012108,
+                "position": 290,
+                "state": 0.007534300442785025
+              },
+              {
+                "final_hidden": 0.019241226837038994,
+                "functional": 0.051996052265167236,
+                "position": 707,
+                "state": 0.008683087304234505
+              },
+              {
+                "final_hidden": 0.021916523575782776,
+                "functional": 0.06292413175106049,
+                "position": 875,
+                "state": 0.010050966404378414
+              },
+              {
+                "final_hidden": 0.01716066338121891,
+                "functional": 0.04133348912000656,
+                "position": 879,
+                "state": 0.009559843689203262
+              },
+              {
+                "final_hidden": 0.018353663384914398,
+                "functional": 0.04849645122885704,
+                "position": 971,
+                "state": 0.011026490479707718
+              },
+              {
+                "final_hidden": 0.010360597632825375,
+                "functional": 0.03244725614786148,
+                "position": 999,
+                "state": 0.011752421967685223
+              }
+            ],
+            "document_id": "wikitext2raw-validation-010"
+          },
+          {
+            "captures": [
+              {
+                "final_hidden": 0.00561084970831871,
+                "functional": 0.02192799560725689,
+                "position": 227,
+                "state": 0.004544834606349468
+              },
+              {
+                "final_hidden": 0.017999039962887764,
+                "functional": 0.05310884863138199,
+                "position": 418,
+                "state": 0.005759814288467169
+              },
+              {
+                "final_hidden": 0.016800791025161743,
+                "functional": 0.05463762581348419,
+                "position": 591,
+                "state": 0.008187116123735905
+              },
+              {
+                "final_hidden": 0.04322759062051773,
+                "functional": 0.16640032827854156,
+                "position": 649,
+                "state": 0.008633976802229881
+              },
+              {
+                "final_hidden": 0.010136368684470654,
+                "functional": 0.05204104632139206,
+                "position": 689,
+                "state": 0.009613187052309513
+              },
+              {
+                "final_hidden": 0.017965562641620636,
+                "functional": 0.06081826612353325,
+                "position": 881,
+                "state": 0.01213628426194191
+              },
+              {
+                "final_hidden": 0.02012122981250286,
+                "functional": 0.06122541055083275,
+                "position": 906,
+                "state": 0.010744968429207802
+              },
+              {
+                "final_hidden": 0.055776361376047134,
+                "functional": 0.09135939925909042,
+                "position": 931,
+                "state": 0.012758076190948486
+              }
+            ],
+            "document_id": "wikitext2raw-validation-011"
+          },
+          {
+            "captures": [
+              {
+                "final_hidden": 0.004195471294224262,
+                "functional": 0.012957785278558731,
+                "position": 199,
+                "state": 0.004377639852464199
+              },
+              {
+                "final_hidden": 0.017287027090787888,
+                "functional": 0.06421880424022675,
+                "position": 319,
+                "state": 0.006425199564546347
+              },
+              {
+                "final_hidden": 0.002681935206055641,
+                "functional": 0.010021599009633064,
+                "position": 341,
+                "state": 0.005469633266329765
+              },
+              {
+                "final_hidden": 0.009392439387738705,
+                "functional": 0.0344601646065712,
+                "position": 463,
+                "state": 0.006477080285549164
+              },
+              {
+                "final_hidden": 0.009151918813586235,
+                "functional": 0.024802153930068016,
+                "position": 474,
+                "state": 0.008139722049236298
+              },
+              {
+                "final_hidden": 0.01935252733528614,
+                "functional": 0.050663113594055176,
+                "position": 650,
+                "state": 0.00954017136245966
+              },
+              {
+                "final_hidden": 0.02417779713869095,
+                "functional": 0.055902041494846344,
+                "position": 700,
+                "state": 0.011906538158655167
+              },
+              {
+                "final_hidden": 0.02826434001326561,
+                "functional": 0.08424796164035797,
+                "position": 875,
+                "state": 0.010946603491902351
+              }
+            ],
+            "document_id": "wikitext2raw-validation-012"
+          },
+          {
+            "captures": [
+              {
+                "final_hidden": 0.0062874360010027885,
+                "functional": 0.020406734198331833,
+                "position": 288,
+                "state": 0.004298431798815727
+              },
+              {
+                "final_hidden": 0.003080762457102537,
+                "functional": 0.008344927802681923,
+                "position": 294,
+                "state": 0.00431047985330224
+              },
+              {
+                "final_hidden": 0.009991965256631374,
+                "functional": 0.024744775146245956,
+                "position": 348,
+                "state": 0.005532092414796352
+              },
+              {
+                "final_hidden": 0.03807688504457474,
+                "functional": 0.0777018740773201,
+                "position": 793,
+                "state": 0.010821848176419735
+              },
+              {
+                "final_hidden": 0.00880828034132719,
+                "functional": 0.03290409594774246,
+                "position": 830,
+                "state": 0.019465021789073944
+              },
+              {
+                "final_hidden": 0.012514641508460045,
+                "functional": 0.031085094437003136,
+                "position": 880,
+                "state": 0.01075430866330862
+              },
+              {
+                "final_hidden": 0.04879532381892204,
+                "functional": 0.09674152731895447,
+                "position": 917,
+                "state": 0.013390346430242062
+              },
+              {
+                "final_hidden": 0.02845185436308384,
+                "functional": 0.07386070489883423,
+                "position": 976,
+                "state": 0.012967439368367195
+              }
+            ],
+            "document_id": "wikitext2raw-validation-013"
+          },
+          {
+            "captures": [
+              {
+                "final_hidden": 0.004896935075521469,
+                "functional": 0.017578672617673874,
+                "position": 234,
+                "state": 0.0033483337610960007
+              },
+              {
+                "final_hidden": 0.007639987859874964,
+                "functional": 0.019823892042040825,
+                "position": 251,
+                "state": 0.00394393689930439
+              },
+              {
+                "final_hidden": 0.011275684460997581,
+                "functional": 0.031849708408117294,
+                "position": 344,
+                "state": 0.004481554497033358
+              },
+              {
+                "final_hidden": 0.012795312330126762,
+                "functional": 0.035484202206134796,
+                "position": 359,
+                "state": 0.005108966492116451
+              },
+              {
+                "final_hidden": 0.018647575750947,
+                "functional": 0.04043915867805481,
+                "position": 378,
+                "state": 0.007476685103029013
+              },
+              {
+                "final_hidden": 0.017962923273444176,
+                "functional": 0.03931653872132301,
+                "position": 440,
+                "state": 0.006783097051084042
+              },
+              {
+                "final_hidden": 0.03598618134856224,
+                "functional": 0.14432038366794586,
+                "position": 618,
+                "state": 0.009665826335549355
+              },
+              {
+                "final_hidden": 0.026060951873660088,
+                "functional": 0.05642964690923691,
+                "position": 912,
+                "state": 0.011885114014148712
+              }
+            ],
+            "document_id": "wikitext2raw-validation-014"
+          },
+          {
+            "captures": [
+              {
+                "final_hidden": 0.0038859357591718435,
+                "functional": 0.014155732467770576,
+                "position": 166,
+                "state": 0.0032277959398925304
+              },
+              {
+                "final_hidden": 0.015872368589043617,
+                "functional": 0.05253178998827934,
+                "position": 282,
+                "state": 0.004668545443564653
+              },
+              {
+                "final_hidden": 0.009284600615501404,
+                "functional": 0.029119286686182022,
+                "position": 501,
+                "state": 0.006928771268576384
+              },
+              {
+                "final_hidden": 0.007425525691360235,
+                "functional": 0.030535083264112473,
+                "position": 562,
+                "state": 0.008854644373059273
+              },
+              {
+                "final_hidden": 0.010347678326070309,
+                "functional": 0.040407270193099976,
+                "position": 631,
+                "state": 0.014296280220150948
+              },
+              {
+                "final_hidden": 0.008814958855509758,
+                "functional": 0.03330838680267334,
+                "position": 706,
+                "state": 0.010924946516752243
+              },
+              {
+                "final_hidden": 0.044156692922115326,
+                "functional": 0.11244066804647446,
+                "position": 837,
+                "state": 0.013523690402507782
+              },
+              {
+                "final_hidden": 0.009695127606391907,
+                "functional": 0.03231348097324371,
+                "position": 943,
+                "state": 0.011861559003591537
+              }
+            ],
+            "document_id": "wikitext2raw-validation-015"
+          }
+        ],
+        "state": 0.008562558547055232
+      }
+    }
+  },
+  "selection_changed": false,
+  "status": "PASS"
+}
