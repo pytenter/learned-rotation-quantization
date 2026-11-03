@@ -1,0 +1,295 @@
+{
+  "status": "PASS_PUBLIC_RELEASE_SERVER_DIGEST_AND_GIT_TAG",
+  "repository": "pytenter/learned-rotation-quantization",
+  "release_url": "https://github.com/pytenter/learned-rotation-quantization/releases/tag/qwen35-9b-gdn-state-c6r-c7-20261103",
+  "tag": "qwen35-9b-gdn-state-c6r-c7-20261103",
+  "tag_commit": "a657c74392c8791142480de8a6c8b386d040dfda",
+  "assets": [
+    {
+      "name": "gdn-state-20261103-A-C6R-aime26_01.tar",
+      "id": 705070315,
+      "size": 898785280,
+      "digest": "sha256:fb7f990023d9bd54a18ced32aa889b5358c6d1e477083671b256f71a4acb162d",
+      "browser_download_url": "https://github.com/pytenter/learned-rotation-quantization/releases/download/qwen35-9b-gdn-state-c6r-c7-20261103/gdn-state-20261103-A-C6R-aime26_01.tar"
+    },
+    {
+      "name": "gdn-state-20261103-A-C6R-aime26_02.tar",
+      "id": 705070313,
+      "size": 898918400,
+      "digest": "sha256:ab1b4c77a2439f2fe0595a422c70c43aae8c7d9623e3bf09743cdc1982484e67",
+      "browser_download_url": "https://github.com/pytenter/learned-rotation-quantization/releases/download/qwen35-9b-gdn-state-c6r-c7-20261103/gdn-state-20261103-A-C6R-aime26_02.tar"
+    },
+    {
+      "name": "gdn-state-20261103-A-C6R-aime26_03.tar",
+      "id": 705075388,
+      "size": 898969600,
+      "digest": "sha256:609fc09b468b10af5da3e6f1f0d02228d061576b74486b9c76d1ed64bb9643da",
+      "browser_download_url": "https://github.com/pytenter/learned-rotation-quantization/releases/download/qwen35-9b-gdn-state-c6r-c7-20261103/gdn-state-20261103-A-C6R-aime26_03.tar"
+    },
+    {
+      "name": "gdn-state-20261103-A-C6R-aime26_04.tar",
+      "id": 705077539,
+      "size": 899051520,
+      "digest": "sha256:9140101efd4fb71d2e06e5995b7b295b8ef82e3a004fee976ba70fda9741b77c",
+      "browser_download_url": "https://github.com/pytenter/learned-rotation-quantization/releases/download/qwen35-9b-gdn-state-c6r-c7-20261103/gdn-state-20261103-A-C6R-aime26_04.tar"
+    },
+    {
+      "name": "gdn-state-20261103-A-C7-aime26_01.tar",
+      "id": 705082652,
+      "size": 898785280,
+      "digest": "sha256:f557fbfc6d643f0acffcd37ae85ab35e7a2dc945e571b506a505f307e73d77c0",
+      "browser_download_url": "https://github.com/pytenter/learned-rotation-quantization/releases/download/qwen35-9b-gdn-state-c6r-c7-20261103/gdn-state-20261103-A-C7-aime26_01.tar"
+    },
+    {
+      "name": "gdn-state-20261103-A-C7-aime26_02.tar",
+      "id": 705085176,
+      "size": 898949120,
+      "digest": "sha256:23b74ae10131212fdd00d7cd450cca0c7f5a15068afa092870946fe79e591f71",
+      "browser_download_url": "https://github.com/pytenter/learned-rotation-quantization/releases/download/qwen35-9b-gdn-state-c6r-c7-20261103/gdn-state-20261103-A-C7-aime26_02.tar"
+    },
+    {
+      "name": "gdn-state-20261103-A-C7-aime26_03.tar",
+      "id": 705087748,
+      "size": 899010560,
+      "digest": "sha256:2e0e1a76bd7d9864318b30f1ed3d5c3f256ef914ee1c28c1c199c8963a4c06f8",
+      "browser_download_url": "https://github.com/pytenter/learned-rotation-quantization/releases/download/qwen35-9b-gdn-state-c6r-c7-20261103/gdn-state-20261103-A-C7-aime26_03.tar"
+    },
+    {
+      "name": "gdn-state-20261103-A-C7-aime26_04.tar",
+      "id": 705090746,
+      "size": 899041280,
+      "digest": "sha256:a4ef9204a6c637ad404f86177ffa3e4caa923bfd2874a34e27b59d9fd152a040",
+      "browser_download_url": "https://github.com/pytenter/learned-rotation-quantization/releases/download/qwen35-9b-gdn-state-c6r-c7-20261103/gdn-state-20261103-A-C7-aime26_04.tar"
+    },
+    {
+      "name": "gdn-state-20261103-A-Hadamard-aime26_01.tar",
+      "id": 705095233,
+      "size": 898682880,
+      "digest": "sha256:f3c5921a5c11ba361b4085e43ae1db599266d92b7e72a999411c22abe37a802a",
+      "browser_download_url": "https://github.com/pytenter/learned-rotation-quantization/releases/download/qwen35-9b-gdn-state-c6r-c7-20261103/gdn-state-20261103-A-Hadamard-aime26_01.tar"
+    },
+    {
+      "name": "gdn-state-20261103-A-Hadamard-aime26_02.tar",
+      "id": 705098795,
+      "size": 898795520,
+      "digest": "sha256:0016434ed45bcac36a1ef74db235eb5c7468ecf023f50e14e61691d818734473",
+      "browser_download_url": "https://github.com/pytenter/learned-rotation-quantization/releases/download/qwen35-9b-gdn-state-c6r-c7-20261103/gdn-state-20261103-A-Hadamard-aime26_02.tar"
+    },
+    {
+      "name": "gdn-state-20261103-A-Hadamard-aime26_03.tar",
+      "id": 705100692,
+      "size": 898877440,
+      "digest": "sha256:95d34e2a7dc5a0bc18499408b8676b58182adb88f51c99aef354679ad20a07b9",
+      "browser_download_url": "https://github.com/pytenter/learned-rotation-quantization/releases/download/qwen35-9b-gdn-state-c6r-c7-20261103/gdn-state-20261103-A-Hadamard-aime26_03.tar"
+    },
+    {
+      "name": "gdn-state-20261103-A-Hadamard-aime26_04.tar",
+      "id": 705107205,
+      "size": 898918400,
+      "digest": "sha256:4f10200ad1428186e7434c19f971a983641313e6c131a60b37d42b880ab8b388",
+      "browser_download_url": "https://github.com/pytenter/learned-rotation-quantization/releases/download/qwen35-9b-gdn-state-c6r-c7-20261103/gdn-state-20261103-A-Hadamard-aime26_04.tar"
+    },
+    {
+      "name": "gdn-state-20261103-A-Native-aime26_01.tar",
+      "id": 705107720,
+      "size": 911636480,
+      "digest": "sha256:29e918483c37930692caf516b589a4b9cd62caf0e27fb76ddd37e1d88c722fcf",
+      "browser_download_url": "https://github.com/pytenter/learned-rotation-quantization/releases/download/qwen35-9b-gdn-state-c6r-c7-20261103/gdn-state-20261103-A-Native-aime26_01.tar"
+    },
+    {
+      "name": "gdn-state-20261103-A-Native-aime26_02.tar",
+      "id": 705112333,
+      "size": 911738880,
+      "digest": "sha256:c39cfc1ffba1e7d45b546bdb33e9c3e6160f1004bbf70fa41a18facd5e46c496",
+      "browser_download_url": "https://github.com/pytenter/learned-rotation-quantization/releases/download/qwen35-9b-gdn-state-c6r-c7-20261103/gdn-state-20261103-A-Native-aime26_02.tar"
+    },
+    {
+      "name": "gdn-state-20261103-A-Native-aime26_03.tar",
+      "id": 705112387,
+      "size": 911718400,
+      "digest": "sha256:540aae12e5cd4f5e5be1fdae1b086011d8b3292ee81696d273d435839c3e6260",
+      "browser_download_url": "https://github.com/pytenter/learned-rotation-quantization/releases/download/qwen35-9b-gdn-state-c6r-c7-20261103/gdn-state-20261103-A-Native-aime26_03.tar"
+    },
+    {
+      "name": "gdn-state-20261103-A-Native-aime26_04.tar",
+      "id": 705116755,
+      "size": 911810560,
+      "digest": "sha256:7ee9a1ce70dacff6b3d6e858426c6d6f927b552984813740ba2b2a110b775c81",
+      "browser_download_url": "https://github.com/pytenter/learned-rotation-quantization/releases/download/qwen35-9b-gdn-state-c6r-c7-20261103/gdn-state-20261103-A-Native-aime26_04.tar"
+    },
+    {
+      "name": "gdn-state-20261103-B-C6R-aime26_01.tar",
+      "id": 705117421,
+      "size": 938536960,
+      "digest": "sha256:767e7ae6fc72dfb3b30980bf0851723cabcc41f50da42ba76be4cb5d031b3582",
+      "browser_download_url": "https://github.com/pytenter/learned-rotation-quantization/releases/download/qwen35-9b-gdn-state-c6r-c7-20261103/gdn-state-20261103-B-C6R-aime26_01.tar"
+    },
+    {
+      "name": "gdn-state-20261103-B-C6R-aime26_02.tar",
+      "id": 705122350,
+      "size": 938291200,
+      "digest": "sha256:19345292d5edea56ab91421c806f5220933af717c0a24480d1169d07eb6f11f3",
+      "browser_download_url": "https://github.com/pytenter/learned-rotation-quantization/releases/download/qwen35-9b-gdn-state-c6r-c7-20261103/gdn-state-20261103-B-C6R-aime26_02.tar"
+    },
+    {
+      "name": "gdn-state-20261103-B-C6R-aime26_03.tar",
+      "id": 705124526,
+      "size": 938045440,
+      "digest": "sha256:edc1359f2eb765a5afd060cb189a4ff3ca8a67200dd9197179c74563fab239b2",
+      "browser_download_url": "https://github.com/pytenter/learned-rotation-quantization/releases/download/qwen35-9b-gdn-state-c6r-c7-20261103/gdn-state-20261103-B-C6R-aime26_03.tar"
+    },
+    {
+      "name": "gdn-state-20261103-B-C6R-aime26_04.tar",
+      "id": 705127730,
+      "size": 938137600,
+      "digest": "sha256:59dfd65011a3af76bc02a57f98f59abcdabbe99577dd6c78ddff62cb5ef180df",
+      "browser_download_url": "https://github.com/pytenter/learned-rotation-quantization/releases/download/qwen35-9b-gdn-state-c6r-c7-20261103/gdn-state-20261103-B-C6R-aime26_04.tar"
+    },
+    {
+      "name": "gdn-state-20261103-B-C7-aime26_01.tar",
+      "id": 705131636,
+      "size": 938434560,
+      "digest": "sha256:39601a5162a7d29986eb488a140599dae9c3def79ebdcdbc9218c7e1fc2a9a10",
+      "browser_download_url": "https://github.com/pytenter/learned-rotation-quantization/releases/download/qwen35-9b-gdn-state-c6r-c7-20261103/gdn-state-20261103-B-C7-aime26_01.tar"
+    },
+    {
+      "name": "gdn-state-20261103-B-C7-aime26_02.tar",
+      "id": 705208534,
+      "size": 938178560,
+      "digest": "sha256:bca5be293c33d623fcfaac2c4f4ab5af02d54f988647f4e9141edf72470a75f0",
+      "browser_download_url": "https://github.com/pytenter/learned-rotation-quantization/releases/download/qwen35-9b-gdn-state-c6r-c7-20261103/gdn-state-20261103-B-C7-aime26_02.tar"
+    },
+    {
+      "name": "gdn-state-20261103-B-C7-aime26_03.tar",
+      "id": 705208554,
+      "size": 938004480,
+      "digest": "sha256:f0dc4ef61bbe7d686f589f3fe788982b0d957d44d15dd3c682e444f442c5c70f",
+      "browser_download_url": "https://github.com/pytenter/learned-rotation-quantization/releases/download/qwen35-9b-gdn-state-c6r-c7-20261103/gdn-state-20261103-B-C7-aime26_03.tar"
+    },
+    {
+      "name": "gdn-state-20261103-B-C7-aime26_04.tar",
+      "id": 705217209,
+      "size": 938024960,
+      "digest": "sha256:9a2d01b75866f04c7a49e9400735409fec42b6a9c450b100dbe53fa104b908b2",
+      "browser_download_url": "https://github.com/pytenter/learned-rotation-quantization/releases/download/qwen35-9b-gdn-state-c6r-c7-20261103/gdn-state-20261103-B-C7-aime26_04.tar"
+    },
+    {
+      "name": "gdn-state-20261103-B-Hadamard-aime26_01.tar",
+      "id": 705217467,
+      "size": 938455040,
+      "digest": "sha256:8385adcd50a2d61d8425d6a5078b59c99e0fbe819ad0e882d9ded1917c55f09a",
+      "browser_download_url": "https://github.com/pytenter/learned-rotation-quantization/releases/download/qwen35-9b-gdn-state-c6r-c7-20261103/gdn-state-20261103-B-Hadamard-aime26_01.tar"
+    },
+    {
+      "name": "gdn-state-20261103-B-Hadamard-aime26_02.tar",
+      "id": 705223316,
+      "size": 938168320,
+      "digest": "sha256:0ed4cbf41986838f83aae303cf4d93462a509edf047b89e4331791a4898dd0b2",
+      "browser_download_url": "https://github.com/pytenter/learned-rotation-quantization/releases/download/qwen35-9b-gdn-state-c6r-c7-20261103/gdn-state-20261103-B-Hadamard-aime26_02.tar"
+    },
+    {
+      "name": "gdn-state-20261103-B-Hadamard-aime26_03.tar",
+      "id": 705223562,
+      "size": 937984000,
+      "digest": "sha256:65f97c87fd8cd075df178fdcfa3cf303e2b5a0e9b4c3bfe4c0c2d5f3a4ec69f4",
+      "browser_download_url": "https://github.com/pytenter/learned-rotation-quantization/releases/download/qwen35-9b-gdn-state-c6r-c7-20261103/gdn-state-20261103-B-Hadamard-aime26_03.tar"
+    },
+    {
+      "name": "gdn-state-20261103-B-Hadamard-aime26_04.tar",
+      "id": 705228861,
+      "size": 938035200,
+      "digest": "sha256:cbc7fb772655023b25c6c0867929bbaea55a82ceb48fa27b2f3ea7d87dd9d8f3",
+      "browser_download_url": "https://github.com/pytenter/learned-rotation-quantization/releases/download/qwen35-9b-gdn-state-c6r-c7-20261103/gdn-state-20261103-B-Hadamard-aime26_04.tar"
+    },
+    {
+      "name": "gdn-state-20261103-B-Native-aime26_01.tar",
+      "id": 705229634,
+      "size": 951900160,
+      "digest": "sha256:a854568659c213a3c81f7e2fe7a610114b53b4323a693b0fac25eab3f925f8ec",
+      "browser_download_url": "https://github.com/pytenter/learned-rotation-quantization/releases/download/qwen35-9b-gdn-state-c6r-c7-20261103/gdn-state-20261103-B-Native-aime26_01.tar"
+    },
+    {
+      "name": "gdn-state-20261103-B-Native-aime26_02.tar",
+      "id": 705236673,
+      "size": 951459840,
+      "digest": "sha256:ece93ccbfec72f95506d97c37cbc5c3665636cb0eee0beb6adad441751983a39",
+      "browser_download_url": "https://github.com/pytenter/learned-rotation-quantization/releases/download/qwen35-9b-gdn-state-c6r-c7-20261103/gdn-state-20261103-B-Native-aime26_02.tar"
+    },
+    {
+      "name": "gdn-state-20261103-B-Native-aime26_03.tar",
+      "id": 705239323,
+      "size": 951040000,
+      "digest": "sha256:30ef5e595897df7d4f67dcb46abbef00efb49f6e92c980694afa1870be5a0841",
+      "browser_download_url": "https://github.com/pytenter/learned-rotation-quantization/releases/download/qwen35-9b-gdn-state-c6r-c7-20261103/gdn-state-20261103-B-Native-aime26_03.tar"
+    },
+    {
+      "name": "gdn-state-20261103-B-Native-aime26_04.tar",
+      "id": 705246205,
+      "size": 951162880,
+      "digest": "sha256:4c821a3366464416e9e858a234bbb26653a54a67ace13eab7abde5a13142d5c7",
+      "browser_download_url": "https://github.com/pytenter/learned-rotation-quantization/releases/download/qwen35-9b-gdn-state-c6r-c7-20261103/gdn-state-20261103-B-Native-aime26_04.tar"
+    },
+    {
+      "name": "gdn-state-20261103-token-tables-and-events.tar",
+      "id": 705150283,
+      "size": 96634880,
+      "digest": "sha256:edd1501268e39e670e2e348881501fe4cee30cf4b34305a4cb86bb0f27e1c434",
+      "browser_download_url": "https://github.com/pytenter/learned-rotation-quantization/releases/download/qwen35-9b-gdn-state-c6r-c7-20261103/gdn-state-20261103-token-tables-and-events.tar"
+    },
+    {
+      "name": "gdn-state-20261103-validation-npz.tar",
+      "id": 705248675,
+      "size": 272117760,
+      "digest": "sha256:cf3beb6cbb3306e0a9dd3900265fa10b35c60fcb6ca3252812a174cce4a771cb",
+      "browser_download_url": "https://github.com/pytenter/learned-rotation-quantization/releases/download/qwen35-9b-gdn-state-c6r-c7-20261103/gdn-state-20261103-validation-npz.tar"
+    },
+    {
+      "name": "SHA256SUMS",
+      "id": 705150584,
+      "size": 3633,
+      "digest": "sha256:70550fd8dc7f7aaa6e01343bbd60bcc8efcb4027121703c4bf051b48c5cc7705",
+      "browser_download_url": "https://github.com/pytenter/learned-rotation-quantization/releases/download/qwen35-9b-gdn-state-c6r-c7-20261103/SHA256SUMS"
+    }
+  ],
+  "original_files": 2638,
+  "original_bytes": 29940519116,
+  "original_manifest_sha256": "e1114ddb9b3504cc96f292b0cf490c6e0bcd575b329fcc64a8d8bdb24175f89e",
+  "server_original_preserved": true,
+  "new_GPU_work": false,
+  "server_original_final_recheck": {
+    "status": "PASS_SERVER_ORIGINAL_ALL_FILES_FRESH_SHA256_AFTER_PUBLICATION",
+    "source": "/data/zypan/experiments/QWEN_GDN_STATE_OUTLIER_FOUR_ROTATIONS_C6R_C7_20261103_V1",
+    "files": 2638,
+    "bytes": 29940519116,
+    "manifest_sha256": "e1114ddb9b3504cc96f292b0cf490c6e0bcd575b329fcc64a8d8bdb24175f89e",
+    "ready_sha256": "e42479faa21a42507064b2e8455a083e804b92e8eae24f50c2728405aba3ba2f",
+    "declared_cache_exclusions": [
+      ".cache",
+      ".staging",
+      "__pycache__"
+    ],
+    "excluded_cache_files": [
+      {
+        "path": ".cache/matplotlib/fontlist-v390.json",
+        "bytes": 137321,
+        "fresh_sha256": "57d310d1344e7319817acc6e7625fddad6ede4a0613b7cd520942d6298b4318f"
+      }
+    ],
+    "scope_failure_preserved": true,
+    "elapsed_seconds": 18.420690517872572,
+    "server_original_preserved": true,
+    "new_GPU_work": false
+  },
+  "upload_recovery": {
+    "status": "PASS_NEW_INDEPENDENT_CPU_UPLOAD_RECOVERY",
+    "assets": 35,
+    "target": "a657c74392c8791142480de8a6c8b386d040dfda",
+    "reused_assets": 23,
+    "replaced_own_incomplete_starters": 12,
+    "elapsed_seconds": 1027.9218331971206,
+    "original_claim_and_failure_preserved": true,
+    "server_original_preserved": true,
+    "GPU_work": false,
+    "real_child_wait_integer": 0
+  }
+}

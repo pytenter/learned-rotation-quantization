@@ -71,3 +71,6 @@ python3 scripts/verify_release_data.py
 `.29`服务器原始结果和封存清单继续保留。本仓库是随后获用户授权的发布副本；原报告“不自动推送”等文字描述实验结束时的边界，原文件不因此改写。失败、首版图及独立CPU排版修复记录均保留。
 
 包含实际使用的小型旋转checkpoint；不包含基础模型权重、Python环境或编译缓存。上游科学代码来自[pytenter/GDN-quantization](https://github.com/pytenter/GDN-quantization)，依赖及上游材料按各自来源许可处理。
+
+
+[本轮完整发布核验](results/2026-11-03-qwen35-9b-gdn-state-c6r-c7/PUBLICATION_VERIFICATION.json)：34个数据TAR及SHA256SUMS已逐项核对GitHub服务器的大小和SHA256，全部通过。
