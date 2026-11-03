@@ -3,3 +3,10 @@ __pycache__/
 *.part
 results/**/formal/A/groups/
 results/**/formal/B/groups/
+
+# Four-rotation full data is distributed as verified Release assets.
+/results/2026-11-03-qwen35-9b-gdn-state-c6r-c7/formal/**/groups/*.npz
+/results/2026-11-03-qwen35-9b-gdn-state-c6r-c7/formal/**/key_summaries/*.npz
+/results/2026-11-03-qwen35-9b-gdn-state-c6r-c7/gates/**/*.npz
+/results/2026-11-03-qwen35-9b-gdn-state-c6r-c7/analysis/per_token_layer_summary.csv
+/results/2026-11-03-qwen35-9b-gdn-state-c6r-c7/**/collection_events.jsonl

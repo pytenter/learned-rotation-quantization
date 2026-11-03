@@ -1,0 +1,32 @@
+{
+  "status": "PASS_COMPLETE_DELIVERY_READY",
+  "A": {
+    "Native": "PASS",
+    "Hadamard": "PASS",
+    "C6R": "PASS",
+    "C7": "PASS"
+  },
+  "B": {
+    "Native": "PASS",
+    "Hadamard": "PASS",
+    "C6R": "PASS",
+    "C7": "PASS"
+  },
+  "manifest_files": 2636,
+  "manifest_bytes": 29940173912,
+  "manifest_sha256": "e1114ddb9b3504cc96f292b0cf490c6e0bcd575b329fcc64a8d8bdb24175f89e",
+  "main_manifest_excludes_only_itself_and_this_ready_file": true,
+  "excluded_non_science_caches": [
+    ".cache",
+    "__pycache__",
+    ".staging"
+  ],
+  "recommended_report": "REPORT_zh.md",
+  "new_generation": false,
+  "new_scoring": false,
+  "new_training": false,
+  "GPU_worker_real_wait_integer": 0,
+  "own_NVML_released": true,
+  "independent_data_review": "PASS",
+  "visual_review": "PASS"
+}

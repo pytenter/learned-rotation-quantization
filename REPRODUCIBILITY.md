@@ -1,45 +1,30 @@
 # 结果读取、复绘与运行环境
 
-实验目录：[`results/2026-11-02-qwen35-9b-gdn-state-h128-c128`](results/2026-11-02-qwen35-9b-gdn-state-h128-c128)。该目录中的交付文件保持原字节，包含实际执行过的源代码及运行收据。
+## 2026-11-03：Native / Hadamard / C6R / C7
 
-## 不用 GPU 即可读取的结果
+目录：[`results/2026-11-03-qwen35-9b-gdn-state-c6r-c7`](results/2026-11-03-qwen35-9b-gdn-state-c6r-c7)。所有原始文件保持原字节，[发布说明](results/2026-11-03-qwen35-9b-gdn-state-c6r-c7/PUBLICATION_README.md)解释Git/Release分工。
 
-- `analysis/*.csv`：完整汇总与配对统计，列定义见 `DATA_DICTIONARY_zh.md`。
-- `figures/{A,B}/`：每组 73 张最终 PNG。
-- `figures/{A,B}/figure_data/*.npz`：实际作图矩阵及坐标。
-- `formal/{A,B}/peak_matrices/*.npz`：真实 FP32 State 切片。
-- `formal/{A,B}/histogram_counts.npz`：共用 bin、计数、零值及上下溢出。
-- `formal/{A,B}/groups/*.npz`：下载 Release 后可用。每层/条件/样本为 `[129,32,128,16]` FP64 指标，不是完整 State 快照；16 个字段及轴语义见数据字典。
+报告、主要CSV、100张主图和逐Key作图矩阵可直接读取。完整逐组、逐Key时间数组、验证NPZ和逐token明细需明确运行`scripts/fetch_release_data.py`下载。下载与校验只需Python3.9+标准库，不使用模型或GPU；读取NPZ用NumPy，绘图用Matplotlib。
 
-NumPy 用于 NPZ 读取；Matplotlib 用于绘图。`analyze_plot_cpu.py`、`paired_group_effects_cpu.py`、`plot_layout_v2.py`、`rerender_layout_cpu.py` 与 `visual_qa_cpu.py` 保留了本次实际分析及布局修复代码。它们带有历史固定路径，若在别处复绘，应使用独立工作副本适配路径，避免覆盖本仓库的冻结结果。
-
-## 原实际 GPU 环境
-
-| 项目 | 运行记录 |
+| 项目 | 实际记录 |
 |---|---|
-| GPU | NVIDIA GeForce RTX 3090，.29 物理 GPU4 |
-| Python | 3.10.18 |
-| PyTorch | 2.5.1+cu121 |
-| CUDA（PyTorch 编译版本） | 12.1 |
-| Transformers | 5.16.0.dev0，使用历史 Qwen3.5 backport overlay |
-| 模型 | Qwen3.5-9B，未修改 BF16 checkpoint |
-| Attention | SDPA |
-| Batch | 3 行：A-FP reference / B-Native / B-H128 |
-| GDN 临时计算 | FP32 |
-| B 持久 State | INT8 codes + FP32 scales |
-| 统计归约 | FP64 |
+| 模型与GPU | Qwen3.5-9B；.29物理GPU4 / RTX3090 |
+| 环境 | PyTorch2.5.1+cu121，Transformers5.16.0.dev0历史Qwen3.5 overlay |
+| modeling文件SHA | `90d929129ffc835d2652c604925c4f3842bc6e401e174ec6f0db2285dfb8f85a` |
+| 输入 | 上轮相同4条seed1 FP token轨迹；完整prompt+2,048 continuation |
+| 第一阶段batch3 | A-Native FP reference、B-Native、B-Hadamard；A观察参考State的4种变换 |
+| 第二阶段batch2 | B-C6R、B-C7；无持久FP reference字段 |
+| GDN临时计算 / 指标归约 | FP32 / FP64 |
+| 每个B持久State | INT8 codes+FP32 scales；24层合计12,976,128 bytes |
+| C6R | update94/exposure752；SHA `a886588b3613f66e6635e5874dbfaeaee26b850e05b4a1524da0bef952d22da6` |
+| C7 | update19/exposure152；SHA `57e7a11714405806385064f07438e5e2ac6b5952dd421606332b894cef3ee6e8` |
 
-完整版本与实际加载文件哈希在 `provenance/RUNTIME.json`、`MODEL_TOKENIZER_SHA256.json` 和 `SOURCE_MANIFEST.json`。原 Qwen3.5 modeling 文件 SHA256 为 `90d929129ffc835d2652c604925c4f3842bc6e401e174ec6f0db2285dfb8f85a`。版本字符串相同不能替代这个文件身份。
+完整身份和生命周期在provenance、gates及operations中。模型/tokenizer17文件、原输入、24项冻结源和96行矩阵身份均核对；原GPU worker真实owning wait0并释放GPU。Native/Hadamard与旧归档的1,152个汇总字段精确一致。
 
-本仓库保留采集器、物理 INT8 bank、H128 实现和独立验证代码；不包含模型权重、历史 Transformers 完整 overlay 或服务器 Python 环境。因此不能把普通 `pip install transformers` 视为已复原同一执行环境。
+run_gpu.py、rotation_adapter.py、物理bank/collector和analysis_cpu保留实际执行源码。它们含历史绝对路径、GPU UUID和一次性claim保护，属于已完成运行的记录；复绘应在独立工作副本适配路径，避免覆盖冻结结果。本次发布不重新执行实验脚本。
 
-## 源码与生命周期证据
+包含小型冻结旋转checkpoint；基础模型、完整历史Transformers overlay、Python环境和编译缓存不包含。普通`pip install transformers`不等于恢复了相同环境。原theta导出历史与本次直接读取冻结Delta的证据范围见报告和身份记录。
 
-- `experiment_core.py`：物理 bank、INT8 encode/decode、逐组统计、采样与存盘。
-- `run_experiment.py`：真实 forward/core patch、三行隔离、全 prompt + continuation 逐 token 路径及正式采集。
-- `vendor/canonical_h128.py`：既有归一化 Sylvester H128；其中旧 FP32 QDQ carrier 不作为 B 的持久缓存。
-- `qualification_cpu.py`、`gates/`：合成与真实层检查。
-- `supervise.py`、`operations/WORKER_WAIT.json`、`OWNING_CLOSED.json`：唯一 owning Popen 的真实整数退出和 NVML 释放。
-- `provenance/` 中保留预采集失败及独立解释，具体路径以工件清单为准；失败未删除，也未算作正式样本。
+## 2026-11-02：Native / 固定H128
 
-原启动代码含固定模型路径、GPU UUID 与 NOREPLACE 保护，属于已完成运行的记录，不应在冻结目录中直接再次执行。重新实验需要另外建立输出目录并复原依赖、验证输入与门禁；此次发布不启动任何新实验。
+原环境、切片、物理bank和复绘说明原文保留在[REPRODUCIBILITY_20261102.md](REPRODUCIBILITY_20261102.md)，原发布说明在[README_20261102.md](README_20261102.md)。原命令`scripts/fetch_raw_data.py`及`scripts/verify_delivery.py`继续只对应上一轮，不改变旧Release及清单。
