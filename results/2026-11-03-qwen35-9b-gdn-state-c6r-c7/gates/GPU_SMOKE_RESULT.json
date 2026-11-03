@@ -1,0 +1,3834 @@
+{
+  "status": "PASS",
+  "plans": [
+    {
+      "status": "PASS",
+      "sample_id": null,
+      "plan": {
+        "name": "A_ALL_B_NATIVE_H",
+        "fp_reference": true,
+        "B_methods": [
+          "Native",
+          "Hadamard"
+        ],
+        "batch_rows": 3
+      },
+      "input_tokens": 8,
+      "physical_INT8_cache": {
+        "B_methods": [
+          "Native",
+          "Hadamard"
+        ],
+        "rows": 3,
+        "FP_reference_present": true,
+        "per_layer": {
+          "0": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 8,
+            "reads": 7,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": {
+              "shape": [
+                1,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 2097152,
+              "storage_bytes": 2097152
+            }
+          },
+          "1": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 8,
+            "reads": 7,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": {
+              "shape": [
+                1,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 2097152,
+              "storage_bytes": 2097152
+            }
+          },
+          "2": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 8,
+            "reads": 7,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": {
+              "shape": [
+                1,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 2097152,
+              "storage_bytes": 2097152
+            }
+          },
+          "4": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 8,
+            "reads": 7,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": {
+              "shape": [
+                1,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 2097152,
+              "storage_bytes": 2097152
+            }
+          },
+          "5": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 8,
+            "reads": 7,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": {
+              "shape": [
+                1,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 2097152,
+              "storage_bytes": 2097152
+            }
+          },
+          "6": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 8,
+            "reads": 7,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": {
+              "shape": [
+                1,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 2097152,
+              "storage_bytes": 2097152
+            }
+          },
+          "8": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 8,
+            "reads": 7,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": {
+              "shape": [
+                1,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 2097152,
+              "storage_bytes": 2097152
+            }
+          },
+          "9": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 8,
+            "reads": 7,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": {
+              "shape": [
+                1,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 2097152,
+              "storage_bytes": 2097152
+            }
+          },
+          "10": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 8,
+            "reads": 7,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": {
+              "shape": [
+                1,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 2097152,
+              "storage_bytes": 2097152
+            }
+          },
+          "12": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 8,
+            "reads": 7,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": {
+              "shape": [
+                1,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 2097152,
+              "storage_bytes": 2097152
+            }
+          },
+          "13": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 8,
+            "reads": 7,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": {
+              "shape": [
+                1,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 2097152,
+              "storage_bytes": 2097152
+            }
+          },
+          "14": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 8,
+            "reads": 7,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": {
+              "shape": [
+                1,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 2097152,
+              "storage_bytes": 2097152
+            }
+          },
+          "16": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 8,
+            "reads": 7,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": {
+              "shape": [
+                1,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 2097152,
+              "storage_bytes": 2097152
+            }
+          },
+          "17": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 8,
+            "reads": 7,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": {
+              "shape": [
+                1,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 2097152,
+              "storage_bytes": 2097152
+            }
+          },
+          "18": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 8,
+            "reads": 7,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": {
+              "shape": [
+                1,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 2097152,
+              "storage_bytes": 2097152
+            }
+          },
+          "20": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 8,
+            "reads": 7,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": {
+              "shape": [
+                1,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 2097152,
+              "storage_bytes": 2097152
+            }
+          },
+          "21": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 8,
+            "reads": 7,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": {
+              "shape": [
+                1,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 2097152,
+              "storage_bytes": 2097152
+            }
+          },
+          "22": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 8,
+            "reads": 7,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": {
+              "shape": [
+                1,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 2097152,
+              "storage_bytes": 2097152
+            }
+          },
+          "24": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 8,
+            "reads": 7,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": {
+              "shape": [
+                1,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 2097152,
+              "storage_bytes": 2097152
+            }
+          },
+          "25": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 8,
+            "reads": 7,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": {
+              "shape": [
+                1,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 2097152,
+              "storage_bytes": 2097152
+            }
+          },
+          "26": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 8,
+            "reads": 7,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": {
+              "shape": [
+                1,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 2097152,
+              "storage_bytes": 2097152
+            }
+          },
+          "28": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 8,
+            "reads": 7,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": {
+              "shape": [
+                1,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 2097152,
+              "storage_bytes": 2097152
+            }
+          },
+          "29": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 8,
+            "reads": 7,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": {
+              "shape": [
+                1,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 2097152,
+              "storage_bytes": 2097152
+            }
+          },
+          "30": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 8,
+            "reads": 7,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": {
+              "shape": [
+                1,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 2097152,
+              "storage_bytes": 2097152
+            }
+          }
+        },
+        "core_read_pointer_checks": 168,
+        "write_counts": {
+          "0": 8,
+          "1": 8,
+          "2": 8,
+          "4": 8,
+          "5": 8,
+          "6": 8,
+          "8": 8,
+          "9": 8,
+          "10": 8,
+          "12": 8,
+          "13": 8,
+          "14": 8,
+          "16": 8,
+          "17": 8,
+          "18": 8,
+          "20": 8,
+          "21": 8,
+          "22": 8,
+          "24": 8,
+          "25": 8,
+          "26": 8,
+          "28": 8,
+          "29": 8,
+          "30": 8
+        },
+        "read_counts": {
+          "0": 7,
+          "1": 7,
+          "2": 7,
+          "4": 7,
+          "5": 7,
+          "6": 7,
+          "8": 7,
+          "9": 7,
+          "10": 7,
+          "12": 7,
+          "13": 7,
+          "14": 7,
+          "16": 7,
+          "17": 7,
+          "18": 7,
+          "20": 7,
+          "21": 7,
+          "22": 7,
+          "24": 7,
+          "25": 7,
+          "26": 7,
+          "28": 7,
+          "29": 7,
+          "30": 7
+        },
+        "persistent_B_dense_State": false,
+        "B_codes_bytes": 25165824,
+        "B_scales_bytes": 786432,
+        "FP_reference_bytes": 50331648
+      },
+      "core_calls_by_layer": {
+        "0": 8,
+        "1": 8,
+        "2": 8,
+        "4": 8,
+        "5": 8,
+        "6": 8,
+        "8": 8,
+        "9": 8,
+        "10": 8,
+        "12": 8,
+        "13": 8,
+        "14": 8,
+        "16": 8,
+        "17": 8,
+        "18": 8,
+        "20": 8,
+        "21": 8,
+        "22": 8,
+        "24": 8,
+        "25": 8,
+        "26": 8,
+        "28": 8,
+        "29": 8,
+        "30": 8
+      },
+      "original_transform_runtime_checks": [],
+      "common_state_operator_checks": [
+        {
+          "method": "Native",
+          "model_layer_id": 0,
+          "readout_relative_L2": 0.0,
+          "state_recovery_relative_L2": 0.0,
+          "FP32_vs_FP64_state": 4.879390900979549e-08,
+          "FP32_vs_FP64_readout": 7.696843247619885e-08
+        },
+        {
+          "method": "Hadamard",
+          "model_layer_id": 0,
+          "readout_relative_L2": 1.0650173960240806e-07,
+          "state_recovery_relative_L2": 2.554268255894329e-07,
+          "FP32_vs_FP64_state": 4.879390900979549e-08,
+          "FP32_vs_FP64_readout": 7.696843247619885e-08
+        },
+        {
+          "method": "C6R",
+          "model_layer_id": 0,
+          "readout_relative_L2": 2.736824079325573e-07,
+          "state_recovery_relative_L2": 6.048514740692481e-07,
+          "FP32_vs_FP64_state": 4.879390900979549e-08,
+          "FP32_vs_FP64_readout": 7.696843247619885e-08
+        },
+        {
+          "method": "C7",
+          "model_layer_id": 0,
+          "readout_relative_L2": 2.650285325531816e-07,
+          "state_recovery_relative_L2": 6.337128436462274e-07,
+          "FP32_vs_FP64_state": 4.879390900979549e-08,
+          "FP32_vs_FP64_readout": 7.696843247619885e-08
+        },
+        {
+          "method": "Native",
+          "model_layer_id": 1,
+          "readout_relative_L2": 0.0,
+          "state_recovery_relative_L2": 0.0,
+          "FP32_vs_FP64_state": 3.8403205433821125e-08,
+          "FP32_vs_FP64_readout": 4.895793821739921e-08
+        },
+        {
+          "method": "Hadamard",
+          "model_layer_id": 1,
+          "readout_relative_L2": 2.0666983789939748e-07,
+          "state_recovery_relative_L2": 2.608331316718813e-07,
+          "FP32_vs_FP64_state": 3.8403205433821125e-08,
+          "FP32_vs_FP64_readout": 4.895793821739921e-08
+        },
+        {
+          "method": "C6R",
+          "model_layer_id": 1,
+          "readout_relative_L2": 4.1679523844283143e-07,
+          "state_recovery_relative_L2": 6.383804806166526e-07,
+          "FP32_vs_FP64_state": 3.8403205433821125e-08,
+          "FP32_vs_FP64_readout": 4.895793821739921e-08
+        },
+        {
+          "method": "C7",
+          "model_layer_id": 1,
+          "readout_relative_L2": 4.968702047697155e-07,
+          "state_recovery_relative_L2": 6.985953780044469e-07,
+          "FP32_vs_FP64_state": 3.8403205433821125e-08,
+          "FP32_vs_FP64_readout": 4.895793821739921e-08
+        },
+        {
+          "method": "Native",
+          "model_layer_id": 2,
+          "readout_relative_L2": 0.0,
+          "state_recovery_relative_L2": 0.0,
+          "FP32_vs_FP64_state": 4.874494588254364e-08,
+          "FP32_vs_FP64_readout": 5.6010488700911174e-08
+        },
+        {
+          "method": "Hadamard",
+          "model_layer_id": 2,
+          "readout_relative_L2": 1.2811079440593431e-07,
+          "state_recovery_relative_L2": 2.5234422906911655e-07,
+          "FP32_vs_FP64_state": 4.874494588254364e-08,
+          "FP32_vs_FP64_readout": 5.6010488700911174e-08
+        },
+        {
+          "method": "C6R",
+          "model_layer_id": 2,
+          "readout_relative_L2": 2.6825077855676487e-07,
+          "state_recovery_relative_L2": 6.730170099976197e-07,
+          "FP32_vs_FP64_state": 4.874494588254364e-08,
+          "FP32_vs_FP64_readout": 5.6010488700911174e-08
+        },
+        {
+          "method": "C7",
+          "model_layer_id": 2,
+          "readout_relative_L2": 3.222039228915961e-07,
+          "state_recovery_relative_L2": 5.886440565948403e-07,
+          "FP32_vs_FP64_state": 4.874494588254364e-08,
+          "FP32_vs_FP64_readout": 5.6010488700911174e-08
+        },
+        {
+          "method": "Native",
+          "model_layer_id": 4,
+          "readout_relative_L2": 0.0,
+          "state_recovery_relative_L2": 0.0,
+          "FP32_vs_FP64_state": 5.797556913734231e-08,
+          "FP32_vs_FP64_readout": 1.1211926234159084e-07
+        },
+        {
+          "method": "Hadamard",
+          "model_layer_id": 4,
+          "readout_relative_L2": 1.2670626323020203e-07,
+          "state_recovery_relative_L2": 2.8060798561712334e-07,
+          "FP32_vs_FP64_state": 5.797556913734231e-08,
+          "FP32_vs_FP64_readout": 1.1211926234159084e-07
+        },
+        {
+          "method": "C6R",
+          "model_layer_id": 4,
+          "readout_relative_L2": 5.744490283922454e-07,
+          "state_recovery_relative_L2": 5.770244162340904e-07,
+          "FP32_vs_FP64_state": 5.797556913734231e-08,
+          "FP32_vs_FP64_readout": 1.1211926234159084e-07
+        },
+        {
+          "method": "C7",
+          "model_layer_id": 4,
+          "readout_relative_L2": 3.476048614032668e-07,
+          "state_recovery_relative_L2": 7.155895263382155e-07,
+          "FP32_vs_FP64_state": 5.797556913734231e-08,
+          "FP32_vs_FP64_readout": 1.1211926234159084e-07
+        },
+        {
+          "method": "Native",
+          "model_layer_id": 5,
+          "readout_relative_L2": 0.0,
+          "state_recovery_relative_L2": 0.0,
+          "FP32_vs_FP64_state": 4.7307068236928565e-08,
+          "FP32_vs_FP64_readout": 8.90131164400889e-08
+        },
+        {
+          "method": "Hadamard",
+          "model_layer_id": 5,
+          "readout_relative_L2": 3.783243955449307e-07,
+          "state_recovery_relative_L2": 2.510851779349869e-07,
+          "FP32_vs_FP64_state": 4.7307068236928565e-08,
+          "FP32_vs_FP64_readout": 8.90131164400889e-08
+        },
+        {
+          "method": "C6R",
+          "model_layer_id": 5,
+          "readout_relative_L2": 6.656651905466456e-07,
+          "state_recovery_relative_L2": 6.876639710272402e-07,
+          "FP32_vs_FP64_state": 4.7307068236928565e-08,
+          "FP32_vs_FP64_readout": 8.90131164400889e-08
+        },
+        {
+          "method": "C7",
+          "model_layer_id": 5,
+          "readout_relative_L2": 7.650842134453991e-07,
+          "state_recovery_relative_L2": 6.761673684498119e-07,
+          "FP32_vs_FP64_state": 4.7307068236928565e-08,
+          "FP32_vs_FP64_readout": 8.90131164400889e-08
+        },
+        {
+          "method": "Native",
+          "model_layer_id": 6,
+          "readout_relative_L2": 0.0,
+          "state_recovery_relative_L2": 0.0,
+          "FP32_vs_FP64_state": 3.6652907797865415e-08,
+          "FP32_vs_FP64_readout": 1.0189492893334071e-07
+        },
+        {
+          "method": "Hadamard",
+          "model_layer_id": 6,
+          "readout_relative_L2": 2.0280979597348641e-07,
+          "state_recovery_relative_L2": 2.150086197311218e-07,
+          "FP32_vs_FP64_state": 3.6652907797865415e-08,
+          "FP32_vs_FP64_readout": 1.0189492893334071e-07
+        },
+        {
+          "method": "C6R",
+          "model_layer_id": 6,
+          "readout_relative_L2": 2.581090158999171e-07,
+          "state_recovery_relative_L2": 6.220277379252675e-07,
+          "FP32_vs_FP64_state": 3.6652907797865415e-08,
+          "FP32_vs_FP64_readout": 1.0189492893334071e-07
+        },
+        {
+          "method": "C7",
+          "model_layer_id": 6,
+          "readout_relative_L2": 5.650157194917968e-07,
+          "state_recovery_relative_L2": 6.623970159952706e-07,
+          "FP32_vs_FP64_state": 3.6652907797865415e-08,
+          "FP32_vs_FP64_readout": 1.0189492893334071e-07
+        },
+        {
+          "method": "Native",
+          "model_layer_id": 8,
+          "readout_relative_L2": 0.0,
+          "state_recovery_relative_L2": 0.0,
+          "FP32_vs_FP64_state": 5.078262645310065e-08,
+          "FP32_vs_FP64_readout": 6.256292849906029e-08
+        },
+        {
+          "method": "Hadamard",
+          "model_layer_id": 8,
+          "readout_relative_L2": 1.8203703229992737e-07,
+          "state_recovery_relative_L2": 3.1504987137744425e-07,
+          "FP32_vs_FP64_state": 5.078262645310065e-08,
+          "FP32_vs_FP64_readout": 6.256292849906029e-08
+        },
+        {
+          "method": "C6R",
+          "model_layer_id": 8,
+          "readout_relative_L2": 7.960582893462609e-07,
+          "state_recovery_relative_L2": 5.666862596837426e-07,
+          "FP32_vs_FP64_state": 5.078262645310065e-08,
+          "FP32_vs_FP64_readout": 6.256292849906029e-08
+        },
+        {
+          "method": "C7",
+          "model_layer_id": 8,
+          "readout_relative_L2": 7.682127880522085e-07,
+          "state_recovery_relative_L2": 6.90101986522418e-07,
+          "FP32_vs_FP64_state": 5.078262645310065e-08,
+          "FP32_vs_FP64_readout": 6.256292849906029e-08
+        },
+        {
+          "method": "Native",
+          "model_layer_id": 9,
+          "readout_relative_L2": 0.0,
+          "state_recovery_relative_L2": 0.0,
+          "FP32_vs_FP64_state": 5.5407179592513075e-08,
+          "FP32_vs_FP64_readout": 8.388213666824383e-08
+        },
+        {
+          "method": "Hadamard",
+          "model_layer_id": 9,
+          "readout_relative_L2": 1.4367628564297678e-07,
+          "state_recovery_relative_L2": 2.4821157097262136e-07,
+          "FP32_vs_FP64_state": 5.5407179592513075e-08,
+          "FP32_vs_FP64_readout": 8.388213666824383e-08
+        },
+        {
+          "method": "C6R",
+          "model_layer_id": 9,
+          "readout_relative_L2": 7.10238343035424e-07,
+          "state_recovery_relative_L2": 6.460958373825239e-07,
+          "FP32_vs_FP64_state": 5.5407179592513075e-08,
+          "FP32_vs_FP64_readout": 8.388213666824383e-08
+        },
+        {
+          "method": "C7",
+          "model_layer_id": 9,
+          "readout_relative_L2": 5.906378893537883e-07,
+          "state_recovery_relative_L2": 6.473396820456539e-07,
+          "FP32_vs_FP64_state": 5.5407179592513075e-08,
+          "FP32_vs_FP64_readout": 8.388213666824383e-08
+        },
+        {
+          "method": "Native",
+          "model_layer_id": 10,
+          "readout_relative_L2": 0.0,
+          "state_recovery_relative_L2": 0.0,
+          "FP32_vs_FP64_state": 4.8760655232627946e-08,
+          "FP32_vs_FP64_readout": 7.968005811651318e-08
+        },
+        {
+          "method": "Hadamard",
+          "model_layer_id": 10,
+          "readout_relative_L2": 1.764653804895161e-07,
+          "state_recovery_relative_L2": 2.5551035412308707e-07,
+          "FP32_vs_FP64_state": 4.8760655232627946e-08,
+          "FP32_vs_FP64_readout": 7.968005811651318e-08
+        },
+        {
+          "method": "C6R",
+          "model_layer_id": 10,
+          "readout_relative_L2": 3.4086917607971934e-07,
+          "state_recovery_relative_L2": 6.428945362695707e-07,
+          "FP32_vs_FP64_state": 4.8760655232627946e-08,
+          "FP32_vs_FP64_readout": 7.968005811651318e-08
+        },
+        {
+          "method": "C7",
+          "model_layer_id": 10,
+          "readout_relative_L2": 3.1275646033738855e-07,
+          "state_recovery_relative_L2": 6.625977800656816e-07,
+          "FP32_vs_FP64_state": 4.8760655232627946e-08,
+          "FP32_vs_FP64_readout": 7.968005811651318e-08
+        },
+        {
+          "method": "Native",
+          "model_layer_id": 12,
+          "readout_relative_L2": 0.0,
+          "state_recovery_relative_L2": 0.0,
+          "FP32_vs_FP64_state": 4.6437097529206044e-08,
+          "FP32_vs_FP64_readout": 9.386493799232955e-08
+        },
+        {
+          "method": "Hadamard",
+          "model_layer_id": 12,
+          "readout_relative_L2": 1.9255841321670153e-07,
+          "state_recovery_relative_L2": 2.516817954883558e-07,
+          "FP32_vs_FP64_state": 4.6437097529206044e-08,
+          "FP32_vs_FP64_readout": 9.386493799232955e-08
+        },
+        {
+          "method": "C6R",
+          "model_layer_id": 12,
+          "readout_relative_L2": 5.269072899911114e-07,
+          "state_recovery_relative_L2": 6.032958282571689e-07,
+          "FP32_vs_FP64_state": 4.6437097529206044e-08,
+          "FP32_vs_FP64_readout": 9.386493799232955e-08
+        },
+        {
+          "method": "C7",
+          "model_layer_id": 12,
+          "readout_relative_L2": 4.69247368341142e-07,
+          "state_recovery_relative_L2": 6.646758616526651e-07,
+          "FP32_vs_FP64_state": 4.6437097529206044e-08,
+          "FP32_vs_FP64_readout": 9.386493799232955e-08
+        },
+        {
+          "method": "Native",
+          "model_layer_id": 13,
+          "readout_relative_L2": 0.0,
+          "state_recovery_relative_L2": 0.0,
+          "FP32_vs_FP64_state": 5.746023398193577e-08,
+          "FP32_vs_FP64_readout": 1.6444808824200099e-07
+        },
+        {
+          "method": "Hadamard",
+          "model_layer_id": 13,
+          "readout_relative_L2": 2.6310156976208745e-07,
+          "state_recovery_relative_L2": 2.398285584015323e-07,
+          "FP32_vs_FP64_state": 5.746023398193577e-08,
+          "FP32_vs_FP64_readout": 1.6444808824200099e-07
+        },
+        {
+          "method": "C6R",
+          "model_layer_id": 13,
+          "readout_relative_L2": 3.0463539748265836e-07,
+          "state_recovery_relative_L2": 6.788106884067914e-07,
+          "FP32_vs_FP64_state": 5.746023398193577e-08,
+          "FP32_vs_FP64_readout": 1.6444808824200099e-07
+        },
+        {
+          "method": "C7",
+          "model_layer_id": 13,
+          "readout_relative_L2": 3.0774807595683276e-07,
+          "state_recovery_relative_L2": 6.729921053220136e-07,
+          "FP32_vs_FP64_state": 5.746023398193577e-08,
+          "FP32_vs_FP64_readout": 1.6444808824200099e-07
+        },
+        {
+          "method": "Native",
+          "model_layer_id": 14,
+          "readout_relative_L2": 0.0,
+          "state_recovery_relative_L2": 0.0,
+          "FP32_vs_FP64_state": 4.5775772964611714e-08,
+          "FP32_vs_FP64_readout": 5.834966005499808e-08
+        },
+        {
+          "method": "Hadamard",
+          "model_layer_id": 14,
+          "readout_relative_L2": 9.425437470203046e-08,
+          "state_recovery_relative_L2": 2.4388166496332854e-07,
+          "FP32_vs_FP64_state": 4.5775772964611714e-08,
+          "FP32_vs_FP64_readout": 5.834966005499808e-08
+        },
+        {
+          "method": "C6R",
+          "model_layer_id": 14,
+          "readout_relative_L2": 2.6249511033835866e-07,
+          "state_recovery_relative_L2": 6.324551995952692e-07,
+          "FP32_vs_FP64_state": 4.5775772964611714e-08,
+          "FP32_vs_FP64_readout": 5.834966005499808e-08
+        },
+        {
+          "method": "C7",
+          "model_layer_id": 14,
+          "readout_relative_L2": 3.0063622478933575e-07,
+          "state_recovery_relative_L2": 6.272331320435176e-07,
+          "FP32_vs_FP64_state": 4.5775772964611714e-08,
+          "FP32_vs_FP64_readout": 5.834966005499808e-08
+        },
+        {
+          "method": "Native",
+          "model_layer_id": 16,
+          "readout_relative_L2": 0.0,
+          "state_recovery_relative_L2": 0.0,
+          "FP32_vs_FP64_state": 4.3356785365035205e-08,
+          "FP32_vs_FP64_readout": 8.671873046699754e-08
+        },
+        {
+          "method": "Hadamard",
+          "model_layer_id": 16,
+          "readout_relative_L2": 4.0146068775112764e-07,
+          "state_recovery_relative_L2": 2.8078802093544363e-07,
+          "FP32_vs_FP64_state": 4.3356785365035205e-08,
+          "FP32_vs_FP64_readout": 8.671873046699754e-08
+        },
+        {
+          "method": "C6R",
+          "model_layer_id": 16,
+          "readout_relative_L2": 9.188134945020811e-07,
+          "state_recovery_relative_L2": 6.750594119236957e-07,
+          "FP32_vs_FP64_state": 4.3356785365035205e-08,
+          "FP32_vs_FP64_readout": 8.671873046699754e-08
+        },
+        {
+          "method": "C7",
+          "model_layer_id": 16,
+          "readout_relative_L2": 8.285863256792333e-07,
+          "state_recovery_relative_L2": 7.241435568654521e-07,
+          "FP32_vs_FP64_state": 4.3356785365035205e-08,
+          "FP32_vs_FP64_readout": 8.671873046699754e-08
+        },
+        {
+          "method": "Native",
+          "model_layer_id": 17,
+          "readout_relative_L2": 0.0,
+          "state_recovery_relative_L2": 0.0,
+          "FP32_vs_FP64_state": 5.055867743594002e-08,
+          "FP32_vs_FP64_readout": 6.18092797924743e-08
+        },
+        {
+          "method": "Hadamard",
+          "model_layer_id": 17,
+          "readout_relative_L2": 1.6896477312654294e-07,
+          "state_recovery_relative_L2": 2.450980620306301e-07,
+          "FP32_vs_FP64_state": 5.055867743594002e-08,
+          "FP32_vs_FP64_readout": 6.18092797924743e-08
+        },
+        {
+          "method": "C6R",
+          "model_layer_id": 17,
+          "readout_relative_L2": 4.073468802452279e-07,
+          "state_recovery_relative_L2": 6.038293560508084e-07,
+          "FP32_vs_FP64_state": 5.055867743594002e-08,
+          "FP32_vs_FP64_readout": 6.18092797924743e-08
+        },
+        {
+          "method": "C7",
+          "model_layer_id": 17,
+          "readout_relative_L2": 4.036996835677719e-07,
+          "state_recovery_relative_L2": 6.251790376870054e-07,
+          "FP32_vs_FP64_state": 5.055867743594002e-08,
+          "FP32_vs_FP64_readout": 6.18092797924743e-08
+        },
+        {
+          "method": "Native",
+          "model_layer_id": 18,
+          "readout_relative_L2": 0.0,
+          "state_recovery_relative_L2": 0.0,
+          "FP32_vs_FP64_state": 5.212498012968826e-08,
+          "FP32_vs_FP64_readout": 8.478115063722826e-08
+        },
+        {
+          "method": "Hadamard",
+          "model_layer_id": 18,
+          "readout_relative_L2": 1.5074652007421687e-07,
+          "state_recovery_relative_L2": 2.541233897924779e-07,
+          "FP32_vs_FP64_state": 5.212498012968826e-08,
+          "FP32_vs_FP64_readout": 8.478115063722826e-08
+        },
+        {
+          "method": "C6R",
+          "model_layer_id": 18,
+          "readout_relative_L2": 2.834164996466049e-07,
+          "state_recovery_relative_L2": 6.506357180115151e-07,
+          "FP32_vs_FP64_state": 5.212498012968826e-08,
+          "FP32_vs_FP64_readout": 8.478115063722826e-08
+        },
+        {
+          "method": "C7",
+          "model_layer_id": 18,
+          "readout_relative_L2": 2.802584071509155e-07,
+          "state_recovery_relative_L2": 5.862531241415805e-07,
+          "FP32_vs_FP64_state": 5.212498012968826e-08,
+          "FP32_vs_FP64_readout": 8.478115063722826e-08
+        },
+        {
+          "method": "Native",
+          "model_layer_id": 20,
+          "readout_relative_L2": 0.0,
+          "state_recovery_relative_L2": 0.0,
+          "FP32_vs_FP64_state": 4.8553930382331836e-08,
+          "FP32_vs_FP64_readout": 7.831795356864701e-08
+        },
+        {
+          "method": "Hadamard",
+          "model_layer_id": 20,
+          "readout_relative_L2": 2.5153282506241395e-07,
+          "state_recovery_relative_L2": 2.7241820295438605e-07,
+          "FP32_vs_FP64_state": 4.8553930382331836e-08,
+          "FP32_vs_FP64_readout": 7.831795356864701e-08
+        },
+        {
+          "method": "C6R",
+          "model_layer_id": 20,
+          "readout_relative_L2": 9.367797695551042e-07,
+          "state_recovery_relative_L2": 6.43595460501926e-07,
+          "FP32_vs_FP64_state": 4.8553930382331836e-08,
+          "FP32_vs_FP64_readout": 7.831795356864701e-08
+        },
+        {
+          "method": "C7",
+          "model_layer_id": 20,
+          "readout_relative_L2": 4.7018058528086956e-07,
+          "state_recovery_relative_L2": 6.705454041532838e-07,
+          "FP32_vs_FP64_state": 4.8553930382331836e-08,
+          "FP32_vs_FP64_readout": 7.831795356864701e-08
+        },
+        {
+          "method": "Native",
+          "model_layer_id": 21,
+          "readout_relative_L2": 0.0,
+          "state_recovery_relative_L2": 0.0,
+          "FP32_vs_FP64_state": 5.557936517669403e-08,
+          "FP32_vs_FP64_readout": 8.515273165536339e-08
+        },
+        {
+          "method": "Hadamard",
+          "model_layer_id": 21,
+          "readout_relative_L2": 1.8029976670107053e-07,
+          "state_recovery_relative_L2": 2.675096341880012e-07,
+          "FP32_vs_FP64_state": 5.557936517669403e-08,
+          "FP32_vs_FP64_readout": 8.515273165536339e-08
+        },
+        {
+          "method": "C6R",
+          "model_layer_id": 21,
+          "readout_relative_L2": 2.743241300049867e-07,
+          "state_recovery_relative_L2": 6.473377183836579e-07,
+          "FP32_vs_FP64_state": 5.557936517669403e-08,
+          "FP32_vs_FP64_readout": 8.515273165536339e-08
+        },
+        {
+          "method": "C7",
+          "model_layer_id": 21,
+          "readout_relative_L2": 3.2668944669358575e-07,
+          "state_recovery_relative_L2": 6.856441385638754e-07,
+          "FP32_vs_FP64_state": 5.557936517669403e-08,
+          "FP32_vs_FP64_readout": 8.515273165536339e-08
+        },
+        {
+          "method": "Native",
+          "model_layer_id": 22,
+          "readout_relative_L2": 0.0,
+          "state_recovery_relative_L2": 0.0,
+          "FP32_vs_FP64_state": 4.460911424873697e-08,
+          "FP32_vs_FP64_readout": 5.85804312897007e-08
+        },
+        {
+          "method": "Hadamard",
+          "model_layer_id": 22,
+          "readout_relative_L2": 1.468803075795341e-07,
+          "state_recovery_relative_L2": 2.4367185086170647e-07,
+          "FP32_vs_FP64_state": 4.460911424873697e-08,
+          "FP32_vs_FP64_readout": 5.85804312897007e-08
+        },
+        {
+          "method": "C6R",
+          "model_layer_id": 22,
+          "readout_relative_L2": 4.894210196030946e-07,
+          "state_recovery_relative_L2": 6.885341162494233e-07,
+          "FP32_vs_FP64_state": 4.460911424873697e-08,
+          "FP32_vs_FP64_readout": 5.85804312897007e-08
+        },
+        {
+          "method": "C7",
+          "model_layer_id": 22,
+          "readout_relative_L2": 4.69747303865414e-07,
+          "state_recovery_relative_L2": 5.676011694647788e-07,
+          "FP32_vs_FP64_state": 4.460911424873697e-08,
+          "FP32_vs_FP64_readout": 5.85804312897007e-08
+        },
+        {
+          "method": "Native",
+          "model_layer_id": 24,
+          "readout_relative_L2": 0.0,
+          "state_recovery_relative_L2": 0.0,
+          "FP32_vs_FP64_state": 5.262845462659255e-08,
+          "FP32_vs_FP64_readout": 6.905944691580035e-08
+        },
+        {
+          "method": "Hadamard",
+          "model_layer_id": 24,
+          "readout_relative_L2": 1.4185230788414633e-07,
+          "state_recovery_relative_L2": 2.769382447484267e-07,
+          "FP32_vs_FP64_state": 5.262845462659255e-08,
+          "FP32_vs_FP64_readout": 6.905944691580035e-08
+        },
+        {
+          "method": "C6R",
+          "model_layer_id": 24,
+          "readout_relative_L2": 2.2631663456283346e-07,
+          "state_recovery_relative_L2": 6.271309052145882e-07,
+          "FP32_vs_FP64_state": 5.262845462659255e-08,
+          "FP32_vs_FP64_readout": 6.905944691580035e-08
+        },
+        {
+          "method": "C7",
+          "model_layer_id": 24,
+          "readout_relative_L2": 2.780626064224313e-07,
+          "state_recovery_relative_L2": 7.108902992000654e-07,
+          "FP32_vs_FP64_state": 5.262845462659255e-08,
+          "FP32_vs_FP64_readout": 6.905944691580035e-08
+        },
+        {
+          "method": "Native",
+          "model_layer_id": 25,
+          "readout_relative_L2": 0.0,
+          "state_recovery_relative_L2": 0.0,
+          "FP32_vs_FP64_state": 4.882454761531316e-08,
+          "FP32_vs_FP64_readout": 6.158322117310479e-08
+        },
+        {
+          "method": "Hadamard",
+          "model_layer_id": 25,
+          "readout_relative_L2": 1.1314357156562249e-07,
+          "state_recovery_relative_L2": 2.678637011415106e-07,
+          "FP32_vs_FP64_state": 4.882454761531316e-08,
+          "FP32_vs_FP64_readout": 6.158322117310479e-08
+        },
+        {
+          "method": "C6R",
+          "model_layer_id": 25,
+          "readout_relative_L2": 2.766046883609731e-07,
+          "state_recovery_relative_L2": 6.086783098759712e-07,
+          "FP32_vs_FP64_state": 4.882454761531316e-08,
+          "FP32_vs_FP64_readout": 6.158322117310479e-08
+        },
+        {
+          "method": "C7",
+          "model_layer_id": 25,
+          "readout_relative_L2": 3.742871125478896e-07,
+          "state_recovery_relative_L2": 6.316954579130346e-07,
+          "FP32_vs_FP64_state": 4.882454761531316e-08,
+          "FP32_vs_FP64_readout": 6.158322117310479e-08
+        },
+        {
+          "method": "Native",
+          "model_layer_id": 26,
+          "readout_relative_L2": 0.0,
+          "state_recovery_relative_L2": 0.0,
+          "FP32_vs_FP64_state": 4.759082331376803e-08,
+          "FP32_vs_FP64_readout": 7.639150507547439e-08
+        },
+        {
+          "method": "Hadamard",
+          "model_layer_id": 26,
+          "readout_relative_L2": 2.408030370438576e-07,
+          "state_recovery_relative_L2": 2.758252061492631e-07,
+          "FP32_vs_FP64_state": 4.759082331376803e-08,
+          "FP32_vs_FP64_readout": 7.639150507547439e-08
+        },
+        {
+          "method": "C6R",
+          "model_layer_id": 26,
+          "readout_relative_L2": 3.192071076538996e-07,
+          "state_recovery_relative_L2": 5.269199947229139e-07,
+          "FP32_vs_FP64_state": 4.759082331376803e-08,
+          "FP32_vs_FP64_readout": 7.639150507547439e-08
+        },
+        {
+          "method": "C7",
+          "model_layer_id": 26,
+          "readout_relative_L2": 5.535551736319126e-07,
+          "state_recovery_relative_L2": 6.001082911008478e-07,
+          "FP32_vs_FP64_state": 4.759082331376803e-08,
+          "FP32_vs_FP64_readout": 7.639150507547439e-08
+        },
+        {
+          "method": "Native",
+          "model_layer_id": 28,
+          "readout_relative_L2": 0.0,
+          "state_recovery_relative_L2": 0.0,
+          "FP32_vs_FP64_state": 4.807647489289445e-08,
+          "FP32_vs_FP64_readout": 6.557729516818517e-08
+        },
+        {
+          "method": "Hadamard",
+          "model_layer_id": 28,
+          "readout_relative_L2": 1.057372201473102e-07,
+          "state_recovery_relative_L2": 2.5774242559876504e-07,
+          "FP32_vs_FP64_state": 4.807647489289445e-08,
+          "FP32_vs_FP64_readout": 6.557729516818517e-08
+        },
+        {
+          "method": "C6R",
+          "model_layer_id": 28,
+          "readout_relative_L2": 2.1752997488207253e-07,
+          "state_recovery_relative_L2": 6.357972135246786e-07,
+          "FP32_vs_FP64_state": 4.807647489289445e-08,
+          "FP32_vs_FP64_readout": 6.557729516818517e-08
+        },
+        {
+          "method": "C7",
+          "model_layer_id": 28,
+          "readout_relative_L2": 2.732949014819473e-07,
+          "state_recovery_relative_L2": 6.990176094560472e-07,
+          "FP32_vs_FP64_state": 4.807647489289445e-08,
+          "FP32_vs_FP64_readout": 6.557729516818517e-08
+        },
+        {
+          "method": "Native",
+          "model_layer_id": 29,
+          "readout_relative_L2": 0.0,
+          "state_recovery_relative_L2": 0.0,
+          "FP32_vs_FP64_state": 4.485297059108946e-08,
+          "FP32_vs_FP64_readout": 6.986609334044812e-08
+        },
+        {
+          "method": "Hadamard",
+          "model_layer_id": 29,
+          "readout_relative_L2": 1.301201724486667e-07,
+          "state_recovery_relative_L2": 2.611204181738847e-07,
+          "FP32_vs_FP64_state": 4.485297059108946e-08,
+          "FP32_vs_FP64_readout": 6.986609334044812e-08
+        },
+        {
+          "method": "C6R",
+          "model_layer_id": 29,
+          "readout_relative_L2": 2.656526772983587e-07,
+          "state_recovery_relative_L2": 6.171420009035487e-07,
+          "FP32_vs_FP64_state": 4.485297059108946e-08,
+          "FP32_vs_FP64_readout": 6.986609334044812e-08
+        },
+        {
+          "method": "C7",
+          "model_layer_id": 29,
+          "readout_relative_L2": 2.8595451642956176e-07,
+          "state_recovery_relative_L2": 6.250733627963625e-07,
+          "FP32_vs_FP64_state": 4.485297059108946e-08,
+          "FP32_vs_FP64_readout": 6.986609334044812e-08
+        },
+        {
+          "method": "Native",
+          "model_layer_id": 30,
+          "readout_relative_L2": 0.0,
+          "state_recovery_relative_L2": 0.0,
+          "FP32_vs_FP64_state": 4.165075544123688e-08,
+          "FP32_vs_FP64_readout": 5.450736857809072e-08
+        },
+        {
+          "method": "Hadamard",
+          "model_layer_id": 30,
+          "readout_relative_L2": 1.0207889480158648e-07,
+          "state_recovery_relative_L2": 2.5621481361736714e-07,
+          "FP32_vs_FP64_state": 4.165075544123688e-08,
+          "FP32_vs_FP64_readout": 5.450736857809072e-08
+        },
+        {
+          "method": "C6R",
+          "model_layer_id": 30,
+          "readout_relative_L2": 2.4523057875267026e-07,
+          "state_recovery_relative_L2": 5.713687950704437e-07,
+          "FP32_vs_FP64_state": 4.165075544123688e-08,
+          "FP32_vs_FP64_readout": 5.450736857809072e-08
+        },
+        {
+          "method": "C7",
+          "model_layer_id": 30,
+          "readout_relative_L2": 1.6449097073834047e-07,
+          "state_recovery_relative_L2": 6.584887798020695e-07,
+          "FP32_vs_FP64_state": 4.165075544123688e-08,
+          "FP32_vs_FP64_readout": 5.450736857809072e-08
+        }
+      ],
+      "model_forward_and_observation_seconds": 3.417789549799636,
+      "allocated_bytes_at_end": 18913267200,
+      "reserved_bytes_at_end": 18979225600,
+      "peak_allocated_bytes": 18964531200,
+      "peak_reserved_bytes": 18979225600,
+      "host_peak_RSS_bytes": 19483717632,
+      "full_attention_KV_bytes": 786432,
+      "GDN_conv_bytes": 4718592,
+      "coverage": {
+        "sample_id": "non_AIME_smoke",
+        "positions": [
+          0,
+          1,
+          7
+        ],
+        "sampled_token_count": 3,
+        "layers": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          6,
+          8,
+          9,
+          10,
+          12,
+          13,
+          14,
+          16,
+          17,
+          18,
+          20,
+          21,
+          22,
+          24,
+          25,
+          26,
+          28,
+          29,
+          30
+        ],
+        "conditions": [
+          "A_Native",
+          "A_Hadamard",
+          "A_C6R",
+          "A_C7",
+          "B_Native",
+          "B_Hadamard"
+        ],
+        "layer_events": 72,
+        "groups_per_condition": 294912,
+        "postwrite_layer_events": 72
+      }
+    },
+    {
+      "status": "PASS",
+      "sample_id": null,
+      "plan": {
+        "name": "B_LEARNED",
+        "fp_reference": false,
+        "B_methods": [
+          "C6R",
+          "C7"
+        ],
+        "batch_rows": 2
+      },
+      "input_tokens": 8,
+      "physical_INT8_cache": {
+        "B_methods": [
+          "C6R",
+          "C7"
+        ],
+        "rows": 2,
+        "FP_reference_present": false,
+        "per_layer": {
+          "0": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 8,
+            "reads": 7,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": null
+          },
+          "1": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 8,
+            "reads": 7,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": null
+          },
+          "2": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 8,
+            "reads": 7,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": null
+          },
+          "4": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 8,
+            "reads": 7,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": null
+          },
+          "5": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 8,
+            "reads": 7,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": null
+          },
+          "6": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 8,
+            "reads": 7,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": null
+          },
+          "8": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 8,
+            "reads": 7,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": null
+          },
+          "9": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 8,
+            "reads": 7,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": null
+          },
+          "10": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 8,
+            "reads": 7,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": null
+          },
+          "12": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 8,
+            "reads": 7,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": null
+          },
+          "13": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 8,
+            "reads": 7,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": null
+          },
+          "14": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 8,
+            "reads": 7,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": null
+          },
+          "16": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 8,
+            "reads": 7,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": null
+          },
+          "17": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 8,
+            "reads": 7,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": null
+          },
+          "18": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 8,
+            "reads": 7,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": null
+          },
+          "20": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 8,
+            "reads": 7,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": null
+          },
+          "21": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 8,
+            "reads": 7,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": null
+          },
+          "22": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 8,
+            "reads": 7,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": null
+          },
+          "24": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 8,
+            "reads": 7,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": null
+          },
+          "25": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 8,
+            "reads": 7,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": null
+          },
+          "26": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 8,
+            "reads": 7,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": null
+          },
+          "28": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 8,
+            "reads": 7,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": null
+          },
+          "29": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 8,
+            "reads": 7,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": null
+          },
+          "30": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 8,
+            "reads": 7,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": null
+          }
+        },
+        "core_read_pointer_checks": 168,
+        "write_counts": {
+          "0": 8,
+          "1": 8,
+          "2": 8,
+          "4": 8,
+          "5": 8,
+          "6": 8,
+          "8": 8,
+          "9": 8,
+          "10": 8,
+          "12": 8,
+          "13": 8,
+          "14": 8,
+          "16": 8,
+          "17": 8,
+          "18": 8,
+          "20": 8,
+          "21": 8,
+          "22": 8,
+          "24": 8,
+          "25": 8,
+          "26": 8,
+          "28": 8,
+          "29": 8,
+          "30": 8
+        },
+        "read_counts": {
+          "0": 7,
+          "1": 7,
+          "2": 7,
+          "4": 7,
+          "5": 7,
+          "6": 7,
+          "8": 7,
+          "9": 7,
+          "10": 7,
+          "12": 7,
+          "13": 7,
+          "14": 7,
+          "16": 7,
+          "17": 7,
+          "18": 7,
+          "20": 7,
+          "21": 7,
+          "22": 7,
+          "24": 7,
+          "25": 7,
+          "26": 7,
+          "28": 7,
+          "29": 7,
+          "30": 7
+        },
+        "persistent_B_dense_State": false,
+        "B_codes_bytes": 25165824,
+        "B_scales_bytes": 786432,
+        "FP_reference_bytes": 0
+      },
+      "core_calls_by_layer": {
+        "0": 8,
+        "1": 8,
+        "2": 8,
+        "4": 8,
+        "5": 8,
+        "6": 8,
+        "8": 8,
+        "9": 8,
+        "10": 8,
+        "12": 8,
+        "13": 8,
+        "14": 8,
+        "16": 8,
+        "17": 8,
+        "18": 8,
+        "20": 8,
+        "21": 8,
+        "22": 8,
+        "24": 8,
+        "25": 8,
+        "26": 8,
+        "28": 8,
+        "29": 8,
+        "30": 8
+      },
+      "original_transform_runtime_checks": [
+        {
+          "method": "C6R",
+          "model_layer_id": 0,
+          "FP32_H_then_Delta_original_evaluation_exact": true,
+          "original_full_normalize_then_H_Delta_exact": true,
+          "original_full_transform_relative_L2": 0.0,
+          "input_dtype": "torch.bfloat16",
+          "normalization_before_rotation": true
+        },
+        {
+          "method": "C7",
+          "model_layer_id": 0,
+          "FP32_H_then_Delta_original_evaluation_exact": true,
+          "original_full_normalize_then_H_Delta_exact": true,
+          "original_full_transform_relative_L2": 0.0,
+          "input_dtype": "torch.bfloat16",
+          "normalization_before_rotation": true
+        },
+        {
+          "method": "C6R",
+          "model_layer_id": 1,
+          "FP32_H_then_Delta_original_evaluation_exact": true,
+          "original_full_normalize_then_H_Delta_exact": true,
+          "original_full_transform_relative_L2": 0.0,
+          "input_dtype": "torch.bfloat16",
+          "normalization_before_rotation": true
+        },
+        {
+          "method": "C7",
+          "model_layer_id": 1,
+          "FP32_H_then_Delta_original_evaluation_exact": true,
+          "original_full_normalize_then_H_Delta_exact": true,
+          "original_full_transform_relative_L2": 0.0,
+          "input_dtype": "torch.bfloat16",
+          "normalization_before_rotation": true
+        },
+        {
+          "method": "C6R",
+          "model_layer_id": 2,
+          "FP32_H_then_Delta_original_evaluation_exact": true,
+          "original_full_normalize_then_H_Delta_exact": true,
+          "original_full_transform_relative_L2": 0.0,
+          "input_dtype": "torch.bfloat16",
+          "normalization_before_rotation": true
+        },
+        {
+          "method": "C7",
+          "model_layer_id": 2,
+          "FP32_H_then_Delta_original_evaluation_exact": true,
+          "original_full_normalize_then_H_Delta_exact": true,
+          "original_full_transform_relative_L2": 0.0,
+          "input_dtype": "torch.bfloat16",
+          "normalization_before_rotation": true
+        },
+        {
+          "method": "C6R",
+          "model_layer_id": 4,
+          "FP32_H_then_Delta_original_evaluation_exact": true,
+          "original_full_normalize_then_H_Delta_exact": true,
+          "original_full_transform_relative_L2": 0.0,
+          "input_dtype": "torch.bfloat16",
+          "normalization_before_rotation": true
+        },
+        {
+          "method": "C7",
+          "model_layer_id": 4,
+          "FP32_H_then_Delta_original_evaluation_exact": true,
+          "original_full_normalize_then_H_Delta_exact": true,
+          "original_full_transform_relative_L2": 0.0,
+          "input_dtype": "torch.bfloat16",
+          "normalization_before_rotation": true
+        },
+        {
+          "method": "C6R",
+          "model_layer_id": 5,
+          "FP32_H_then_Delta_original_evaluation_exact": true,
+          "original_full_normalize_then_H_Delta_exact": true,
+          "original_full_transform_relative_L2": 0.0,
+          "input_dtype": "torch.bfloat16",
+          "normalization_before_rotation": true
+        },
+        {
+          "method": "C7",
+          "model_layer_id": 5,
+          "FP32_H_then_Delta_original_evaluation_exact": true,
+          "original_full_normalize_then_H_Delta_exact": true,
+          "original_full_transform_relative_L2": 0.0,
+          "input_dtype": "torch.bfloat16",
+          "normalization_before_rotation": true
+        },
+        {
+          "method": "C6R",
+          "model_layer_id": 6,
+          "FP32_H_then_Delta_original_evaluation_exact": true,
+          "original_full_normalize_then_H_Delta_exact": true,
+          "original_full_transform_relative_L2": 0.0,
+          "input_dtype": "torch.bfloat16",
+          "normalization_before_rotation": true
+        },
+        {
+          "method": "C7",
+          "model_layer_id": 6,
+          "FP32_H_then_Delta_original_evaluation_exact": true,
+          "original_full_normalize_then_H_Delta_exact": true,
+          "original_full_transform_relative_L2": 0.0,
+          "input_dtype": "torch.bfloat16",
+          "normalization_before_rotation": true
+        },
+        {
+          "method": "C6R",
+          "model_layer_id": 8,
+          "FP32_H_then_Delta_original_evaluation_exact": true,
+          "original_full_normalize_then_H_Delta_exact": true,
+          "original_full_transform_relative_L2": 0.0,
+          "input_dtype": "torch.bfloat16",
+          "normalization_before_rotation": true
+        },
+        {
+          "method": "C7",
+          "model_layer_id": 8,
+          "FP32_H_then_Delta_original_evaluation_exact": true,
+          "original_full_normalize_then_H_Delta_exact": true,
+          "original_full_transform_relative_L2": 0.0,
+          "input_dtype": "torch.bfloat16",
+          "normalization_before_rotation": true
+        },
+        {
+          "method": "C6R",
+          "model_layer_id": 9,
+          "FP32_H_then_Delta_original_evaluation_exact": true,
+          "original_full_normalize_then_H_Delta_exact": true,
+          "original_full_transform_relative_L2": 0.0,
+          "input_dtype": "torch.bfloat16",
+          "normalization_before_rotation": true
+        },
+        {
+          "method": "C7",
+          "model_layer_id": 9,
+          "FP32_H_then_Delta_original_evaluation_exact": true,
+          "original_full_normalize_then_H_Delta_exact": true,
+          "original_full_transform_relative_L2": 0.0,
+          "input_dtype": "torch.bfloat16",
+          "normalization_before_rotation": true
+        },
+        {
+          "method": "C6R",
+          "model_layer_id": 10,
+          "FP32_H_then_Delta_original_evaluation_exact": true,
+          "original_full_normalize_then_H_Delta_exact": true,
+          "original_full_transform_relative_L2": 0.0,
+          "input_dtype": "torch.bfloat16",
+          "normalization_before_rotation": true
+        },
+        {
+          "method": "C7",
+          "model_layer_id": 10,
+          "FP32_H_then_Delta_original_evaluation_exact": true,
+          "original_full_normalize_then_H_Delta_exact": true,
+          "original_full_transform_relative_L2": 0.0,
+          "input_dtype": "torch.bfloat16",
+          "normalization_before_rotation": true
+        },
+        {
+          "method": "C6R",
+          "model_layer_id": 12,
+          "FP32_H_then_Delta_original_evaluation_exact": true,
+          "original_full_normalize_then_H_Delta_exact": true,
+          "original_full_transform_relative_L2": 0.0,
+          "input_dtype": "torch.bfloat16",
+          "normalization_before_rotation": true
+        },
+        {
+          "method": "C7",
+          "model_layer_id": 12,
+          "FP32_H_then_Delta_original_evaluation_exact": true,
+          "original_full_normalize_then_H_Delta_exact": true,
+          "original_full_transform_relative_L2": 0.0,
+          "input_dtype": "torch.bfloat16",
+          "normalization_before_rotation": true
+        },
+        {
+          "method": "C6R",
+          "model_layer_id": 13,
+          "FP32_H_then_Delta_original_evaluation_exact": true,
+          "original_full_normalize_then_H_Delta_exact": true,
+          "original_full_transform_relative_L2": 0.0,
+          "input_dtype": "torch.bfloat16",
+          "normalization_before_rotation": true
+        },
+        {
+          "method": "C7",
+          "model_layer_id": 13,
+          "FP32_H_then_Delta_original_evaluation_exact": true,
+          "original_full_normalize_then_H_Delta_exact": true,
+          "original_full_transform_relative_L2": 0.0,
+          "input_dtype": "torch.bfloat16",
+          "normalization_before_rotation": true
+        },
+        {
+          "method": "C6R",
+          "model_layer_id": 14,
+          "FP32_H_then_Delta_original_evaluation_exact": true,
+          "original_full_normalize_then_H_Delta_exact": true,
+          "original_full_transform_relative_L2": 0.0,
+          "input_dtype": "torch.bfloat16",
+          "normalization_before_rotation": true
+        },
+        {
+          "method": "C7",
+          "model_layer_id": 14,
+          "FP32_H_then_Delta_original_evaluation_exact": true,
+          "original_full_normalize_then_H_Delta_exact": true,
+          "original_full_transform_relative_L2": 0.0,
+          "input_dtype": "torch.bfloat16",
+          "normalization_before_rotation": true
+        },
+        {
+          "method": "C6R",
+          "model_layer_id": 16,
+          "FP32_H_then_Delta_original_evaluation_exact": true,
+          "original_full_normalize_then_H_Delta_exact": true,
+          "original_full_transform_relative_L2": 0.0,
+          "input_dtype": "torch.bfloat16",
+          "normalization_before_rotation": true
+        },
+        {
+          "method": "C7",
+          "model_layer_id": 16,
+          "FP32_H_then_Delta_original_evaluation_exact": true,
+          "original_full_normalize_then_H_Delta_exact": true,
+          "original_full_transform_relative_L2": 0.0,
+          "input_dtype": "torch.bfloat16",
+          "normalization_before_rotation": true
+        },
+        {
+          "method": "C6R",
+          "model_layer_id": 17,
+          "FP32_H_then_Delta_original_evaluation_exact": true,
+          "original_full_normalize_then_H_Delta_exact": true,
+          "original_full_transform_relative_L2": 0.0,
+          "input_dtype": "torch.bfloat16",
+          "normalization_before_rotation": true
+        },
+        {
+          "method": "C7",
+          "model_layer_id": 17,
+          "FP32_H_then_Delta_original_evaluation_exact": true,
+          "original_full_normalize_then_H_Delta_exact": true,
+          "original_full_transform_relative_L2": 0.0,
+          "input_dtype": "torch.bfloat16",
+          "normalization_before_rotation": true
+        },
+        {
+          "method": "C6R",
+          "model_layer_id": 18,
+          "FP32_H_then_Delta_original_evaluation_exact": true,
+          "original_full_normalize_then_H_Delta_exact": true,
+          "original_full_transform_relative_L2": 0.0,
+          "input_dtype": "torch.bfloat16",
+          "normalization_before_rotation": true
+        },
+        {
+          "method": "C7",
+          "model_layer_id": 18,
+          "FP32_H_then_Delta_original_evaluation_exact": true,
+          "original_full_normalize_then_H_Delta_exact": true,
+          "original_full_transform_relative_L2": 0.0,
+          "input_dtype": "torch.bfloat16",
+          "normalization_before_rotation": true
+        },
+        {
+          "method": "C6R",
+          "model_layer_id": 20,
+          "FP32_H_then_Delta_original_evaluation_exact": true,
+          "original_full_normalize_then_H_Delta_exact": true,
+          "original_full_transform_relative_L2": 0.0,
+          "input_dtype": "torch.bfloat16",
+          "normalization_before_rotation": true
+        },
+        {
+          "method": "C7",
+          "model_layer_id": 20,
+          "FP32_H_then_Delta_original_evaluation_exact": true,
+          "original_full_normalize_then_H_Delta_exact": true,
+          "original_full_transform_relative_L2": 0.0,
+          "input_dtype": "torch.bfloat16",
+          "normalization_before_rotation": true
+        },
+        {
+          "method": "C6R",
+          "model_layer_id": 21,
+          "FP32_H_then_Delta_original_evaluation_exact": true,
+          "original_full_normalize_then_H_Delta_exact": true,
+          "original_full_transform_relative_L2": 0.0,
+          "input_dtype": "torch.bfloat16",
+          "normalization_before_rotation": true
+        },
+        {
+          "method": "C7",
+          "model_layer_id": 21,
+          "FP32_H_then_Delta_original_evaluation_exact": true,
+          "original_full_normalize_then_H_Delta_exact": true,
+          "original_full_transform_relative_L2": 0.0,
+          "input_dtype": "torch.bfloat16",
+          "normalization_before_rotation": true
+        },
+        {
+          "method": "C6R",
+          "model_layer_id": 22,
+          "FP32_H_then_Delta_original_evaluation_exact": true,
+          "original_full_normalize_then_H_Delta_exact": true,
+          "original_full_transform_relative_L2": 0.0,
+          "input_dtype": "torch.bfloat16",
+          "normalization_before_rotation": true
+        },
+        {
+          "method": "C7",
+          "model_layer_id": 22,
+          "FP32_H_then_Delta_original_evaluation_exact": true,
+          "original_full_normalize_then_H_Delta_exact": true,
+          "original_full_transform_relative_L2": 0.0,
+          "input_dtype": "torch.bfloat16",
+          "normalization_before_rotation": true
+        },
+        {
+          "method": "C6R",
+          "model_layer_id": 24,
+          "FP32_H_then_Delta_original_evaluation_exact": true,
+          "original_full_normalize_then_H_Delta_exact": true,
+          "original_full_transform_relative_L2": 0.0,
+          "input_dtype": "torch.bfloat16",
+          "normalization_before_rotation": true
+        },
+        {
+          "method": "C7",
+          "model_layer_id": 24,
+          "FP32_H_then_Delta_original_evaluation_exact": true,
+          "original_full_normalize_then_H_Delta_exact": true,
+          "original_full_transform_relative_L2": 0.0,
+          "input_dtype": "torch.bfloat16",
+          "normalization_before_rotation": true
+        },
+        {
+          "method": "C6R",
+          "model_layer_id": 25,
+          "FP32_H_then_Delta_original_evaluation_exact": true,
+          "original_full_normalize_then_H_Delta_exact": true,
+          "original_full_transform_relative_L2": 0.0,
+          "input_dtype": "torch.bfloat16",
+          "normalization_before_rotation": true
+        },
+        {
+          "method": "C7",
+          "model_layer_id": 25,
+          "FP32_H_then_Delta_original_evaluation_exact": true,
+          "original_full_normalize_then_H_Delta_exact": true,
+          "original_full_transform_relative_L2": 0.0,
+          "input_dtype": "torch.bfloat16",
+          "normalization_before_rotation": true
+        },
+        {
+          "method": "C6R",
+          "model_layer_id": 26,
+          "FP32_H_then_Delta_original_evaluation_exact": true,
+          "original_full_normalize_then_H_Delta_exact": true,
+          "original_full_transform_relative_L2": 0.0,
+          "input_dtype": "torch.bfloat16",
+          "normalization_before_rotation": true
+        },
+        {
+          "method": "C7",
+          "model_layer_id": 26,
+          "FP32_H_then_Delta_original_evaluation_exact": true,
+          "original_full_normalize_then_H_Delta_exact": true,
+          "original_full_transform_relative_L2": 0.0,
+          "input_dtype": "torch.bfloat16",
+          "normalization_before_rotation": true
+        },
+        {
+          "method": "C6R",
+          "model_layer_id": 28,
+          "FP32_H_then_Delta_original_evaluation_exact": true,
+          "original_full_normalize_then_H_Delta_exact": true,
+          "original_full_transform_relative_L2": 0.0,
+          "input_dtype": "torch.bfloat16",
+          "normalization_before_rotation": true
+        },
+        {
+          "method": "C7",
+          "model_layer_id": 28,
+          "FP32_H_then_Delta_original_evaluation_exact": true,
+          "original_full_normalize_then_H_Delta_exact": true,
+          "original_full_transform_relative_L2": 0.0,
+          "input_dtype": "torch.bfloat16",
+          "normalization_before_rotation": true
+        },
+        {
+          "method": "C6R",
+          "model_layer_id": 29,
+          "FP32_H_then_Delta_original_evaluation_exact": true,
+          "original_full_normalize_then_H_Delta_exact": true,
+          "original_full_transform_relative_L2": 0.0,
+          "input_dtype": "torch.bfloat16",
+          "normalization_before_rotation": true
+        },
+        {
+          "method": "C7",
+          "model_layer_id": 29,
+          "FP32_H_then_Delta_original_evaluation_exact": true,
+          "original_full_normalize_then_H_Delta_exact": true,
+          "original_full_transform_relative_L2": 0.0,
+          "input_dtype": "torch.bfloat16",
+          "normalization_before_rotation": true
+        },
+        {
+          "method": "C6R",
+          "model_layer_id": 30,
+          "FP32_H_then_Delta_original_evaluation_exact": true,
+          "original_full_normalize_then_H_Delta_exact": true,
+          "original_full_transform_relative_L2": 0.0,
+          "input_dtype": "torch.bfloat16",
+          "normalization_before_rotation": true
+        },
+        {
+          "method": "C7",
+          "model_layer_id": 30,
+          "FP32_H_then_Delta_original_evaluation_exact": true,
+          "original_full_normalize_then_H_Delta_exact": true,
+          "original_full_transform_relative_L2": 0.0,
+          "input_dtype": "torch.bfloat16",
+          "normalization_before_rotation": true
+        }
+      ],
+      "common_state_operator_checks": [],
+      "model_forward_and_observation_seconds": 1.4841073041316122,
+      "allocated_bytes_at_end": 18861092352,
+      "reserved_bytes_at_end": 18914213888,
+      "peak_allocated_bytes": 18898745344,
+      "peak_reserved_bytes": 18914213888,
+      "host_peak_RSS_bytes": 19483717632,
+      "full_attention_KV_bytes": 524288,
+      "GDN_conv_bytes": 3145728,
+      "coverage": {
+        "sample_id": "non_AIME_smoke",
+        "positions": [
+          0,
+          1,
+          7
+        ],
+        "sampled_token_count": 3,
+        "layers": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          6,
+          8,
+          9,
+          10,
+          12,
+          13,
+          14,
+          16,
+          17,
+          18,
+          20,
+          21,
+          22,
+          24,
+          25,
+          26,
+          28,
+          29,
+          30
+        ],
+        "conditions": [
+          "B_C6R",
+          "B_C7"
+        ],
+        "layer_events": 72,
+        "groups_per_condition": 294912,
+        "postwrite_layer_events": 72
+      }
+    }
+  ],
+  "all_four_basis_common_state_real_layer_checks": 96
+}

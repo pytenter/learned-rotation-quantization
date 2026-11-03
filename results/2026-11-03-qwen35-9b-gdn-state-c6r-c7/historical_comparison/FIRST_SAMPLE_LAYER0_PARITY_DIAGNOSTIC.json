@@ -1,0 +1,37 @@
+{
+  "scope": "diagnostic first sample/layer only, NOT all-layer historical comparison",
+  "rows": [
+    {
+      "experiment": "A",
+      "method": "Native",
+      "sample": "aime26_01",
+      "layer": 0,
+      "all_metrics_equal_including_NaN": true,
+      "maximum_absolute_metric_difference": 0.0
+    },
+    {
+      "experiment": "A",
+      "method": "Hadamard",
+      "sample": "aime26_01",
+      "layer": 0,
+      "all_metrics_equal_including_NaN": true,
+      "maximum_absolute_metric_difference": 0.0
+    },
+    {
+      "experiment": "B",
+      "method": "Native",
+      "sample": "aime26_01",
+      "layer": 0,
+      "all_metrics_equal_including_NaN": true,
+      "maximum_absolute_metric_difference": 0.0
+    },
+    {
+      "experiment": "B",
+      "method": "Hadamard",
+      "sample": "aime26_01",
+      "layer": 0,
+      "all_metrics_equal_including_NaN": true,
+      "maximum_absolute_metric_difference": 0.0
+    }
+  ]
+}

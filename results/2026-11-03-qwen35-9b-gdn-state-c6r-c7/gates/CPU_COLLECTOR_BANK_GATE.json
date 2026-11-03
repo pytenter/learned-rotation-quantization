@@ -1,0 +1,2542 @@
+{
+  "status": "PASS",
+  "plans": [
+    {
+      "phase": "A_ALL_B_NATIVE_H",
+      "coverage": {
+        "sample_id": "synthetic_layer_mapping",
+        "positions": [
+          0,
+          1
+        ],
+        "sampled_token_count": 2,
+        "layers": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          6,
+          8,
+          9,
+          10,
+          12,
+          13,
+          14,
+          16,
+          17,
+          18,
+          20,
+          21,
+          22,
+          24,
+          25,
+          26,
+          28,
+          29,
+          30
+        ],
+        "conditions": [
+          "A_Native",
+          "A_Hadamard",
+          "A_C6R",
+          "A_C7",
+          "B_Native",
+          "B_Hadamard"
+        ],
+        "layer_events": 48,
+        "groups_per_condition": 196608,
+        "postwrite_layer_events": 48
+      },
+      "bank": {
+        "B_methods": [
+          "Native",
+          "Hadamard"
+        ],
+        "rows": 3,
+        "FP_reference_present": true,
+        "per_layer": {
+          "0": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 2,
+            "reads": 1,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": {
+              "shape": [
+                1,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 2097152,
+              "storage_bytes": 2097152
+            }
+          },
+          "1": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 2,
+            "reads": 1,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": {
+              "shape": [
+                1,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 2097152,
+              "storage_bytes": 2097152
+            }
+          },
+          "2": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 2,
+            "reads": 1,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": {
+              "shape": [
+                1,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 2097152,
+              "storage_bytes": 2097152
+            }
+          },
+          "4": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 2,
+            "reads": 1,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": {
+              "shape": [
+                1,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 2097152,
+              "storage_bytes": 2097152
+            }
+          },
+          "5": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 2,
+            "reads": 1,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": {
+              "shape": [
+                1,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 2097152,
+              "storage_bytes": 2097152
+            }
+          },
+          "6": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 2,
+            "reads": 1,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": {
+              "shape": [
+                1,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 2097152,
+              "storage_bytes": 2097152
+            }
+          },
+          "8": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 2,
+            "reads": 1,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": {
+              "shape": [
+                1,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 2097152,
+              "storage_bytes": 2097152
+            }
+          },
+          "9": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 2,
+            "reads": 1,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": {
+              "shape": [
+                1,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 2097152,
+              "storage_bytes": 2097152
+            }
+          },
+          "10": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 2,
+            "reads": 1,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": {
+              "shape": [
+                1,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 2097152,
+              "storage_bytes": 2097152
+            }
+          },
+          "12": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 2,
+            "reads": 1,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": {
+              "shape": [
+                1,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 2097152,
+              "storage_bytes": 2097152
+            }
+          },
+          "13": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 2,
+            "reads": 1,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": {
+              "shape": [
+                1,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 2097152,
+              "storage_bytes": 2097152
+            }
+          },
+          "14": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 2,
+            "reads": 1,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": {
+              "shape": [
+                1,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 2097152,
+              "storage_bytes": 2097152
+            }
+          },
+          "16": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 2,
+            "reads": 1,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": {
+              "shape": [
+                1,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 2097152,
+              "storage_bytes": 2097152
+            }
+          },
+          "17": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 2,
+            "reads": 1,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": {
+              "shape": [
+                1,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 2097152,
+              "storage_bytes": 2097152
+            }
+          },
+          "18": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 2,
+            "reads": 1,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": {
+              "shape": [
+                1,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 2097152,
+              "storage_bytes": 2097152
+            }
+          },
+          "20": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 2,
+            "reads": 1,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": {
+              "shape": [
+                1,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 2097152,
+              "storage_bytes": 2097152
+            }
+          },
+          "21": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 2,
+            "reads": 1,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": {
+              "shape": [
+                1,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 2097152,
+              "storage_bytes": 2097152
+            }
+          },
+          "22": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 2,
+            "reads": 1,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": {
+              "shape": [
+                1,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 2097152,
+              "storage_bytes": 2097152
+            }
+          },
+          "24": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 2,
+            "reads": 1,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": {
+              "shape": [
+                1,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 2097152,
+              "storage_bytes": 2097152
+            }
+          },
+          "25": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 2,
+            "reads": 1,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": {
+              "shape": [
+                1,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 2097152,
+              "storage_bytes": 2097152
+            }
+          },
+          "26": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 2,
+            "reads": 1,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": {
+              "shape": [
+                1,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 2097152,
+              "storage_bytes": 2097152
+            }
+          },
+          "28": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 2,
+            "reads": 1,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": {
+              "shape": [
+                1,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 2097152,
+              "storage_bytes": 2097152
+            }
+          },
+          "29": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 2,
+            "reads": 1,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": {
+              "shape": [
+                1,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 2097152,
+              "storage_bytes": 2097152
+            }
+          },
+          "30": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 2,
+            "reads": 1,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": {
+              "shape": [
+                1,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 2097152,
+              "storage_bytes": 2097152
+            }
+          }
+        },
+        "core_read_pointer_checks": 24,
+        "write_counts": {
+          "0": 2,
+          "1": 2,
+          "2": 2,
+          "4": 2,
+          "5": 2,
+          "6": 2,
+          "8": 2,
+          "9": 2,
+          "10": 2,
+          "12": 2,
+          "13": 2,
+          "14": 2,
+          "16": 2,
+          "17": 2,
+          "18": 2,
+          "20": 2,
+          "21": 2,
+          "22": 2,
+          "24": 2,
+          "25": 2,
+          "26": 2,
+          "28": 2,
+          "29": 2,
+          "30": 2
+        },
+        "read_counts": {
+          "0": 1,
+          "1": 1,
+          "2": 1,
+          "4": 1,
+          "5": 1,
+          "6": 1,
+          "8": 1,
+          "9": 1,
+          "10": 1,
+          "12": 1,
+          "13": 1,
+          "14": 1,
+          "16": 1,
+          "17": 1,
+          "18": 1,
+          "20": 1,
+          "21": 1,
+          "22": 1,
+          "24": 1,
+          "25": 1,
+          "26": 1,
+          "28": 1,
+          "29": 1,
+          "30": 1
+        },
+        "persistent_B_dense_State": false,
+        "B_codes_bytes": 25165824,
+        "B_scales_bytes": 786432,
+        "FP_reference_bytes": 50331648
+      },
+      "key_summary_and_argmax_full_endpoint_numpy": "EXACT",
+      "post_observation_mutation_snapshot_isolation": "PASS",
+      "persistent_physical_reads_equal_independent_dense_QDQ_control": "EXACT"
+    },
+    {
+      "phase": "B_LEARNED",
+      "coverage": {
+        "sample_id": "synthetic_layer_mapping",
+        "positions": [
+          0,
+          1
+        ],
+        "sampled_token_count": 2,
+        "layers": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          6,
+          8,
+          9,
+          10,
+          12,
+          13,
+          14,
+          16,
+          17,
+          18,
+          20,
+          21,
+          22,
+          24,
+          25,
+          26,
+          28,
+          29,
+          30
+        ],
+        "conditions": [
+          "B_C6R",
+          "B_C7"
+        ],
+        "layer_events": 48,
+        "groups_per_condition": 196608,
+        "postwrite_layer_events": 48
+      },
+      "bank": {
+        "B_methods": [
+          "C6R",
+          "C7"
+        ],
+        "rows": 2,
+        "FP_reference_present": false,
+        "per_layer": {
+          "0": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 2,
+            "reads": 1,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": null
+          },
+          "1": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 2,
+            "reads": 1,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": null
+          },
+          "2": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 2,
+            "reads": 1,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": null
+          },
+          "4": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 2,
+            "reads": 1,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": null
+          },
+          "5": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 2,
+            "reads": 1,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": null
+          },
+          "6": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 2,
+            "reads": 1,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": null
+          },
+          "8": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 2,
+            "reads": 1,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": null
+          },
+          "9": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 2,
+            "reads": 1,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": null
+          },
+          "10": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 2,
+            "reads": 1,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": null
+          },
+          "12": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 2,
+            "reads": 1,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": null
+          },
+          "13": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 2,
+            "reads": 1,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": null
+          },
+          "14": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 2,
+            "reads": 1,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": null
+          },
+          "16": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 2,
+            "reads": 1,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": null
+          },
+          "17": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 2,
+            "reads": 1,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": null
+          },
+          "18": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 2,
+            "reads": 1,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": null
+          },
+          "20": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 2,
+            "reads": 1,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": null
+          },
+          "21": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 2,
+            "reads": 1,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": null
+          },
+          "22": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 2,
+            "reads": 1,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": null
+          },
+          "24": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 2,
+            "reads": 1,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": null
+          },
+          "25": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 2,
+            "reads": 1,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": null
+          },
+          "26": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 2,
+            "reads": 1,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": null
+          },
+          "28": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 2,
+            "reads": 1,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": null
+          },
+          "29": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 2,
+            "reads": 1,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": null
+          },
+          "30": {
+            "codes": {
+              "shape": [
+                2,
+                32,
+                128,
+                128
+              ],
+              "dtype": "torch.int8",
+              "stride": [
+                524288,
+                16384,
+                128,
+                1
+              ],
+              "bytes": 1048576,
+              "storage_bytes": 1048576
+            },
+            "scales": {
+              "shape": [
+                2,
+                32,
+                1,
+                128
+              ],
+              "dtype": "torch.float32",
+              "stride": [
+                4096,
+                128,
+                128,
+                1
+              ],
+              "bytes": 32768,
+              "storage_bytes": 32768
+            },
+            "writes": 2,
+            "reads": 1,
+            "cache_recurrent_slot": "Python proxy containing only {0:None}",
+            "FP_reference": null
+          }
+        },
+        "core_read_pointer_checks": 24,
+        "write_counts": {
+          "0": 2,
+          "1": 2,
+          "2": 2,
+          "4": 2,
+          "5": 2,
+          "6": 2,
+          "8": 2,
+          "9": 2,
+          "10": 2,
+          "12": 2,
+          "13": 2,
+          "14": 2,
+          "16": 2,
+          "17": 2,
+          "18": 2,
+          "20": 2,
+          "21": 2,
+          "22": 2,
+          "24": 2,
+          "25": 2,
+          "26": 2,
+          "28": 2,
+          "29": 2,
+          "30": 2
+        },
+        "read_counts": {
+          "0": 1,
+          "1": 1,
+          "2": 1,
+          "4": 1,
+          "5": 1,
+          "6": 1,
+          "8": 1,
+          "9": 1,
+          "10": 1,
+          "12": 1,
+          "13": 1,
+          "14": 1,
+          "16": 1,
+          "17": 1,
+          "18": 1,
+          "20": 1,
+          "21": 1,
+          "22": 1,
+          "24": 1,
+          "25": 1,
+          "26": 1,
+          "28": 1,
+          "29": 1,
+          "30": 1
+        },
+        "persistent_B_dense_State": false,
+        "B_codes_bytes": 25165824,
+        "B_scales_bytes": 786432,
+        "FP_reference_bytes": 0
+      },
+      "key_summary_and_argmax_full_endpoint_numpy": "EXACT",
+      "post_observation_mutation_snapshot_isolation": "PASS",
+      "persistent_physical_reads_equal_independent_dense_QDQ_control": "EXACT"
+    }
+  ],
+  "cuda_initialized": false
+}

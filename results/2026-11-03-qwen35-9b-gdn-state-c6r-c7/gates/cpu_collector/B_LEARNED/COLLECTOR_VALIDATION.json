@@ -1,0 +1,121 @@
+{
+  "status": "PASS",
+  "coverage": [
+    {
+      "sample_id": "synthetic_layer_mapping",
+      "positions": [
+        0,
+        1
+      ],
+      "sampled_token_count": 2,
+      "layers": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        12,
+        13,
+        14,
+        16,
+        17,
+        18,
+        20,
+        21,
+        22,
+        24,
+        25,
+        26,
+        28,
+        29,
+        30
+      ],
+      "conditions": [
+        "B_C6R",
+        "B_C7"
+      ],
+      "layer_events": 48,
+      "groups_per_condition": 196608,
+      "postwrite_layer_events": 48
+    }
+  ],
+  "conditions": [
+    "B_C6R",
+    "B_C7"
+  ],
+  "max_paired_group_relative_squared_L2_error": {
+    "Native": 0.0,
+    "Hadamard": 0.0,
+    "C6R": 0.0,
+    "C7": 0.0
+  },
+  "paired_norm_layer_events": {
+    "Native": 0,
+    "Hadamard": 0,
+    "C6R": 0,
+    "C7": 0
+  },
+  "independent_full_group_checks": [
+    {
+      "sample_id": "synthetic_layer_mapping",
+      "token_idx": 0,
+      "model_layer_id": 0,
+      "condition": "B_C6R",
+      "all_heads": 32,
+      "all_values": 128,
+      "all_metrics": 16,
+      "max_absolute_difference": 4.547473508864641e-13,
+      "scale_oracle": "CPU direct divide",
+      "status": "PASS"
+    },
+    {
+      "sample_id": "synthetic_layer_mapping",
+      "token_idx": 0,
+      "model_layer_id": 0,
+      "condition": "B_C7",
+      "all_heads": 32,
+      "all_values": 128,
+      "all_metrics": 16,
+      "max_absolute_difference": 3.183231456205249e-12,
+      "scale_oracle": "CPU direct divide",
+      "status": "PASS"
+    },
+    {
+      "sample_id": "synthetic_layer_mapping",
+      "token_idx": 0,
+      "model_layer_id": 30,
+      "condition": "B_C6R",
+      "all_heads": 32,
+      "all_values": 128,
+      "all_metrics": 16,
+      "max_absolute_difference": 5.820766091346741e-11,
+      "scale_oracle": "CPU direct divide",
+      "status": "PASS"
+    },
+    {
+      "sample_id": "synthetic_layer_mapping",
+      "token_idx": 0,
+      "model_layer_id": 30,
+      "condition": "B_C7",
+      "all_heads": 32,
+      "all_values": 128,
+      "all_metrics": 16,
+      "max_absolute_difference": 1.8474111129762605e-13,
+      "scale_oracle": "CPU direct divide",
+      "status": "PASS"
+    }
+  ],
+  "postwrite_actual_bank_condition_events": 96,
+  "quantiles": "exact saved FP64 group observations; never averages of token quantiles",
+  "key_summary_axes": [
+    "sampled_token",
+    "head",
+    "key"
+  ],
+  "state_snapshots_retained": false,
+  "chunking": "per-sample/per-layer memmaps compressed separately; no full-experiment concatenation"
+}

@@ -1,0 +1,487 @@
+{
+  "status": "PASS",
+  "checkpoint_identities": {
+    "C6R": {
+      "condition": "C6R",
+      "rotation_file": "/data/zypan/experiments/QWEN_GDN_STATE_OUTLIER_FOUR_ROTATIONS_C6R_C7_20261103_V1/rotations/C6R/frozen_rotation_fp32.pt",
+      "rotation_sha256": "a886588b3613f66e6635e5874dbfaeaee26b850e05b4a1524da0bef952d22da6",
+      "deployment_manifest": "/data/zypan/experiments/QWEN_GDN_STATE_OUTLIER_FOUR_ROTATIONS_C6R_C7_20261103_V1/provenance/c6r_rotation_manifest.json",
+      "deployment_manifest_sha256": "f365dbab44e31b127abc5f9cc37916e432c4f3c88cc7706c82886812686d1103",
+      "theta_checkpoint_sha256": "620a35101b95cadd16f50cd1b869aeef54da9db0b3c76076fe82a374a6ee17cf",
+      "layer_count": 24,
+      "direct_frozen_load": true,
+      "theta_reconstruction": false,
+      "orientation": "q/k.float() @ H128 @ Delta; recovery Delta then H128 on key axis"
+    },
+    "C7": {
+      "condition": "C7",
+      "rotation_file": "/data/zypan/experiments/QWEN_GDN_STATE_OUTLIER_FOUR_ROTATIONS_C6R_C7_20261103_V1/rotations/C7/frozen_rotation_fp32.pt",
+      "rotation_sha256": "57e7a11714405806385064f07438e5e2ac6b5952dd421606332b894cef3ee6e8",
+      "deployment_manifest": "/data/zypan/experiments/QWEN_GDN_STATE_OUTLIER_FOUR_ROTATIONS_C6R_C7_20261103_V1/provenance/c7_rotation_manifest.json",
+      "deployment_manifest_sha256": "6caf4dc5e480879cf48e8501c52065a3e13fce2e4557f7a8d9a35b9ae49eda73",
+      "theta_checkpoint_sha256": "b08f66fa64f3453821a4d9dd9586c5263a747c461202c1dbc31b33193bde4958",
+      "layer_count": 24,
+      "direct_frozen_load": true,
+      "theta_reconstruction": false,
+      "orientation": "q/k.float() @ H128 @ Delta; recovery Delta then H128 on key axis"
+    }
+  },
+  "matrix_rows": 96,
+  "original_transform_exact_checks": [
+    {
+      "method": "C6R",
+      "layer": 0,
+      "original_frozen_evaluation_transform": "EXACT_CPU_BF16_FP32_NORM_ON_OFF"
+    },
+    {
+      "method": "C6R",
+      "layer": 1,
+      "original_frozen_evaluation_transform": "EXACT_CPU_BF16_FP32_NORM_ON_OFF"
+    },
+    {
+      "method": "C6R",
+      "layer": 2,
+      "original_frozen_evaluation_transform": "EXACT_CPU_BF16_FP32_NORM_ON_OFF"
+    },
+    {
+      "method": "C6R",
+      "layer": 4,
+      "original_frozen_evaluation_transform": "EXACT_CPU_BF16_FP32_NORM_ON_OFF"
+    },
+    {
+      "method": "C6R",
+      "layer": 5,
+      "original_frozen_evaluation_transform": "EXACT_CPU_BF16_FP32_NORM_ON_OFF"
+    },
+    {
+      "method": "C6R",
+      "layer": 6,
+      "original_frozen_evaluation_transform": "EXACT_CPU_BF16_FP32_NORM_ON_OFF"
+    },
+    {
+      "method": "C6R",
+      "layer": 8,
+      "original_frozen_evaluation_transform": "EXACT_CPU_BF16_FP32_NORM_ON_OFF"
+    },
+    {
+      "method": "C6R",
+      "layer": 9,
+      "original_frozen_evaluation_transform": "EXACT_CPU_BF16_FP32_NORM_ON_OFF"
+    },
+    {
+      "method": "C6R",
+      "layer": 10,
+      "original_frozen_evaluation_transform": "EXACT_CPU_BF16_FP32_NORM_ON_OFF"
+    },
+    {
+      "method": "C6R",
+      "layer": 12,
+      "original_frozen_evaluation_transform": "EXACT_CPU_BF16_FP32_NORM_ON_OFF"
+    },
+    {
+      "method": "C6R",
+      "layer": 13,
+      "original_frozen_evaluation_transform": "EXACT_CPU_BF16_FP32_NORM_ON_OFF"
+    },
+    {
+      "method": "C6R",
+      "layer": 14,
+      "original_frozen_evaluation_transform": "EXACT_CPU_BF16_FP32_NORM_ON_OFF"
+    },
+    {
+      "method": "C6R",
+      "layer": 16,
+      "original_frozen_evaluation_transform": "EXACT_CPU_BF16_FP32_NORM_ON_OFF"
+    },
+    {
+      "method": "C6R",
+      "layer": 17,
+      "original_frozen_evaluation_transform": "EXACT_CPU_BF16_FP32_NORM_ON_OFF"
+    },
+    {
+      "method": "C6R",
+      "layer": 18,
+      "original_frozen_evaluation_transform": "EXACT_CPU_BF16_FP32_NORM_ON_OFF"
+    },
+    {
+      "method": "C6R",
+      "layer": 20,
+      "original_frozen_evaluation_transform": "EXACT_CPU_BF16_FP32_NORM_ON_OFF"
+    },
+    {
+      "method": "C6R",
+      "layer": 21,
+      "original_frozen_evaluation_transform": "EXACT_CPU_BF16_FP32_NORM_ON_OFF"
+    },
+    {
+      "method": "C6R",
+      "layer": 22,
+      "original_frozen_evaluation_transform": "EXACT_CPU_BF16_FP32_NORM_ON_OFF"
+    },
+    {
+      "method": "C6R",
+      "layer": 24,
+      "original_frozen_evaluation_transform": "EXACT_CPU_BF16_FP32_NORM_ON_OFF"
+    },
+    {
+      "method": "C6R",
+      "layer": 25,
+      "original_frozen_evaluation_transform": "EXACT_CPU_BF16_FP32_NORM_ON_OFF"
+    },
+    {
+      "method": "C6R",
+      "layer": 26,
+      "original_frozen_evaluation_transform": "EXACT_CPU_BF16_FP32_NORM_ON_OFF"
+    },
+    {
+      "method": "C6R",
+      "layer": 28,
+      "original_frozen_evaluation_transform": "EXACT_CPU_BF16_FP32_NORM_ON_OFF"
+    },
+    {
+      "method": "C6R",
+      "layer": 29,
+      "original_frozen_evaluation_transform": "EXACT_CPU_BF16_FP32_NORM_ON_OFF"
+    },
+    {
+      "method": "C6R",
+      "layer": 30,
+      "original_frozen_evaluation_transform": "EXACT_CPU_BF16_FP32_NORM_ON_OFF"
+    },
+    {
+      "method": "C7",
+      "layer": 0,
+      "original_frozen_evaluation_transform": "EXACT_CPU_BF16_FP32_NORM_ON_OFF"
+    },
+    {
+      "method": "C7",
+      "layer": 1,
+      "original_frozen_evaluation_transform": "EXACT_CPU_BF16_FP32_NORM_ON_OFF"
+    },
+    {
+      "method": "C7",
+      "layer": 2,
+      "original_frozen_evaluation_transform": "EXACT_CPU_BF16_FP32_NORM_ON_OFF"
+    },
+    {
+      "method": "C7",
+      "layer": 4,
+      "original_frozen_evaluation_transform": "EXACT_CPU_BF16_FP32_NORM_ON_OFF"
+    },
+    {
+      "method": "C7",
+      "layer": 5,
+      "original_frozen_evaluation_transform": "EXACT_CPU_BF16_FP32_NORM_ON_OFF"
+    },
+    {
+      "method": "C7",
+      "layer": 6,
+      "original_frozen_evaluation_transform": "EXACT_CPU_BF16_FP32_NORM_ON_OFF"
+    },
+    {
+      "method": "C7",
+      "layer": 8,
+      "original_frozen_evaluation_transform": "EXACT_CPU_BF16_FP32_NORM_ON_OFF"
+    },
+    {
+      "method": "C7",
+      "layer": 9,
+      "original_frozen_evaluation_transform": "EXACT_CPU_BF16_FP32_NORM_ON_OFF"
+    },
+    {
+      "method": "C7",
+      "layer": 10,
+      "original_frozen_evaluation_transform": "EXACT_CPU_BF16_FP32_NORM_ON_OFF"
+    },
+    {
+      "method": "C7",
+      "layer": 12,
+      "original_frozen_evaluation_transform": "EXACT_CPU_BF16_FP32_NORM_ON_OFF"
+    },
+    {
+      "method": "C7",
+      "layer": 13,
+      "original_frozen_evaluation_transform": "EXACT_CPU_BF16_FP32_NORM_ON_OFF"
+    },
+    {
+      "method": "C7",
+      "layer": 14,
+      "original_frozen_evaluation_transform": "EXACT_CPU_BF16_FP32_NORM_ON_OFF"
+    },
+    {
+      "method": "C7",
+      "layer": 16,
+      "original_frozen_evaluation_transform": "EXACT_CPU_BF16_FP32_NORM_ON_OFF"
+    },
+    {
+      "method": "C7",
+      "layer": 17,
+      "original_frozen_evaluation_transform": "EXACT_CPU_BF16_FP32_NORM_ON_OFF"
+    },
+    {
+      "method": "C7",
+      "layer": 18,
+      "original_frozen_evaluation_transform": "EXACT_CPU_BF16_FP32_NORM_ON_OFF"
+    },
+    {
+      "method": "C7",
+      "layer": 20,
+      "original_frozen_evaluation_transform": "EXACT_CPU_BF16_FP32_NORM_ON_OFF"
+    },
+    {
+      "method": "C7",
+      "layer": 21,
+      "original_frozen_evaluation_transform": "EXACT_CPU_BF16_FP32_NORM_ON_OFF"
+    },
+    {
+      "method": "C7",
+      "layer": 22,
+      "original_frozen_evaluation_transform": "EXACT_CPU_BF16_FP32_NORM_ON_OFF"
+    },
+    {
+      "method": "C7",
+      "layer": 24,
+      "original_frozen_evaluation_transform": "EXACT_CPU_BF16_FP32_NORM_ON_OFF"
+    },
+    {
+      "method": "C7",
+      "layer": 25,
+      "original_frozen_evaluation_transform": "EXACT_CPU_BF16_FP32_NORM_ON_OFF"
+    },
+    {
+      "method": "C7",
+      "layer": 26,
+      "original_frozen_evaluation_transform": "EXACT_CPU_BF16_FP32_NORM_ON_OFF"
+    },
+    {
+      "method": "C7",
+      "layer": 28,
+      "original_frozen_evaluation_transform": "EXACT_CPU_BF16_FP32_NORM_ON_OFF"
+    },
+    {
+      "method": "C7",
+      "layer": 29,
+      "original_frozen_evaluation_transform": "EXACT_CPU_BF16_FP32_NORM_ON_OFF"
+    },
+    {
+      "method": "C7",
+      "layer": 30,
+      "original_frozen_evaluation_transform": "EXACT_CPU_BF16_FP32_NORM_ON_OFF"
+    }
+  ],
+  "nonsymmetric_direction": {
+    "correct_readout_relative_L2": 3.100452941084464e-08,
+    "correct_state_recovery_relative_L2": 7.392770137315481e-09,
+    "wrong_transpose_challenge_relative_L2": 0.08665923230877182,
+    "checkpoint_reorthogonalized": false
+  },
+  "norm_and_numpy_checks": [
+    {
+      "method": "Native",
+      "layer": 0,
+      "squared_L2_max_relative_error": 0.0,
+      "state_recovery_relative_L2": 0.0,
+      "independent_metrics": {
+        "sample_id": "CPU_synthetic",
+        "token_idx": 0,
+        "model_layer_id": 0,
+        "condition": "Native",
+        "all_heads": 32,
+        "all_values": 128,
+        "all_metrics": 16,
+        "max_absolute_difference": 2.2737367544323206e-13,
+        "scale_oracle": "CPU direct divide",
+        "status": "PASS"
+      }
+    },
+    {
+      "method": "Native",
+      "layer": 30,
+      "squared_L2_max_relative_error": 0.0,
+      "state_recovery_relative_L2": 0.0,
+      "independent_metrics": {
+        "sample_id": "CPU_synthetic",
+        "token_idx": 0,
+        "model_layer_id": 30,
+        "condition": "Native",
+        "all_heads": 32,
+        "all_values": 128,
+        "all_metrics": 16,
+        "max_absolute_difference": 2.2737367544323206e-13,
+        "scale_oracle": "CPU direct divide",
+        "status": "PASS"
+      }
+    },
+    {
+      "method": "Hadamard",
+      "layer": 0,
+      "squared_L2_max_relative_error": 2.3996722781770506e-07,
+      "state_recovery_relative_L2": 2.8948922490973305e-07,
+      "independent_metrics": {
+        "sample_id": "CPU_synthetic",
+        "token_idx": 0,
+        "model_layer_id": 0,
+        "condition": "Hadamard",
+        "all_heads": 32,
+        "all_values": 128,
+        "all_metrics": 16,
+        "max_absolute_difference": 2.2737367544323206e-13,
+        "scale_oracle": "CPU direct divide",
+        "status": "PASS"
+      }
+    },
+    {
+      "method": "Hadamard",
+      "layer": 30,
+      "squared_L2_max_relative_error": 2.3996722781770506e-07,
+      "state_recovery_relative_L2": 2.8948922490973305e-07,
+      "independent_metrics": {
+        "sample_id": "CPU_synthetic",
+        "token_idx": 0,
+        "model_layer_id": 30,
+        "condition": "Hadamard",
+        "all_heads": 32,
+        "all_values": 128,
+        "all_metrics": 16,
+        "max_absolute_difference": 2.2737367544323206e-13,
+        "scale_oracle": "CPU direct divide",
+        "status": "PASS"
+      }
+    },
+    {
+      "method": "C6R",
+      "layer": 0,
+      "squared_L2_max_relative_error": 4.659495312401297e-07,
+      "state_recovery_relative_L2": 6.56722495150928e-07,
+      "independent_metrics": {
+        "sample_id": "CPU_synthetic",
+        "token_idx": 0,
+        "model_layer_id": 0,
+        "condition": "C6R",
+        "all_heads": 32,
+        "all_values": 128,
+        "all_metrics": 16,
+        "max_absolute_difference": 2.2737367544323206e-13,
+        "scale_oracle": "CPU direct divide",
+        "status": "PASS"
+      }
+    },
+    {
+      "method": "C6R",
+      "layer": 30,
+      "squared_L2_max_relative_error": 4.451075282080368e-07,
+      "state_recovery_relative_L2": 6.384068159657672e-07,
+      "independent_metrics": {
+        "sample_id": "CPU_synthetic",
+        "token_idx": 0,
+        "model_layer_id": 30,
+        "condition": "C6R",
+        "all_heads": 32,
+        "all_values": 128,
+        "all_metrics": 16,
+        "max_absolute_difference": 2.2737367544323206e-13,
+        "scale_oracle": "CPU direct divide",
+        "status": "PASS"
+      }
+    },
+    {
+      "method": "C7",
+      "layer": 0,
+      "squared_L2_max_relative_error": 3.926777751437253e-07,
+      "state_recovery_relative_L2": 6.604446827575031e-07,
+      "independent_metrics": {
+        "sample_id": "CPU_synthetic",
+        "token_idx": 0,
+        "model_layer_id": 0,
+        "condition": "C7",
+        "all_heads": 32,
+        "all_values": 128,
+        "all_metrics": 16,
+        "max_absolute_difference": 2.2737367544323206e-13,
+        "scale_oracle": "CPU direct divide",
+        "status": "PASS"
+      }
+    },
+    {
+      "method": "C7",
+      "layer": 30,
+      "squared_L2_max_relative_error": 4.533341664642219e-07,
+      "state_recovery_relative_L2": 6.841067817299636e-07,
+      "independent_metrics": {
+        "sample_id": "CPU_synthetic",
+        "token_idx": 0,
+        "model_layer_id": 30,
+        "condition": "C7",
+        "all_heads": 32,
+        "all_values": 128,
+        "all_metrics": 16,
+        "max_absolute_difference": 2.2737367544323206e-13,
+        "scale_oracle": "CPU direct divide",
+        "status": "PASS"
+      }
+    }
+  ],
+  "physical_INT8_vs_dense_QDQ_12_steps": "EXACT",
+  "zero_and_nonfinite": "PASS",
+  "inputs": [
+    {
+      "sample_id": "aime26_01",
+      "file_sha256": "bcdce2bbc4c72f5ccb08d45921617d72f6eb799777b7633dfde73739361535b3",
+      "prompt_tokens": 158,
+      "continuation_tokens": 2048
+    },
+    {
+      "sample_id": "aime26_02",
+      "file_sha256": "a8f515588736ab3e5dea5516eef880971c8adae74751e6225f4318883f6706dc",
+      "prompt_tokens": 78,
+      "continuation_tokens": 2048
+    },
+    {
+      "sample_id": "aime26_03",
+      "file_sha256": "8c94d88088837b15166e40540c58df18065c6b23d81d97ac7540b55f47982d5d",
+      "prompt_tokens": 129,
+      "continuation_tokens": 2048
+    },
+    {
+      "sample_id": "aime26_04",
+      "file_sha256": "b7b1520d2721643b593d04332902fe78e7f2139609d080a4ee013574387723f7",
+      "prompt_tokens": 45,
+      "continuation_tokens": 2048
+    }
+  ],
+  "model_files": 17,
+  "modeling_sha256": "90d929129ffc835d2652c604925c4f3842bc6e401e174ec6f0db2285dfb8f85a",
+  "torch": "2.5.1+cu121",
+  "transformers": "5.16.0.dev0",
+  "python": "3.10.18 (main, Jun  5 2025, 13:14:17) [GCC 11.2.0]",
+  "host": "nlpg-SYS-4029GP-TRT",
+  "CPU_only_cuda_initialized": false,
+  "storage": {
+    "available_bytes": 939528179712,
+    "uncompressed_group_metrics_bytes": 51942260736,
+    "minimum_uncompressed_key_summary_bytes": 2434793472,
+    "planned_working_space_bytes": 107374182400,
+    "blockwise_strategy": "sample-by-layer memmaps, compressed at sample completion; analysis one layer at a time"
+  },
+  "batch_plan": [
+    {
+      "name": "A_ALL_B_NATIVE_H",
+      "fp_reference": true,
+      "B_methods": [
+        "Native",
+        "Hadamard"
+      ],
+      "batch_rows": 3
+    },
+    {
+      "name": "B_LEARNED",
+      "fp_reference": false,
+      "B_methods": [
+        "C6R",
+        "C7"
+      ],
+      "batch_rows": 2
+    }
+  ],
+  "reason": "Batch3 matching prior Native/H plus batch2 learned trajectories; avoids speculative batch5 VRAM fit; full samples/conditions unchanged"
+}
