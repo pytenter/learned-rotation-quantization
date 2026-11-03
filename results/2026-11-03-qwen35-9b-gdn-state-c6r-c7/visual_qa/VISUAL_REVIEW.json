@@ -1,0 +1,61 @@
+{
+  "status": "PASS",
+  "reviewer": "Codex actual image inspection",
+  "main_PNG_count": 100,
+  "scope": "All100 via both contact sheets; representative full figures inspected for shared layout and labels",
+  "full_figures_inspected": [
+    {
+      "path": "figures/A/cross_layer_summary.png",
+      "sha256": "98cdc2ccc64cc1ceade51afaa559fba778b38739ee396e001d395df773589814"
+    },
+    {
+      "path": "figures/B/cross_layer_summary.png",
+      "sha256": "c07e7cac9d4f0b56287734fc75fd9b93e32f2d283c91f98d38eb26b809e17e13"
+    },
+    {
+      "path": "figures/A/L00_key_outlier_locations.png",
+      "sha256": "bafa189c69d615f3aaa1cac5ae6d47ca1b290d6bf2f060ab229433b77a73b157"
+    },
+    {
+      "path": "figures/B/L30_key_outlier_locations.png",
+      "sha256": "6b989675dffa5286c1c5ab681e7ab8d9c5a3538f1f791bd0a88d9ccab6a33385"
+    },
+    {
+      "path": "figures/A/L00_distribution.png",
+      "sha256": "58471187b1b4c9469ceb8b6427f9145c80e923bd3768fb3f06348e419c3c03f2"
+    },
+    {
+      "path": "figures/B/L30_distribution.png",
+      "sha256": "84d6f41bfe84f2753cdb7adb9a18ad459f19edeb3a6adf3b187f5211edc68518"
+    },
+    {
+      "path": "figures/A/outlier_error_relationship.png",
+      "sha256": "7ec68b7bd50cc67a41d260bbf68a56698ff956a933d3d4fef6e4bab9c82ce200"
+    },
+    {
+      "path": "figures/B/outlier_error_relationship.png",
+      "sha256": "2558ae8806051b93d27095361d13dcadcb6bf8febfb7692871594ffd3d08d9c6"
+    }
+  ],
+  "all100_contact_sheets_inspected": [
+    {
+      "path": "visual_qa/A_all50_contact_sheet.png",
+      "sha256": "667ff6004492e7f9a66bc6d627a9b11b2fed37174e9fd6da7a8f4cd977963f72"
+    },
+    {
+      "path": "visual_qa/B_all50_contact_sheet.png",
+      "sha256": "ef44a8b0c33e37c32a9f1fa8d4a3793b712f6bcde60353f0c74791d40bc5e002"
+    }
+  ],
+  "observations": [
+    "All24 GDN layers present in A and B, no blank or visibly corrupted panels",
+    "All32 heads and128 Keys in heatmaps, common colour ranges and different-basis warning visible",
+    "Final signed/absolute symlog tick labels readable, common bins and full ranges unchanged",
+    "All4 methods present in cross-layer and distribution figures with units and A/B scopes",
+    "Relationship labels readable after retaining preset Native labels only; all data points preserved",
+    "Main report and dictionary hashes unchanged from original report owner"
+  ],
+  "original_layout_retained": true,
+  "raw_data_and_original_sources_unchanged": true,
+  "new_generation_or_GPU_work": false
+}
