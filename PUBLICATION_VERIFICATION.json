@@ -1,0 +1,85 @@
+{
+  "status": "PASS_COMPLETE_GITHUB_PUBLICATION",
+  "repository": "pytenter/learned-rotation-quantization",
+  "release": "https://github.com/pytenter/learned-rotation-quantization/releases/tag/qwen35-9b-gdn-state-h128-c128-20261102",
+  "release_tag": "qwen35-9b-gdn-state-h128-c128-20261102",
+  "published_at": "2026-11-03T01:28:42Z",
+  "experiment_date": "2026-11-02",
+  "A": "PASS",
+  "B": "PASS",
+  "original_delivery_files": 1677,
+  "original_delivery_bytes": 13841587619,
+  "original_delivery_files_in_git": 1293,
+  "original_delivery_files_in_release": 384,
+  "verified_git_snapshot_commit": "48653da3a19348c15c0b6c96ac8d3680e0589a10",
+  "verified_git_snapshot_files": 1301,
+  "checks": {
+    "complete_original_delivery_sha256": "PASS_1677_FILES",
+    "remote_git_blobs_match_snapshot": "PASS_1301_FILES",
+    "raw_archive_member_source_sha256": "PASS_384_FILES",
+    "github_release_server_sha256": "PASS_9_ASSETS",
+    "real_archive_download_extract_and_resume_skip": "PASS_48_FILES",
+    "remote_and_local_archive_checksum_lists": "PASS",
+    "public_release_visible_via_independent_github_reader": "PASS"
+  },
+  "original_main_manifest_sha256": "163bf4a00a400d19311d114f0c5751232198738d2ba7a4976621ff0c353f7a3b",
+  "original_documentation_manifest_sha256": "54b60fa43bd8ee56091f8086d4309eb2dad969abc114597967ff88df1c8f8923",
+  "assets": [
+    {
+      "name": "gdn-state-20261102-A-aime26_01-groups.tar",
+      "bytes": 1699082240,
+      "digest": "sha256:79e8ec5fe70282b3479ef64b96f0680a7e52f46b95811d46f1f62ad14bd9134c",
+      "url": "https://github.com/pytenter/learned-rotation-quantization/releases/download/qwen35-9b-gdn-state-h128-c128-20261102/gdn-state-20261102-A-aime26_01-groups.tar"
+    },
+    {
+      "name": "gdn-state-20261102-A-aime26_02-groups.tar",
+      "bytes": 1699225600,
+      "digest": "sha256:1ab862c0d4c212d334ce954579fca8ce40e3ecf41af89952f16fa8d84f995e6d",
+      "url": "https://github.com/pytenter/learned-rotation-quantization/releases/download/qwen35-9b-gdn-state-h128-c128-20261102/gdn-state-20261102-A-aime26_02-groups.tar"
+    },
+    {
+      "name": "gdn-state-20261102-A-aime26_03-groups.tar",
+      "bytes": 1699133440,
+      "digest": "sha256:fa71dbdf84be1b98c6fd6cdb4adfa06b3336c2da07f89772735b67086df4e518",
+      "url": "https://github.com/pytenter/learned-rotation-quantization/releases/download/qwen35-9b-gdn-state-h128-c128-20261102/gdn-state-20261102-A-aime26_03-groups.tar"
+    },
+    {
+      "name": "gdn-state-20261102-A-aime26_04-groups.tar",
+      "bytes": 1699153920,
+      "digest": "sha256:c733429bc76a2066f9cc3c0e2f076943b339eeac479f45dd9174cf59164680d0",
+      "url": "https://github.com/pytenter/learned-rotation-quantization/releases/download/qwen35-9b-gdn-state-h128-c128-20261102/gdn-state-20261102-A-aime26_04-groups.tar"
+    },
+    {
+      "name": "gdn-state-20261102-B-aime26_01-groups.tar",
+      "bytes": 1704919040,
+      "digest": "sha256:bef0e3bbc43dbdc0a479cb117cd2b6dfa35a8012c2cdec64b83657b0cfd5621e",
+      "url": "https://github.com/pytenter/learned-rotation-quantization/releases/download/qwen35-9b-gdn-state-h128-c128-20261102/gdn-state-20261102-B-aime26_01-groups.tar"
+    },
+    {
+      "name": "gdn-state-20261102-B-aime26_02-groups.tar",
+      "bytes": 1704437760,
+      "digest": "sha256:adecd735e524513b9d0da75d788a90a50f91d88e2668dbe6abecad77ff7aca18",
+      "url": "https://github.com/pytenter/learned-rotation-quantization/releases/download/qwen35-9b-gdn-state-h128-c128-20261102/gdn-state-20261102-B-aime26_02-groups.tar"
+    },
+    {
+      "name": "gdn-state-20261102-B-aime26_03-groups.tar",
+      "bytes": 1703966720,
+      "digest": "sha256:cdd9d1e42192f577f3629e00750b4627164f9c6a374d2b80fc1688ff9d99de91",
+      "url": "https://github.com/pytenter/learned-rotation-quantization/releases/download/qwen35-9b-gdn-state-h128-c128-20261102/gdn-state-20261102-B-aime26_03-groups.tar"
+    },
+    {
+      "name": "gdn-state-20261102-B-aime26_04-groups.tar",
+      "bytes": 1703905280,
+      "digest": "sha256:740104c400e07b8ccd567557bf709c5bc0d10554f39d52fa6232e8f4716db699",
+      "url": "https://github.com/pytenter/learned-rotation-quantization/releases/download/qwen35-9b-gdn-state-h128-c128-20261102/gdn-state-20261102-B-aime26_04-groups.tar"
+    },
+    {
+      "name": "SHA256SUMS",
+      "bytes": 864,
+      "digest": "sha256:d3e9147913e9fb55a48230c3b0f2630322c236409a2172ebee651fe7e87fd5c0",
+      "url": "https://github.com/pytenter/learned-rotation-quantization/releases/download/qwen35-9b-gdn-state-h128-c128-20261102/SHA256SUMS"
+    }
+  ],
+  "original_artifacts_modified": false,
+  "new_experiment_launched": false
+}

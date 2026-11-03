@@ -48,3 +48,5 @@ python3 scripts/verify_delivery.py
 原交付的 `MANIFEST.sha256`、`DOCUMENTATION_MANIFEST.sha256` 及所有文件保持原字节。`REPORT_zh_FINAL.md` 是推荐的文档修正版；原报告、预采集失败、量化参考浮点口径修正和旧图布局均保留。报告中“未推送”的文字描述实验结束时的历史状态；本仓库发布发生在用户随后授权上传之后。
 
 原始科学仓库为 [pytenter/GDN-quantization](https://github.com/pytenter/GDN-quantization)，本次记录的基础 commit 为 `b2b8467b4d0733425c4fcc8feff25f3d0aed7d33`。这里不包含模型权重、Python 环境或编译缓存；依赖与上游材料的许可仍按各自来源处理。
+
+完整发布后的核验结果见 [PUBLICATION_VERIFICATION.json](PUBLICATION_VERIFICATION.json)。
