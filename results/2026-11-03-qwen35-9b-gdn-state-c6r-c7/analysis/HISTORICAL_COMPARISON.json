@@ -1,0 +1,172 @@
+{
+  "compared_numeric_fields": 1152,
+  "numeric_exact_fields": 1152,
+  "maximum_relative_absolute_difference": 0.0,
+  "largest_differences": [
+    {
+      "experiment": "A",
+      "method": "Native",
+      "model_layer_id": 0,
+      "metric": "peak_rms_median",
+      "historical_value": 4.254842845063626,
+      "current_value": 4.254842845063626,
+      "current_minus_historical": 0.0,
+      "relative_absolute_difference": 0.0,
+      "numeric_exact": true
+    },
+    {
+      "experiment": "A",
+      "method": "Native",
+      "model_layer_id": 0,
+      "metric": "peak_rms_p95",
+      "historical_value": 8.599157270593127,
+      "current_value": 8.599157270593127,
+      "current_minus_historical": 0.0,
+      "relative_absolute_difference": 0.0,
+      "numeric_exact": true
+    },
+    {
+      "experiment": "A",
+      "method": "Native",
+      "model_layer_id": 0,
+      "metric": "peak_rms_p99",
+      "historical_value": 9.835256194873667,
+      "current_value": 9.835256194873667,
+      "current_minus_historical": 0.0,
+      "relative_absolute_difference": 0.0,
+      "numeric_exact": true
+    },
+    {
+      "experiment": "A",
+      "method": "Native",
+      "model_layer_id": 0,
+      "metric": "qdq_rel_l2_median",
+      "historical_value": 0.009619320225395633,
+      "current_value": 0.009619320225395633,
+      "current_minus_historical": 0.0,
+      "relative_absolute_difference": 0.0,
+      "numeric_exact": true
+    },
+    {
+      "experiment": "A",
+      "method": "Native",
+      "model_layer_id": 0,
+      "metric": "qdq_rel_l2_p95",
+      "historical_value": 0.019299541789630687,
+      "current_value": 0.019299541789630687,
+      "current_minus_historical": 0.0,
+      "relative_absolute_difference": 0.0,
+      "numeric_exact": true
+    },
+    {
+      "experiment": "A",
+      "method": "Native",
+      "model_layer_id": 0,
+      "metric": "qdq_rel_l2_p99",
+      "historical_value": 0.022170608445445397,
+      "current_value": 0.022170608445445397,
+      "current_minus_historical": 0.0,
+      "relative_absolute_difference": 0.0,
+      "numeric_exact": true
+    },
+    {
+      "experiment": "A",
+      "method": "Native",
+      "model_layer_id": 0,
+      "metric": "out3_element_fraction",
+      "historical_value": 0.01787779682366423,
+      "current_value": 0.01787779682366423,
+      "current_minus_historical": 0.0,
+      "relative_absolute_difference": 0.0,
+      "numeric_exact": true
+    },
+    {
+      "experiment": "A",
+      "method": "Native",
+      "model_layer_id": 0,
+      "metric": "out6_element_fraction",
+      "historical_value": 0.0023545886194983193,
+      "current_value": 0.0023545886194983193,
+      "current_minus_historical": 0.0,
+      "relative_absolute_difference": 0.0,
+      "numeric_exact": true
+    },
+    {
+      "experiment": "A",
+      "method": "Native",
+      "model_layer_id": 0,
+      "metric": "absmax_p99",
+      "historical_value": 0.4973302751779147,
+      "current_value": 0.4973302751779147,
+      "current_minus_historical": 0.0,
+      "relative_absolute_difference": 0.0,
+      "numeric_exact": true
+    },
+    {
+      "experiment": "A",
+      "method": "Native",
+      "model_layer_id": 0,
+      "metric": "kurtosis_median",
+      "historical_value": 6.594783651528014,
+      "current_value": 6.594783651528014,
+      "current_minus_historical": 0.0,
+      "relative_absolute_difference": 0.0,
+      "numeric_exact": true
+    },
+    {
+      "experiment": "A",
+      "method": "Native",
+      "model_layer_id": 0,
+      "metric": "scale_median",
+      "historical_value": 0.000196409149793908,
+      "current_value": 0.000196409149793908,
+      "current_minus_historical": 0.0,
+      "relative_absolute_difference": 0.0,
+      "numeric_exact": true
+    },
+    {
+      "experiment": "A",
+      "method": "Native",
+      "model_layer_id": 0,
+      "metric": "pooled_qdq_relative_L2",
+      "historical_value": 0.011285411670015028,
+      "current_value": 0.011285411670015028,
+      "current_minus_historical": 0.0,
+      "relative_absolute_difference": 0.0,
+      "numeric_exact": true
+    }
+  ],
+  "trend_comparisons": [
+    {
+      "experiment": "A",
+      "metric": "peak_rms_median",
+      "changed_Hadamard_vs_Native_direction_layers": []
+    },
+    {
+      "experiment": "A",
+      "metric": "out3_element_fraction",
+      "changed_Hadamard_vs_Native_direction_layers": []
+    },
+    {
+      "experiment": "A",
+      "metric": "qdq_rel_l2_median",
+      "changed_Hadamard_vs_Native_direction_layers": []
+    },
+    {
+      "experiment": "B",
+      "metric": "peak_rms_median",
+      "changed_Hadamard_vs_Native_direction_layers": []
+    },
+    {
+      "experiment": "B",
+      "metric": "out3_element_fraction",
+      "changed_Hadamard_vs_Native_direction_layers": []
+    },
+    {
+      "experiment": "B",
+      "metric": "qdq_rel_l2_median",
+      "changed_Hadamard_vs_Native_direction_layers": []
+    }
+  ],
+  "scope": "descriptive comparison, no new arbitrary admission tolerance or accuracy claim"
+}

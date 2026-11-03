@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "group_files_reviewed": 768,
+  "key_files_reviewed": 768,
+  "all_group_fields_dimensions_finiteness_and_axis_checks": "PASS",
+  "integer_tail_counts_and_pooled_L2_independent_reduction": "PASS",
+  "all_96_effective_matrix_hashes_recomputed": "PASS",
+  "source_files_fresh_SHA256": 24,
+  "model_pre_and_post_SHA256_identity_files": 17,
+  "model_current_inode_device_bytes": "PASS",
+  "input_steps_per_B_config": {
+    "Native": 8602,
+    "Hadamard": 8602,
+    "C6R": 8602,
+    "C7": 8602
+  },
+  "layer_writes_per_B_config": {
+    "Native": 206448,
+    "Hadamard": 206448,
+    "C6R": 206448,
+    "C7": 206448
+  },
+  "actual_learned_qk_transform_checks_in_formal": 192,
+  "worker_real_wait_integer": 0,
+  "worker_and_parent_epochs_fresh_gone": true,
+  "own_NVML_fresh_released": true,
+  "worker_numeric_pid_reused": false,
+  "numeric_pid_NVML_rows_if_new_epoch": [],
+  "NVML_foreign_allowed": "2794717, GPU-0c785495-3462-4b7f-5ee1-0d3ab8fe53bc, VLLM::EngineCore, 20172\n2857829, GPU-624f86d9-284b-cb46-a671-51d77559dab6, python, 21224\n2857834, GPU-7d6246ed-c3d1-75bc-c2c7-d02eb2882cca, python, 21810\n2794707, GPU-759526ed-efb2-e7f6-881c-ab098e0b05ae, VLLM::EngineCore, 20474\n",
+  "GPU_driver_inventory_postrun": "0, GPU-0c785495-3462-4b7f-5ee1-0d3ab8fe53bc, NVIDIA GeForce RTX 3090, 580.178.04, 24576\n1, GPU-624f86d9-284b-cb46-a671-51d77559dab6, NVIDIA GeForce RTX 3090, 580.178.04, 24576\n2, GPU-7d6246ed-c3d1-75bc-c2c7-d02eb2882cca, NVIDIA GeForce RTX 3090, 580.178.04, 24576\n3, GPU-759526ed-efb2-e7f6-881c-ab098e0b05ae, NVIDIA GeForce RTX 3090, 580.178.04, 24576\n4, GPU-de1f9152-32e5-a033-d2bf-ea7abecb606f, NVIDIA GeForce RTX 3090, 580.178.04, 24576\n5, GPU-07d9c381-888d-1111-a944-56abcc583573, NVIDIA GeForce RTX 3090, 580.178.04, 24576\n6, GPU-de53f243-b271-521c-d875-d96611ed8574, NVIDIA GeForce RTX 3090, 580.178.04, 24576\n",
+  "source_sha256": "0e6bfd4610ab8903302ae03268c11fa7760f6d4c405190a44a2a5280e42c8889",
+  "elapsed_seconds": 335.793388690101
+}

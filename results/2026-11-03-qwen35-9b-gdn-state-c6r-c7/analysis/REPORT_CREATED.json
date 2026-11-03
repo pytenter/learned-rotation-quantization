@@ -1,0 +1,84 @@
+{
+  "status": "PASS",
+  "report_sha256": "3b9f1a924ae82f1ab44768d4193ce2535e2ac1005d7e91a57a0d80b9d1f15984",
+  "dictionary_sha256": "eee328ee2403dd8acd57561d417c6265c312faee337263ecb56c6c0669758a42",
+  "actual_runtime": {
+    "python": "3.10.18 (main, Jun  5 2025, 13:14:17) [GCC 11.2.0]",
+    "torch": "2.5.1+cu121",
+    "cuda": "12.1",
+    "transformers": "5.16.0.dev0",
+    "modeling_file": "/data/zypan/analyses/qwen_gdn_group64_four_codec_aime26_seed1_v1/runtime/transformers-qwen35/src/transformers/models/qwen3_5/modeling_qwen3_5.py",
+    "modeling_sha256": "90d929129ffc835d2652c604925c4f3842bc6e401e174ec6f0db2285dfb8f85a",
+    "model_loading_info": {
+      "missing_keys": [],
+      "unexpected_keys": [],
+      "mismatched_keys": [],
+      "error_msgs": []
+    },
+    "gpu_name": "NVIDIA GeForce RTX 3090",
+    "physical_gpu_index": 4,
+    "CVD": "GPU-de1f9152-32e5-a033-d2bf-ea7abecb606f",
+    "pid": 2819635,
+    "PPID": 2819632,
+    "starttick": 207190961,
+    "argv": [
+      "/data/zypan/envs/qwen-gdn-group64-historical-port-v1/bin/python",
+      "-B",
+      "/data/zypan/experiments/QWEN_GDN_STATE_OUTLIER_FOUR_ROTATIONS_C6R_C7_20261103_V1/run_gpu.py"
+    ],
+    "NVML": "2794717, GPU-0c785495-3462-4b7f-5ee1-0d3ab8fe53bc, VLLM::EngineCore, 20172\n2794687, GPU-624f86d9-284b-cb46-a671-51d77559dab6, VLLM::EngineCore, 20408\n2794697, GPU-7d6246ed-c3d1-75bc-c2c7-d02eb2882cca, VLLM::EngineCore, 20446\n2794707, GPU-759526ed-efb2-e7f6-881c-ab098e0b05ae, VLLM::EngineCore, 20340\n2819635, GPU-de1f9152-32e5-a033-d2bf-ea7abecb606f, /data/zypan/envs/qwen-gdn-group64-historical-port-v1/bin/python, 18264\n",
+    "rotation_load_identities": {
+      "C6R": {
+        "condition": "C6R",
+        "rotation_file": "/data/zypan/experiments/QWEN_GDN_STATE_OUTLIER_FOUR_ROTATIONS_C6R_C7_20261103_V1/rotations/C6R/frozen_rotation_fp32.pt",
+        "rotation_sha256": "a886588b3613f66e6635e5874dbfaeaee26b850e05b4a1524da0bef952d22da6",
+        "deployment_manifest": "/data/zypan/experiments/QWEN_GDN_STATE_OUTLIER_FOUR_ROTATIONS_C6R_C7_20261103_V1/provenance/c6r_rotation_manifest.json",
+        "deployment_manifest_sha256": "f365dbab44e31b127abc5f9cc37916e432c4f3c88cc7706c82886812686d1103",
+        "theta_checkpoint_sha256": "620a35101b95cadd16f50cd1b869aeef54da9db0b3c76076fe82a374a6ee17cf",
+        "layer_count": 24,
+        "direct_frozen_load": true,
+        "theta_reconstruction": false,
+        "orientation": "q/k.float() @ H128 @ Delta; recovery Delta then H128 on key axis"
+      },
+      "C7": {
+        "condition": "C7",
+        "rotation_file": "/data/zypan/experiments/QWEN_GDN_STATE_OUTLIER_FOUR_ROTATIONS_C6R_C7_20261103_V1/rotations/C7/frozen_rotation_fp32.pt",
+        "rotation_sha256": "57e7a11714405806385064f07438e5e2ac6b5952dd421606332b894cef3ee6e8",
+        "deployment_manifest": "/data/zypan/experiments/QWEN_GDN_STATE_OUTLIER_FOUR_ROTATIONS_C6R_C7_20261103_V1/provenance/c7_rotation_manifest.json",
+        "deployment_manifest_sha256": "6caf4dc5e480879cf48e8501c52065a3e13fce2e4557f7a8d9a35b9ae49eda73",
+        "theta_checkpoint_sha256": "b08f66fa64f3453821a4d9dd9586c5263a747c461202c1dbc31b33193bde4958",
+        "layer_count": 24,
+        "direct_frozen_load": true,
+        "theta_reconstruction": false,
+        "orientation": "q/k.float() @ H128 @ Delta; recovery Delta then H128 on key axis"
+      }
+    },
+    "batch_plan": [
+      {
+        "name": "A_ALL_B_NATIVE_H",
+        "fp_reference": true,
+        "B_methods": [
+          "Native",
+          "Hadamard"
+        ],
+        "batch_rows": 3
+      },
+      {
+        "name": "B_LEARNED",
+        "fp_reference": false,
+        "B_methods": [
+          "C6R",
+          "C7"
+        ],
+        "batch_rows": 2
+      }
+    ],
+    "normalization": "original BF16 normalization before FP32 H then FP32 frozen Delta",
+    "FP32_effective_matrix_used_as_fused_qk_shortcut": false,
+    "model_weights_modified": false
+  },
+  "formal_checkpoint_record_counts": {
+    "C6R": 60,
+    "C7": 60
+  }
+}
