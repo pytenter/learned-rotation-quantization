@@ -1,0 +1,122 @@
+[
+  {
+    "path": "CONFIG.json",
+    "bytes": 2464,
+    "sha256": "de615ea1ace367c32c47a22093c96dd20f096c25a53738b4bf781493ffae2f28"
+  },
+  {
+    "path": "rotation_adapter.py",
+    "bytes": 4253,
+    "sha256": "3274cf9f8ed8bf82c7679d6a47364e8fc90353546c1d63211e60ee36b95ac1fc"
+  },
+  {
+    "path": "collector.py",
+    "bytes": 10594,
+    "sha256": "fbd745006ca24aaead32d97fe14a6d0dd0e01bc10683a49d32d6240743f70243"
+  },
+  {
+    "path": "state_bank.py",
+    "bytes": 4238,
+    "sha256": "404075f0019d9a4b63df5f5ba5742e1d162afa774ef1d97a84d34fc351cfdc13"
+  },
+  {
+    "path": "run_gpu.py",
+    "bytes": 15093,
+    "sha256": "f3886e9031e131c9627dce6f4d2302a975d3f14c4e45a46fb77e327390be3f65"
+  },
+  {
+    "path": "supervise.py",
+    "bytes": 5150,
+    "sha256": "e6eca94fb71be1e25ef0f0826b28e71fc9f1993d472779b26363ae1b4952b9a1"
+  },
+  {
+    "path": "audit_cpu.py",
+    "bytes": 9078,
+    "sha256": "34848208bed5071a7e73661e2f7385b65feec80050bd452f94b7ce53912d0ed0"
+  },
+  {
+    "path": "cpu_collector_gate.py",
+    "bytes": 4241,
+    "sha256": "3b18d4a5169444271278dec824613d5f3ed2a01bab77e1d465c91f9f683ba7b8"
+  },
+  {
+    "path": "operations/HUMAN_REQUEST.txt",
+    "bytes": 16403,
+    "sha256": "124327d45305ec3ef53709c8ab95b29d6eb9e0b9a3a5be58fbd397d601a6483b"
+  },
+  {
+    "path": "gates/CPU_AUDIT.json",
+    "bytes": 14802,
+    "sha256": "529c3fd2e81857059415dfe6d6acc36ce8d6a10639ed2e9b8582f904462203f3"
+  },
+  {
+    "path": "gates/CPU_COLLECTOR_BANK_GATE.json",
+    "bytes": 60623,
+    "sha256": "948f20e8fefcaf8e3c3e3fc8464ef1f3c94f8e1cbf67b85187b05be26d07718b"
+  },
+  {
+    "path": "provenance/MODEL_TOKENIZER_SHA256.json",
+    "bytes": 4644,
+    "sha256": "dd5aa6f7b7f842afa654a692ed1d327fc8fcdc2f855748604dad062e4a24cfe3"
+  },
+  {
+    "path": "provenance/c6r_rotation_manifest.json",
+    "bytes": 2694,
+    "sha256": "f365dbab44e31b127abc5f9cc37916e432c4f3c88cc7706c82886812686d1103"
+  },
+  {
+    "path": "provenance/c7_rotation_manifest.json",
+    "bytes": 2694,
+    "sha256": "6caf4dc5e480879cf48e8501c52065a3e13fce2e4557f7a8d9a35b9ae49eda73"
+  },
+  {
+    "path": "vendor/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "vendor/canonical_formal_rotation_source.py",
+    "bytes": 34744,
+    "sha256": "77b1e1f6dad8a0dd53a27cf5a47c02be86c26d2cf30732604ba6d3747e178f69"
+  },
+  {
+    "path": "vendor/canonical_h128.py",
+    "bytes": 5445,
+    "sha256": "8fe435b8f18a198e03a9feca70175bceb2517c47413f1f388492255a7a0fe694"
+  },
+  {
+    "path": "vendor/prior_core.py",
+    "bytes": 16639,
+    "sha256": "1fe097062d80251725109fbe77b9cf9655d70e26e26488183448209ad2f47b62"
+  },
+  {
+    "path": "inputs/aime26_01.json",
+    "bytes": 24024,
+    "sha256": "bcdce2bbc4c72f5ccb08d45921617d72f6eb799777b7633dfde73739361535b3"
+  },
+  {
+    "path": "inputs/aime26_02.json",
+    "bytes": 22874,
+    "sha256": "a8f515588736ab3e5dea5516eef880971c8adae74751e6225f4318883f6706dc"
+  },
+  {
+    "path": "inputs/aime26_03.json",
+    "bytes": 23848,
+    "sha256": "8c94d88088837b15166e40540c58df18065c6b23d81d97ac7540b55f47982d5d"
+  },
+  {
+    "path": "inputs/aime26_04.json",
+    "bytes": 22679,
+    "sha256": "b7b1520d2721643b593d04332902fe78e7f2139609d080a4ee013574387723f7"
+  },
+  {
+    "path": "rotations/C6R/frozen_rotation_fp32.pt",
+    "bytes": 1581230,
+    "sha256": "a886588b3613f66e6635e5874dbfaeaee26b850e05b4a1524da0bef952d22da6"
+  },
+  {
+    "path": "rotations/C7/frozen_rotation_fp32.pt",
+    "bytes": 1581230,
+    "sha256": "57e7a11714405806385064f07438e5e2ac6b5952dd421606332b894cef3ee6e8"
+  }
+]

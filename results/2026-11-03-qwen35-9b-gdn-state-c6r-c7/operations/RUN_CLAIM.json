@@ -1,0 +1,16 @@
+{
+  "parent": {
+    "pid": 2819632,
+    "PPID": 1,
+    "starttick": 207190944,
+    "argv": [
+      "python3",
+      "-B",
+      "/data/zypan/experiments/QWEN_GDN_STATE_OUTLIER_FOUR_ROTATIONS_C6R_C7_20261103_V1/supervise.py"
+    ]
+  },
+  "physical_gpu_index": 4,
+  "GPU_uuid": "GPU-de1f9152-32e5-a033-d2bf-ea7abecb606f",
+  "SOURCE_manifest_sha256": "f0ac9ca5ff28a66d16793c3cfb78127c8841abffa43f893246861f58dd619b6a",
+  "NVML_before": "2794717, GPU-0c785495-3462-4b7f-5ee1-0d3ab8fe53bc, VLLM::EngineCore, 20172\n2794687, GPU-624f86d9-284b-cb46-a671-51d77559dab6, VLLM::EngineCore, 20408\n2794697, GPU-7d6246ed-c3d1-75bc-c2c7-d02eb2882cca, VLLM::EngineCore, 20446\n2794707, GPU-759526ed-efb2-e7f6-881c-ab098e0b05ae, VLLM::EngineCore, 20340\n"
+}
